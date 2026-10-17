@@ -6,7 +6,7 @@ import './globals.css';
 import { SITE_NAME, SITE_URL } from '@/lib/site';
 import { VERTICAL } from '@/verticals';
 import { LogoMark } from '@/components/Logo';
-import { Matomo } from '@/components/Matomo';
+import { Gtm } from '@/components/Gtm';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -26,8 +26,7 @@ export const viewport: Viewport = { width: 'device-width', initialScale: 1, them
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const theme = { '--accent': VERTICAL.accent } as CSSProperties;
-  const matomoUrl = process.env.MATOMO_URL;
-  const matomoId = process.env.MATOMO_SITE_ID;
+  const gtmId = process.env.GTM_ID;
   return (
     <html lang={VERTICAL.locale} style={theme}>
       <head>
@@ -67,8 +66,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </div>
         </footer>
-        {matomoUrl && matomoId ? (
-          <Suspense fallback={null}><Matomo url={matomoUrl} siteId={matomoId} /></Suspense>
+        {gtmId ? (
+          <>
+            <noscript>
+              <iframe src={`https://www.googletagmanager.com/ns.html?id=${gtmId}`} height="0" width="0" style={{ display: 'none', visibility: 'hidden' }} title="gtm" />
+            </noscript>
+            <Suspense fallback={null}><Gtm id={gtmId} /></Suspense>
+          </>
         ) : null}
       </body>
     </html>

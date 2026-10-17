@@ -40,8 +40,8 @@ Met `DEMO=1` (of zonder `SUPABASE_URL`) draait de site op voorbeelddata uit `web
 
 1. Zet de map `lego-tracker` in een Git-repo (GitHub of je eigen Git) en push.
 2. Coolify, nieuwe resource, Dockerfile-build. Base directory `web`, poort 3000.
-3. Environment: `DEMO=1`, `SITE_URL=https://jouwdomein`, `MATOMO_URL=https://jouw-matomo`, `MATOMO_SITE_ID=<id>`.
+3. Environment: `DEMO=1`, `SITE_URL=https://jouwdomein`, `GTM_ID=GTM-XXXXXXX`.
 4. Domein koppelen, deploy. In demomodus is de site `noindex` en blokkeert robots.txt alles.
-5. Matomo: maak een site aan, trackcode is niet nodig. De app laadt `matomo.js` zelf, zonder cookies. Uitgaande klikken naar shops tellen als outlinks.
+5. Analytics via Google Tag Manager met Consent Mode v2: tot de bezoeker accepteert staat alles op "denied". De site stuurt twee events naar de dataLayer: `virtual_pageview` (elke navigatie na de eerste) en `affiliate_click` (klik op een shoplink, met `link_url` en `link_text`). Zet in GTM de GA4-configuratietag op "All pages" en een GA4-eventtag per event, of zet "Page changes based on browser history events" aan.
 
 Voor echte prijzen: haal `DEMO` weg, vul de Supabase-variabelen en de feed-URL's in en plan `npm run ingest` dagelijks (bijvoorbeeld `0 6 * * *`).

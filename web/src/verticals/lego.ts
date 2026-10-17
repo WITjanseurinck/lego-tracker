@@ -2,10 +2,10 @@ import type { VerticalConfig } from './types';
 
 export const lego: VerticalConfig = {
   id: 'lego',
-  siteName: 'Brickprijs',
+  siteName: 'buildthatset',
   label: 'Lego',
   brand: 'LEGO',
-  tagline: 'Lego prijzen in België',
+  tagline: 'Lego prijzen in België. Weet wanneer je koopt',
   description: 'Volg de prijs van Lego-sets bij Belgische shops, met prijshistoriek en prijsalerts.',
   productNoun: 'set',
   productNounPlural: 'sets',

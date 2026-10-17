@@ -82,7 +82,7 @@ export const DEMO_ARTICLES: DemoArticle[] = [
     published_at: '2026-10-17T06:00:00Z',
     updated_at: '2026-10-17T06:00:00Z',
     body:
-      'Dit is een demo-artikel. De cijfers in deze tekst zijn voorbeeldwaarden.\n\nElke maandag stelt Brickprijs automatisch een conceptartikel op met de grootste prijsdalingen van de week. Een redacteur leest het na, voegt context toe en publiceert het.\n\nDe noppenrij onder elke prijs toont waar de prijs zit tussen de laagste prijs ooit en de adviesprijs. Staat de gevulde nop links, dan is het een uitzonderlijk goede prijs.',
+      'Dit is een demo-artikel. De cijfers in deze tekst zijn voorbeeldwaarden.\n\nElke maandag stelt buildthatset automatisch een conceptartikel op met de grootste prijsdalingen van de week. Een redacteur leest het na, voegt context toe en publiceert het.\n\nDe noppenrij onder elke prijs toont waar de prijs zit tussen de laagste prijs ooit en de adviesprijs. Staat de gevulde nop links, dan is het een uitzonderlijk goede prijs.',
   },
   {
     slug: 'zo-lees-je-een-prijsgrafiek',

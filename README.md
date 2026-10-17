@@ -1,4 +1,4 @@
-# Brickprijs: prijstracker (whitelabel)
+# buildthatset: prijstracker (whitelabel)
 
 Een codebase voor prijsvergelijkers per product. Eerste vertical: **lego** (België). Daarna Nederland, daarna parfum.
 

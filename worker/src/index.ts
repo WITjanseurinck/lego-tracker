@@ -22,7 +22,7 @@ async function main() {
 
   const adapters = buildAdapters(vertical).filter((a) => allowed.has(a.shopSlug));
   if (adapters.length === 0) {
-    console.log('Geen feeds geconfigureerd voor actieve shops. Zet minstens een FEED_* of BOL_API_KEY in je env.');
+    console.log('Geen feeds geconfigureerd voor actieve shops. Zet minstens een FEED_* of BOL_CLIENT_ID, BOL_CLIENT_SECRET en BOL_SITE_ID in je env.');
     return;
   }
 

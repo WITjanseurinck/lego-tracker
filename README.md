@@ -29,8 +29,20 @@ Grote beelden (`max-image-preview:large`), Article-schema, sitemap en robots zij
 
 ## Nog te doen
 - Bevestigingsmail voor alerts (nu staat de link in de serverlogs).
-- Kolomnamen van elke feed controleren tegen de echte CSV, en de bol-API testen.
+- Kolomnamen van elke feed controleren tegen de echte CSV.
+- De bol-adapter volgt de documentatie maar is nog niet getest met echte credentials (zie "bol affiliate").
 - Beeldrechten en affiliatevoorwaarden per shop nalezen.
+
+## bol affiliate
+
+De worker haalt LEGO-producten op via de bol Marketing Catalog API en zet elke productlink om naar een tracking URL van het Partner Programma (`https://partner.bol.com/click/click?&t=url&s=SITEID&url=...&f=api&subid=lego`). De links in de API zijn gewone productlinks: zonder die ombouw krijg je geen commissie. Links die niet naar bol.com wijzen worden overgeslagen.
+
+Wat jij zelf regelt in je Affiliate account:
+1. Meld je website aan en noteer het SiteId (uniek per domein). Dat wordt `BOL_SITE_ID`.
+2. Vraag via "API Client Credentials aanvragen" een client id en secret aan. Dat worden `BOL_CLIENT_ID` en `BOL_CLIENT_SECRET`.
+3. Zet de drie variabelen in Coolify. Zonder alle drie slaat de worker bol over.
+
+Technisch: OAuth2 client credentials (token ongeveer 5 minuten geldig, wordt hergebruikt), `Accept-Language: nl-BE` voor Belgie, maximaal 10 requests per seconde (de adapter wacht 150 ms tussen requests). De API heeft geen voorraadveld: een resultaat zonder offer wordt overgeslagen, de rest geldt als op voorraad. bol toont zelf een doorstreepprijs, maar dat is geen officiele adviesprijs, dus die gebruiken we niet voor de kortingsberekening.
 
 ## Demo online zetten
 

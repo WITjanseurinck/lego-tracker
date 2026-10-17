@@ -37,12 +37,20 @@ const daisyconShops = [
 
 export function buildAdapters(vertical: Vertical): FeedAdapter[] {
   const adapters: FeedAdapter[] = [];
-  const { BOL_API_KEY, BOL_SITE_ID } = process.env;
+  const { BOL_CLIENT_ID, BOL_CLIENT_SECRET, BOL_SITE_ID } = process.env;
 
-  if (BOL_API_KEY && BOL_SITE_ID) {
+  if (BOL_CLIENT_ID && BOL_CLIENT_SECRET && BOL_SITE_ID) {
     for (const [shopSlug, countryCode] of [['bol-be', 'BE'], ['bol-nl', 'NL']] as const) {
       adapters.push(
-        bolAdapter({ apiKey: BOL_API_KEY, siteId: BOL_SITE_ID, shopSlug, countryCode, searchTerm: vertical.searchTerm }),
+        bolAdapter({
+          clientId: BOL_CLIENT_ID,
+          clientSecret: BOL_CLIENT_SECRET,
+          siteId: BOL_SITE_ID,
+          shopSlug,
+          countryCode,
+          searchTerm: vertical.searchTerm,
+          subId: vertical.id,
+        }),
       );
     }
   }

@@ -1,0 +1,22 @@
+import type { MetadataRoute } from 'next';
+import { getSitemapData, getThemes } from '@/lib/data';
+import { SITE_URL } from '@/lib/site';
+
+export const dynamic = 'force-dynamic';
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const [{ skus, articles }, themes] = await Promise.all([getSitemapData(), getThemes()]);
+  return [
+    { url: SITE_URL, changeFrequency: 'daily', priority: 1 },
+    { url: `${SITE_URL}/nieuws`, changeFrequency: 'daily', priority: 0.9 },
+    { url: `${SITE_URL}/themas`, changeFrequency: 'daily', priority: 0.8 },
+    ...themes.map((t) => ({ url: `${SITE_URL}/thema/${t.slug}`, changeFrequency: 'daily' as const, priority: 0.7 })),
+    ...articles.map((a) => ({
+      url: `${SITE_URL}/nieuws/${a.slug}`,
+      lastModified: a.updated_at,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    })),
+    ...skus.map((sku) => ({ url: `${SITE_URL}/p/${sku}`, changeFrequency: 'daily' as const, priority: 0.6 })),
+  ];
+}

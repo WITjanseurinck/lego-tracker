@@ -1,0 +1,42 @@
+# Voor Coolify: voeg dit toe als Docker Compose resource.
+# De database is je zelfgehoste Supabase. De worker draait niet permanent:
+# gebruik een Scheduled Task in Coolify met het commando `npm run ingest`.
+services:
+  web:
+    build: ./web
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      VERTICAL: ${VERTICAL:-lego}
+      SITE_URL: ${SITE_URL}
+      DEMO: ${DEMO:-}
+      MATOMO_URL: ${MATOMO_URL:-}
+      MATOMO_SITE_ID: ${MATOMO_SITE_ID:-}
+      SUPABASE_URL: ${SUPABASE_URL}
+      SUPABASE_PUBLIC_URL: ${SUPABASE_PUBLIC_URL}
+      SUPABASE_ANON_KEY: ${SUPABASE_ANON_KEY}
+      SUPABASE_SERVICE_ROLE_KEY: ${SUPABASE_SERVICE_ROLE_KEY}
+
+  worker:
+    build: ./worker
+    profiles: ["jobs"]
+    environment:
+      VERTICAL: ${VERTICAL:-lego}
+      COUNTRIES: ${COUNTRIES:-BE}
+      SITE_URL: ${SITE_URL}
+      SUPABASE_URL: ${SUPABASE_URL}
+      SUPABASE_PUBLIC_URL: ${SUPABASE_PUBLIC_URL}
+      SUPABASE_SERVICE_ROLE_KEY: ${SUPABASE_SERVICE_ROLE_KEY}
+      BOL_API_KEY: ${BOL_API_KEY:-}
+      BOL_SITE_ID: ${BOL_SITE_ID:-}
+      FEED_LEGO_BE: ${FEED_LEGO_BE:-}
+      FEED_MEDIAMARKT_BE: ${FEED_MEDIAMARKT_BE:-}
+      FEED_DREAMLAND: ${FEED_DREAMLAND:-}
+      FEED_FUN: ${FEED_FUN:-}
+      FEED_SMYTHS_BE: ${FEED_SMYTHS_BE:-}
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_USER: ${SMTP_USER:-}
+      SMTP_PASS: ${SMTP_PASS:-}
+      MAIL_FROM: ${MAIL_FROM:-}

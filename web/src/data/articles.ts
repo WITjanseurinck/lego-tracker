@@ -1,17 +1,19 @@
 import type { Article } from '@/lib/articles';
 
 /**
- * Gidsen in drie talen. Cijfers en uitspraken over LEGO staan onderaan bij de bronnen,
- * zodat lezers ze kunnen nalezen. Zet er geen claim in zonder bron of voorbehoud.
- * Gecontroleerd op 18 oktober 2026.
+ * Gidsen in drie talen. Alle uitspraken over LEGO zijn op 18 oktober 2026 nagekeken aan de
+ * bronnen hieronder. Die staan niet op de site, maar zet er geen claim in zonder bron of voorbehoud.
  */
-const BRICKSET = { label: 'Brickset: Has LEGO become more expensive?', url: 'https://brickset.com/article/80205/has-lego-become-more-expensive' };
-const BRICKFACT = { label: 'Brickfact: LEGO age guide for Duplo and classic bricks', url: 'https://brickfact.com/blog/guidebooks/lego-from-which-age-guide-for-duplo-and-co' };
-const DUPLO = { label: 'Wikipedia: Lego Duplo', url: 'https://en.wikipedia.org/wiki/Lego_Duplo' };
-const GALAXUS = { label: 'Galaxus: LEGO age ranges, recommendation rather than reality', url: 'https://www.galaxus.at/en/page/lego-age-ranges-recommendation-rather-than-reality-15025' };
-const BRICKPICKER = { label: 'BrickPicker: LEGO set retirement (EOL)', url: 'https://brickpicker.com/blog/2014-11-16-lego-set-retirement-unlock-the-secrets-of-eol' };
-const BAM = { label: 'BAM Good Bricks: guide to LEGO set retirement', url: 'https://bamgoodbricks.com/blogs/lego-news/the-complete-guide-to-lego%C2%AE-set-retirement-what-it-means-for-collectors' };
-const HSE = { label: 'HSE University: retired LEGO sets as an investment', url: 'https://community.hse.ru/en/news/research/536477053.html' };
+
+export const SOURCES = {
+  BRICKSET: { label: 'Brickset: Has LEGO become more expensive?', url: 'https://brickset.com/article/80205/has-lego-become-more-expensive' },
+  BRICKFACT: { label: 'Brickfact: LEGO age guide for Duplo and classic bricks', url: 'https://brickfact.com/blog/guidebooks/lego-from-which-age-guide-for-duplo-and-co' },
+  DUPLO: { label: 'Wikipedia: Lego Duplo', url: 'https://en.wikipedia.org/wiki/Lego_Duplo' },
+  GALAXUS: { label: 'Galaxus: LEGO age ranges, recommendation rather than reality', url: 'https://www.galaxus.at/en/page/lego-age-ranges-recommendation-rather-than-reality-15025' },
+  BRICKPICKER: { label: 'BrickPicker: LEGO set retirement (EOL)', url: 'https://brickpicker.com/blog/2014-11-16-lego-set-retirement-unlock-the-secrets-of-eol' },
+  BAM: { label: 'BAM Good Bricks: guide to LEGO set retirement', url: 'https://bamgoodbricks.com/blogs/lego-news/the-complete-guide-to-lego%C2%AE-set-retirement-what-it-means-for-collectors' },
+  HSE: { label: 'HSE University: retired LEGO sets as an investment', url: 'https://community.hse.ru/en/news/research/536477053.html' },
+};
 
 export const ARTICLES: Article[] = [
   {
@@ -44,7 +46,6 @@ export const ARTICLES: Article[] = [
           ] },
           { h2: 'Zo pak je het slim aan' },
           { p: 'Bepaal vooraf welke prijs je redelijk vindt, bijvoorbeeld een bepaald bedrag onder de adviesprijs. Vergelijk daarna de shops. Wacht je langer dan gepland, controleer dan ook of de set nog leverbaar is. Op buildthatset zie je per set naast elkaar wat bol en Amazon vragen.' },
-          { src: [BRICKPICKER, BAM, HSE] },
         ],
       },
       fr: {
@@ -72,7 +73,6 @@ export const ARTICLES: Article[] = [
           ] },
           { h2: 'Comment s’y prendre intelligemment' },
           { p: 'Décidez à l’avance quel prix vous semble raisonnable, par exemple un certain montant sous le prix conseillé. Comparez ensuite les boutiques. Si vous attendez plus longtemps que prévu, vérifiez aussi que le set est encore disponible. Sur buildthatset, vous voyez pour chaque set ce que demandent bol et Amazon, côte à côte.' },
-          { src: [BRICKPICKER, BAM, HSE] },
         ],
       },
       en: {
@@ -100,7 +100,6 @@ export const ARTICLES: Article[] = [
           ] },
           { h2: 'How to go about it smartly' },
           { p: 'Decide beforehand what price you find reasonable, for example a certain amount below the recommended price. Then compare the shops. If you wait longer than planned, also check that the set is still in stock. On buildthatset you see for each set what bol and Amazon charge, side by side.' },
-          { src: [BRICKPICKER, BAM, HSE] },
         ],
       },
     },
@@ -128,7 +127,6 @@ export const ARTICLES: Article[] = [
           ] },
           { h2: 'Vergelijk daarna de prijs' },
           { p: 'Heb je een set gekozen, vergelijk dan de shops. Dezelfde set kan van shop tot shop verschillen in prijs. Op buildthatset zie je naast elkaar wat bol en Amazon vragen.' },
-          { src: [BRICKFACT, DUPLO, GALAXUS] },
         ],
       },
       fr: {
@@ -149,7 +147,6 @@ export const ARTICLES: Article[] = [
           ] },
           { h2: 'Comparez ensuite le prix' },
           { p: 'Une fois le set choisi, comparez les boutiques. Le même set peut coûter un prix différent d’une boutique à l’autre. Sur buildthatset, vous voyez côte à côte ce que demandent bol et Amazon.' },
-          { src: [BRICKFACT, DUPLO, GALAXUS] },
         ],
       },
       en: {
@@ -170,7 +167,6 @@ export const ARTICLES: Article[] = [
           ] },
           { h2: 'Then compare the price' },
           { p: 'Once you have chosen a set, compare the shops. The same set can cost a different price from shop to shop. On buildthatset you see what bol and Amazon charge, side by side.' },
-          { src: [BRICKFACT, DUPLO, GALAXUS] },
         ],
       },
     },
@@ -200,7 +196,6 @@ export const ARTICLES: Article[] = [
           { p: 'De prijs per stukje helpt om te zien of een korting echt de moeite loont. Een doorstreepprijs zegt niet altijd hoe de set eerder in de winkel stond, dus reken zelf even na wat je per stukje betaalt.' },
           { h2: 'Dezelfde set, meerdere prijzen' },
           { p: 'Op buildthatset zie je per set de prijs bij bol en Amazon naast elkaar. Zo zie je meteen waar dezelfde set het goedkoopst is.' },
-          { src: [BRICKSET] },
         ],
       },
       fr: {
@@ -223,7 +218,6 @@ export const ARTICLES: Article[] = [
           { p: 'Le prix par pièce aide à voir si une réduction en vaut vraiment la peine. Un prix barré ne dit pas toujours à quel prix le set était vendu auparavant, alors calculez vous-même ce que vous payez par pièce.' },
           { h2: 'Le même set, plusieurs prix' },
           { p: 'Sur buildthatset, vous voyez pour chaque set le prix chez bol et Amazon côte à côte. Vous repérez ainsi tout de suite où le même set est le moins cher.' },
-          { src: [BRICKSET] },
         ],
       },
       en: {
@@ -246,7 +240,6 @@ export const ARTICLES: Article[] = [
           { p: 'The price per piece helps you see whether a discount is really worth it. A crossed-out price does not always tell you how the set was priced before, so work out for yourself what you pay per piece.' },
           { h2: 'The same set, several prices' },
           { p: 'On buildthatset you see the price at bol and Amazon side by side for each set. That shows you right away where the same set is cheapest.' },
-          { src: [BRICKSET] },
         ],
       },
     },

@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import { ProductCard } from '@/components/ProductCard';
 import { StudMeter } from '@/components/StudMeter';
+import { BolDealCard } from '@/components/BolDealCard';
+import { bolAffiliateUrl, bolFetchedAt, getBolDeals } from '@/lib/bol';
+import { isDemo } from '@/lib/demo';
 import { getArticles, getDeals, getThemes } from '@/lib/data';
 import { formatDate, formatEur } from '@/lib/format';
 import { productImageUrl } from '@/lib/images';
@@ -11,13 +14,38 @@ export const dynamic = 'force-dynamic';
 
 export default async function Home() {
   const [{ deals, error }, articles, themes] = await Promise.all([getDeals(), getArticles(3), getThemes()]);
-  const [first, ...rest] = deals;
+  const bolDeals = isDemo || deals.length === 0 ? getBolDeals() : [];
+  const useBol = bolDeals.length > 0;
+  const [first, ...rest] = useBol ? [] : deals;
+  const bolFirst = bolDeals[0];
+  const bolRest = bolDeals.slice(1);
+  const bolDisc = bolFirst?.strikethrough ? Math.round((1 - bolFirst.price / bolFirst.strikethrough) * 100) : null;
+  const bolFirstHref = bolFirst ? bolAffiliateUrl(bolFirst.url, bolFirst.set) : '';
   const firstImg = first ? productImageUrl(first.image_path) : null;
   const disc = first?.discount_pct ? Math.round(Number(first.discount_pct)) : null;
 
   return (
     <>
-      {first ? (
+      {useBol && bolFirst ? (
+        <section className="hero">
+          <div className="grid2">
+            <div className="text">
+              <div className="kicker">LEGO-deal van vandaag · {bolFirst.set}</div>
+              <h1>{bolFirst.name}</h1>
+              <div className="pr">
+                <span className="price">{formatEur(bolFirst.price)}</span>
+                {bolFirst.strikethrough ? <span className="rrp">{formatEur(bolFirst.strikethrough)}</span> : null}
+                {bolDisc ? <span className="disc">-{bolDisc}%</span> : null}
+              </div>
+              <div className="cta">
+                <a href={bolFirstHref} className="btn dark" target="_blank" rel="sponsored noopener" data-affiliate="bol">Bekijk bij bol</a>
+                <Link href="/zoeken" className="btn">Zoek een {VERTICAL.productNoun}</Link>
+              </div>
+            </div>
+            <div className="photo"><img src={bolFirst.image} alt={`LEGO ${bolFirst.set} ${bolFirst.name}`} referrerPolicy="no-referrer" /></div>
+          </div>
+        </section>
+      ) : first ? (
         <section className="hero">
           <div className="grid2">
             <div className="text">
@@ -45,7 +73,20 @@ export default async function Home() {
         </div>
       )}
 
-      {themes.length > 0 ? (
+      {useBol && bolRest.length > 0 ? (
+        <section className="wrap sec">
+          <div className="sechead">
+            <div>
+              <h2>LEGO-deals bij bol</h2>
+              <p className="lead">Enkel echte LEGO-sets, gesorteerd op de grootste korting ten opzichte van de doorstreepprijs van bol. Prijzen van {formatDate(bolFetchedAt)}, controleer de actuele prijs bij bol.</p>
+            </div>
+          </div>
+          <div className="grid">{bolRest.map((d, i) => <BolDealCard key={d.bolId} deal={d} tint={photoTint(i + 1)} />)}</div>
+          <p className="lead" style={{ marginTop: 32 }}>Reclame: dit zijn affiliate links. Koop je via een link, dan ontvangen wij een commissie van bol. Voor jou verandert de prijs niet.</p>
+        </section>
+      ) : null}
+
+      {!useBol && themes.length > 0 ? (
         <section className="wrap sec">
           <div className="sechead"><h2>Kies een thema</h2><Link href="/themas">Alle thema’s</Link></div>
           <div className="themes">
@@ -59,7 +100,7 @@ export default async function Home() {
         </section>
       ) : null}
 
-      {rest.length > 0 ? (
+      {!useBol && rest.length > 0 ? (
         <section className="wrap sec">
           <div className="sechead">
             <div>

@@ -11,7 +11,8 @@
    "name": "Rustgevende tuin",
    "theme": "icons",
    "age": 18,
-   "pieces": 1363
+   "pieces": 1363,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc1a3afc5b5af3287/10315.png"
   },
   {
    "set": "10330",
@@ -21,7 +22,8 @@
    "name": "McLaren MP4/4 en Ayrton Senna",
    "theme": "icons",
    "age": 18,
-   "pieces": 693
+   "pieces": 693,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf8476f68fa47b137/10330.png"
   },
   {
    "set": "10331",
@@ -42,7 +44,8 @@
    "name": "Botanicals Roze boeket",
    "theme": "botanicals",
    "age": 18,
-   "pieces": 749
+   "pieces": 749,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1bcb187351a12753/10342_WEB_PRI_NOBG.png"
   },
   {
    "set": "10353",
@@ -52,7 +55,8 @@
    "name": "Williams Racing FW14B en Nigel Mansell",
    "theme": "icons",
    "age": 18,
-   "pieces": 799
+   "pieces": 799,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte94c63168e761c74/10353_Prod_en-gb.png"
   },
   {
    "set": "11372",
@@ -62,7 +66,8 @@
    "name": "Herfsttuin met Cottage",
    "theme": "icons",
    "age": 18,
-   "pieces": 1102
+   "pieces": 1102,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0345da5be8baeb2d/11372_Prod_en-gb.png"
   },
   {
    "set": "11375",
@@ -72,7 +77,8 @@
    "name": "Ferrari F2004 en Michael Schumacher",
    "theme": "icons",
    "age": 18,
-   "pieces": 735
+   "pieces": 735,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt7cb1d7e438d8cf8a/blt1b09b2c445792134-11375_Prod_en-gb.png"
   },
   {
    "set": "11376",
@@ -82,7 +88,8 @@
    "name": "Ford Model T Klassieke Auto",
    "theme": "icons",
    "age": 18,
-   "pieces": 1060
+   "pieces": 1060,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb43d0d2e48863e64/blt9b1cd88cf5ab5032-11376_Prod_en-gb.png"
   },
   {
    "set": "11379",
@@ -92,7 +99,8 @@
    "asin": "B0GGSPBN1L",
    "theme": "icons",
    "age": 18,
-   "pieces": 1690
+   "pieces": 1690,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt93b12260f66cd50b/11379_Prod.png"
   },
   {
    "set": "11381",
@@ -113,7 +121,8 @@
    "name": "Burgemeestershuis: griezelig landhuis",
    "theme": "icons",
    "age": 18,
-   "pieces": 1420
+   "pieces": 1420,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5999ea5e1c071687/blt21fb8295f9caaf81-11383_Prod_en-gb.png"
   },
   {
    "set": "11389",
@@ -134,7 +143,8 @@
    "asin": "B0FPXGD4DQ",
    "theme": "botanicals",
    "age": 18,
-   "pieces": 686
+   "pieces": 686,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt212b362b828622c3/blt1c33118501c8da2f-11502_Prod_en-gb.png"
   },
   {
    "set": "11505",
@@ -221,7 +231,8 @@
    "name": "Disney Pixar Luxo Jr.",
    "theme": "ideas",
    "age": 18,
-   "pieces": 613
+   "pieces": 613,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9ed8450ea64591dc/21357_Prod_en-gb.png"
   },
   {
    "set": "21366",
@@ -231,7 +242,8 @@
    "name": "Drijvende Zeeotters",
    "theme": "ideas",
    "age": 18,
-   "pieces": 1234
+   "pieces": 1234,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5fa64829f3e08bad/blt99f895fe40c0a54a-21366_Prod_en-gb.png"
   },
   {
    "set": "21367",
@@ -241,7 +253,8 @@
    "name": "Tintin Maanraket",
    "theme": "ideas",
    "age": 18,
-   "pieces": 1283
+   "pieces": 1283,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt58a7c9abdca9fe83/blt7f64bcf9a02deb90-21367_Prod_en-gb.png"
   },
   {
    "set": "31161",
@@ -262,7 +275,8 @@
    "asin": "B0DHSF89CQ",
    "theme": "creator",
    "age": 8,
-   "pieces": 626
+   "pieces": 626,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt637c086e666cff92/31165_Prod_en-gb.png"
   },
   {
    "set": "31167",
@@ -272,7 +286,8 @@
    "name": "Spookhuis",
    "theme": "creator",
    "age": 9,
-   "pieces": 736
+   "pieces": 736,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt61735fb0922b35cc/31167_Prod.png"
   },
   {
    "set": "31168",
@@ -282,7 +297,8 @@
    "name": "Middeleeuws kasteel",
    "theme": "creator",
    "age": 9,
-   "pieces": 1371
+   "pieces": 1371,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt704380e8e257025f/31168_Prod.png"
   },
   {
    "set": "31212",
@@ -314,7 +330,8 @@
    "name": "Art Landschap met Japanse kersenbloesems",
    "theme": "art",
    "age": 18,
-   "pieces": 1892
+   "pieces": 1892,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt3f6cace2ff7687c6/31218_Prod_en-gb.png"
   },
   {
    "set": "31386",
@@ -324,7 +341,8 @@
    "name": "Wilde Dieren Majestueuze Leeuw",
    "theme": "creator",
    "age": 9,
-   "pieces": 839
+   "pieces": 839,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5aee402dec20f8a9/bltb6ab79e07c83bcf5-31386_Prod_en-gb.png"
   },
   {
    "set": "31387",
@@ -334,7 +352,8 @@
    "name": "Klassiek piratenschip",
    "theme": "creator",
    "age": 9,
-   "pieces": 1074
+   "pieces": 1074,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1223855066b9b380/blte1f97ee73c17994d-31387_Prod_en-gb.png"
   },
   {
    "set": "31389",
@@ -344,7 +363,8 @@
    "name": "Creator 3-in-1 Klassiek reuzenrad, UFO-attractie en zweefmolen",
    "theme": "creator",
    "age": 8,
-   "pieces": 916
+   "pieces": 916,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9f9a9c0945433fe9/bltda4538cf414fdc36-31389_Prod_en-gb.png"
   },
   {
    "set": "42136",
@@ -365,7 +385,8 @@
    "name": "2022 Ford GT",
    "theme": "technic",
    "age": 18,
-   "pieces": 1468
+   "pieces": 1468,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5014244d8d8dc8ad/42154.png"
   },
   {
    "set": "42161",
@@ -386,7 +407,8 @@
    "name": "Kawasaki Ninja H2R Motor",
    "theme": "technic",
    "age": 10,
-   "pieces": 643
+   "pieces": 643,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta83a881921fd4b76/42170.png"
   },
   {
    "set": "42171",
@@ -396,7 +418,8 @@
    "name": "Mercedes-AMG F1 W14 E Performance",
    "theme": "technic",
    "age": 18,
-   "pieces": 1643
+   "pieces": 1643,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2d0b04908f20c4fb/42171.png"
   },
   {
    "set": "42172",
@@ -406,7 +429,8 @@
    "name": "McLaren P1",
    "theme": "technic",
    "age": 18,
-   "pieces": 3893
+   "pieces": 3893,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt519dac201a3dd4c1/42172.png"
   },
   {
    "set": "42173",
@@ -416,7 +440,8 @@
    "name": "Koenigsegg Jesko Absolut Grey Hypercar",
    "theme": "technic",
    "age": 10,
-   "pieces": 801
+   "pieces": 801,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc4ee2c0da944140f/42173.png"
   },
   {
    "set": "42175",
@@ -424,7 +449,10 @@
    "strikethrough": 199.99,
    "asin": "B0CWH1W4W3",
    "name": "Volvo FMX-truck en EC230 elektrische graafmachine",
-   "theme": "technic"
+   "theme": "technic",
+   "age": 10,
+   "pieces": 2274,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt28e79ccdf0659cef/42175_Prod.png"
   },
   {
    "set": "42176",
@@ -434,7 +462,8 @@
    "name": "Porsche GT4 E Performance Racewagen",
    "theme": "technic",
    "age": 10,
-   "pieces": 836
+   "pieces": 836,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt18f5c5a692b50842/42176.png"
   },
   {
    "set": "42177",
@@ -444,7 +473,8 @@
    "name": "Mercedes-Benz G 500 Professional Line",
    "theme": "technic",
    "age": 18,
-   "pieces": 2891
+   "pieces": 2891,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltcbe6394b9677d5bd/42177_Prod.png"
   },
   {
    "set": "42179",
@@ -454,7 +484,8 @@
    "name": "De Aarde en de Maan in Beweging",
    "theme": "technic",
    "age": 10,
-   "pieces": 526
+   "pieces": 526,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt09511e795b685260/42179.png"
   },
   {
    "set": "42201",
@@ -475,7 +506,8 @@
    "name": "Ducati Panigale V4's Motor",
    "theme": "technic",
    "age": 18,
-   "pieces": 1603
+   "pieces": 1603,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8635b7505c107a18/42202_Prod_en-gb.png"
   },
   {
    "set": "42203",
@@ -485,7 +517,8 @@
    "name": "Vrachtwagen met Kiepfunctie",
    "theme": "technic",
    "age": 9,
-   "pieces": 462
+   "pieces": 462,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8e48148bb440da81/42203_Prod.png"
   },
   {
    "set": "42204",
@@ -517,7 +550,8 @@
    "name": "Oracle Red Bull Racing RB20 F1 Auto",
    "theme": "technic",
    "age": 18,
-   "pieces": 1639
+   "pieces": 1639,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltca542b859ace5383/42206_Prod_en-gb.png"
   },
   {
    "set": "42207",
@@ -527,7 +561,8 @@
    "name": "Ferrari SF 24 F1 Auto",
    "theme": "technic",
    "age": 18,
-   "pieces": 1361
+   "pieces": 1361,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1dd4e21e38b03edd/42207_Prod_en-gb.png"
   },
   {
    "set": "42208",
@@ -559,7 +594,8 @@
    "name": "2 Fast 2 Furious Nissan Skyline GT-R",
    "theme": "technic",
    "age": 18,
-   "pieces": 1410
+   "pieces": 1410,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt4281f045b5e8888c/42210_Prod.png"
   },
   {
    "set": "42212",
@@ -569,7 +605,8 @@
    "name": "Ferrari FXX K Modelauto",
    "theme": "technic",
    "age": 10,
-   "pieces": 897
+   "pieces": 897,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb2365f8463768d5c/42212_Prod.png"
   },
   {
    "set": "42213",
@@ -579,7 +616,8 @@
    "name": "Ford Bronco SUV",
    "theme": "technic",
    "age": 9,
-   "pieces": 943
+   "pieces": 943,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbb52bac713429615/42213_Prod.png"
   },
   {
    "set": "42214",
@@ -589,7 +627,8 @@
    "name": "Lamborghini Revuelto Supersportwagen",
    "theme": "technic",
    "age": 10,
-   "pieces": 1135
+   "pieces": 1135,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt569d545d0a7c06c7/42214_Prod.png"
   },
   {
    "set": "42215",
@@ -599,7 +638,8 @@
    "name": "Volvo EC500 Hybrid Graafmachine",
    "theme": "technic",
    "age": 18,
-   "pieces": 2359
+   "pieces": 2359,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt6027837d523f859d/42215_Prod.png"
   },
   {
    "set": "42221",
@@ -609,7 +649,8 @@
    "name": "NASA Artemis Ruimteraket",
    "theme": "technic",
    "age": 9,
-   "pieces": 632
+   "pieces": 632,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5c67fdd9e4bd98de/42221_Prod_en-gb.png"
   },
   {
    "set": "42222",
@@ -619,7 +660,8 @@
    "name": "Bugatti Chiron Pur Sport Hypercar",
    "theme": "technic",
    "age": 9,
-   "pieces": 771
+   "pieces": 771,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0a9009b95130ef89/42222_Prod_en-gb.png"
   },
   {
    "set": "42223",
@@ -629,7 +671,8 @@
    "name": "1966 Ford GT40 MKII Racewagen",
    "theme": "technic",
    "age": 18,
-   "pieces": 793
+   "pieces": 793,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltfedfb750ecdecbc5/42223_Prod_en-gb.png"
   },
   {
    "set": "42224",
@@ -639,7 +682,8 @@
    "name": "Porsche 911 GT3 R Rexy AO Racing Auto",
    "theme": "technic",
    "age": 11,
-   "pieces": 1313
+   "pieces": 1313,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt63b0cec2f9e3eccd/42224_Prod_en-gb.png"
   },
   {
    "set": "42226",
@@ -649,7 +693,8 @@
    "name": "BMW M4 GT3 Evo Racewagen",
    "theme": "technic",
    "age": 11,
-   "pieces": 747
+   "pieces": 747,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb53d1567fcd649c0/42226_Prod.png"
   },
   {
    "set": "42227",
@@ -659,7 +704,8 @@
    "name": "Jeep Wrangler Rubicon Terreinwagen",
    "theme": "technic",
    "age": 10,
-   "pieces": 723
+   "pieces": 723,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8f7d3695517d3132/42227_Prod.png"
   },
   {
    "set": "42228",
@@ -669,7 +715,8 @@
    "name": "McLaren MCL39 F1 Car",
    "theme": "technic",
    "age": 18,
-   "pieces": 1675
+   "pieces": 1675,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltac01ce3b2335370b/blt94fedcc1daf48b2a-42228_Prod_en-gb.png"
   },
   {
    "set": "42229",
@@ -679,7 +726,8 @@
    "name": "Fast & Furious Mitsubishi Eclipse",
    "theme": "technic",
    "age": 14,
-   "pieces": 827
+   "pieces": 827,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blteef6e0987044f2f6/bltfaea35d387a1edf7-42229_Prod_en-gb.png"
   },
   {
    "set": "42231",
@@ -689,7 +737,8 @@
    "name": "Fast & Furious Dodge Charger R/T",
    "theme": "technic",
    "age": 18,
-   "pieces": 1516
+   "pieces": 1516,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt79f919a7738e75f9/blt6a94296f3012a30e-42231_Prod_en-gb.png"
   },
   {
    "set": "42234",
@@ -699,7 +748,8 @@
    "name": "Dodge Viper GTS R Sportauto",
    "theme": "technic",
    "age": 10,
-   "pieces": 805
+   "pieces": 805,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt262620946843b8c2/42234_Prod.png"
   },
   {
    "set": "42235",
@@ -709,7 +759,8 @@
    "name": "Ferrari 488 Pista",
    "theme": "technic",
    "age": 9,
-   "pieces": 882
+   "pieces": 882,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt03e6801da1ee5f26/42235_Prod.png"
   },
   {
    "set": "42236",
@@ -719,7 +770,8 @@
    "name": "Aanpasbare Ford Mustang GT",
    "theme": "technic",
    "age": 10,
-   "pieces": 973
+   "pieces": 973,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc500591cc79bf53c/blt6afc886561547236-42236_Prod_en-gb.png"
   },
   {
    "set": "42239",
@@ -729,7 +781,8 @@
    "name": "Batmobile Tumbler Auto",
    "theme": "technic",
    "age": 12,
-   "pieces": 719
+   "pieces": 719,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0aa9f1c9bd984f96/42239_Prod.png"
   },
   {
    "set": "42240",
@@ -739,7 +792,8 @@
    "name": "Aston Martin Aramco AMR25 F1 Auto",
    "theme": "technic",
    "age": 18,
-   "pieces": 1547
+   "pieces": 1547,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd75d9ab1c2aec844/blt3711b74994551d04-42240_Prod_en-gb.png"
   },
   {
    "set": "43014",
@@ -749,7 +803,8 @@
    "asin": "B0FPXFDFV8",
    "theme": "editions",
    "age": 14,
-   "pieces": 886
+   "pieces": 886,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta0e51783efba6e23/43014_Prod.png"
   },
   {
    "set": "43017",
@@ -759,7 +814,8 @@
    "asin": "B0FWNMT9X6",
    "theme": "editions",
    "age": 14,
-   "pieces": 793
+   "pieces": 793,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt4fcb71893af17e2a/bltab4a10ed7b29fa28-43017_Prod_en-gb.png"
   },
   {
    "set": "43019",
@@ -769,7 +825,8 @@
    "asin": "B0FPXFDJ1H",
    "theme": "editions",
    "age": 10,
-   "pieces": 1498
+   "pieces": 1498,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt04084759a9389541/bltec1b6ad847503d45-43019_Prod_en-gb.png"
   },
   {
    "set": "43022",
@@ -779,7 +836,8 @@
    "asin": "B0FPXFB54W",
    "theme": "editions",
    "age": 14,
-   "pieces": 884
+   "pieces": 884,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt91b18dbcb302f294/43022_Prod.png"
   },
   {
    "set": "43023",
@@ -789,7 +847,8 @@
    "asin": "B0FPXFT73X",
    "theme": "editions",
    "age": 14,
-   "pieces": 793
+   "pieces": 793,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte8da17d05f13f3d1/bltb96d0e886d1b1e2e-43023_Prod_en-gb.png"
   },
   {
    "set": "43024",
@@ -810,7 +869,8 @@
    "asin": "B0DHSCG2KL",
    "theme": "disney",
    "age": 9,
-   "pieces": 566
+   "pieces": 566,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt97a2b239f7b7c21b/43272_Prod_en-gb.png"
   },
   {
    "set": "43279",
@@ -820,7 +880,8 @@
    "asin": "B0DWDR21C4",
    "theme": "disney",
    "age": 18,
-   "pieces": 811
+   "pieces": 811,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb61df5c6a83a2624/43279_Prod_en-gb.png"
   },
   {
    "set": "72046",
@@ -830,7 +891,8 @@
    "asin": "B0DWDGVHM6",
    "theme": "overig",
    "age": 18,
-   "pieces": 421
+   "pieces": 421,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt96a11f71928f8103/72046_Prod_en-gb.png"
   },
   {
    "set": "72152",
@@ -840,7 +902,8 @@
    "asin": "B0FPXGC6YG",
    "theme": "overig",
    "age": 18,
-   "pieces": 2050
+   "pieces": 2050,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltcc712e807c108c42/72152_Prod_en-gb.png"
   },
   {
    "set": "72537",
@@ -850,7 +913,8 @@
    "asin": "B0GJDDY8FD",
    "theme": "overig",
    "age": 9,
-   "pieces": 825
+   "pieces": 825,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte9ccc3926979825e/blt69dcc92d7cf6a33f-72537_Prod_en-gb.png"
   },
   {
    "set": "75347",
@@ -871,7 +935,8 @@
    "name": "Millennium Falcon",
    "theme": "star-wars",
    "age": 18,
-   "pieces": 921
+   "pieces": 921,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltea91c53f2609bfa5/75375.png"
   },
   {
    "set": "75379",
@@ -881,7 +946,8 @@
    "name": "R2-D2",
    "theme": "star-wars",
    "age": 10,
-   "pieces": 1050
+   "pieces": 1050,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1dbcc5584e0e1f47/75379_alt2.png"
   },
   {
    "set": "75382",
@@ -902,7 +968,8 @@
    "name": "Dark Falcon",
    "theme": "star-wars",
    "age": 10,
-   "pieces": 1579
+   "pieces": 1579,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9045e5d9071ed23b/75389_Prod.png"
   },
   {
    "set": "75398",
@@ -912,7 +979,8 @@
    "name": "C-3PO",
    "theme": "star-wars",
    "age": 18,
-   "pieces": 1138
+   "pieces": 1138,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1d21181b67dcb8a5/75398_Prod.png"
   },
   {
    "set": "75399",
@@ -922,7 +990,8 @@
    "name": "Andor: Rebel U-Wing Starfighter",
    "theme": "star-wars",
    "age": 8,
-   "pieces": 594
+   "pieces": 594,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt66adc043070e220c/75399_Prod.png"
   },
   {
    "set": "75402",
@@ -932,7 +1001,8 @@
    "name": "ARC-170 Starfighter",
    "theme": "star-wars",
    "age": 9,
-   "pieces": 497
+   "pieces": 497,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd6b2fe663f886921/75402_Prod_en-gb.png"
   },
   {
    "set": "75413",
@@ -953,7 +1023,8 @@
    "name": "AT-ST Walker",
    "theme": "star-wars",
    "age": 18,
-   "pieces": 1513
+   "pieces": 1513,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt98568413538e8f35/75417_Prod_en-gb.png"
   },
   {
    "set": "75435",
@@ -974,7 +1045,8 @@
    "name": "Venator-klasse aanvalskruiser",
    "theme": "star-wars",
    "age": 18,
-   "pieces": 643
+   "pieces": 643,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc42756bf25d0dfb6/75441_Prod_en-gb.png"
   },
   {
    "set": "75447",
@@ -982,7 +1054,10 @@
    "strikethrough": 149.99,
    "asin": "B0FPXFTQ9S",
    "name": "The Razor Crest",
-   "theme": "star-wars"
+   "theme": "star-wars",
+   "age": 10,
+   "pieces": 930,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt34b27553596c6ef5/75447_Prod.png"
   },
   {
    "set": "75453",
@@ -990,7 +1065,10 @@
    "strikethrough": 199.99,
    "asin": "B0GGSD1PNX",
    "name": "De Mandalorian: Offworld Sandcrawler",
-   "theme": "star-wars"
+   "theme": "star-wars",
+   "age": 14,
+   "pieces": 1683,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt53e994b7ffae6117/blt2993cb6d6e763651-75453_Prod_en-gb.png"
   },
   {
    "set": "75454",
@@ -998,7 +1076,10 @@
    "strikethrough": 159.99,
    "asin": "B0GGSJ6BVJ",
    "name": "Imperial Remnant AT-AT",
-   "theme": "star-wars"
+   "theme": "star-wars",
+   "age": 10,
+   "pieces": 1453,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt91d78d4aac6cb7b0/blt85d0f4c13827cddd-75454_Prod_en-gb.png"
   },
   {
    "set": "75455",
@@ -1006,7 +1087,10 @@
    "strikethrough": 169.99,
    "asin": "B0GGSSF1ST",
    "name": "Boba Fett",
-   "theme": "star-wars"
+   "theme": "star-wars",
+   "age": 18,
+   "pieces": 1544,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt01e72d2fd0c9fa53/blt0fed9d785e5abb17-75455_Prod_en-gb.png"
   },
   {
    "set": "75459",
@@ -1015,7 +1099,9 @@
    "asin": "B0GGSGHQL6",
    "name": "Imperial Lambda-Class Shuttle",
    "theme": "star-wars",
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc25c22ecb800e962/bltdb45b22aa9b13e52-75459_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc25c22ecb800e962/bltdb45b22aa9b13e52-75459_Prod_en-gb.png",
+   "age": 14,
+   "pieces": 961
   },
   {
    "set": "75639",
@@ -1023,8 +1109,10 @@
    "strikethrough": 129.99,
    "asin": "B0DWDQYB87",
    "name": "Het piratenschip Going Merry",
-   "theme": "star-wars",
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt25bc5b8dc7d77c0b/75639_Prod_en-gb.png"
+   "theme": "overig",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt25bc5b8dc7d77c0b/75639_Prod_en-gb.png",
+   "age": 10,
+   "pieces": 1376
   },
   {
    "set": "76348",
@@ -1032,7 +1120,10 @@
    "price": 66.39,
    "strikethrough": 99.99,
    "asin": "B0GGSDPMP8",
-   "theme": "overig"
+   "theme": "overig",
+   "age": 9,
+   "pieces": 846,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2de82c4e5e80b0d9/blte08480224b17a8b6-76348_Prod_en-gb.png"
   },
   {
    "set": "76419",
@@ -1040,7 +1131,10 @@
    "strikethrough": 169.99,
    "asin": "B0BV7BYNYD",
    "name": "Kasteel Zweinstein en terrein",
-   "theme": "harry-potter"
+   "theme": "harry-potter",
+   "age": 18,
+   "pieces": 2660,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte09f96efc93d5c1d/76419.png"
   },
   {
    "set": "76444",
@@ -1048,7 +1142,10 @@
    "strikethrough": 199.99,
    "asin": "B0DHSDY156",
    "name": "Wegisweg: tovenaarswinkels",
-   "theme": "harry-potter"
+   "theme": "harry-potter",
+   "age": 18,
+   "pieces": 2750,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta8d5b7c13b5a3a81/76444_Prod_en-gb.png"
   },
   {
    "set": "76446",
@@ -1056,7 +1153,10 @@
    "price": 33.99,
    "strikethrough": 49.99,
    "asin": "B0DHSBRYSQ",
-   "theme": "harry-potter"
+   "theme": "harry-potter",
+   "age": 8,
+   "pieces": 499,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta9bc0a58cabf6ae2/76446_Prod_en-gb.png"
   },
   {
    "set": "76447",
@@ -1065,7 +1165,9 @@
    "asin": "B0DHSFB2SQ",
    "name": "Kasteel Zweinstein: vliegles",
    "theme": "harry-potter",
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltca42229884f56fed/76447_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltca42229884f56fed/76447_Prod_en-gb.png",
+   "age": 9,
+   "pieces": 651
   },
   {
    "set": "76449",
@@ -1073,7 +1175,10 @@
    "price": 39.99,
    "strikethrough": 59.99,
    "asin": "B0DWDJR3DK",
-   "theme": "harry-potter"
+   "theme": "harry-potter",
+   "age": 9,
+   "pieces": 518,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt190aaf13d851f58d/76449_Prod_en-gb.png"
   },
   {
    "set": "76450",
@@ -1081,7 +1186,10 @@
    "strikethrough": 99.99,
    "asin": "B0DWF1W82X",
    "name": "Boekensteun: Zweinstein Express",
-   "theme": "harry-potter"
+   "theme": "harry-potter",
+   "age": 10,
+   "pieces": 832,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt86a28c5596668d3b/76450_Prod_en-gb.png"
   },
   {
    "set": "76451",
@@ -1090,7 +1198,9 @@
    "asin": "B0DWDSPKLS",
    "name": "Ligusterlaan: bezoek van tante Margot",
    "theme": "harry-potter",
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt8536053b62de88b1/76451_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8536053b62de88b1/76451_Prod_en-gb.png",
+   "age": 8,
+   "pieces": 639
   },
   {
    "set": "76452",
@@ -1099,7 +1209,9 @@
    "asin": "B0DWF4JR58",
    "name": "Zwik & Zwachtels Zwerkbalpaleis en ijssalon",
    "theme": "harry-potter",
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt588dbe2bbaeab7b8/76452_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt588dbe2bbaeab7b8/76452_Prod_en-gb.png",
+   "age": 8,
+   "pieces": 795
   },
   {
    "set": "76454",
@@ -1108,7 +1220,9 @@
    "asin": "B0DHZ5B366",
    "name": "Kasteel Zweinstein: de Hoofdtoren",
    "theme": "harry-potter",
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt69cd6053c5e32973/76454_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt69cd6053c5e32973/76454_Prod_en-gb.png",
+   "age": 10,
+   "pieces": 2135
   },
   {
    "set": "76463",
@@ -1116,7 +1230,10 @@
    "strikethrough": 99.99,
    "asin": "B0FPXCK2QL",
    "name": "Kasteel Zweinstein Ziekenzaal",
-   "theme": "harry-potter"
+   "theme": "harry-potter",
+   "age": 9,
+   "pieces": 907,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb722633ab53c083e/76463_Prod_en-gb.png"
   },
   {
    "set": "76466",
@@ -1124,7 +1241,10 @@
    "strikethrough": 159.99,
    "asin": "B0FPXHC19W",
    "name": "De Steen der Wijzen",
-   "theme": "harry-potter"
+   "theme": "harry-potter",
+   "age": 18,
+   "pieces": 1571,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltff6d2570f98dec12/76466_Prod_en-gb.png"
   },
   {
    "set": "76467",
@@ -1132,7 +1252,10 @@
    "strikethrough": 99.99,
    "asin": "B0FPXDNRPP",
    "name": "Het huis van Loena Leeflang",
-   "theme": "harry-potter"
+   "theme": "harry-potter",
+   "age": 10,
+   "pieces": 764,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt15b25b3defb05464/76467_Prod_en-gb.png"
   },
   {
    "set": "76470",
@@ -1141,7 +1264,9 @@
    "asin": "B0FPXGWLDH",
    "name": "Betoverde vliegende Ford Anglia",
    "theme": "harry-potter",
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt1225e4f894a3fce3/76470_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1225e4f894a3fce3/76470_Prod_en-gb.png",
+   "age": 14,
+   "pieces": 868
   },
   {
    "set": "76471",
@@ -1150,7 +1275,9 @@
    "asin": "B0FPXGSWZ5",
    "name": "Verdonkeremaansteeg tovenaarswinkels",
    "theme": "harry-potter",
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0397c99741bf72ec/blt576f67fbbf7fdd09-76471_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0397c99741bf72ec/blt576f67fbbf7fdd09-76471_Prod_en-gb.png",
+   "age": 8,
+   "pieces": 788
   },
   {
    "set": "76474",
@@ -1159,7 +1286,9 @@
    "asin": "B0FPXFR4XB",
    "name": "Zweinstein Kruidenkunde planten",
    "theme": "harry-potter",
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt38d292ab6f3051ab/blt0860330851b273fa-76474_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt38d292ab6f3051ab/blt0860330851b273fa-76474_Prod_en-gb.png",
+   "age": 12,
+   "pieces": 817
   },
   {
    "set": "76911",
@@ -1168,7 +1297,9 @@
    "asin": "B09QFWT3G2",
    "name": "007 Aston Martin DB5",
    "theme": "speed-champions",
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5fb26fee0777bc45/76911.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5fb26fee0777bc45/76911.png",
+   "age": 8,
+   "pieces": 298
   },
   {
    "set": "76924",
@@ -1176,7 +1307,10 @@
    "strikethrough": 49.99,
    "asin": "B0CWH3J5D6",
    "name": "Mercedes-AMG G 63 en Mercedes-AMG SL 63",
-   "theme": "speed-champions"
+   "theme": "speed-champions",
+   "age": 10,
+   "pieces": 808,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbc71c879c160329c/76924.png"
   },
   {
    "set": "77238",
@@ -1184,7 +1318,10 @@
    "strikethrough": 49.99,
    "asin": "B0DWDW4FWJ",
    "name": "Lamborghini Revuelto en Huracan Sto",
-   "theme": "speed-champions"
+   "theme": "speed-champions",
+   "age": 10,
+   "pieces": 607,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd322b474d5fd14f0/77238_Prod.png"
   },
   {
    "set": "77244",
@@ -1192,7 +1329,10 @@
    "strikethrough": 26.99,
    "asin": "B0DHS9Y433",
    "name": "Mercedes-AMG F1 W15",
-   "theme": "speed-champions"
+   "theme": "speed-champions",
+   "age": 10,
+   "pieces": 267,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt495e05f3e8b60dbf/77244_Prod_en-gb.png"
   },
   {
    "set": "77251",
@@ -1200,7 +1340,10 @@
    "strikethrough": 26.99,
    "asin": "B0DHS9Y192",
    "name": "McLaren F1 Team MCL38",
-   "theme": "speed-champions"
+   "theme": "speed-champions",
+   "age": 10,
+   "pieces": 269,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltad441c9411550c97/77251_Prod_en-gb.png"
   },
   {
    "set": "77253",
@@ -1208,7 +1351,10 @@
    "strikethrough": 27.99,
    "asin": "B0FPVT4VG6",
    "name": "Bugatti Vision GT hypercar",
-   "theme": "speed-champions"
+   "theme": "speed-champions",
+   "age": 9,
+   "pieces": 284,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt095f6391142bd86e/77253_Prod_en-gb.png"
   },
   {
    "set": "77254",
@@ -1216,7 +1362,10 @@
    "strikethrough": 27.99,
    "asin": "B0FPXK52K8",
    "name": "Ferrari SF90 XX Stradale",
-   "theme": "speed-champions"
+   "theme": "speed-champions",
+   "age": 9,
+   "pieces": 339,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0cb8360713f3186b/77254_Prod_en-gb.png"
   },
   {
    "set": "77255",
@@ -1224,7 +1373,10 @@
    "strikethrough": 27.99,
    "asin": "B0FPXCYXHM",
    "name": "Bliksem McQueen",
-   "theme": "speed-champions"
+   "theme": "speed-champions",
+   "age": 9,
+   "pieces": 270,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt81a65b6671890864/77255_Prod_en-gb.png"
   },
   {
    "set": "77256",
@@ -1232,7 +1384,10 @@
    "strikethrough": 27.99,
    "asin": "B0FPXDXXYR",
    "name": "Tijdmachine uit Back to the Future",
-   "theme": "speed-champions"
+   "theme": "speed-champions",
+   "age": 9,
+   "pieces": 357,
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltcf1faba2d5f4a688/77256_Prod_en-gb.png"
   },
   {
    "set": "77259",
@@ -1240,7 +1395,10 @@
    "price": 19.52,
    "strikethrough": 27.99,
    "asin": "B0FPXGRFLV",
-   "theme": "speed-champions"
+   "theme": "speed-champions",
+   "age": 10,
+   "pieces": 216,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt95522a33acfc96b9/blt480f8e3525715603-77259_Prod_en-gb.png"
   },
   {
    "set": "77260",
@@ -1248,7 +1406,10 @@
    "price": 17.99,
    "strikethrough": 27.99,
    "asin": "B0FPXF65PH",
-   "theme": "speed-champions"
+   "theme": "speed-champions",
+   "age": 10,
+   "pieces": 292,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt770931e91e58912e/bltab8874e11ad4b2db-77260_Prod_en-gb.png"
   },
   {
    "set": "77261",
@@ -1256,7 +1417,10 @@
    "price": 19.59,
    "strikethrough": 27.99,
    "asin": "B0FPXGT7K7",
-   "theme": "speed-champions"
+   "theme": "speed-champions",
+   "age": 9,
+   "pieces": 329,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2ef642f515a20969/blt647dc85b2bb429f4-77261_Prod_en-gb.png"
   },
   {
    "set": "77262",
@@ -1264,7 +1428,10 @@
    "strikethrough": 27.99,
    "asin": "B0FPXGKBCS",
    "name": "Ken Blocks 1965 Ford Mustang Hoonicorn",
-   "theme": "speed-champions"
+   "theme": "speed-champions",
+   "age": 9,
+   "pieces": 345,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte17e3046698381dd/blt2e5240070ad5f2ec-77262_Prod_en-gb.png"
   },
   {
    "set": "77264",
@@ -1272,7 +1439,10 @@
    "strikethrough": 54.99,
    "asin": "B0GGSHJWPS",
    "name": "Jaguar Project 7 en Land Rover Defender",
-   "theme": "speed-champions"
+   "theme": "speed-champions",
+   "age": 10,
+   "pieces": 740,
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte0ad32fa5493eb4e/bltfd5a25913938ff1d-77264_Prod_en-gb.png"
   }
  ]
 }

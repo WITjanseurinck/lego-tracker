@@ -9,10 +9,11 @@ declare global {
 
 const KEY = 'consent-analytics';
 
-function push(...args: unknown[]) {
-  (window.dataLayer = window.dataLayer || []).push(args as unknown as object);
+// gtag.js en GTM verwachten het "arguments"-object in de dataLayer, geen gewone array.
+function gtag(..._args: unknown[]) {
+  // eslint-disable-next-line prefer-rest-params
+  (window.dataLayer = window.dataLayer || []).push(arguments);
 }
-const gtag = (...args: unknown[]) => push(...args);
 
 function applyConsent(granted: boolean) {
   const v = granted ? 'granted' : 'denied';
@@ -20,49 +21,57 @@ function applyConsent(granted: boolean) {
 }
 
 /**
- * Google Tag Manager met Consent Mode v2: alles staat standaard op "denied" tot de bezoeker accepteert.
+ * Google Tag Manager of rechtstreeks Google Analytics 4 (gtag.js), met Consent Mode v2: alles staat standaard op "denied" tot de bezoeker accepteert.
  * Stuurt een virtual_pageview bij elke navigatie en een affiliate_click bij elke link naar een shop.
  */
-export function Gtm({ id }: { id: string }) {
+export function Gtm({ id, ga }: { id?: string; ga?: string }) {
   const pathname = usePathname();
   const search = useSearch();
   const first = useRef(true);
   const [ask, setAsk] = useState(false);
 
   useEffect(() => {
-    if (document.getElementById('gtm-js')) return;
+    if (document.getElementById('gtm-js') || document.getElementById('ga-js')) return;
     window.dataLayer = window.dataLayer || [];
     gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500 });
     let stored: string | null = null;
     try { stored = localStorage.getItem(KEY); } catch { /* geen opslag beschikbaar */ }
     if (stored === 'granted') applyConsent(true);
     if (stored === null) setAsk(true);
-    window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
     const s = document.createElement('script');
-    s.id = 'gtm-js';
     s.async = true;
-    s.src = `https://www.googletagmanager.com/gtm.js?id=${encodeURIComponent(id)}`;
+    if (id) {
+      window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
+      s.id = 'gtm-js';
+      s.src = `https://www.googletagmanager.com/gtm.js?id=${encodeURIComponent(id)}`;
+    } else if (ga) {
+      s.id = 'ga-js';
+      s.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(ga)}`;
+      gtag('js', new Date());
+      gtag('config', ga, { send_page_view: false });
+      gtag('event', 'page_view', { page_path: window.location.pathname + window.location.search, page_title: document.title });
+    } else return;
     document.head.appendChild(s);
-  }, [id]);
+  }, [id, ga]);
 
   useEffect(() => {
     if (first.current) { first.current = false; return; }
-    (window.dataLayer = window.dataLayer || []).push({
-      event: 'virtual_pageview', page_path: window.location.pathname + window.location.search, page_title: document.title,
-    });
-  }, [pathname, search]);
+    const info = { page_path: window.location.pathname + window.location.search, page_title: document.title };
+    if (id) (window.dataLayer = window.dataLayer || []).push({ event: 'virtual_pageview', ...info });
+    else gtag('event', 'page_view', info);
+  }, [pathname, search, id]);
 
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
       const a = (e.target as Element | null)?.closest?.('a[rel~="sponsored"]') as HTMLAnchorElement | null;
       if (!a) return;
-      (window.dataLayer = window.dataLayer || []).push({
-        event: 'affiliate_click', link_url: a.href, link_text: a.textContent?.trim(), page_path: window.location.pathname,
-      });
+      const info = { link_url: a.href, link_text: a.textContent?.trim(), shop: a.dataset.affiliate, page_path: window.location.pathname };
+      if (id) (window.dataLayer = window.dataLayer || []).push({ event: 'affiliate_click', ...info });
+      else gtag('event', 'affiliate_click', info);
     };
     document.addEventListener('click', onClick);
     return () => document.removeEventListener('click', onClick);
-  }, []);
+  }, [id]);
 
   const choose = (granted: boolean) => {
     try { localStorage.setItem(KEY, granted ? 'granted' : 'denied'); } catch { /* negeren */ }

@@ -37,6 +37,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const home = `${SITE_URL}${localizePath(locale, '/')}`.replace(/\/$/, '');
   const theme = { '--accent': VERTICAL.accent } as CSSProperties;
   const gtmId = process.env.GTM_ID;
+  // Het meet-ID van GA4 staat ook in elke pagina-bron. Met GTM_ID ingesteld loopt alles via GTM.
+  const gaId = gtmId ? undefined : process.env.GA_ID || 'G-733CL2WZSR';
   return (
     <html lang={locale} style={theme}>
       <head>
@@ -86,6 +88,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             </noscript>
             <Suspense fallback={null}><Gtm id={gtmId} /></Suspense>
           </>
+        ) : gaId ? (
+          <Suspense fallback={null}><Gtm ga={gaId} /></Suspense>
         ) : null}
       </body>
     </html>

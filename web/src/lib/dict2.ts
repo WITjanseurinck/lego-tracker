@@ -133,6 +133,13 @@ const D = {
       keywordPh: 'bijv. dino, auto, film',
       age: 'Leeftijd',
       ageHelp: 'Leeftijd van wie de set krijgt. We tonen sets die daarvoor geschikt zijn.',
+      time: 'Bouwtijd',
+      timeHelp: 'Hoeveel tijd wil je aan de set besteden? Een schatting op basis van het aantal stukjes.',
+      anyTime: 'Maakt niet uit',
+      timeNone: (b: string, t: string) => `Een set van ${t} onder ${b} bestaat niet. Dit komt het dichtst.`,
+      nearTime: (t: string, p: string) => `Wil je ${t} bouwen? Dan betaal je minstens ${p}.`,
+      nearBudget: (b: string, t: string) => `Wil je onder ${b} blijven? Dan bouw je hooguit ${t}.`,
+      timePh: 'bijv. 8',
       agePh: 'bijv. 9',
       submit: 'Toon sets',
       results: (n: number) => (n === 1 ? '1 set gevonden' : `${n} sets gevonden`),
@@ -177,6 +184,13 @@ const D = {
       keywordPh: 'ex. dino, voiture, film',
       age: 'Âge',
       ageHelp: 'Âge de la personne qui recevra le set. Nous affichons les sets adaptés.',
+      time: 'Temps de montage',
+      timeHelp: 'Combien de temps voulez-vous y consacrer ? Estimation basée sur le nombre de pièces.',
+      anyTime: "Peu importe",
+      timeNone: (b: string, t: string) => `Un set de ${t} à moins de ${b} n'existe pas. Voici ce qui s'en rapproche le plus.`,
+      nearTime: (t: string, p: string) => `Envie de ${t} de montage ? Comptez au moins ${p}.`,
+      nearBudget: (b: string, t: string) => `Envie de rester sous ${b} ? Vous construirez au plus ${t}.`,
+      timePh: 'ex. 8',
       agePh: 'ex. 9',
       submit: 'Afficher les sets',
       results: (n: number) => (n === 1 ? '1 set trouvé' : `${n} sets trouvés`),
@@ -221,6 +235,13 @@ const D = {
       keywordPh: 'e.g. dino, car, film',
       age: 'Age',
       ageHelp: 'Age of the person who will get the set. We show sets that suit that age.',
+      time: 'Build time',
+      timeHelp: 'How much time do you want to spend building? An estimate based on the piece count.',
+      anyTime: 'Any',
+      timeNone: (b: string, t: string) => `A set of ${t} under ${b} does not exist. This comes closest.`,
+      nearTime: (t: string, p: string) => `Want ${t} of building? Then you pay at least ${p}.`,
+      nearBudget: (b: string, t: string) => `Want to stay under ${b}? Then you build at most ${t}.`,
+      timePh: 'e.g. 8',
       agePh: 'e.g. 9',
       submit: 'Show sets',
       results: (n: number) => (n === 1 ? '1 set found' : `${n} sets found`),
@@ -240,7 +261,7 @@ export const inBudget = (b: Budget, price: number) =>
 
 /** Schatting van de bouwtijd als bereik: Technic gaat trager dan gewone sets. */
 export function buildTimeRange(pieces: number, theme: string, hours: string, minutes: string): string {
-  const mid = pieces / (theme === 'technic' ? 300 : 400);
+  const mid = buildHours(pieces, theme);
   const lo = mid * 0.83;
   const hi = mid * 1.17;
   if (hi < 1.5) {
@@ -251,3 +272,17 @@ export function buildTimeRange(pieces: number, theme: string, hours: string, min
   const a = r(lo), b = r(hi);
   return a === b ? `${a} ${hours}` : `${a}-${b} ${hours}`;
 }
+
+/** Midden van de geschatte bouwtijd in uren. */
+export function buildHours(pieces: number, theme: string): number {
+  return pieces / (theme === 'technic' ? 300 : 400);
+}
+
+export const TIME_RANGES = [
+  { v: '0-1', lo: 0, hi: 1, nl: 'tot 1 uur', fr: "jusqu'à 1 h", en: 'up to 1 hour' },
+  { v: '1-3', lo: 1, hi: 3, nl: '1 tot 3 uur', fr: '1 à 3 h', en: '1 to 3 hours' },
+  { v: '3-6', lo: 3, hi: 6, nl: '3 tot 6 uur', fr: '3 à 6 h', en: '3 to 6 hours' },
+  { v: '6-10', lo: 6, hi: 10, nl: '6 tot 10 uur', fr: '6 à 10 h', en: '6 to 10 hours' },
+  { v: '10-15', lo: 10, hi: 15, nl: '10 tot 15 uur', fr: '10 à 15 h', en: '10 to 15 hours' },
+  { v: '15-99', lo: 15, hi: 99, nl: 'meer dan 15 uur', fr: 'plus de 15 h', en: 'more than 15 hours' },
+] as const;

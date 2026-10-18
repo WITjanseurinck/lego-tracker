@@ -256,3 +256,5 @@ figure.herofig figcaption { margin-top: 8px; font-size: 14px; color: var(--muted
 .facts li + li::before { content: '·'; margin-right: 20px; color: var(--muted); }
 .about { max-width: 66ch; }
 .about p { font-size: 18px; line-height: 1.65; }
+.near{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;align-items:start}
+.nearnote{font-weight:600;margin:0 0 10px}

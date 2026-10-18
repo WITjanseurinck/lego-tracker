@@ -170,6 +170,160 @@
    "price": 41.99,
    "strikethrough": 59.99,
    "asin": "B0DWDGVHM6"
+  },
+  {
+   "set": "10342",
+   "name": "Botanicals Roze boeket",
+   "price": 41.95,
+   "strikethrough": 59.99,
+   "asin": "B0DHSDBVKV"
+  },
+  {
+   "set": "11379",
+   "name": "Icons Boekensteun: Boekhandel",
+   "price": 105.59,
+   "strikethrough": 129.99,
+   "asin": "B0GGSPBN1L"
+  },
+  {
+   "set": "11502",
+   "name": "Botanicals Boeket met zonnebloemen",
+   "price": 38.99,
+   "strikethrough": 59.99,
+   "asin": "B0FPXGD4DQ"
+  },
+  {
+   "set": "21584",
+   "name": "Minecraft Reis naar de Nether en het End-portaal",
+   "price": 13.44,
+   "strikethrough": 14.99,
+   "asin": "B0FPVT5TFR"
+  },
+  {
+   "set": "31165",
+   "name": "Creator 3-in-1 Pandafamilie",
+   "price": 26.99,
+   "strikethrough": 39.99,
+   "asin": "B0DHSF89CQ"
+  },
+  {
+   "set": "31167",
+   "name": "Creator 3-in-1 Spookhuis",
+   "price": 56.98,
+   "strikethrough": 89.99,
+   "asin": "B0DWDY9WHQ"
+  },
+  {
+   "set": "31168",
+   "name": "Creator 3-in-1 Middeleeuws kasteel",
+   "price": 78.99,
+   "strikethrough": 119.99,
+   "asin": "B0DWDT5BQ9"
+  },
+  {
+   "set": "31170",
+   "name": "Creator 3-in-1 Wilde dieren: roze flamingo",
+   "price": 18.83,
+   "strikethrough": 24.99,
+   "asin": "B0DHSGF8FD"
+  },
+  {
+   "set": "31218",
+   "name": "Art Landschap met Japanse kersenbloesems",
+   "price": 83.99,
+   "strikethrough": 119.99,
+   "asin": "B0FPXFJKPN"
+  },
+  {
+   "set": "31387",
+   "name": "Creator 3-in-1 Klassiek piratenschip",
+   "price": 62.99,
+   "strikethrough": 99.99,
+   "asin": "B0FPXGBPR6"
+  },
+  {
+   "set": "31389",
+   "name": "Creator 3-in-1 Klassiek reuzenrad, UFO-attractie en zweefmolen",
+   "price": 59.99,
+   "strikethrough": 89.99,
+   "asin": "B0FPXD6FNL"
+  },
+  {
+   "set": "42213",
+   "name": "Technic Ford Bronco SUV",
+   "price": 39.99,
+   "strikethrough": 59.99,
+   "asin": "B0DWDQ8BN5"
+  },
+  {
+   "set": "42676",
+   "name": "Friends Leuke dag in het waterpark",
+   "price": 20.99,
+   "strikethrough": 29.99,
+   "asin": "B0FPXGQ1DK"
+  },
+  {
+   "set": "42695",
+   "name": "Friends Trailer met paard en veulen",
+   "price": 19.99,
+   "strikethrough": 29.99,
+   "asin": "B0FPXCTVTW"
+  },
+  {
+   "set": "43017",
+   "name": "Editions McLaren F1 Team, helm van Oscar Piastri",
+   "price": 59.99,
+   "strikethrough": 89.99,
+   "asin": "B0FWNMT9X6"
+  },
+  {
+   "set": "43019",
+   "name": "Editions Voetbal",
+   "price": 84.98,
+   "strikethrough": 119.99,
+   "asin": "B0FPXFDJ1H"
+  },
+  {
+   "set": "43022",
+   "name": "Editions Scuderia Ferrari HP, helm van Lewis Hamilton",
+   "price": 54.99,
+   "strikethrough": 89.99,
+   "asin": "B0FPXFB54W"
+  },
+  {
+   "set": "43023",
+   "name": "Editions McLaren F1 Team, helm van Lando Norris",
+   "price": 59.99,
+   "strikethrough": 89.99,
+   "asin": "B0FPXFT73X"
+  },
+  {
+   "set": "60454",
+   "name": "City Avontuurlijke camper",
+   "price": 22.58,
+   "strikethrough": 29.99,
+   "asin": "B0DHSD643W"
+  },
+  {
+   "set": "60498",
+   "name": "City Tractor",
+   "price": 15.95,
+   "strikethrough": 19.99,
+   "asin": "B0FPXGS8Z3"
+  },
+  {
+   "set": "71863",
+   "name": "NINJAGO Zilvar en Grimtak het drakenbeest",
+   "price": 16.99,
+   "strikethrough": 19.99,
+   "asin": "B0FPXDVDFR"
+  },
+  {
+   "set": "72152",
+   "name": "Pokémon Pikachu en Poké Ball",
+   "price": 115.0,
+   "strikethrough": 199.99,
+   "asin": "B0FPXGC6YG"
   }
  ]
 }

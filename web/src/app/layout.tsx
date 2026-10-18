@@ -3,7 +3,7 @@ import type { CSSProperties } from 'react';
 import type { Metadata, Viewport } from 'next';
 import Link from 'next/link';
 import './globals.css';
-import { SITE_NAME, SITE_URL } from '@/lib/site';
+import { NOINDEX, SITE_NAME, SITE_URL } from '@/lib/site';
 import { VERTICAL } from '@/verticals';
 import { LogoMark } from '@/components/Logo';
 import { Gtm } from '@/components/Gtm';
@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: { default: `${SITE_NAME}: ${VERTICAL.tagline}`, template: `%s | ${SITE_NAME}` },
   description: VERTICAL.description,
+  applicationName: SITE_NAME,
+  alternates: { canonical: '/' },
   // Nodig voor grote beelden in Google Discover
   robots: {
     index: true,
@@ -33,7 +35,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200..800&display=swap" />
-        {process.env.DEMO === '1' ? <meta name="robots" content="noindex, nofollow" /> : null}
+        {NOINDEX ? <meta name="robots" content="noindex, nofollow" /> : null}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@graph': [
+            { '@type': 'WebSite', '@id': `${SITE_URL}/#website`, url: SITE_URL, name: SITE_NAME, inLanguage: VERTICAL.locale, description: VERTICAL.description, potentialAction: { '@type': 'SearchAction', target: `${SITE_URL}/zoeken?q={search_term_string}`, 'query-input': 'required name=search_term_string' } },
+            { '@type': 'Organization', '@id': `${SITE_URL}/#org`, name: SITE_NAME, url: SITE_URL, logo: `${SITE_URL}/icon` },
+          ] }) }}
+        />
       </head>
       <body>
         <header className="site">

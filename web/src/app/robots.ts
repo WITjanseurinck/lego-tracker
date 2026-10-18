@@ -1,10 +1,13 @@
 import type { MetadataRoute } from 'next';
-import { SITE_URL } from '@/lib/site';
+
+export const dynamic = 'force-dynamic';
+import { NOINDEX, SITE_URL } from '@/lib/site';
 
 export default function robots(): MetadataRoute.Robots {
-  if (process.env.DEMO === '1') return { rules: [{ userAgent: '*', disallow: '/' }] };
+  if (NOINDEX) return { rules: [{ userAgent: '*', disallow: '/' }] };
   return {
     rules: [{ userAgent: '*', allow: '/', disallow: ['/alert/', '/verlanglijst'] }],
     sitemap: `${SITE_URL}/sitemap.xml`,
+    host: SITE_URL,
   };
 }

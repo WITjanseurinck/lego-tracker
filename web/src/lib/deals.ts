@@ -53,3 +53,7 @@ export function getCompareDeals(): CompareDeal[] {
   // Eerst sets die in beide shops staan (echte vergelijking), daarna op korting
   return out.sort((a, b) => b.offers.length - a.offers.length || b.bestDiscount - a.bestDiscount);
 }
+
+export function getCompareDeal(set: string): CompareDeal | undefined {
+  return getCompareDeals().find((d) => d.set === set);
+}

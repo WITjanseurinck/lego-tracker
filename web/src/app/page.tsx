@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ProductCard } from '@/components/ProductCard';
 import { StudMeter } from '@/components/StudMeter';
@@ -10,9 +11,22 @@ import { getArticles, getDeals, getThemes } from '@/lib/data';
 import { formatDate, formatEur } from '@/lib/format';
 import { productImageUrl } from '@/lib/images';
 import { photoTint } from '@/lib/themes';
+import { SITE_NAME, SITE_URL } from '@/lib/site';
 import { VERTICAL } from '@/verticals';
 
 export const dynamic = 'force-dynamic';
+
+export const metadata: Metadata = {
+  title: { absolute: `Lego prijzen vergelijken in België: bol en Amazon | ${SITE_NAME}` },
+  description: 'Vergelijk de prijs van Lego-sets bij bol en Amazon in België. Dagelijkse deals, de goedkoopste shop per set en de korting ten opzichte van de doorstreepprijs.',
+  alternates: { canonical: '/' },
+  openGraph: {
+    title: `Lego prijzen vergelijken in België: bol en Amazon | ${SITE_NAME}`,
+    description: 'Elke Lego-set bij bol en Amazon naast elkaar, met de goedkoopste prijs bovenaan.',
+    url: '/',
+    type: 'website',
+  },
+};
 
 export default async function Home() {
   const [{ deals, error }, articles, themes] = await Promise.all([getDeals(), getArticles(3), getThemes()]);
@@ -24,14 +38,30 @@ export default async function Home() {
   const firstImg = first ? productImageUrl(first.image_path) : null;
   const disc = first?.discount_pct ? Math.round(Number(first.discount_pct)) : null;
 
+  const itemList = useBol
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: 'LEGO-deals vergeleken bij bol en Amazon',
+        itemListElement: compare.slice(0, 24).map((d, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          url: `${SITE_URL}/set/${d.set}`,
+          name: `LEGO ${d.set} ${d.name}`,
+        })),
+      }
+    : null;
+
   return (
     <>
+      <h1 className="sr-only">Lego prijzen vergelijken in België: bol en Amazon naast elkaar</h1>
+      {itemList ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemList) }} /> : null}
       {useBol && hero ? (
         <section className="hero">
           <div className="grid2">
             <div className="text">
               <div className="kicker">Prijsvergelijking van vandaag · {hero.set}</div>
-              <h1>{hero.name}</h1>
+              <h2 className="title"><Link href={`/set/${hero.set}`}>{hero.name}</Link></h2>
               <ul className="offers heroOffers">
                 {hero.offers.map((o, i) => (
                   <li key={o.shop} className={i === 0 ? 'best' : undefined}>
@@ -52,7 +82,7 @@ export default async function Home() {
           <div className="grid2">
             <div className="text">
               <div className="kicker">Selectie van vandaag{first.category ? ` · ${first.category}` : ''}</div>
-              <h1>{first.name}</h1>
+              <h2 className="title">{first.name}</h2>
               <div className="pr">
                 <span className="price">{formatEur(first.price_eur)}</span>
                 {first.rrp_eur ? <span className="rrp">{formatEur(first.rrp_eur)}</span> : null}

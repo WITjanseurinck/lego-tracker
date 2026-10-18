@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { formatEur } from '@/lib/format';
 import type { CompareDeal } from '@/lib/deals';
 
@@ -7,13 +8,13 @@ export function CompareCard({ deal, tint = '#1E55A8' }: { deal: CompareDeal; tin
   const saving = second ? second.price - best.price : 0;
   return (
     <article className="tile">
-      <a href={best.url} className="pic" style={{ background: tint }} aria-label={`LEGO ${deal.set} ${deal.name}`} target="_blank" rel="sponsored noopener">
+      <Link href={`/set/${deal.set}`} className="pic" style={{ background: tint }} aria-label={`LEGO ${deal.set} ${deal.name}, prijzen vergelijken`}>
         {deal.image ? <img src={deal.image} alt={`LEGO ${deal.set} ${deal.name}`} loading="lazy" referrerPolicy="no-referrer" /> : <span className="none">LEGO {deal.set}</span>}
         {deal.bestDiscount > 0 ? <span className="flag">-{deal.bestDiscount}%</span> : null}
-      </a>
+      </Link>
       <div className="info">
         <div className="num">{deal.set}</div>
-        <a href={best.url} className="name" target="_blank" rel="sponsored noopener">{deal.name}</a>
+        <Link href={`/set/${deal.set}`} className="name">{deal.name}</Link>
         <ul className="offers">
           {deal.offers.map((o, i) => (
             <li key={o.shop} className={i === 0 ? 'best' : undefined}>

@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { articlePaths, findArticleBySlug } from '@/lib/articles';
+import { articleHeroSet, articlePaths, findArticleBySlug } from '@/lib/articles';
+import { getCompareDeal } from '@/lib/deals';
 import { formatDate } from '@/lib/format';
 import { getI18n } from '@/lib/i18n-server';
 import { LOCALE_TAG, localizePath } from '@/lib/i18n';
@@ -38,6 +39,7 @@ export default async function Gids({ params }: Params) {
   if (!a) notFound();
   const x = a.text[locale];
   const url = `${SITE_URL}${localizePath(locale, articlePaths(a)[locale])}`;
+  const hero = getCompareDeal(articleHeroSet(a) ?? '');
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -75,6 +77,12 @@ export default async function Gids({ params }: Params) {
         {t.guides.published(formatDate(a.published, locale))}
         {formatDate(a.updated, locale) !== formatDate(a.published, locale) ? t.guides.updated(formatDate(a.updated, locale)) : ''}
       </p>
+      {hero?.image ? (
+        <figure className="herofig">
+          <Link href={href(`/set/${hero.set}`)}><img src={hero.image} alt={`LEGO ${hero.set} ${hero.name}`} referrerPolicy="no-referrer" /></Link>
+          <figcaption><Link href={href(`/set/${hero.set}`)}>LEGO {hero.set} {hero.name}</Link></figcaption>
+        </figure>
+      ) : null}
       {x.body.map((b, i) =>
         'h2' in b ? <h2 key={i}>{b.h2}</h2>
         : 'ul' in b ? <ul key={i}>{b.ul.map((li, j) => <li key={j}>{li}</li>)}</ul>

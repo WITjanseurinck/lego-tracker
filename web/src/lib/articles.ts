@@ -31,3 +31,8 @@ export const findArticleBySlug = (locale: Locale, slug: string) =>
 export function articlePaths(a: Article): Record<Locale, string> {
   return { nl: `/gids/${a.text.nl.slug}`, fr: `/gids/${a.text.fr.slug}`, en: `/gids/${a.text.en.slug}` };
 }
+
+/** Set waarvan de productfoto bij een gids hoort. De foto komt uit de prijsdata, dus hij volgt mee als die wisselt. */
+const HERO_SET: Record<string, string> = { 'when-to-buy': '42206', 'age-guide': '31387', 'price-per-piece': '75419' };
+
+export const articleHeroSet = (a: Article): string | undefined => HERO_SET[a.id];

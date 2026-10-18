@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { CompareCard } from '@/components/CompareCard';
 import { amazonFetchedAt } from '@/lib/amazon';
 import { bolFetchedAt } from '@/lib/bol';
-import { getCompareDeals } from '@/lib/deals';
-import { allArticles } from '@/lib/articles';
+import { getCompareDeal, getCompareDeals } from '@/lib/deals';
+import { allArticles, articleHeroSet } from '@/lib/articles';
 import { getI18n } from '@/lib/i18n-server';
 import { pageMeta } from '@/lib/seo';
 import { shopDates } from '@/lib/dict';
@@ -63,10 +63,12 @@ export default async function Home() {
               <ul className="offers heroOffers">
                 {hero.offers.map((o, i) => (
                   <li key={o.shop} className={i === 0 && (hero.offers.length < 2 || hero.offers[1].price - hero.offers[0].price >= 0.005) ? 'best' : undefined}>
-                    <span className="shop">{o.shop}</span>
-                    <span className="price">{eur(o.price)}</span>
-                    {o.strikethrough && o.strikethrough > o.price ? <span className="rrp">{eur(o.strikethrough)}</span> : null}
-                    <a href={o.url} className="btn dark" target="_blank" rel="sponsored noopener" data-affiliate={o.shop.toLowerCase()}>{t.home.viewAt(o.shop)}</a>
+                    <a href={o.url} className="pill" target="_blank" rel="sponsored noopener" data-affiliate={o.shop.toLowerCase()}>
+                      <span className="shop">{o.shop}</span>
+                      <span className="price">{eur(o.price)}</span>
+                      <span className="rrp">{o.strikethrough && o.strikethrough > o.price ? eur(o.strikethrough) : ''}</span>
+                      <span className="btn dark">{t.home.viewAt(o.shop)}</span>
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -118,7 +120,12 @@ export default async function Home() {
             {articles.map((a, i) => (
               <article className="art" key={a.id}>
                 <Link href={href(`/gids/${a.text[locale].slug}`)}>
-                  <div className="pic" style={{ background: photoTint(i + 2) }} />
+                  <div className="pic" style={{ background: photoTint(i + 2) }}>
+                    {(() => {
+                      const d = getCompareDeal(articleHeroSet(a) ?? '');
+                      return d?.image ? <img src={d.image} alt={`LEGO ${d.set} ${d.name}`} loading="lazy" referrerPolicy="no-referrer" /> : null;
+                    })()}
+                  </div>
                   <p className="date">{formatDate(a.published, locale)}</p>
                   <h3>{a.text[locale].title}</h3>
                 </Link>

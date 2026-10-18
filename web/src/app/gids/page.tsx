@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { allArticles } from '@/lib/articles';
+import { allArticles, articleHeroSet } from '@/lib/articles';
+import { getCompareDeal } from '@/lib/deals';
 import { formatDate } from '@/lib/format';
 import { getI18n } from '@/lib/i18n-server';
 import { pageMeta } from '@/lib/seo';
@@ -25,7 +26,12 @@ export default async function Gidsen() {
         {articles.map((a, i) => (
           <article className="art" key={a.id}>
             <Link href={href(`/gids/${a.text[locale].slug}`)}>
-              <div className="pic" style={{ background: photoTint(i) }} />
+              <div className="pic" style={{ background: photoTint(i) }}>
+                {(() => {
+                  const d = getCompareDeal(articleHeroSet(a) ?? '');
+                  return d?.image ? <img src={d.image} alt={`LEGO ${d.set} ${d.name}`} loading="lazy" referrerPolicy="no-referrer" /> : null;
+                })()}
+              </div>
               <p className="date">{formatDate(a.published, locale)}</p>
               <h3>{a.text[locale].title}</h3>
             </Link>

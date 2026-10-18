@@ -12,7 +12,7 @@ export const THEMES: Record<string, ThemeInfo> = {
   technic: {
     name: { nl: 'Technic', fr: 'Technic', en: 'Technic' },
     blurb: {
-      nl: 'Auto’s, motoren, F1-wagens en machines met bewegende onderdelen. Technic-sets zijn groot en kosten veel, dus een paar tientjes verschil is hier snel gevonden.',
+      nl: 'Auto’s, motoren, F1-wagens en machines met bewegende onderdelen. Technic-sets zijn groot en duur. Een verschil van enkele tientallen euro’s tussen shops komt hier vaak voor.',
       fr: 'Voitures, motos, F1 et engins avec pièces mobiles. Les sets Technic sont grands et chers : quelques dizaines d’euros d’écart se trouvent vite.',
       en: 'Cars, motorbikes, F1 cars and machines with moving parts. Technic sets are big and expensive, so a difference of a few tens of euros is easy to find.',
     },
@@ -20,7 +20,7 @@ export const THEMES: Record<string, ThemeInfo> = {
   'speed-champions': {
     name: { nl: 'Speed Champions', fr: 'Speed Champions', en: 'Speed Champions' },
     blurb: {
-      nl: 'Compacte modellen van echte sportwagens en F1-auto’s, ideaal om te verzamelen. Kleine sets, dus let op de prijs per stuk.',
+      nl: 'Compacte modellen van echte sportwagens en F1-auto’s. Handig om te verzamelen. Het zijn kleine sets, dus let op de prijs per set.',
       fr: 'Modèles compacts de vraies voitures de sport et de F1, parfaits à collectionner. Petits sets : surveillez le prix à l’unité.',
       en: 'Compact models of real sports cars and F1 cars, great to collect. Small sets, so keep an eye on the price per set.',
     },
@@ -28,7 +28,7 @@ export const THEMES: Record<string, ThemeInfo> = {
   creator: {
     name: { nl: 'Creator 3-in-1', fr: 'Creator 3-en-1', en: 'Creator 3-in-1' },
     blurb: {
-      nl: 'Eén set, drie modellen: je bouwt het ene en kan daarna het andere maken. Veel bouwplezier voor weinig geld.',
+      nl: 'Eén set, drie modellen. Je bouwt het ene en bouwt het daarna om tot het andere. Veel bouwplezier voor weinig geld.',
       fr: 'Un set, trois modèles : on construit l’un puis on peut refaire l’autre. Beaucoup de plaisir de construction pour peu d’argent.',
       en: 'One set, three models: build one, then rebuild it into another. A lot of building fun for little money.',
     },
@@ -36,7 +36,7 @@ export const THEMES: Record<string, ThemeInfo> = {
   icons: {
     name: { nl: 'Icons', fr: 'Icons', en: 'Icons' },
     blurb: {
-      nl: 'Grote displaysets voor volwassenen: klassieke auto’s, gebouwen, film en muziek. Hier loopt de prijs snel op, vergelijken loont.',
+      nl: 'Grote displaysets voor volwassenen: klassieke auto’s, gebouwen, film en muziek. De prijzen lopen hier snel op, dus vergelijken loont.',
       fr: 'Grands sets d’exposition pour adultes : voitures classiques, bâtiments, cinéma et musique. Les prix grimpent vite, comparer vaut la peine.',
       en: 'Large display sets for adults: classic cars, buildings, film and music. Prices climb quickly here, so comparing pays off.',
     },
@@ -44,7 +44,7 @@ export const THEMES: Record<string, ThemeInfo> = {
   ideas: {
     name: { nl: 'Ideas', fr: 'Ideas', en: 'Ideas' },
     blurb: {
-      nl: 'Sets die door fans bedacht zijn en door LEGO werden uitgekozen: van film tot dieren en hobby’s.',
+      nl: 'Sets die fans bedachten en LEGO koos: van film en dieren tot hobby’s.',
       fr: 'Des sets imaginés par des fans et retenus par LEGO : du cinéma aux animaux et aux loisirs.',
       en: 'Sets designed by fans and picked by LEGO: from film to animals and hobbies.',
     },
@@ -52,7 +52,7 @@ export const THEMES: Record<string, ThemeInfo> = {
   'star-wars': {
     name: { nl: 'Star Wars', fr: 'Star Wars', en: 'Star Wars' },
     blurb: {
-      nl: 'Schepen, helmen, droids en de grote UCS-sets. Star Wars-sets zijn duur en worden vaak afgeprijsd, dus de moeite om te vergelijken.',
+      nl: 'Schepen, helmen, droids en de grote UCS-sets. Ze zijn duur en vaak afgeprijsd, dus het loont om te vergelijken.',
       fr: 'Vaisseaux, casques, droïdes et grands sets UCS. Les sets Star Wars sont chers et souvent soldés : comparer en vaut la peine.',
       en: 'Ships, helmets, droids and the big UCS sets. Star Wars sets are pricey and often discounted, so comparing is worth it.',
     },
@@ -60,7 +60,7 @@ export const THEMES: Record<string, ThemeInfo> = {
   'harry-potter': {
     name: { nl: 'Harry Potter', fr: 'Harry Potter', en: 'Harry Potter' },
     blurb: {
-      nl: 'Zweinstein, de Wegisweg en andere plekken uit de films, van kleine sets tot het grote kasteel.',
+      nl: 'Zweinstein, de Wegisweg en andere plekken uit de films. Van kleine sets tot het grote kasteel.',
       fr: 'Poudlard, le Chemin de Traverse et d’autres lieux des films, du petit set au grand château.',
       en: 'Hogwarts, Diagon Alley and other places from the films, from small sets to the big castle.',
     },
@@ -101,14 +101,14 @@ const D = {
   nl: {
     themesLabel: 'Thema’s',
     themesTitle: 'LEGO-thema’s: vergelijk prijzen per reeks',
-    themesLead: 'Kies een thema en zie alle sets met de prijzen van bol en Amazon naast elkaar.',
+    themesLead: 'Kies een thema en zie alle sets met de prijzen van de Belgische webshops naast elkaar.',
     setsWord: 'sets',
     themeNav: 'Kies een reeks',
     moreIn: (n: string) => `Meer ${n}`,
     allThemes: 'Alle reeksen',
     themeH1: (n: string) => `LEGO ${n} goedkoopst kopen`,
-    themeTitle: (n: string) => `LEGO ${n}: prijzen vergelijken bij bol en Amazon`,
-    themeDesc: (n: string, c: number, from: string) => `${c} LEGO ${n}-sets met de prijzen van bol en Amazon.com.be naast elkaar, vanaf ${from}. Zie meteen waar elke set het goedkoopst is.`,
+    themeTitle: (n: string) => `LEGO ${n}: prijzen vergelijken bij de Belgische webshops`,
+    themeDesc: (n: string, c: number, from: string) => `${c} LEGO ${n}-sets met de prijzen van de Belgische webshops naast elkaar, vanaf ${from}. Zie meteen waar elke set het goedkoopst is.`,
     themeCount: (c: number, from: string, to: string) => `${c} sets, van ${from} tot ${to}`,
     themeCrumb: 'Reeksen',
     related: { title: 'Meer uit dezelfde reeks', intro: 'Andere sets uit deze reeks, goedkoper, even duur of duurder.', cheaper: 'Goedkoper', similar: 'Ongeveer even duur', pricier: 'Duurder', from: 'vanaf' },
@@ -116,8 +116,8 @@ const D = {
       nav: 'Keuzehulp',
       title: 'Keuzehulp: vind de juiste LEGO-set binnen je budget',
       h1: 'Vind de juiste LEGO-set',
-      lead: 'Alle velden zijn optioneel. Vul in wat je weet en zie meteen welke sets er in België te koop zijn, met de laagste prijs van bol en Amazon.',
-      desc: 'Zoek een LEGO-set op budget, reeks, zoekwoord en leeftijd en vergelijk meteen de prijzen bij bol en Amazon.com.be.',
+      lead: 'Alle velden zijn optioneel. Vul in wat je weet en zie meteen welke sets er in België te koop zijn, met de laagste prijs van de Belgische webshops.',
+      desc: 'Zoek een LEGO-set op budget, reeks, zoekwoord en leeftijd en vergelijk meteen de prijzen bij de Belgische webshops.',
       budget: 'Richtbudget (€)',
       budgetHelp: 'We tonen sets die ongeveer zoveel kosten, een beetje eronder en een beetje erboven.',
       budgetPh: 'bijv. 80',
@@ -139,14 +139,14 @@ const D = {
   fr: {
     themesLabel: 'Thèmes',
     themesTitle: 'Thèmes LEGO : comparez les prix par gamme',
-    themesLead: 'Choisissez un thème et voyez tous les sets avec les prix de bol et Amazon côte à côte.',
+    themesLead: 'Choisissez un thème et voyez tous les sets avec les prix des boutiques en ligne belges côte à côte.',
     setsWord: 'sets',
     themeNav: 'Choisir une gamme',
     moreIn: (n: string) => `Plus de ${n}`,
     allThemes: 'Toutes les gammes',
     themeH1: (n: string) => `LEGO ${n} au meilleur prix`,
-    themeTitle: (n: string) => `LEGO ${n} : comparer les prix chez bol et Amazon`,
-    themeDesc: (n: string, c: number, from: string) => `${c} sets LEGO ${n} avec les prix de bol et Amazon.com.be côte à côte, dès ${from}. Voyez tout de suite où chaque set est le moins cher.`,
+    themeTitle: (n: string) => `LEGO ${n} : comparer les prix dans les boutiques en ligne belges`,
+    themeDesc: (n: string, c: number, from: string) => `${c} sets LEGO ${n} avec les prix des boutiques en ligne belges côte à côte, dès ${from}. Voyez tout de suite où chaque set est le moins cher.`,
     themeCount: (c: number, from: string, to: string) => `${c} sets, de ${from} à ${to}`,
     themeCrumb: 'Gammes',
     related: { title: 'Plus dans la même gamme', intro: 'D’autres sets de cette gamme, moins chers, au même prix ou plus chers.', cheaper: 'Moins cher', similar: 'À peu près le même prix', pricier: 'Plus cher', from: 'dès' },
@@ -154,8 +154,8 @@ const D = {
       nav: 'Aide au choix',
       title: 'Aide au choix : trouvez le bon set LEGO dans votre budget',
       h1: 'Trouvez le bon set LEGO',
-      lead: 'Tous les champs sont facultatifs. Remplissez ce que vous savez et voyez tout de suite quels sets sont en vente en Belgique, avec le prix le plus bas entre bol et Amazon.',
-      desc: 'Cherchez un set LEGO par budget, gamme, mot-clé et âge et comparez tout de suite les prix chez bol et Amazon.com.be.',
+      lead: 'Tous les champs sont facultatifs. Remplissez ce que vous savez et voyez tout de suite quels sets sont en vente en Belgique, avec le prix le plus bas parmi les boutiques.',
+      desc: 'Cherchez un set LEGO par budget, gamme, mot-clé et âge et comparez tout de suite les prix dans les boutiques en ligne belges.',
       budget: 'Budget indicatif (€)',
       budgetHelp: 'Nous affichons les sets qui coûtent à peu près ce montant, un peu moins et un peu plus.',
       budgetPh: 'ex. 80',
@@ -177,14 +177,14 @@ const D = {
   en: {
     themesLabel: 'Themes',
     themesTitle: 'LEGO themes: compare prices per range',
-    themesLead: 'Pick a theme and see all its sets with bol and Amazon prices side by side.',
+    themesLead: 'Pick a theme and see all its sets with Belgian web shop prices side by side.',
     setsWord: 'sets',
     themeNav: 'Pick a range',
     moreIn: (n: string) => `More ${n}`,
     allThemes: 'All ranges',
     themeH1: (n: string) => `Buy LEGO ${n} for less`,
-    themeTitle: (n: string) => `LEGO ${n}: compare prices at bol and Amazon`,
-    themeDesc: (n: string, c: number, from: string) => `${c} LEGO ${n} sets with bol and Amazon.com.be prices side by side, from ${from}. See at a glance where each set is cheapest.`,
+    themeTitle: (n: string) => `LEGO ${n}: compare prices at Belgian web shops`,
+    themeDesc: (n: string, c: number, from: string) => `${c} LEGO ${n} sets with Belgian web shop prices side by side, from ${from}. See at a glance where each set is cheapest.`,
     themeCount: (c: number, from: string, to: string) => `${c} sets, from ${from} to ${to}`,
     themeCrumb: 'Ranges',
     related: { title: 'More from the same range', intro: 'Other sets in this range: cheaper, similarly priced or more expensive.', cheaper: 'Cheaper', similar: 'Similar price', pricier: 'More expensive', from: 'from' },
@@ -192,8 +192,8 @@ const D = {
       nav: 'Finder',
       title: 'Finder: pick the right LEGO set for your budget',
       h1: 'Find the right LEGO set',
-      lead: 'All fields are optional. Fill in what you know and see which sets are for sale in Belgium, with the lowest price from bol and Amazon.',
-      desc: 'Find a LEGO set by budget, range, keyword and age and compare prices at bol and Amazon.com.be right away.',
+      lead: 'All fields are optional. Fill in what you know and see which sets are for sale in Belgium, with the lowest price from the Belgian web shops.',
+      desc: 'Find a LEGO set by budget, range, keyword and age and compare prices at Belgian web shops right away.',
       budget: 'Target budget (€)',
       budgetHelp: 'We show sets that cost roughly this much: a little below and a little above.',
       budgetPh: 'e.g. 80',

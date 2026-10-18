@@ -2,7 +2,7 @@ import { amazonAffiliateUrl, getAmazonDeals } from '@/lib/amazon';
 import { bolAffiliateUrl, getBolDeals } from '@/lib/bol';
 
 export interface ShopOffer {
-  shop: 'bol' | 'Amazon';
+  shop: string; // bol, Amazon, en later andere shops
   price: number;
   strikethrough: number | null;
   url: string;
@@ -23,7 +23,7 @@ export interface CompareDeal {
 const sized = (url: string | null) =>
   url && url.startsWith('https://www.lego.com/cdn/') && !url.includes('?') ? `${url}?format=webply&fit=bounds&quality=80&width=640&height=640` : url;
 
-/** Voegt de aanbiedingen van bol en Amazon samen per setnummer. */
+/** Voegt de aanbiedingen van alle shops samen per setnummer. */
 export function getCompareDeals(): CompareDeal[] {
   const map = new Map<string, CompareDeal>();
   const get = (set: string, name: string, image: string | null, theme = 'overig', pieces: number | null = null, age: number | null = null) => {

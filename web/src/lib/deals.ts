@@ -1,5 +1,7 @@
 import { amazonAffiliateUrl, getAmazonDeals } from '@/lib/amazon';
 import { bolAffiliateUrl, getBolDeals } from '@/lib/bol';
+import descriptions from '@/data/descriptions.json';
+import type { Locale } from '@/lib/i18n';
 
 export interface ShopOffer {
   shop: string; // bol, Amazon, en later andere shops
@@ -17,6 +19,7 @@ export interface CompareDeal {
   theme: string;
   pieces: number | null;
   age: number | null;
+  desc: Partial<Record<Locale, string>> | null;
 }
 
 /** LEGO-afbeeldingen zijn tot 5000 px breed: laat de CDN ze verkleinen. */
@@ -29,7 +32,7 @@ export function getCompareDeals(): CompareDeal[] {
   const get = (set: string, name: string, image: string | null, theme = 'overig', pieces: number | null = null, age: number | null = null) => {
     let d = map.get(set);
     if (!d) {
-      d = { set, name, image, offers: [], bestDiscount: 0, theme, pieces, age };
+      d = { set, name, image, offers: [], bestDiscount: 0, theme, pieces, age, desc: (descriptions as Record<string, Partial<Record<Locale, string>>>)[set] ?? null };
       map.set(set, d);
     }
     if (!d.image && image) d.image = image;
@@ -72,6 +75,20 @@ export function dealsByTheme(theme: string): CompareDeal[] {
   return getCompareDeals().filter((d) => d.theme === theme);
 }
 
+/** Verwante reeksen, voor het geval een reeks te klein is om drie alternatieven te geven. */
+const THEME_FAMILY: Record<string, string[]> = {
+  overig: ['disney', 'ideas', 'editions'],
+  disney: ['overig', 'ideas', 'creator'],
+  ideas: ['icons', 'disney', 'overig', 'art'],
+  editions: ['speed-champions', 'icons', 'overig'],
+  botanicals: ['art', 'icons', 'architecture'],
+  art: ['botanicals', 'architecture', 'icons'],
+  architecture: ['art', 'icons', 'ideas'],
+  creator: ['disney', 'overig', 'ideas'],
+  city: ['creator', 'technic'],
+  'speed-champions': ['technic', 'editions'],
+};
+
 export type RelatedKind = 'cheaper' | 'similar' | 'pricier';
 export interface RelatedPick {
   kind: RelatedKind;
@@ -86,7 +103,12 @@ export function relatedByPrice(deal: CompareDeal): RelatedPick[] {
   const price = deal.offers[0].price;
   const all = getCompareDeals();
   let pool = all.filter((d) => d.theme === deal.theme && d.set !== deal.set);
-  if (pool.length < 4) pool = all.filter((d) => d.set !== deal.set);
+  // Kleine reeks: vul aan met verwante reeksen, nooit met willekeurige andere thema's.
+  if (pool.length < 4) {
+    const family = THEME_FAMILY[deal.theme] ?? [];
+    pool = all.filter((d) => d.set !== deal.set && (d.theme === deal.theme || family.includes(d.theme)));
+  }
+  if (pool.length === 0) return [];
   const p = (d: CompareDeal) => d.offers[0].price;
   pool.sort((a, b) => p(a) - p(b));
   const below = pool.filter((d) => p(d) < price - 0.005);

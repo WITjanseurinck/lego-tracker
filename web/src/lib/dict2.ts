@@ -99,6 +99,9 @@ export const themeName = (slug: string, l: Locale) => THEMES[slug]?.name[l] ?? s
 
 const D = {
   nl: {
+    aboutTitle: 'Over deze set',
+    piecesWord: 'stukjes',
+    ageFact: 'Vanaf {a} jaar',
     themesLabel: 'Thema’s',
     themesTitle: 'LEGO-thema’s: vergelijk prijzen per reeks',
     themesLead: 'Kies een thema en zie alle sets met de prijzen van de Belgische webshops naast elkaar.',
@@ -137,6 +140,9 @@ const D = {
     },
   },
   fr: {
+    aboutTitle: 'À propos de ce set',
+    piecesWord: 'pièces',
+    ageFact: 'Dès {a} ans',
     themesLabel: 'Thèmes',
     themesTitle: 'Thèmes LEGO : comparez les prix par gamme',
     themesLead: 'Choisissez un thème et voyez tous les sets avec les prix des boutiques en ligne belges côte à côte.',
@@ -175,6 +181,9 @@ const D = {
     },
   },
   en: {
+    aboutTitle: 'About this set',
+    piecesWord: 'pieces',
+    ageFact: 'Ages {a}+',
     themesLabel: 'Themes',
     themesTitle: 'LEGO themes: compare prices per range',
     themesLead: 'Pick a theme and see all its sets with Belgian web shop prices side by side.',

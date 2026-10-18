@@ -251,3 +251,8 @@ header.site nav .lang a[aria-current] { background: var(--ink); color: #fff; }
 figure.herofig { margin: 32px 0; }
 .prose figure.herofig img { margin: 0; background: #f3f1ec; padding: 24px; box-sizing: border-box; }
 figure.herofig figcaption { margin-top: 8px; font-size: 14px; color: var(--muted); }
+
+.facts { list-style: none; display: flex; flex-wrap: wrap; gap: 8px 20px; padding: 0; margin: 20px 0 0; font-size: 15px; }
+.facts li + li::before { content: '·'; margin-right: 20px; color: var(--muted); }
+.about { max-width: 66ch; }
+.about p { font-size: 18px; line-height: 1.65; }

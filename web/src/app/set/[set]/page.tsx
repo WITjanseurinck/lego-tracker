@@ -59,6 +59,7 @@ export default async function SetPage({ params }: Params) {
         inLanguage: tag,
         ...(deal.image ? { image: [deal.image] } : {}),
         url,
+        ...(deal.desc?.[locale] ? { description: deal.desc[locale]!.replace(/\n+/g, ' ') } : {}),
         offers: {
           '@type': 'AggregateOffer',
           priceCurrency: 'EUR',
@@ -116,9 +117,22 @@ export default async function SetPage({ params }: Params) {
               ))}
             </tbody>
           </table>
+          {deal.pieces || deal.age ? (
+            <ul className="facts">
+              {deal.pieces ? <li>{new Intl.NumberFormat(tag).format(deal.pieces)} {t2.piecesWord}</li> : null}
+              {deal.age ? <li>{t2.ageFact.replace('{a}', String(deal.age))}</li> : null}
+              {deal.theme !== 'overig' ? <li><Link href={href(`/thema/${deal.theme}`)}>{themeName(deal.theme, locale)}</Link></li> : null}
+            </ul>
+          ) : null}
           <p className="small">{t.set.note(shopDates(locale, formatDate(bolFetchedAt, locale), formatDate(amazonFetchedAt, locale)))}</p>
         </div>
       </div>
+      {deal.desc?.[locale] ? (
+        <section className="sec about">
+          <h2>{t2.aboutTitle}</h2>
+          {deal.desc[locale]!.split('\n\n').map((para, i) => <p key={i}>{para}</p>)}
+        </section>
+      ) : null}
       {related.length > 0 ? (
         <section className="sec">
           <h2>{t2.related.title}</h2>

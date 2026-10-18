@@ -97,7 +97,7 @@ export default async function SetPage({ params }: Params) {
         </div>
         <div>
           <p className="kicker">LEGO {deal.set}{deal.theme !== 'overig' ? <> · <Link href={href(`/thema/${deal.theme}`)}>{themeName(deal.theme, locale)}</Link></> : null}</p>
-          <h1>{t.set.heading(name)}</h1>
+          <h1>{t.set.heading(name.replace(/^LEGO /, 'LEGO® '))}</h1>
           <p className="lead">
             {t.set.leadA}<strong>{eur(best.price)}</strong>{t.set.leadB(best.shop)}
             {second ? (second.price - best.price < 0.005 ? t.set.tailSame(second.shop) : t.set.tailDiff(eur(second.price - best.price), second.shop)) : t.set.tailNone}

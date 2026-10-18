@@ -8,7 +8,7 @@ const nl = {
   homeAria: (site: string) => `${site}, naar de startpagina`,
   footer: [
     'De prijzen zijn een momentopname en kunnen intussen veranderd zijn. Controleer altijd de actuele prijs in de shop. Sommige links zijn affiliate links: jij betaalt niets extra, wij krijgen een kleine commissie.',
-    'buildthatset is een onafhankelijke site. LEGO®, DUPLO®, NINJAGO® en andere genoemde namen zijn handelsmerken van de LEGO Group, die deze site niet sponsort, goedkeurt of onderschrijft.',
+    'buildthatset is een onafhankelijke site. LEGO® en andere genoemde merknamen zijn handelsmerken van de LEGO Group, die deze site niet sponsort, goedkeurt of onderschrijft.',
   ],
   og: {
     kicker: 'Prijzen vergelijken in België',
@@ -21,7 +21,7 @@ const nl = {
     metaTitle: 'LEGO-prijzen vergelijken in België',
     metaDesc: 'Vergelijk de prijs van LEGO-sets bij de Belgische webshops in België en koop slim. Per set zie je meteen de goedkoopste shop en hoeveel je bespaart.',
     ogDesc: 'Elke LEGO-set bij de Belgische webshops naast elkaar, met de goedkoopste prijs bovenaan.',
-    h1: 'LEGO-prijzen vergelijken in België: de webshops naast elkaar',
+    h1: 'LEGO®-prijzen vergelijken in België: de webshops naast elkaar',
     kicker: 'Uitgelichte vergelijking',
     viewAt: (shop: string) => `Bekijk bij ${shop}`,
     searchCta: 'Zoek een set',
@@ -82,7 +82,7 @@ const nl = {
   guides: {
     metaTitle: 'Gidsen om LEGO slim te kopen',
     metaDesc: 'Praktische uitleg over LEGO-prijzen, shops en kortingen in België, zodat je weet waar en wanneer je best koopt.',
-    h1: 'Gidsen om LEGO slim te kopen',
+    h1: 'Gidsen om LEGO® slim te kopen',
     lead: 'Praktische uitleg over prijzen, shops en kortingen, zodat je weet waar en wanneer je best koopt.',
     empty: 'Nog geen gidsen.',
     published: (d: string) => `Gepubliceerd op ${d}`,
@@ -107,7 +107,7 @@ const fr: Dict = {
   homeAria: (site: string) => `${site}, retour à l’accueil`,
   footer: [
     'Les prix sont un instantané et ont pu changer entre-temps. Vérifiez toujours le prix actuel dans la boutique. Certains liens sont des liens affiliés : vous ne payez rien de plus, nous recevons une petite commission.',
-    'buildthatset est un site indépendant. LEGO®, DUPLO®, NINJAGO® et les autres noms cités sont des marques du Groupe LEGO, qui ne parraine, n’autorise ni n’approuve ce site.',
+    'buildthatset est un site indépendant. LEGO® et les autres noms de marque cités sont des marques du Groupe LEGO, qui ne parraine, n’autorise ni n’approuve ce site.',
   ],
   og: {
     kicker: 'Comparer les prix en Belgique',
@@ -120,7 +120,7 @@ const fr: Dict = {
     metaTitle: 'Comparer les prix LEGO en Belgique',
     metaDesc: 'Comparez le prix des sets LEGO dans les boutiques en ligne belges en Belgique et achetez malin. Pour chaque set, vous voyez tout de suite la boutique la moins chère et ce que vous économisez.',
     ogDesc: 'Chaque set LEGO dans les boutiques en ligne belges côte à côte, avec le meilleur prix en premier.',
-    h1: 'Comparer les prix LEGO en Belgique  : les boutiques côte à côte',
+    h1: 'Comparer les prix LEGO® en Belgique  : les boutiques côte à côte',
     kicker: 'Comparaison à la une',
     viewAt: (shop: string) => `Voir chez ${shop}`,
     searchCta: 'Rechercher un set',
@@ -181,7 +181,7 @@ const fr: Dict = {
   guides: {
     metaTitle: 'Guides pour acheter LEGO malin',
     metaDesc: 'Des explications pratiques sur les prix LEGO, les boutiques et les réductions en Belgique, pour savoir où et quand acheter.',
-    h1: 'Guides pour acheter LEGO malin',
+    h1: 'Guides pour acheter LEGO® malin',
     lead: 'Des explications pratiques sur les prix, les boutiques et les réductions, pour savoir où et quand acheter.',
     empty: 'Pas encore de guides.',
     published: (d: string) => `Publié le ${d}`,
@@ -204,7 +204,7 @@ const en: Dict = {
   homeAria: (site: string) => `${site}, go to the home page`,
   footer: [
     'Prices are a snapshot and may have changed since. Always check the current price in the shop. Some links are affiliate links: you pay nothing extra, we earn a small commission.',
-    'buildthatset is an independent site. LEGO®, DUPLO®, NINJAGO® and other names mentioned are trademarks of the LEGO Group, which does not sponsor, authorize or endorse this site.',
+    'buildthatset is an independent site. LEGO® and other brand names mentioned are trademarks of the LEGO Group, which does not sponsor, authorize or endorse this site.',
   ],
   og: {
     kicker: 'Price comparison in Belgium',
@@ -217,7 +217,7 @@ const en: Dict = {
     metaTitle: 'Compare LEGO prices in Belgium',
     metaDesc: 'Compare LEGO set prices at Belgian web shops in Belgium and buy smart. For every set you see the cheapest shop and how much you save at a glance.',
     ogDesc: 'Every LEGO set at Belgian web shops side by side, with the lowest price first.',
-    h1: 'Compare LEGO prices in Belgium: web shops side by side',
+    h1: 'Compare LEGO® prices in Belgium: web shops side by side',
     kicker: 'Featured comparison',
     viewAt: (shop: string) => `View at ${shop}`,
     searchCta: 'Search for a set',
@@ -278,7 +278,7 @@ const en: Dict = {
   guides: {
     metaTitle: 'Guides to buy LEGO smart',
     metaDesc: 'Practical explanations of LEGO prices, shops and discounts in Belgium, so you know where and when to buy.',
-    h1: 'Guides to buy LEGO smart',
+    h1: 'Guides to buy LEGO® smart',
     lead: 'Practical explanations of prices, shops and discounts, so you know where and when to buy.',
     empty: 'No guides yet.',
     published: (d: string) => `Published on ${d}`,

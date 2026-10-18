@@ -20,7 +20,7 @@ export function CompareCard({ deal, tint = '#1E55A8', locale = 'nl' }: { deal: C
         {deal.bestDiscount > 0 ? <span className="flag">-{deal.bestDiscount}%</span> : null}
       </Link>
       <div className="info">
-        <div className="num">{deal.set}</div>
+        <div className="num">LEGO {deal.set}</div>
         <Link href={href} className="name">{deal.name}</Link>
         <ul className="offers">
           {deal.offers.map((o, i) => (

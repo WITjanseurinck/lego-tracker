@@ -19,7 +19,7 @@ export default async function Home() {
   const compare = isDemo || deals.length === 0 ? getCompareDeals() : [];
   const useBol = compare.length > 0;
   const [first, ...rest] = useBol ? [] : deals;
-  const hero = compare.find((d) => d.image) ?? compare[0];
+  const hero = compare.find((d) => d.image && d.offers.length > 1 && d.bestDiscount <= 45) ?? compare[0];
   const gridDeals = compare.filter((d) => d !== hero);
   const firstImg = first ? productImageUrl(first.image_path) : null;
   const disc = first?.discount_pct ? Math.round(Number(first.discount_pct)) : null;

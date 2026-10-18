@@ -24,7 +24,11 @@ export function CompareCard({ deal, tint = '#1E55A8' }: { deal: CompareDeal; tin
             </li>
           ))}
         </ul>
-        {second ? <p className="cmp">Goedkoopst bij {best.shop}, {formatEur(saving)} minder dan bij {second.shop}.</p> : <p className="cmp">Enkel gevonden bij {best.shop}.</p>}
+        {second ? (
+          saving < 0.005
+            ? <p className="cmp">Zelfde prijs bij {best.shop} en {second.shop}.</p>
+            : <p className="cmp">Goedkoopst bij {best.shop}, {formatEur(saving)} minder dan bij {second.shop}.</p>
+        ) : <p className="cmp">Enkel gevonden bij {best.shop}.</p>}
       </div>
     </article>
   );

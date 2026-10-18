@@ -78,6 +78,7 @@ export default async function Gids({ params }: Params) {
       {x.body.map((b, i) =>
         'h2' in b ? <h2 key={i}>{b.h2}</h2>
         : 'ul' in b ? <ul key={i}>{b.ul.map((li, j) => <li key={j}>{li}</li>)}</ul>
+        : 'src' in b ? <div key={i}><h2>{t.guides.sources}</h2><ul>{b.src.map((x) => <li key={x.url}><a href={x.url} target="_blank" rel="noopener nofollow">{x.label}</a></li>)}</ul></div>
         : <p key={i}>{b.p}</p>,
       )}
       <aside className="cta-card">

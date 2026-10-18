@@ -92,6 +92,7 @@ const nl = {
     ctaButton: 'Naar de vergelijking',
     crumbAria: 'Kruimelpad',
     crumb: 'Gidsen',
+    sources: 'Bronnen',
   },
   notFound: { title: 'Pagina niet gevonden', text: 'Deze pagina bestaat niet (meer).', back: 'Terug naar de prijsvergelijking' },
 };
@@ -190,6 +191,7 @@ const fr: Dict = {
     ctaButton: 'Vers la comparaison',
     crumbAria: 'Fil d’Ariane',
     crumb: 'Guides',
+    sources: 'Sources',
   },
   notFound: { title: 'Page introuvable', text: 'Cette page n’existe pas (ou plus).', back: 'Retour à la comparaison de prix' },
 };
@@ -286,6 +288,7 @@ const en: Dict = {
     ctaButton: 'Go to the comparison',
     crumbAria: 'Breadcrumb',
     crumb: 'Guides',
+    sources: 'Sources',
   },
   notFound: { title: 'Page not found', text: 'This page does not exist (anymore).', back: 'Back to the price comparison' },
 };

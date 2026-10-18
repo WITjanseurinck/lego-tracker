@@ -1,7 +1,7 @@
 import { ARTICLES } from '@/data/articles';
 import type { Locale } from '@/lib/i18n';
 
-export type Block = { h2: string } | { p: string } | { ul: string[] };
+export type Block = { h2: string } | { p: string } | { ul: string[] } | { src: { label: string; url: string }[] };
 
 export interface ArticleText {
   slug: string;

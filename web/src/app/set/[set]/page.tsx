@@ -5,7 +5,7 @@ import { amazonFetchedAt } from '@/lib/amazon';
 import { bolFetchedAt } from '@/lib/bol';
 import { getCompareDeal, relatedByPrice } from '@/lib/deals';
 import { CompareCard } from '@/components/CompareCard';
-import { getDict2, themeName } from '@/lib/dict2';
+import { buildTimeRange, getDict2, themeName } from '@/lib/dict2';
 import { photoTint } from '@/lib/themes';
 import { formatDate, formatEur } from '@/lib/format';
 import { SITE_NAME, SITE_URL } from '@/lib/site';
@@ -120,6 +120,7 @@ export default async function SetPage({ params }: Params) {
           {deal.pieces || deal.age ? (
             <ul className="facts">
               {deal.pieces ? <li>{new Intl.NumberFormat(tag).format(deal.pieces)} {t2.piecesWord}</li> : null}
+              {deal.pieces ? <li>{t2.buildFact.replace('{t}', buildTimeRange(deal.pieces, deal.theme, t2.hoursUnit, t2.minutesUnit))}</li> : null}
               {deal.age ? <li>{t2.ageFact.replace('{a}', String(deal.age))}</li> : null}
               {deal.theme !== 'overig' ? <li><Link href={href(`/thema/${deal.theme}`)}>{themeName(deal.theme, locale)}</Link></li> : null}
             </ul>

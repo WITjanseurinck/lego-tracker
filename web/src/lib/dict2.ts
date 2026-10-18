@@ -102,6 +102,9 @@ const D = {
     aboutTitle: 'Over deze set',
     piecesWord: 'stukjes',
     ageFact: 'Vanaf {a} jaar',
+    buildFact: 'Bouwtijd ongeveer {t}',
+    hoursUnit: 'uur',
+    minutesUnit: 'min',
     themesLabel: 'Thema’s',
     themesTitle: 'LEGO-thema’s: vergelijk prijzen per reeks',
     themesLead: 'Kies een thema en zie alle sets met de prijzen van de Belgische webshops naast elkaar.',
@@ -143,6 +146,9 @@ const D = {
     aboutTitle: 'À propos de ce set',
     piecesWord: 'pièces',
     ageFact: 'Dès {a} ans',
+    buildFact: 'Temps de montage : environ {t}',
+    hoursUnit: 'h',
+    minutesUnit: 'min',
     themesLabel: 'Thèmes',
     themesTitle: 'Thèmes LEGO : comparez les prix par gamme',
     themesLead: 'Choisissez un thème et voyez tous les sets avec les prix des boutiques en ligne belges côte à côte.',
@@ -184,6 +190,9 @@ const D = {
     aboutTitle: 'About this set',
     piecesWord: 'pieces',
     ageFact: 'Ages {a}+',
+    buildFact: 'Build time about {t}',
+    hoursUnit: 'hours',
+    minutesUnit: 'min',
     themesLabel: 'Themes',
     themesTitle: 'LEGO themes: compare prices per range',
     themesLead: 'Pick a theme and see all its sets with Belgian web shop prices side by side.',
@@ -228,3 +237,17 @@ export type Budget = 'u50' | '50-100' | '100-200' | '200+';
 export const BUDGETS: Budget[] = ['u50', '50-100', '100-200', '200+'];
 export const inBudget = (b: Budget, price: number) =>
   b === 'u50' ? price < 50 : b === '50-100' ? price >= 50 && price < 100 : b === '100-200' ? price >= 100 && price < 200 : price >= 200;
+
+/** Schatting van de bouwtijd als bereik: Technic gaat trager dan gewone sets. */
+export function buildTimeRange(pieces: number, theme: string, hours: string, minutes: string): string {
+  const mid = pieces / (theme === 'technic' ? 300 : 400);
+  const lo = mid * 0.83;
+  const hi = mid * 1.17;
+  if (hi < 1.5) {
+    const r = (x: number) => Math.max(5, Math.round(x * 60 / 5) * 5);
+    return `${r(lo)}-${r(hi)} ${minutes}`;
+  }
+  const r = (x: number) => (x < 5 ? Math.round(x * 2) / 2 : Math.round(x));
+  const a = r(lo), b = r(hi);
+  return a === b ? `${a} ${hours}` : `${a}-${b} ${hours}`;
+}

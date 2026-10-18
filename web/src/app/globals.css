@@ -161,3 +161,14 @@ footer.site .txt p + p { margin-top: 12px; color: #8B94A3; }
   aside.buy h1 { font-size: 40px; }
   aside.buy .price { font-size: 56px; }
 }
+
+.offers { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 6px; }
+.offers li { display: grid; grid-template-columns: 64px auto 1fr auto; align-items: baseline; gap: 10px; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line, #e5e5e5); }
+.offers li.best { border-color: var(--red, #c8102e); background: rgba(200, 16, 46, 0.05); }
+.offers .shop { font-size: 13px; color: var(--muted); }
+.offers .price { font-weight: 700; }
+.offers .rrp { font-size: 13px; color: var(--muted); text-decoration: line-through; }
+.offers .go { font-size: 13px; font-weight: 600; text-decoration: underline; }
+.heroOffers { margin: 20px 0; }
+.heroOffers li { grid-template-columns: 72px auto 1fr auto; padding: 10px 12px; }
+.cmp { font-size: 13px; color: var(--muted); margin: 10px 0 0; }

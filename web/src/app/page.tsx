@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import { ProductCard } from '@/components/ProductCard';
 import { StudMeter } from '@/components/StudMeter';
-import { BolDealCard } from '@/components/BolDealCard';
-import { bolAffiliateUrl, bolFetchedAt, getBolDeals } from '@/lib/bol';
+import { CompareCard } from '@/components/CompareCard';
+import { amazonFetchedAt } from '@/lib/amazon';
+import { bolFetchedAt } from '@/lib/bol';
+import { getCompareDeals } from '@/lib/deals';
 import { isDemo } from '@/lib/demo';
 import { getArticles, getDeals, getThemes } from '@/lib/data';
 import { formatDate, formatEur } from '@/lib/format';
@@ -14,35 +16,35 @@ export const dynamic = 'force-dynamic';
 
 export default async function Home() {
   const [{ deals, error }, articles, themes] = await Promise.all([getDeals(), getArticles(3), getThemes()]);
-  const bolDeals = isDemo || deals.length === 0 ? getBolDeals() : [];
-  const useBol = bolDeals.length > 0;
+  const compare = isDemo || deals.length === 0 ? getCompareDeals() : [];
+  const useBol = compare.length > 0;
   const [first, ...rest] = useBol ? [] : deals;
-  const bolFirst = bolDeals[0];
-  const bolRest = bolDeals.slice(1);
-  const bolDisc = bolFirst?.strikethrough ? Math.round((1 - bolFirst.price / bolFirst.strikethrough) * 100) : null;
-  const bolFirstHref = bolFirst ? bolAffiliateUrl(bolFirst.url, bolFirst.set) : '';
+  const hero = compare.find((d) => d.image) ?? compare[0];
+  const gridDeals = compare.filter((d) => d !== hero);
   const firstImg = first ? productImageUrl(first.image_path) : null;
   const disc = first?.discount_pct ? Math.round(Number(first.discount_pct)) : null;
 
   return (
     <>
-      {useBol && bolFirst ? (
+      {useBol && hero ? (
         <section className="hero">
           <div className="grid2">
             <div className="text">
-              <div className="kicker">LEGO-deal van vandaag · {bolFirst.set}</div>
-              <h1>{bolFirst.name}</h1>
-              <div className="pr">
-                <span className="price">{formatEur(bolFirst.price)}</span>
-                {bolFirst.strikethrough ? <span className="rrp">{formatEur(bolFirst.strikethrough)}</span> : null}
-                {bolDisc ? <span className="disc">-{bolDisc}%</span> : null}
-              </div>
-              <div className="cta">
-                <a href={bolFirstHref} className="btn dark" target="_blank" rel="sponsored noopener" data-affiliate="bol">Bekijk bij bol</a>
-                <Link href="/zoeken" className="btn">Zoek een {VERTICAL.productNoun}</Link>
-              </div>
+              <div className="kicker">Prijsvergelijking van vandaag · {hero.set}</div>
+              <h1>{hero.name}</h1>
+              <ul className="offers heroOffers">
+                {hero.offers.map((o, i) => (
+                  <li key={o.shop} className={i === 0 ? 'best' : undefined}>
+                    <span className="shop">{o.shop}</span>
+                    <span className="price">{formatEur(o.price)}</span>
+                    {o.strikethrough && o.strikethrough > o.price ? <span className="rrp">{formatEur(o.strikethrough)}</span> : null}
+                    <a href={o.url} className="btn dark" target="_blank" rel="sponsored noopener" data-affiliate={o.shop.toLowerCase()}>Bekijk bij {o.shop}</a>
+                  </li>
+                ))}
+              </ul>
+              <div className="cta"><Link href="/zoeken" className="btn">Zoek een {VERTICAL.productNoun}</Link></div>
             </div>
-            <div className="photo"><img src={bolFirst.image} alt={`LEGO ${bolFirst.set} ${bolFirst.name}`} referrerPolicy="no-referrer" /></div>
+            <div className="photo">{hero.image ? <img src={hero.image} alt={`LEGO ${hero.set} ${hero.name}`} referrerPolicy="no-referrer" /> : null}</div>
           </div>
         </section>
       ) : first ? (
@@ -73,16 +75,16 @@ export default async function Home() {
         </div>
       )}
 
-      {useBol && bolRest.length > 0 ? (
+      {useBol && gridDeals.length > 0 ? (
         <section className="wrap sec">
           <div className="sechead">
             <div>
-              <h2>LEGO-deals bij bol</h2>
-              <p className="lead">Enkel echte LEGO-sets, gesorteerd op de grootste korting ten opzichte van de doorstreepprijs van bol. Prijzen van {formatDate(bolFetchedAt)}, controleer de actuele prijs bij bol.</p>
+              <h2>LEGO-deals vergeleken</h2>
+              <p className="lead">Dezelfde set bij bol en Amazon naast elkaar, de goedkoopste bovenaan. Prijzen van {formatDate(bolFetchedAt)} (bol) en {formatDate(amazonFetchedAt)} (Amazon), controleer de actuele prijs in de shop.</p>
             </div>
           </div>
-          <div className="grid">{bolRest.map((d, i) => <BolDealCard key={d.bolId} deal={d} tint={photoTint(i + 1)} />)}</div>
-          <p className="lead" style={{ marginTop: 32 }}>Reclame: dit zijn affiliate links. Koop je via een link, dan ontvangen wij een commissie van bol. Voor jou verandert de prijs niet.</p>
+          <div className="grid">{gridDeals.map((d, i) => <CompareCard key={d.set} deal={d} tint={photoTint(i + 1)} />)}</div>
+          <p className="lead" style={{ marginTop: 32 }}>Reclame: dit zijn affiliate links. Koop je via een link, dan ontvangen wij een commissie van bol of Amazon. Voor jou verandert de prijs niet.</p>
         </section>
       ) : null}
 

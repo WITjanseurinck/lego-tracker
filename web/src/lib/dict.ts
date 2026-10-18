@@ -8,7 +8,7 @@ const nl = {
   homeAria: (site: string) => `${site}, naar de startpagina`,
   footer: [
     'De prijzen zijn een momentopname en kunnen intussen veranderd zijn. Controleer altijd de actuele prijs in de shop. Sommige links zijn affiliate links: jij betaalt niets extra, wij krijgen een kleine commissie.',
-    'buildthatset is een onafhankelijke site en niet verbonden aan de LEGO Group. LEGO is een handelsmerk van de LEGO Group.',
+    'buildthatset is een onafhankelijke site. LEGO®, DUPLO®, NINJAGO® en andere genoemde namen zijn handelsmerken van de LEGO Group, die deze site niet sponsort, goedkeurt of onderschrijft.',
   ],
   og: {
     kicker: 'Prijzen vergelijken in België',
@@ -107,7 +107,7 @@ const fr: Dict = {
   homeAria: (site: string) => `${site}, retour à l’accueil`,
   footer: [
     'Les prix sont un instantané et ont pu changer entre-temps. Vérifiez toujours le prix actuel dans la boutique. Certains liens sont des liens affiliés : vous ne payez rien de plus, nous recevons une petite commission.',
-    'buildthatset est un site indépendant, sans lien avec le Groupe LEGO. LEGO est une marque du Groupe LEGO.',
+    'buildthatset est un site indépendant. LEGO®, DUPLO®, NINJAGO® et les autres noms cités sont des marques du Groupe LEGO, qui ne parraine, n’autorise ni n’approuve ce site.',
   ],
   og: {
     kicker: 'Comparer les prix en Belgique',
@@ -204,7 +204,7 @@ const en: Dict = {
   homeAria: (site: string) => `${site}, go to the home page`,
   footer: [
     'Prices are a snapshot and may have changed since. Always check the current price in the shop. Some links are affiliate links: you pay nothing extra, we earn a small commission.',
-    'buildthatset is an independent site and is not affiliated with the LEGO Group. LEGO is a trademark of the LEGO Group.',
+    'buildthatset is an independent site. LEGO®, DUPLO®, NINJAGO® and other names mentioned are trademarks of the LEGO Group, which does not sponsor, authorize or endorse this site.',
   ],
   og: {
     kicker: 'Price comparison in Belgium',

@@ -1,3 +1,4 @@
+import { getDict2 } from '@/lib/dict2';
 import { Suspense } from 'react';
 import type { CSSProperties } from 'react';
 import type { Metadata, Viewport } from 'next';
@@ -60,6 +61,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             <nav aria-label={t.nav.main}>
               <Link href={href('/')}>{t.nav.deals}</Link>
               <Link href={href('/gids')}>{t.nav.guides}</Link>
+              <Link href={href('/themas')}>{getDict2(locale).themesLabel}</Link>
+              <Link href={href('/kiezen')}>{getDict2(locale).finder.nav}</Link>
               <Link href={href('/zoeken')}>{t.nav.search}</Link>
               <span className="country">{t.country}</span>
               <LanguageSwitcher locale={locale} internalPath={internalPath} label={t.nav.language} />

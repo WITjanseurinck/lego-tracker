@@ -1,329 +1,1278 @@
 {
- "fetchedAt": "2026-10-18",
  "country": "BE",
  "source": "amazon.com.be zoekpagina LEGO, handmatig gefilterd op echte LEGO",
+ "fetchedAt": "2026-10-18",
  "items": [
   {
-   "set": "60487",
-   "name": "City Stad: de gele taxi",
-   "price": 7.12,
-   "strikethrough": 14.99,
-   "asin": "B0FPXBMY57"
+   "set": "10315",
+   "price": 72.63,
+   "strikethrough": 104.99,
+   "asin": "B00BLHZED4",
+   "name": "Rustgevende tuin",
+   "theme": "icons",
+   "age": 18,
+   "pieces": 1363
   },
   {
-   "set": "43011",
-   "name": "Editions Lionel Messi, Best Of",
-   "price": 16.99,
-   "strikethrough": 29.99,
-   "asin": "B0FPXFBL13"
+   "set": "10330",
+   "price": 52.99,
+   "strikethrough": 79.99,
+   "asin": "B0CFW274ZS",
+   "name": "McLaren MP4/4 en Ayrton Senna",
+   "theme": "icons",
+   "age": 18,
+   "pieces": 693
   },
   {
-   "set": "77260",
-   "name": "Speed Champions Toyota Supra MK4 (Fast and Furious)",
-   "price": 17.99,
-   "strikethrough": 27.99,
-   "asin": "B0FPXF65PH"
-  },
-  {
-   "set": "72537",
-   "name": "KPop Demon Hunters Derpy en Suzy",
-   "price": 44.99,
-   "strikethrough": 69.99,
-   "asin": "B0GJDDY8FD"
-  },
-  {
-   "set": "71829",
-   "name": "Ninjago De groene draak uit Lloyds bos",
-   "price": 12.95,
-   "strikethrough": 19.99,
-   "asin": "B0DHSC3ZSX"
-  },
-  {
-   "set": "11506",
-   "name": "Botanicals Kleine dansplanten",
-   "price": 12.99,
-   "strikethrough": 19.99,
-   "asin": "B0FPXFLNR7"
-  },
-  {
-   "set": "10954",
-   "name": "DUPLO De cijfertrein: leren tellen",
-   "price": 12.99,
-   "strikethrough": 19.99,
-   "asin": "B08W5FV9GN"
-  },
-  {
-   "set": "43279",
-   "name": "Disney Pixar Wall-E en EVE",
-   "price": 45.99,
-   "strikethrough": 69.99,
-   "asin": "B0DWDR21C4"
-  },
-  {
-   "set": "76348",
-   "name": "Marvel Avengers: Doomsday, het legendarische gevecht",
-   "price": 66.39,
-   "strikethrough": 99.99,
-   "asin": "B0GGSDPMP8"
-  },
-  {
-   "set": "11514",
-   "name": "Botanicals Cosmos, kunstbloemenboeket",
-   "price": 9.99,
-   "strikethrough": 14.99,
-   "asin": "B0FRSNNYQJ"
-  },
-  {
-   "set": "77244",
-   "name": "Speed Champions F1 Mercedes-AMG W15",
-   "price": 17.99,
-   "strikethrough": 26.99,
-   "asin": "B0DHS9Y433"
-  },
-  {
-   "set": "76449",
-   "name": "Harry Potter Het monsterlijke monsterboek",
-   "price": 39.99,
-   "strikethrough": 59.99,
-   "asin": "B0DWDJR3DK"
-  },
-  {
-   "set": "43014",
-   "name": "Editions Scuderia Ferrari HP, helm van Charles Leclerc",
-   "price": 59.99,
-   "strikethrough": 89.99,
-   "asin": "B0FPXFDFV8"
-  },
-  {
-   "set": "60510",
-   "name": "City adventskalender 2026",
-   "price": 18.26,
-   "strikethrough": 26.99,
-   "asin": "B0GGSTTS1R"
-  },
-  {
-   "set": "42682",
-   "name": "Friends Het huisje in de natuur",
-   "price": 16.99,
-   "strikethrough": 24.99,
-   "asin": "B0FPXFTCCG"
-  },
-  {
-   "set": "76446",
-   "name": "Harry Potter Magicobus",
-   "price": 33.99,
+   "set": "10331",
+   "price": 44.95,
    "strikethrough": 49.99,
-   "asin": "B0DHSBRYSQ"
-  },
-  {
-   "set": "76340",
-   "name": "Marvel adventskalender 2026",
-   "price": 23.99,
-   "strikethrough": 34.99,
-   "asin": "B0GGSM14GC"
-  },
-  {
-   "set": "43012",
-   "name": "Editions Cristiano Ronaldo, Best of",
-   "price": 20.57,
-   "strikethrough": 29.99,
-   "asin": "B0FPXGJL6H"
-  },
-  {
-   "set": "43272",
-   "name": "Disney Princess Heihei",
-   "price": 27.43,
-   "strikethrough": 39.99,
-   "asin": "B0DHSCG2KL"
-  },
-  {
-   "set": "21586",
-   "name": "Minecraft De Pale Garden",
-   "price": 13.85,
-   "strikethrough": 19.99,
-   "asin": "B0FPXDQ7YP"
-  },
-  {
-   "set": "77259",
-   "name": "Speed Champions Audi Revolut F1 Team R26",
-   "price": 19.52,
-   "strikethrough": 27.99,
-   "asin": "B0FPXGRFLV"
-  },
-  {
-   "set": "77261",
-   "name": "Speed Champions Ferrari 499P",
-   "price": 19.59,
-   "strikethrough": 27.99,
-   "asin": "B0FPXGT7K7"
-  },
-  {
-   "set": "77253",
-   "name": "Speed Champions Bugatti Vision GT hypercar",
-   "price": 19.59,
-   "strikethrough": 27.99,
-   "asin": "B0FPVT4VG6"
-  },
-  {
-   "set": "72046",
-   "name": "Super Mario Game Boy",
-   "price": 41.99,
-   "strikethrough": 59.99,
-   "asin": "B0DWDGVHM6"
+   "asin": "B01MSUTHDV",
+   "name": "IJsvogel",
+   "theme": "botanicals",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt6cf7f51b0edcecfd/10331.png",
+   "age": 18,
+   "pieces": 834
   },
   {
    "set": "10342",
-   "name": "Botanicals Roze boeket",
    "price": 41.95,
    "strikethrough": 59.99,
-   "asin": "B0DHSDBVKV"
+   "asin": "B0DHSDBVKV",
+   "name": "Botanicals Roze boeket",
+   "theme": "botanicals",
+   "age": 18,
+   "pieces": 749
+  },
+  {
+   "set": "10353",
+   "price": 59.43,
+   "strikethrough": 79.99,
+   "asin": "B01NAEP1AX",
+   "name": "Williams Racing FW14B en Nigel Mansell",
+   "theme": "icons",
+   "age": 18,
+   "pieces": 799
+  },
+  {
+   "set": "11372",
+   "price": 88.0,
+   "strikethrough": 109.99,
+   "asin": "B0FPXG6FS8",
+   "name": "Herfsttuin met Cottage",
+   "theme": "icons",
+   "age": 18,
+   "pieces": 1102
+  },
+  {
+   "set": "11375",
+   "price": 64.98,
+   "strikethrough": 89.99,
+   "asin": "B0FPXDC8V2",
+   "name": "Ferrari F2004 en Michael Schumacher",
+   "theme": "icons",
+   "age": 18,
+   "pieces": 735
+  },
+  {
+   "set": "11376",
+   "price": 94.53,
+   "strikethrough": 129.99,
+   "asin": "B0FPXD6XW2",
+   "name": "Ford Model T Klassieke Auto",
+   "theme": "icons",
+   "age": 18,
+   "pieces": 1060
   },
   {
    "set": "11379",
-   "name": "Icons Boekensteun: Boekhandel",
+   "name": "Boekensteun: Boekhandel",
    "price": 105.59,
    "strikethrough": 129.99,
-   "asin": "B0GGSPBN1L"
+   "asin": "B0GGSPBN1L",
+   "theme": "icons",
+   "age": 18,
+   "pieces": 1690
+  },
+  {
+   "set": "11381",
+   "price": 109.0,
+   "strikethrough": 139.99,
+   "asin": "B01MZ9GNNN",
+   "name": "Jaguar E-Type",
+   "theme": "icons",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2548c675c5013fce/bltd7618c334ab0fcf6-11381_Prod_en-gb.png",
+   "age": 18,
+   "pieces": 1673
+  },
+  {
+   "set": "11383",
+   "price": 83.99,
+   "strikethrough": 109.99,
+   "asin": "B01MZ9FW54",
+   "name": "Burgemeestershuis: griezelig landhuis",
+   "theme": "icons",
+   "age": 18,
+   "pieces": 1420
+  },
+  {
+   "set": "11389",
+   "price": 102.46,
+   "strikethrough": 109.99,
+   "asin": "B01N9RQMLL",
+   "name": "Project Hail Mary",
+   "theme": "icons",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blteb6b17f3f4ae151d/bltfe9034ee5bed08f3-11389_Prod.png",
+   "age": 18,
+   "pieces": 830
   },
   {
    "set": "11502",
    "name": "Botanicals Boeket met zonnebloemen",
    "price": 38.99,
    "strikethrough": 59.99,
-   "asin": "B0FPXGD4DQ"
+   "asin": "B0FPXGD4DQ",
+   "theme": "botanicals",
+   "age": 18,
+   "pieces": 686
   },
   {
-   "set": "21584",
-   "name": "Minecraft Reis naar de Nether en het End-portaal",
-   "price": 13.44,
-   "strikethrough": 14.99,
-   "asin": "B0FPVT5TFR"
+   "set": "11505",
+   "price": 52.99,
+   "strikethrough": 79.99,
+   "asin": "B0FPXH5T6S",
+   "name": "Bospaddenstoelen",
+   "theme": "botanicals",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt6eea34c98ee76abb/bltaa6c5faaf18aa138-11505_Prod_en-gb.png",
+   "age": 18,
+   "pieces": 806
+  },
+  {
+   "set": "21060",
+   "price": 110.39,
+   "strikethrough": 159.99,
+   "asin": "B0BV7CP5CB",
+   "name": "Kasteel Himeji",
+   "theme": "architecture",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt6475bda6cee08acd/21060.png",
+   "age": 18,
+   "pieces": 2125
+  },
+  {
+   "set": "21061",
+   "price": 171.27,
+   "strikethrough": 229.99,
+   "asin": "B0CWH1M12W",
+   "name": "Notre-Dame van Parijs",
+   "theme": "architecture",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte79009bca2be0858/21061.png",
+   "age": 18,
+   "pieces": 4383
+  },
+  {
+   "set": "21062",
+   "price": 109.44,
+   "strikethrough": 159.99,
+   "asin": "B0DHSD22WP",
+   "name": "Trevifontein",
+   "theme": "architecture",
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltda5fbafc5a35fa4c/21062_Prod.png",
+   "age": 18,
+   "pieces": 1880
+  },
+  {
+   "set": "21063",
+   "price": 186.39,
+   "strikethrough": 269.99,
+   "asin": "B0DWDX63HC",
+   "name": "Slot Neuschwanstein",
+   "theme": "architecture",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta2a10403bde99e82/21063_Prod_en-gb.png",
+   "age": 18,
+   "pieces": 3455
+  },
+  {
+   "set": "21064",
+   "price": 53.59,
+   "strikethrough": 79.99,
+   "asin": "B0FPXJ7MGT",
+   "name": "Parijs – Stad van de liefde",
+   "theme": "architecture",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt7f0c4925175ed3c0/21064_Prod_en-gb.png",
+   "age": 18,
+   "pieces": 958
+  },
+  {
+   "set": "21345",
+   "price": 53.45,
+   "strikethrough": 79.99,
+   "asin": "B0CFW15WW1",
+   "name": "Polaroid OneStep SX-70 camera",
+   "theme": "ideas",
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb0d4865e1765d9bc/21345.png",
+   "age": 18,
+   "pieces": 516
+  },
+  {
+   "set": "21357",
+   "price": 46.76,
+   "strikethrough": 69.99,
+   "asin": "B0DWF6XWX3",
+   "name": "Disney Pixar Luxo Jr.",
+   "theme": "ideas",
+   "age": 18,
+   "pieces": 613
+  },
+  {
+   "set": "21366",
+   "price": 83.32,
+   "strikethrough": 109.99,
+   "asin": "B0FPXDCQCV",
+   "name": "Drijvende Zeeotters",
+   "theme": "ideas",
+   "age": 18,
+   "pieces": 1234
+  },
+  {
+   "set": "21367",
+   "price": 119.0,
+   "strikethrough": 159.99,
+   "asin": "B0FPXLJJSK",
+   "name": "Tintin Maanraket",
+   "theme": "ideas",
+   "age": 18,
+   "pieces": 1283
+  },
+  {
+   "set": "31161",
+   "price": 44.99,
+   "strikethrough": 59.99,
+   "asin": "B0DHSHL111",
+   "name": "Middeleeuwse draak",
+   "theme": "creator",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt7ad1e67d93d41778/31161_Prod_en-gb.png",
+   "age": 9,
+   "pieces": 715
   },
   {
    "set": "31165",
-   "name": "Creator 3-in-1 Pandafamilie",
+   "name": "Pandafamilie",
    "price": 26.99,
    "strikethrough": 39.99,
-   "asin": "B0DHSF89CQ"
+   "asin": "B0DHSF89CQ",
+   "theme": "creator",
+   "age": 8,
+   "pieces": 626
   },
   {
    "set": "31167",
-   "name": "Creator 3-in-1 Spookhuis",
    "price": 56.98,
    "strikethrough": 89.99,
-   "asin": "B0DWDY9WHQ"
+   "asin": "B0DWDY9WHQ",
+   "name": "Spookhuis",
+   "theme": "creator",
+   "age": 9,
+   "pieces": 736
   },
   {
    "set": "31168",
-   "name": "Creator 3-in-1 Middeleeuws kasteel",
    "price": 78.99,
    "strikethrough": 119.99,
-   "asin": "B0DWDT5BQ9"
+   "asin": "B0DWDT5BQ9",
+   "name": "Middeleeuws kasteel",
+   "theme": "creator",
+   "age": 9,
+   "pieces": 1371
   },
   {
-   "set": "31170",
-   "name": "Creator 3-in-1 Wilde dieren: roze flamingo",
-   "price": 18.83,
-   "strikethrough": 24.99,
-   "asin": "B0DHSGF8FD"
+   "set": "31212",
+   "price": 139.99,
+   "strikethrough": 199.99,
+   "asin": "B0CWH1RMBZ",
+   "name": "Het Melkwegstelsel",
+   "theme": "art",
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbbddf9140f849bb9/31212.png",
+   "age": 18,
+   "pieces": 3091
+  },
+  {
+   "set": "31215",
+   "price": 136.99,
+   "strikethrough": 199.99,
+   "asin": "B0DHSF7W4X",
+   "name": "Vincent van Gogh – Zonnebloemen",
+   "theme": "art",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte22f55d6a533beae/31215_Prod_en-gb.png",
+   "age": 18,
+   "pieces": 2615
   },
   {
    "set": "31218",
-   "name": "Art Landschap met Japanse kersenbloesems",
    "price": 83.99,
    "strikethrough": 119.99,
-   "asin": "B0FPXFJKPN"
+   "asin": "B0FPXFJKPN",
+   "name": "Art Landschap met Japanse kersenbloesems",
+   "theme": "art",
+   "age": 18,
+   "pieces": 1892
+  },
+  {
+   "set": "31386",
+   "price": 42.99,
+   "strikethrough": 64.99,
+   "asin": "B0FPXFKHL7",
+   "name": "Wilde Dieren Majestueuze Leeuw",
+   "theme": "creator",
+   "age": 9,
+   "pieces": 839
   },
   {
    "set": "31387",
-   "name": "Creator 3-in-1 Klassiek piratenschip",
    "price": 62.99,
    "strikethrough": 99.99,
-   "asin": "B0FPXGBPR6"
+   "asin": "B0FPXGBPR6",
+   "name": "Klassiek piratenschip",
+   "theme": "creator",
+   "age": 9,
+   "pieces": 1074
   },
   {
    "set": "31389",
-   "name": "Creator 3-in-1 Klassiek reuzenrad, UFO-attractie en zweefmolen",
    "price": 59.99,
    "strikethrough": 89.99,
-   "asin": "B0FPXD6FNL"
+   "asin": "B0FPXD6FNL",
+   "name": "Creator 3-in-1 Klassiek reuzenrad, UFO-attractie en zweefmolen",
+   "theme": "creator",
+   "age": 8,
+   "pieces": 916
+  },
+  {
+   "set": "42136",
+   "price": 52.99,
+   "strikethrough": 59.3,
+   "asin": "B09RSNZ447",
+   "name": "John Deere 9620R 4WD Tractor",
+   "theme": "technic",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0a8d81639354c858/42136.png",
+   "age": 8,
+   "pieces": 390
+  },
+  {
+   "set": "42154",
+   "price": 86.56,
+   "strikethrough": 119.99,
+   "asin": "B0BBRZXX8B",
+   "name": "2022 Ford GT",
+   "theme": "technic",
+   "age": 18,
+   "pieces": 1468
+  },
+  {
+   "set": "42161",
+   "price": 51.89,
+   "strikethrough": null,
+   "asin": "B0BV7CKX2Q",
+   "name": "Lamborghini Huracán Tecnica",
+   "theme": "technic",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt43ee5a1d2bc6afe0/42161.png",
+   "age": 9,
+   "pieces": 806
+  },
+  {
+   "set": "42170",
+   "price": 59.97,
+   "strikethrough": 79.99,
+   "asin": "B0CFW29BDH",
+   "name": "Kawasaki Ninja H2R Motor",
+   "theme": "technic",
+   "age": 10,
+   "pieces": 643
+  },
+  {
+   "set": "42171",
+   "price": 159.0,
+   "strikethrough": 219.99,
+   "asin": "B0CFVZ74KT",
+   "name": "Mercedes-AMG F1 W14 E Performance",
+   "theme": "technic",
+   "age": 18,
+   "pieces": 1643
+  },
+  {
+   "set": "42172",
+   "price": 309.0,
+   "strikethrough": 449.99,
+   "asin": "B0CWH3TBGB",
+   "name": "McLaren P1",
+   "theme": "technic",
+   "age": 18,
+   "pieces": 3893
+  },
+  {
+   "set": "42173",
+   "price": 37.99,
+   "strikethrough": 52.99,
+   "asin": "B0CWGZTRKJ",
+   "name": "Koenigsegg Jesko Absolut Grey Hypercar",
+   "theme": "technic",
+   "age": 10,
+   "pieces": 801
+  },
+  {
+   "set": "42175",
+   "price": 139.95,
+   "strikethrough": 199.99,
+   "asin": "B0CWH1W4W3",
+   "name": "Volvo FMX-truck en EC230 elektrische graafmachine",
+   "theme": "technic"
+  },
+  {
+   "set": "42176",
+   "price": 116.72,
+   "strikethrough": 169.99,
+   "asin": "B0CWH44JKC",
+   "name": "Porsche GT4 E Performance Racewagen",
+   "theme": "technic",
+   "age": 10,
+   "pieces": 836
+  },
+  {
+   "set": "42177",
+   "price": 173.85,
+   "strikethrough": 249.99,
+   "asin": "B0CWH2C8LK",
+   "name": "Mercedes-Benz G 500 Professional Line",
+   "theme": "technic",
+   "age": 18,
+   "pieces": 2891
+  },
+  {
+   "set": "42179",
+   "price": 59.52,
+   "strikethrough": 79.99,
+   "asin": "B0CFVYHXV5",
+   "name": "De Aarde en de Maan in Beweging",
+   "theme": "technic",
+   "age": 10,
+   "pieces": 526
+  },
+  {
+   "set": "42201",
+   "price": 29.99,
+   "strikethrough": 39.99,
+   "asin": "B0DHSFG8F3",
+   "name": "Onderzeeër voor diepzeeonderzoek",
+   "theme": "technic",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt26518ff52eac988e/42201_Prod_en-gb.png",
+   "age": 9,
+   "pieces": 413
+  },
+  {
+   "set": "42202",
+   "price": 139.0,
+   "strikethrough": 199.99,
+   "asin": "B0DHSCQLM2",
+   "name": "Ducati Panigale V4's Motor",
+   "theme": "technic",
+   "age": 18,
+   "pieces": 1603
+  },
+  {
+   "set": "42203",
+   "price": 34.82,
+   "strikethrough": 49.99,
+   "asin": "B0DHSC6V54",
+   "name": "Vrachtwagen met Kiepfunctie",
+   "theme": "technic",
+   "age": 9,
+   "pieces": 462
+  },
+  {
+   "set": "42204",
+   "price": 44.53,
+   "strikethrough": 59.99,
+   "asin": "B0DHSCKXP2",
+   "name": "Fast and Furious Toyota Supra MK4",
+   "theme": "technic",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt11a8473b3fce79f9/42204_Prod.png",
+   "age": 9,
+   "pieces": 810
+  },
+  {
+   "set": "42205",
+   "price": 44.99,
+   "strikethrough": 59.99,
+   "asin": "B0DHSDLJTF",
+   "name": "Chevrolet Corvette Stingray",
+   "theme": "technic",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt018fec9e8a7bfdf4/42205_Prod.png",
+   "age": 9,
+   "pieces": 732
+  },
+  {
+   "set": "42206",
+   "price": 149.99,
+   "strikethrough": 229.99,
+   "asin": "B0DHSCHP9P",
+   "name": "Oracle Red Bull Racing RB20 F1 Auto",
+   "theme": "technic",
+   "age": 18,
+   "pieces": 1639
+  },
+  {
+   "set": "42207",
+   "price": 159.99,
+   "strikethrough": 229.99,
+   "asin": "B0DHSCYDL2",
+   "name": "Ferrari SF 24 F1 Auto",
+   "theme": "technic",
+   "age": 18,
+   "pieces": 1361
+  },
+  {
+   "set": "42208",
+   "price": 39.79,
+   "strikethrough": 59.99,
+   "asin": "B0DWDJWS3D",
+   "name": "Aston Martin Valkyrie",
+   "theme": "technic",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8c07857b5c44c9f4/42208_Prod.png",
+   "age": 9,
+   "pieces": 707
+  },
+  {
+   "set": "42209",
+   "price": 69.99,
+   "strikethrough": 99.99,
+   "asin": "B0DRCWG11G",
+   "name": "Volvo L120 Electric wiellader",
+   "theme": "technic",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte0550cc3ef3afc1f/42209_Prod.png",
+   "age": 9,
+   "pieces": 973
+  },
+  {
+   "set": "42210",
+   "price": 99.99,
+   "strikethrough": 139.99,
+   "asin": "B0DRCXL888",
+   "name": "2 Fast 2 Furious Nissan Skyline GT-R",
+   "theme": "technic",
+   "age": 18,
+   "pieces": 1410
+  },
+  {
+   "set": "42212",
+   "price": 39.99,
+   "strikethrough": 59.99,
+   "asin": "B0DWDRX69Q",
+   "name": "Ferrari FXX K Modelauto",
+   "theme": "technic",
+   "age": 10,
+   "pieces": 897
   },
   {
    "set": "42213",
-   "name": "Technic Ford Bronco SUV",
    "price": 39.99,
    "strikethrough": 59.99,
-   "asin": "B0DWDQ8BN5"
+   "asin": "B0DWDQ8BN5",
+   "name": "Ford Bronco SUV",
+   "theme": "technic",
+   "age": 9,
+   "pieces": 943
   },
   {
-   "set": "42676",
-   "name": "Friends Leuke dag in het waterpark",
-   "price": 20.99,
-   "strikethrough": 29.99,
-   "asin": "B0FPXGQ1DK"
+   "set": "42214",
+   "price": 126.47,
+   "strikethrough": 179.99,
+   "asin": "B0DWDTRG1P",
+   "name": "Lamborghini Revuelto Supersportwagen",
+   "theme": "technic",
+   "age": 10,
+   "pieces": 1135
   },
   {
-   "set": "42695",
-   "name": "Friends Trailer met paard en veulen",
-   "price": 19.99,
-   "strikethrough": 29.99,
-   "asin": "B0FPXCTVTW"
+   "set": "42215",
+   "price": 279.0,
+   "strikethrough": 399.99,
+   "asin": "B0DWF9F6TN",
+   "name": "Volvo EC500 Hybrid Graafmachine",
+   "theme": "technic",
+   "age": 18,
+   "pieces": 2359
+  },
+  {
+   "set": "42221",
+   "price": 39.99,
+   "strikethrough": 59.99,
+   "asin": "B0FPXDRV4H",
+   "name": "NASA Artemis Ruimteraket",
+   "theme": "technic",
+   "age": 9,
+   "pieces": 632
+  },
+  {
+   "set": "42222",
+   "price": 44.99,
+   "strikethrough": 64.99,
+   "asin": "B0FPXDNXZH",
+   "name": "Bugatti Chiron Pur Sport Hypercar",
+   "theme": "technic",
+   "age": 9,
+   "pieces": 771
+  },
+  {
+   "set": "42223",
+   "price": 49.99,
+   "strikethrough": 74.99,
+   "asin": "B0FPXDNT2N",
+   "name": "1966 Ford GT40 MKII Racewagen",
+   "theme": "technic",
+   "age": 18,
+   "pieces": 793
+  },
+  {
+   "set": "42224",
+   "price": 99.99,
+   "strikethrough": 139.99,
+   "asin": "B0FPXFZXC2",
+   "name": "Porsche 911 GT3 R Rexy AO Racing Auto",
+   "theme": "technic",
+   "age": 11,
+   "pieces": 1313
+  },
+  {
+   "set": "42226",
+   "price": 44.99,
+   "strikethrough": 64.99,
+   "asin": "B0FPXFKGQR",
+   "name": "BMW M4 GT3 Evo Racewagen",
+   "theme": "technic",
+   "age": 11,
+   "pieces": 747
+  },
+  {
+   "set": "42227",
+   "price": 44.73,
+   "strikethrough": 64.99,
+   "asin": "B0FPXDZ368",
+   "name": "Jeep Wrangler Rubicon Terreinwagen",
+   "theme": "technic",
+   "age": 10,
+   "pieces": 723
+  },
+  {
+   "set": "42228",
+   "price": 159.99,
+   "strikethrough": 229.99,
+   "asin": "B0FPXDRZYV",
+   "name": "McLaren MCL39 F1 Car",
+   "theme": "technic",
+   "age": 18,
+   "pieces": 1675
+  },
+  {
+   "set": "42229",
+   "price": 44.99,
+   "strikethrough": 64.99,
+   "asin": "B0FPXH19C6",
+   "name": "Fast & Furious Mitsubishi Eclipse",
+   "theme": "technic",
+   "age": 14,
+   "pieces": 827
+  },
+  {
+   "set": "42231",
+   "price": 104.99,
+   "strikethrough": 149.99,
+   "asin": "B0FPXGL73L",
+   "name": "Fast & Furious Dodge Charger R/T",
+   "theme": "technic",
+   "age": 18,
+   "pieces": 1516
+  },
+  {
+   "set": "42234",
+   "price": 44.86,
+   "strikethrough": 64.99,
+   "asin": "B0GGSPC7W8",
+   "name": "Dodge Viper GTS R Sportauto",
+   "theme": "technic",
+   "age": 10,
+   "pieces": 805
+  },
+  {
+   "set": "42235",
+   "price": 44.99,
+   "strikethrough": 64.99,
+   "asin": "B0GGPHC9VT",
+   "name": "Ferrari 488 Pista",
+   "theme": "technic",
+   "age": 9,
+   "pieces": 882
+  },
+  {
+   "set": "42236",
+   "price": 63.41,
+   "strikethrough": 89.99,
+   "asin": "B0GGT8L3Q1",
+   "name": "Aanpasbare Ford Mustang GT",
+   "theme": "technic",
+   "age": 10,
+   "pieces": 973
+  },
+  {
+   "set": "42239",
+   "price": 135.89,
+   "strikethrough": 189.99,
+   "asin": "B0GGSBK9FM",
+   "name": "Batmobile Tumbler Auto",
+   "theme": "technic",
+   "age": 12,
+   "pieces": 719
+  },
+  {
+   "set": "42240",
+   "price": 161.99,
+   "strikethrough": 229.99,
+   "asin": "B0GGSHY123",
+   "name": "Aston Martin Aramco AMR25 F1 Auto",
+   "theme": "technic",
+   "age": 18,
+   "pieces": 1547
+  },
+  {
+   "set": "43014",
+   "name": "Scuderia Ferrari HP: helm van Charles Leclerc",
+   "price": 59.99,
+   "strikethrough": 89.99,
+   "asin": "B0FPXFDFV8",
+   "theme": "editions",
+   "age": 14,
+   "pieces": 886
   },
   {
    "set": "43017",
-   "name": "Editions McLaren F1 Team, helm van Oscar Piastri",
+   "name": "McLaren F1 Team: helm van Oscar Piastri",
    "price": 59.99,
    "strikethrough": 89.99,
-   "asin": "B0FWNMT9X6"
+   "asin": "B0FWNMT9X6",
+   "theme": "editions",
+   "age": 14,
+   "pieces": 793
   },
   {
    "set": "43019",
    "name": "Editions Voetbal",
    "price": 84.98,
    "strikethrough": 119.99,
-   "asin": "B0FPXFDJ1H"
+   "asin": "B0FPXFDJ1H",
+   "theme": "editions",
+   "age": 10,
+   "pieces": 1498
   },
   {
    "set": "43022",
-   "name": "Editions Scuderia Ferrari HP, helm van Lewis Hamilton",
+   "name": "Scuderia Ferrari HP: helm van Lewis Hamilton",
    "price": 54.99,
    "strikethrough": 89.99,
-   "asin": "B0FPXFB54W"
+   "asin": "B0FPXFB54W",
+   "theme": "editions",
+   "age": 14,
+   "pieces": 884
   },
   {
    "set": "43023",
-   "name": "Editions McLaren F1 Team, helm van Lando Norris",
+   "name": "McLaren F1 Team: helm van Lando Norris",
    "price": 59.99,
    "strikethrough": 89.99,
-   "asin": "B0FPXFT73X"
+   "asin": "B0FPXFT73X",
+   "theme": "editions",
+   "age": 14,
+   "pieces": 793
   },
   {
-   "set": "60454",
-   "name": "City Avontuurlijke camper",
-   "price": 22.58,
-   "strikethrough": 29.99,
-   "asin": "B0DHSD643W"
+   "set": "43024",
+   "price": 64.99,
+   "strikethrough": 89.99,
+   "asin": "B0GGT99LRC",
+   "name": "Helm van Ayrton Senna",
+   "theme": "editions",
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltad711ce14ade35fe/43024_Prod.png",
+   "age": 14,
+   "pieces": 931
   },
   {
-   "set": "60498",
-   "name": "City Tractor",
-   "price": 15.95,
-   "strikethrough": 19.99,
-   "asin": "B0FPXGS8Z3"
+   "set": "43272",
+   "name": "Disney Princess Heihei",
+   "price": 27.43,
+   "strikethrough": 39.99,
+   "asin": "B0DHSCG2KL",
+   "theme": "disney",
+   "age": 9,
+   "pieces": 566
   },
   {
-   "set": "71863",
-   "name": "NINJAGO Zilvar en Grimtak het drakenbeest",
-   "price": 16.99,
-   "strikethrough": 19.99,
-   "asin": "B0FPXDVDFR"
+   "set": "43279",
+   "name": "Disney Pixar Wall-E en EVE",
+   "price": 45.99,
+   "strikethrough": 69.99,
+   "asin": "B0DWDR21C4",
+   "theme": "disney",
+   "age": 18,
+   "pieces": 811
+  },
+  {
+   "set": "72046",
+   "name": "Super Mario Game Boy",
+   "price": 41.99,
+   "strikethrough": 59.99,
+   "asin": "B0DWDGVHM6",
+   "theme": "overig",
+   "age": 18,
+   "pieces": 421
   },
   {
    "set": "72152",
    "name": "Pokémon Pikachu en Poké Ball",
    "price": 115.0,
    "strikethrough": 199.99,
-   "asin": "B0FPXGC6YG"
+   "asin": "B0FPXGC6YG",
+   "theme": "overig",
+   "age": 18,
+   "pieces": 2050
+  },
+  {
+   "set": "72537",
+   "name": "KPop Demon Hunters Derpy en Suzy",
+   "price": 44.99,
+   "strikethrough": 69.99,
+   "asin": "B0GJDDY8FD",
+   "theme": "overig",
+   "age": 9,
+   "pieces": 825
+  },
+  {
+   "set": "75347",
+   "price": 55.24,
+   "strikethrough": 64.99,
+   "asin": "B0BBRZMRDP",
+   "name": "TIE Bomber",
+   "theme": "star-wars",
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd3b63280c2b9f8fc/75347.png",
+   "age": 9,
+   "pieces": 625
+  },
+  {
+   "set": "75375",
+   "price": 59.69,
+   "strikethrough": 84.99,
+   "asin": "B0CFW29DZX",
+   "name": "Millennium Falcon",
+   "theme": "star-wars",
+   "age": 18,
+   "pieces": 921
+  },
+  {
+   "set": "75379",
+   "price": 69.99,
+   "strikethrough": 99.99,
+   "asin": "B0CFVZC2GF",
+   "name": "R2-D2",
+   "theme": "star-wars",
+   "age": 10,
+   "pieces": 1050
+  },
+  {
+   "set": "75382",
+   "price": 221.0,
+   "strikethrough": 229.99,
+   "asin": "B0CWH2DGNN",
+   "name": "TIE Interceptor",
+   "theme": "star-wars",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt42c7adf188ed2eb8/75382.png",
+   "age": 18,
+   "pieces": 1931
+  },
+  {
+   "set": "75389",
+   "price": 135.0,
+   "strikethrough": 179.99,
+   "asin": "B0CWH3FX31",
+   "name": "Dark Falcon",
+   "theme": "star-wars",
+   "age": 10,
+   "pieces": 1579
+  },
+  {
+   "set": "75398",
+   "price": 99.99,
+   "strikethrough": 139.99,
+   "asin": "B0CWH3FMKS",
+   "name": "C-3PO",
+   "theme": "star-wars",
+   "age": 18,
+   "pieces": 1138
+  },
+  {
+   "set": "75399",
+   "price": 49.99,
+   "strikethrough": 69.99,
+   "asin": "B0DHSC8HYM",
+   "name": "Andor: Rebel U-Wing Starfighter",
+   "theme": "star-wars",
+   "age": 8,
+   "pieces": 594
+  },
+  {
+   "set": "75402",
+   "price": 46.99,
+   "strikethrough": 69.99,
+   "asin": "B0DHSDBCHF",
+   "name": "ARC-170 Starfighter",
+   "theme": "star-wars",
+   "age": 9,
+   "pieces": 497
+  },
+  {
+   "set": "75413",
+   "price": 109.95,
+   "strikethrough": 149.99,
+   "asin": "B0DWDQ4YGR",
+   "name": "Republic Juggernaut",
+   "theme": "star-wars",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt3e5d1d463262f82d/75413_Prod_en-gb.png",
+   "age": 9,
+   "pieces": 813
+  },
+  {
+   "set": "75417",
+   "price": 139.99,
+   "strikethrough": 199.99,
+   "asin": "B0DWDTK29J",
+   "name": "AT-ST Walker",
+   "theme": "star-wars",
+   "age": 18,
+   "pieces": 1513
+  },
+  {
+   "set": "75435",
+   "price": 99.99,
+   "strikethrough": 149.99,
+   "asin": "B0DWF9CLWZ",
+   "name": "Slag om Felucia Separatist MTT",
+   "theme": "star-wars",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2b73e68649059dea/75435_Prod_en-gb.png",
+   "age": 9,
+   "pieces": 976
+  },
+  {
+   "set": "75441",
+   "price": 54.95,
+   "strikethrough": 79.99,
+   "asin": "B0FPXBMXFN",
+   "name": "Venator-klasse aanvalskruiser",
+   "theme": "star-wars",
+   "age": 18,
+   "pieces": 643
+  },
+  {
+   "set": "75447",
+   "price": 102.81,
+   "strikethrough": 149.99,
+   "asin": "B0FPXFTQ9S",
+   "name": "The Razor Crest",
+   "theme": "star-wars"
+  },
+  {
+   "set": "75453",
+   "price": 145.0,
+   "strikethrough": 199.99,
+   "asin": "B0GGSD1PNX",
+   "name": "De Mandalorian: Offworld Sandcrawler",
+   "theme": "star-wars"
+  },
+  {
+   "set": "75454",
+   "price": 119.99,
+   "strikethrough": 159.99,
+   "asin": "B0GGSJ6BVJ",
+   "name": "Imperial Remnant AT-AT",
+   "theme": "star-wars"
+  },
+  {
+   "set": "75455",
+   "price": 117.95,
+   "strikethrough": 169.99,
+   "asin": "B0GGSSF1ST",
+   "name": "Boba Fett",
+   "theme": "star-wars"
+  },
+  {
+   "set": "75459",
+   "price": 126.32,
+   "strikethrough": 149.99,
+   "asin": "B0GGSGHQL6",
+   "name": "Imperial Lambda-Class Shuttle",
+   "theme": "star-wars",
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc25c22ecb800e962/bltdb45b22aa9b13e52-75459_Prod_en-gb.png"
+  },
+  {
+   "set": "75639",
+   "price": 93.09,
+   "strikethrough": 129.99,
+   "asin": "B0DWDQYB87",
+   "name": "Het piratenschip Going Merry",
+   "theme": "star-wars",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt25bc5b8dc7d77c0b/75639_Prod_en-gb.png"
+  },
+  {
+   "set": "76348",
+   "name": "Marvel Avengers: Doomsday, het legendarische gevecht",
+   "price": 66.39,
+   "strikethrough": 99.99,
+   "asin": "B0GGSDPMP8",
+   "theme": "overig"
+  },
+  {
+   "set": "76419",
+   "price": 130.0,
+   "strikethrough": 169.99,
+   "asin": "B0BV7BYNYD",
+   "name": "Kasteel Zweinstein en terrein",
+   "theme": "harry-potter"
+  },
+  {
+   "set": "76444",
+   "price": 144.99,
+   "strikethrough": 199.99,
+   "asin": "B0DHSDY156",
+   "name": "Wegisweg: tovenaarswinkels",
+   "theme": "harry-potter"
+  },
+  {
+   "set": "76446",
+   "name": "Magicobus",
+   "price": 33.99,
+   "strikethrough": 49.99,
+   "asin": "B0DHSBRYSQ",
+   "theme": "harry-potter"
+  },
+  {
+   "set": "76447",
+   "price": 63.99,
+   "strikethrough": 79.99,
+   "asin": "B0DHSFB2SQ",
+   "name": "Kasteel Zweinstein: vliegles",
+   "theme": "harry-potter",
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltca42229884f56fed/76447_Prod_en-gb.png"
+  },
+  {
+   "set": "76449",
+   "name": "Het monsterlijke monsterboek",
+   "price": 39.99,
+   "strikethrough": 59.99,
+   "asin": "B0DWDJR3DK",
+   "theme": "harry-potter"
+  },
+  {
+   "set": "76450",
+   "price": 69.99,
+   "strikethrough": 99.99,
+   "asin": "B0DWF1W82X",
+   "name": "Boekensteun: Zweinstein Express",
+   "theme": "harry-potter"
+  },
+  {
+   "set": "76451",
+   "price": 61.99,
+   "strikethrough": 89.99,
+   "asin": "B0DWDSPKLS",
+   "name": "Ligusterlaan: bezoek van tante Margot",
+   "theme": "harry-potter",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8536053b62de88b1/76451_Prod_en-gb.png"
+  },
+  {
+   "set": "76452",
+   "price": 62.99,
+   "strikethrough": 99.99,
+   "asin": "B0DWF4JR58",
+   "name": "Zwik & Zwachtels Zwerkbalpaleis en ijssalon",
+   "theme": "harry-potter",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt588dbe2bbaeab7b8/76452_Prod_en-gb.png"
+  },
+  {
+   "set": "76454",
+   "price": 174.0,
+   "strikethrough": 249.99,
+   "asin": "B0DHZ5B366",
+   "name": "Kasteel Zweinstein: de Hoofdtoren",
+   "theme": "harry-potter",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt69cd6053c5e32973/76454_Prod_en-gb.png"
+  },
+  {
+   "set": "76463",
+   "price": 65.99,
+   "strikethrough": 99.99,
+   "asin": "B0FPXCK2QL",
+   "name": "Kasteel Zweinstein Ziekenzaal",
+   "theme": "harry-potter"
+  },
+  {
+   "set": "76466",
+   "price": 115.0,
+   "strikethrough": 159.99,
+   "asin": "B0FPXHC19W",
+   "name": "De Steen der Wijzen",
+   "theme": "harry-potter"
+  },
+  {
+   "set": "76467",
+   "price": 69.99,
+   "strikethrough": 99.99,
+   "asin": "B0FPXDNRPP",
+   "name": "Het huis van Loena Leeflang",
+   "theme": "harry-potter"
+  },
+  {
+   "set": "76470",
+   "price": 51.73,
+   "strikethrough": 79.99,
+   "asin": "B0FPXGWLDH",
+   "name": "Betoverde vliegende Ford Anglia",
+   "theme": "harry-potter",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1225e4f894a3fce3/76470_Prod_en-gb.png"
+  },
+  {
+   "set": "76471",
+   "price": 65.66,
+   "strikethrough": 99.99,
+   "asin": "B0FPXGSWZ5",
+   "name": "Verdonkeremaansteeg tovenaarswinkels",
+   "theme": "harry-potter",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0397c99741bf72ec/blt576f67fbbf7fdd09-76471_Prod_en-gb.png"
+  },
+  {
+   "set": "76474",
+   "price": 68.66,
+   "strikethrough": 99.99,
+   "asin": "B0FPXFR4XB",
+   "name": "Zweinstein Kruidenkunde planten",
+   "theme": "harry-potter",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt38d292ab6f3051ab/blt0860330851b273fa-76474_Prod_en-gb.png"
+  },
+  {
+   "set": "76911",
+   "price": 39.0,
+   "strikethrough": 42.99,
+   "asin": "B09QFWT3G2",
+   "name": "007 Aston Martin DB5",
+   "theme": "speed-champions",
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5fb26fee0777bc45/76911.png"
+  },
+  {
+   "set": "76924",
+   "price": 33.74,
+   "strikethrough": 49.99,
+   "asin": "B0CWH3J5D6",
+   "name": "Mercedes-AMG G 63 en Mercedes-AMG SL 63",
+   "theme": "speed-champions"
+  },
+  {
+   "set": "77238",
+   "price": 34.49,
+   "strikethrough": 49.99,
+   "asin": "B0DWDW4FWJ",
+   "name": "Lamborghini Revuelto en Huracan Sto",
+   "theme": "speed-champions"
+  },
+  {
+   "set": "77244",
+   "price": 17.99,
+   "strikethrough": 26.99,
+   "asin": "B0DHS9Y433",
+   "name": "Mercedes-AMG F1 W15",
+   "theme": "speed-champions"
+  },
+  {
+   "set": "77251",
+   "price": 20.24,
+   "strikethrough": 26.99,
+   "asin": "B0DHS9Y192",
+   "name": "McLaren F1 Team MCL38",
+   "theme": "speed-champions"
+  },
+  {
+   "set": "77253",
+   "price": 19.59,
+   "strikethrough": 27.99,
+   "asin": "B0FPVT4VG6",
+   "name": "Bugatti Vision GT hypercar",
+   "theme": "speed-champions"
+  },
+  {
+   "set": "77254",
+   "price": 20.99,
+   "strikethrough": 27.99,
+   "asin": "B0FPXK52K8",
+   "name": "Ferrari SF90 XX Stradale",
+   "theme": "speed-champions"
+  },
+  {
+   "set": "77255",
+   "price": 20.99,
+   "strikethrough": 27.99,
+   "asin": "B0FPXCYXHM",
+   "name": "Bliksem McQueen",
+   "theme": "speed-champions"
+  },
+  {
+   "set": "77256",
+   "price": 20.99,
+   "strikethrough": 27.99,
+   "asin": "B0FPXDXXYR",
+   "name": "Tijdmachine uit Back to the Future",
+   "theme": "speed-champions"
+  },
+  {
+   "set": "77259",
+   "name": "Audi Revolut F1 Team R26",
+   "price": 19.52,
+   "strikethrough": 27.99,
+   "asin": "B0FPXGRFLV",
+   "theme": "speed-champions"
+  },
+  {
+   "set": "77260",
+   "name": "Fast & Furious Toyota Supra MK4",
+   "price": 17.99,
+   "strikethrough": 27.99,
+   "asin": "B0FPXF65PH",
+   "theme": "speed-champions"
+  },
+  {
+   "set": "77261",
+   "name": "Ferrari 499P",
+   "price": 19.59,
+   "strikethrough": 27.99,
+   "asin": "B0FPXGT7K7",
+   "theme": "speed-champions"
+  },
+  {
+   "set": "77262",
+   "price": 19.99,
+   "strikethrough": 27.99,
+   "asin": "B0FPXGKBCS",
+   "name": "Ken Blocks 1965 Ford Mustang Hoonicorn",
+   "theme": "speed-champions"
+  },
+  {
+   "set": "77264",
+   "price": 37.49,
+   "strikethrough": 54.99,
+   "asin": "B0GGSHJWPS",
+   "name": "Jaguar Project 7 en Land Rover Defender",
+   "theme": "speed-champions"
   }
  ]
 }

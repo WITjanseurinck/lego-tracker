@@ -14,6 +14,9 @@ export const LANG_NAME: Record<Locale, string> = { nl: 'Nederlands', fr: 'Franç
 const SEGMENTS: Record<string, Record<Locale, string>> = {
   gids: { nl: 'gids', fr: 'guide', en: 'guides' },
   zoeken: { nl: 'zoeken', fr: 'recherche', en: 'search' },
+  thema: { nl: 'thema', fr: 'theme', en: 'theme' },
+  themas: { nl: 'themas', fr: 'themes', en: 'themes' },
+  kiezen: { nl: 'kiezen', fr: 'choisir', en: 'finder' },
 };
 
 export function isLocale(v: string | null | undefined): v is Locale {

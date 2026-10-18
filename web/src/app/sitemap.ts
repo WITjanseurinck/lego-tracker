@@ -25,6 +25,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     ...entry(() => '/', { lastModified: bolFetchedAt, changeFrequency: 'daily', priority: 1 }),
     ...entry(() => '/gids', { changeFrequency: 'weekly', priority: 0.9 }),
+    ...entry(() => '/themas', { changeFrequency: 'weekly', priority: 0.9 }),
+    ...entry(() => '/kiezen', { changeFrequency: 'weekly', priority: 0.9 }),
+    ...[...new Set(getCompareDeals().map((d) => d.theme))].filter((t) => t !== 'overig').flatMap((t) => entry(() => `/thema/${t}`, { lastModified: bolFetchedAt, changeFrequency: 'daily', priority: 0.8 })),
     ...getCompareDeals().flatMap((d) => entry(() => `/set/${d.set}`, { lastModified: bolFetchedAt, changeFrequency: 'daily', priority: 0.8 })),
     ...articles.flatMap((a) => entry((l) => articlePaths(a)[l], { lastModified: a.updated, changeFrequency: 'weekly', priority: 0.8 })),
   ];

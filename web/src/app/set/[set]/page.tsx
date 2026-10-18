@@ -3,7 +3,10 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { amazonFetchedAt } from '@/lib/amazon';
 import { bolFetchedAt } from '@/lib/bol';
-import { getCompareDeal, getCompareDeals } from '@/lib/deals';
+import { getCompareDeal, relatedByPrice } from '@/lib/deals';
+import { CompareCard } from '@/components/CompareCard';
+import { getDict2, themeName } from '@/lib/dict2';
+import { photoTint } from '@/lib/themes';
 import { formatDate, formatEur } from '@/lib/format';
 import { SITE_NAME, SITE_URL } from '@/lib/site';
 import { getI18n } from '@/lib/i18n-server';
@@ -40,7 +43,8 @@ export default async function SetPage({ params }: Params) {
   const second = deal.offers[1];
   const name = title(deal.set, deal.name);
   const url = `${SITE_URL}${localizePath(locale, `/set/${deal.set}`)}`;
-  const related = getCompareDeals().filter((d) => d.set !== deal.set).slice(0, 4);
+  const related = relatedByPrice(deal);
+  const t2 = getDict2(locale);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -91,7 +95,7 @@ export default async function SetPage({ params }: Params) {
           {deal.image ? <img src={deal.image} alt={name} referrerPolicy="no-referrer" /> : <span className="none">LEGO {deal.set}</span>}
         </div>
         <div>
-          <p className="kicker">LEGO {deal.set}</p>
+          <p className="kicker">LEGO {deal.set}{deal.theme !== 'overig' ? <> · <Link href={href(`/thema/${deal.theme}`)}>{themeName(deal.theme, locale)}</Link></> : null}</p>
           <h1>{t.set.heading(name)}</h1>
           <p className="lead">
             {t.set.leadA}<strong>{eur(best.price)}</strong>{t.set.leadB(best.shop)}
@@ -117,12 +121,16 @@ export default async function SetPage({ params }: Params) {
       </div>
       {related.length > 0 ? (
         <section className="sec">
-          <h2>{t.set.related}</h2>
-          <ul className="relatedlist">
-            {related.map((d) => (
-              <li key={d.set}><Link href={href(`/set/${d.set}`)}>LEGO {d.set} {d.name}</Link> <span>{t.set.from(eur(d.offers[0].price))}</span></li>
+          <h2>{t2.related.title}</h2>
+          <p className="lead">{t2.related.intro}</p>
+          <div className="grid related3">
+            {related.map((r, i) => (
+              <div key={r.deal.set}>
+                <p className="relkind">{t2.related[r.kind]}</p>
+                <CompareCard deal={r.deal} tint={photoTint(i)} locale={locale} />
+              </div>
             ))}
-          </ul>
+          </div>
         </section>
       ) : null}
     </div>

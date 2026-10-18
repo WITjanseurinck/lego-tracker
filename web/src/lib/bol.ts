@@ -9,6 +9,9 @@ export interface BolDeal {
   url: string;
   image: string;
   bolId: string;
+  theme?: string;
+  pieces?: number;
+  age?: number;
 }
 
 // Het SiteId staat ook in elke publieke link, het is dus geen geheim.

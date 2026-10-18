@@ -1,9 +1,6 @@
 import type { Metadata } from 'next';
 import { CompareCard } from '@/components/CompareCard';
-import { ProductCard } from '@/components/ProductCard';
-import { searchProducts } from '@/lib/data';
 import { getCompareDeals } from '@/lib/deals';
-import { isDemo } from '@/lib/demo';
 import { getI18n } from '@/lib/i18n-server';
 import { pageMeta } from '@/lib/seo';
 import { photoTint } from '@/lib/themes';
@@ -21,13 +18,10 @@ export default async function Zoeken({ searchParams }: { searchParams: Promise<{
   const { q = '' } = await searchParams;
   const { locale, t, href } = await getI18n();
   const term = q.trim().replace(/[%,()]/g, '');
-  const compare = isDemo
-    ? term
-      ? getCompareDeals().filter((d) => d.set.includes(term) || norm(`${d.name} lego`).includes(norm(term)))
-      : []
+  const compare = term
+    ? getCompareDeals().filter((d) => d.set.includes(term) || norm(`${d.name} lego`).includes(norm(term)))
     : [];
-  const legacy = isDemo ? [] : await searchProducts(term);
-  const count = compare.length + legacy.length;
+  const count = compare.length;
 
   return (
     <div className="wrap page">
@@ -42,7 +36,6 @@ export default async function Zoeken({ searchParams }: { searchParams: Promise<{
       {term && count > 0 ? <p className="muted">{t.search.count(count)}</p> : null}
       <div className="grid">
         {compare.map((d, i) => <CompareCard key={d.set} deal={d} tint={photoTint(i)} locale={locale} />)}
-        {legacy.map((p, i) => <ProductCard key={p.sku} product={p} tint={photoTint(i)} />)}
       </div>
     </div>
   );

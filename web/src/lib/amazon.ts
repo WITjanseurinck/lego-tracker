@@ -6,6 +6,10 @@ export interface AmazonDeal {
   price: number;
   strikethrough: number;
   asin: string;
+  image?: string | null;
+  theme?: string;
+  pieces?: number;
+  age?: number;
 }
 
 // Tracking-ID van het Belgische Associates-account, staat ook in elke publieke link.

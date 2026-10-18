@@ -3,9 +3,11 @@ import { getDict } from '@/lib/dict';
 import { formatEur } from '@/lib/format';
 import { localizePath, type Locale } from '@/lib/i18n';
 import type { CompareDeal } from '@/lib/deals';
+import { getDict2, themeName } from '@/lib/dict2';
 
 export function CompareCard({ deal, tint = '#1E55A8', locale = 'nl' }: { deal: CompareDeal; tint?: string; locale?: Locale }) {
   const t = getDict(locale).card;
+  const t2 = getDict2(locale);
   const eur = (n: number) => formatEur(n, locale);
   const best = deal.offers[0];
   const second = deal.offers[1];
@@ -35,6 +37,7 @@ export function CompareCard({ deal, tint = '#1E55A8', locale = 'nl' }: { deal: C
             ? <p className="cmp">{t.same(best.shop, second.shop)}</p>
             : <p className="cmp">{t.cheaper(best.shop, eur(saving), second.shop)}</p>
         ) : <p className="cmp">{t.only(best.shop)}</p>}
+        {deal.theme !== 'overig' ? <Link href={localizePath(locale, `/thema/${deal.theme}`)} className="themelink">{t2.moreIn(themeName(deal.theme, locale))} →</Link> : null}
       </div>
     </article>
   );

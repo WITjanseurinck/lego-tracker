@@ -7,5 +7,5 @@ const isLocal = !rawUrl || /localhost|127\.0\.0\.1/.test(rawUrl);
 export const SITE_URL = (isLocal && process.env.NODE_ENV === 'production' ? PUBLIC_URL : rawUrl || 'http://localhost:3000').replace(/\/$/, '');
 export const SITE_NAME = VERTICAL.siteName;
 
-/** Demo-installaties blijven uit Google, tenzij ALLOW_INDEX=1 gezet is (echte deals, echt domein). */
-export const NOINDEX = process.env.DEMO === '1' && process.env.ALLOW_INDEX !== '1';
+/** Zet NOINDEX=1 om de site (tijdelijk) uit Google te houden, bv. op een testomgeving. */
+export const NOINDEX = process.env.NOINDEX === '1';

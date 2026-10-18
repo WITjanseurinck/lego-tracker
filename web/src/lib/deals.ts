@@ -2,6 +2,7 @@ import { amazonAffiliateUrl, getAmazonDeals } from '@/lib/amazon';
 import { bolAffiliateUrl, getBolDeals } from '@/lib/bol';
 import descriptions from '@/data/descriptions.json';
 import { getCatalog, themeKey } from '@/lib/catalog';
+import { legoUrl } from '@/lib/lego';
 import type { Locale } from '@/lib/i18n';
 
 export interface ShopOffer {
@@ -72,7 +73,7 @@ export function getCompareDeals(): CompareDeal[] {
       shop: 'LEGO',
       price: c.price,
       strikethrough: c.list && c.list > c.price ? c.list : null,
-      url: `https://www.lego.com/nl-be/product/${c.slug}`,
+      url: legoUrl(c.slug),
       ...(c.avail === 'out' ? { stock: 'out' as const } : {}),
     });
   }

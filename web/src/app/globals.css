@@ -263,3 +263,5 @@ figure.herofig figcaption { margin-top: 8px; font-size: 14px; color: var(--muted
 footer.site .footlinks{list-style:none;padding:0;margin:16px 0 0;display:flex;flex-wrap:wrap;gap:8px 20px}
 footer.site .footlinks a{color:#fff;text-decoration:none}
 footer.site .footlinks a:hover{text-decoration:underline}
+
+.stockout{font-weight:400;opacity:.7;font-size:.8em}

@@ -1,3 +1,4 @@
+import { brandLabel, getCatalog, themeKey } from '@/lib/catalog';
 import type { Locale } from '@/lib/i18n';
 
 type L3 = Record<Locale, string>;
@@ -89,11 +90,118 @@ export const THEMES: Record<string, ThemeInfo> = {
     name: { nl: 'City', fr: 'City', en: 'City' },
     blurb: { nl: 'Politie, brandweer, voertuigen en stadsleven.', fr: 'Police, pompiers, véhicules et vie urbaine.', en: 'Police, fire, vehicles and city life.' },
   },
+  duplo: {
+    name: { nl: 'DUPLO', fr: 'DUPLO', en: 'DUPLO' },
+    blurb: { nl: 'Grote blokken voor de allerkleinsten, vanaf 1,5 jaar. Treinen, boerderijen, dieren en figuren uit tekenfilms.', fr: 'De grands blocs pour les tout-petits, dès 1,5 an : trains, fermes, animaux et héros de dessins animés.', en: 'Big bricks for the youngest builders, from 1.5 years: trains, farms, animals and cartoon favourites.' },
+  },
+  friends: {
+    name: { nl: 'Friends', fr: 'Friends', en: 'Friends' },
+    blurb: { nl: 'Heartlake City met vriendinnen, dieren en alledaagse avonturen. Vaak met veel kleine details om mee te spelen.', fr: 'Heartlake City avec ses amies, ses animaux et ses aventures du quotidien, plein de petits détails pour jouer.', en: 'Heartlake City with friends, animals and everyday adventures, full of small details to play with.' },
+  },
+  ninjago: {
+    name: { nl: 'NINJAGO', fr: 'NINJAGO', en: 'NINJAGO' },
+    blurb: { nl: 'Ninja’s, draken en mecha’s. Er komen veel sets bij per jaar, dus vergelijken loont.', fr: 'Ninjas, dragons et mechas. De nombreux sets sortent chaque année : comparer vaut la peine.', en: 'Ninjas, dragons and mechs. Lots of new sets every year, so comparing pays off.' },
+  },
+  minecraft: {
+    name: { nl: 'Minecraft', fr: 'Minecraft', en: 'Minecraft' },
+    blurb: { nl: 'Bouw de wereld van het spel na, van kleine biomen tot grote Endermen-torens.', fr: 'Reconstruisez l’univers du jeu, des petits biomes aux grandes tours d’Enderman.', en: 'Build the world of the game, from small biomes to big Enderman towers.' },
+  },
+  marvel: {
+    name: { nl: 'Marvel', fr: 'Marvel', en: 'Marvel' },
+    blurb: { nl: 'Avengers, Spider-Man en X-Men als bouwset, figuur of buste.', fr: 'Avengers, Spider-Man et X-Men en set, figurine ou buste.', en: 'Avengers, Spider-Man and X-Men as sets, figures or busts.' },
+  },
+  dc: {
+    name: { nl: 'Batman en DC', fr: 'Batman en DC', en: 'Batman en DC' },
+    blurb: { nl: 'Batmobielen, Gotham en de helden van DC.', fr: 'Batmobiles, Gotham et les héros de DC.', en: 'Batmobiles, Gotham and the heroes of DC.' },
+  },
+  'jurassic-world': {
+    name: { nl: 'Jurassic World', fr: 'Jurassic World', en: 'Jurassic World' },
+    blurb: { nl: 'Dinosaurussen om te bouwen, van babydino’s tot een T. rex.', fr: 'Des dinosaures à construire, du bébé dino au T. rex.', en: 'Dinosaurs to build, from baby dinos to a T. rex.' },
+  },
+  classic: {
+    name: { nl: 'Classic', fr: 'Classic', en: 'Classic' },
+    blurb: { nl: 'Losse stenen in een doos om vrij mee te bouwen. Geen handleiding nodig.', fr: 'Des briques en vrac dans une boîte pour construire librement, sans notice.', en: 'Loose bricks in a box for free building, no instructions needed.' },
+  },
+  bluey: {
+    name: { nl: 'Bluey', fr: 'Bluey', en: 'Bluey' },
+    blurb: { nl: 'Bluey en haar familie als speelset, voor kleuters en jonge kinderen.', fr: 'Bluey et sa famille en set de jeu, pour les tout-petits et les jeunes enfants.', en: 'Bluey and her family as play sets, for toddlers and young children.' },
+  },
+  'super-mario': {
+    name: { nl: 'Super Mario', fr: 'Super Mario', en: 'Super Mario' },
+    blurb: { nl: 'Mario Kart, Game Boy en de klassieke Nintendo-wereld.', fr: 'Mario Kart, Game Boy et l’univers classique de Nintendo.', en: 'Mario Kart, Game Boy and the classic Nintendo world.' },
+  },
+  brickheadz: {
+    name: { nl: 'BrickHeadz', fr: 'BrickHeadz', en: 'BrickHeadz' },
+    blurb: { nl: 'Blokkige figuurtjes met een groot hoofd, leuk om te verzamelen.', fr: 'Des figurines en blocs à grosse tête, à collectionner.', en: 'Blocky figures with big heads, fun to collect.' },
+  },
+  sonic: {
+    name: { nl: 'Sonic', fr: 'Sonic', en: 'Sonic' },
+    blurb: { nl: 'Sonic en zijn vrienden tegen Dr. Eggman.', fr: 'Sonic et ses amis contre le Dr Eggman.', en: 'Sonic and friends against Dr. Eggman.' },
+  },
+  fortnite: {
+    name: { nl: 'Fortnite', fr: 'Fortnite', en: 'Fortnite' },
+    blurb: { nl: 'Sets uit het spel: de Battle Bus, Llama’s en figuren.', fr: 'Des sets tirés du jeu : le Battle Bus, les lamas et des personnages.', en: 'Sets from the game: the Battle Bus, llamas and characters.' },
+  },
+  'lord-of-the-rings': {
+    name: { nl: 'The Lord of the Rings', fr: 'The Lord of the Rings', en: 'The Lord of the Rings' },
+    blurb: { nl: 'Rivendel, de Gouw en Mordor in bouwstenen.', fr: 'Fondcombe, la Comté et le Mordor en briques.', en: 'Rivendell, the Shire and Mordor in bricks.' },
+  },
+  dreamzzz: {
+    name: { nl: 'DREAMZzz', fr: 'DREAMZzz', en: 'DREAMZzz' },
+    blurb: { nl: 'Droomwezens en nachtmerries die je kunt ombouwen.', fr: 'Des créatures de rêve et de cauchemar à transformer.', en: 'Dream creatures and nightmares you can rebuild.' },
+  },
+  'one-piece': {
+    name: { nl: 'One Piece', fr: 'One Piece', en: 'One Piece' },
+    blurb: { nl: 'Strohoed-piraten, schepen en scènes uit de anime.', fr: 'Les pirates au chapeau de paille, leurs navires et des scènes de l’anime.', en: 'The Straw Hat pirates, ships and scenes from the anime.' },
+  },
+  wicked: {
+    name: { nl: 'Wicked', fr: 'Wicked', en: 'Wicked' },
+    blurb: { nl: 'Emerald City, Glinda en Elphaba.', fr: 'La Cité d’Émeraude, Glinda et Elphaba.', en: 'Emerald City, Glinda and Elphaba.' },
+  },
+  wednesday: {
+    name: { nl: 'Wednesday', fr: 'Wednesday', en: 'Wednesday' },
+    blurb: { nl: 'Nimmermeer Academie en het huis van de familie Addams.', fr: 'L’académie Nevermore et la maison de la famille Addams.', en: 'Nevermore Academy and the Addams family home.' },
+  },
+  'monkie-kid': {
+    name: { nl: 'Monkie Kid', fr: 'Monkie Kid', en: 'Monkie Kid' },
+    blurb: { nl: 'Mecha’s en avonturen rond de Apenkoning.', fr: 'Mechas et aventures autour du Roi Singe.', en: 'Mechs and adventures around the Monkey King.' },
+  },
+  'stranger-things': {
+    name: { nl: 'Stranger Things', fr: 'Stranger Things', en: 'Stranger Things' },
+    blurb: { nl: 'Het huis van de familie Creel en figuren uit de serie.', fr: 'La maison de la famille Creel et des personnages de la série.', en: 'The Creel house and figures from the series.' },
+  },
+  minifiguren: {
+    name: { nl: 'Minifiguren', fr: 'Minifiguren', en: 'Minifiguren' },
+    blurb: { nl: 'Verzamelminifiguren en grote minifiguren om neer te zetten.', fr: 'Minifigurines à collectionner et grandes figurines à exposer.', en: 'Collectable minifigures and big minifigures to display.' },
+  },
+  'animal-crossing': {
+    name: { nl: 'Animal Crossing', fr: 'Animal Crossing', en: 'Animal Crossing' },
+    blurb: { nl: 'Het dorpsleven uit het spel als bouwset.', fr: 'La vie de village du jeu en set de construction.', en: 'The village life from the game as a build set.' },
+  },
+  'gabbys-dollhouse': {
+    name: { nl: 'Gabby’s poppenhuis', fr: 'Gabby’s poppenhuis', en: 'Gabby’s poppenhuis' },
+    blurb: { nl: 'Gabby en de kattenvriendjes, voor jonge kinderen.', fr: 'Gabby et ses amis les chats, pour les jeunes enfants.', en: 'Gabby and the cat friends, for young children.' },
+  },
   overig: {
     name: { nl: 'Overige sets', fr: 'Autres sets', en: 'Other sets' },
-    blurb: { nl: 'Sets uit andere reeksen, zoals Super Mario en Pokémon.', fr: 'Sets d’autres gammes, comme Super Mario et Pokémon.', en: 'Sets from other ranges, such as Super Mario and Pokémon.' },
+    blurb: { nl: 'Sets uit kleinere reeksen en losse thema’s, van hobbysets tot seizoensdecoratie.', fr: 'Des sets de petites gammes et de thèmes isolés, des sets de loisir aux décorations de saison.', en: 'Sets from smaller ranges and one-off themes, from hobby sets to seasonal decorations.' },
   },
 };
+
+// Een thema dat LEGO later toevoegt en hier nog geen eigen tekst heeft, krijgt een nette standaardtekst.
+for (const r of getCatalog()) {
+  const k = themeKey(r.brand);
+  if (THEMES[k]) continue;
+  const n = brandLabel(r.brand);
+  THEMES[k] = {
+    name: { nl: n, fr: n, en: n },
+    blurb: {
+      nl: `Alle ${n}-sets van LEGO, met de prijzen van de Belgische webshops naast elkaar.`,
+      fr: `Tous les sets ${n} de LEGO, avec les prix des boutiques belges côte à côte.`,
+      en: `All LEGO ${n} sets, with the prices of the Belgian webshops side by side.`,
+    },
+  };
+}
 
 export const themeName = (slug: string, l: Locale) => THEMES[slug]?.name[l] ?? slug;
 
@@ -103,6 +211,7 @@ const D = {
     piecesWord: 'stukjes',
     giftDisclosure: 'Reclame: dit zijn affiliate links. Koop je via een link, dan ontvangen wij een commissie van de shop. Voor jou verandert de prijs niet.',
     giftsLabel: 'Cadeau-ideeën',
+    stockOut: 'tijdelijk uitverkocht',
     ageFact: 'Vanaf {a} jaar',
     buildFact: 'Bouwtijd ongeveer {t}',
     hoursUnit: 'uur',
@@ -156,6 +265,7 @@ const D = {
     piecesWord: 'pièces',
     giftDisclosure: 'Publicité : ce sont des liens d’affiliation. Si vous achetez via un lien, nous recevons une commission de la boutique. Pour vous, le prix ne change pas.',
     giftsLabel: 'Idées cadeaux',
+    stockOut: 'temporairement épuisé',
     ageFact: 'Dès {a} ans',
     buildFact: 'Temps de montage : environ {t}',
     hoursUnit: 'h',
@@ -209,6 +319,7 @@ const D = {
     piecesWord: 'pieces',
     giftDisclosure: 'Advertisement: these are affiliate links. If you buy through a link, we receive a commission from the shop. The price does not change for you.',
     giftsLabel: 'Gift ideas',
+    stockOut: 'temporarily sold out',
     ageFact: 'Ages {a}+',
     buildFact: 'Build time about {t}',
     hoursUnit: 'hours',

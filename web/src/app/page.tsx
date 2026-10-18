@@ -34,7 +34,8 @@ export default async function Home() {
     compare[0];
   const gridDeals = compare.filter((d) => d !== hero).slice(0, 24);
   const t2 = getDict2(locale);
-  const themeKeys = Object.keys(THEMES).filter((k) => k !== 'overig' && compare.some((d) => d.theme === k));
+  const themeCount = (k: string) => compare.filter((d) => d.theme === k).length;
+  const themeKeys = Object.keys(THEMES).filter((k) => k !== 'overig' && themeCount(k) > 0).sort((a, b) => themeCount(b) - themeCount(a)).slice(0, 16);
 
   const itemList = compare.length > 0
     ? {

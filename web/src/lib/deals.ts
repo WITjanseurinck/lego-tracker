@@ -1,6 +1,7 @@
 import { amazonAffiliateUrl, getAmazonDeals } from '@/lib/amazon';
 import { bolAffiliateUrl, getBolDeals } from '@/lib/bol';
 import descriptions from '@/data/descriptions.json';
+import { getCatalog, themeKey } from '@/lib/catalog';
 import type { Locale } from '@/lib/i18n';
 
 export interface ShopOffer {
@@ -8,6 +9,8 @@ export interface ShopOffer {
   price: number;
   strikethrough: number | null;
   url: string;
+  /** Alleen gezet als de shop de set tijdelijk niet kan leveren. */
+  stock?: 'out';
 }
 
 export interface CompareDeal {
@@ -26,8 +29,11 @@ export interface CompareDeal {
 const sized = (url: string | null) =>
   url && url.startsWith('https://www.lego.com/cdn/') && !url.includes('?') ? `${url}?format=webply&fit=bounds&quality=80&width=640&height=640` : url;
 
-/** Voegt de aanbiedingen van alle shops samen per setnummer. */
+let cache: CompareDeal[] | null = null;
+
+/** Voegt de aanbiedingen van alle shops samen per setnummer (eenmalig berekend, de data is statisch). */
 export function getCompareDeals(): CompareDeal[] {
+  if (cache) return cache;
   const map = new Map<string, CompareDeal>();
   const get = (set: string, name: string, image: string | null, theme = 'overig', pieces: number | null = null, age: number | null = null) => {
     let d = map.get(set);
@@ -57,14 +63,29 @@ export function getCompareDeals(): CompareDeal[] {
       url: amazonAffiliateUrl(a.asin),
     });
   }
+  // Het volledige LEGO.com-assortiment: elke set krijgt een LEGO-aanbod (officiële prijs).
+  for (const c of getCatalog()) {
+    const d = get(c.set, c.name, sized(c.image), themeKey(c.brand), c.pieces || null, c.age || null);
+    d.theme = themeKey(c.brand);
+    if (!d.pieces && c.pieces) d.pieces = c.pieces;
+    d.offers.push({
+      shop: 'LEGO',
+      price: c.price,
+      strikethrough: c.list && c.list > c.price ? c.list : null,
+      url: `https://www.lego.com/nl-be/product/${c.slug}`,
+      ...(c.avail === 'out' ? { stock: 'out' as const } : {}),
+    });
+  }
   const out = [...map.values()];
   for (const d of out) {
-    d.offers.sort((x, y) => x.price - y.price);
+    // Shops die tijdelijk niets kunnen leveren komen achteraan, ook als hun prijs het laagst is.
+    d.offers.sort((x, y) => Number(x.stock === 'out') - Number(y.stock === 'out') || x.price - y.price);
     const ref = Math.max(...d.offers.map((o) => o.strikethrough ?? 0));
     d.bestDiscount = ref > d.offers[0].price ? Math.round((1 - d.offers[0].price / ref) * 100) : 0;
   }
   // Eerst sets die in beide shops staan (echte vergelijking), daarna op korting
-  return out.sort((a, b) => b.offers.length - a.offers.length || b.bestDiscount - a.bestDiscount);
+  cache = out.sort((a, b) => b.offers.length - a.offers.length || b.bestDiscount - a.bestDiscount);
+  return cache;
 }
 
 export function getCompareDeal(set: string): CompareDeal | undefined {
@@ -85,7 +106,30 @@ const THEME_FAMILY: Record<string, string[]> = {
   art: ['botanicals', 'architecture', 'icons'],
   architecture: ['art', 'icons', 'ideas'],
   creator: ['disney', 'overig', 'ideas'],
-  city: ['creator', 'technic'],
+  city: ['creator', 'technic', 'friends'],
+  duplo: ['classic', 'bluey', 'friends'],
+  friends: ['city', 'duplo', 'disney'],
+  ninjago: ['city', 'monkie-kid', 'minecraft'],
+  minecraft: ['ninjago', 'fortnite', 'super-mario'],
+  marvel: ['dc', 'star-wars', 'ninjago'],
+  dc: ['marvel', 'star-wars'],
+  'jurassic-world': ['city', 'ninjago', 'minecraft'],
+  classic: ['duplo', 'creator', 'city'],
+  bluey: ['duplo', 'classic', 'friends'],
+  'super-mario': ['sonic', 'minecraft', 'fortnite'],
+  brickheadz: ['editions', 'disney', 'marvel'],
+  sonic: ['super-mario', 'fortnite', 'minecraft'],
+  fortnite: ['minecraft', 'sonic', 'super-mario'],
+  'lord-of-the-rings': ['harry-potter', 'icons', 'ideas'],
+  dreamzzz: ['ninjago', 'friends', 'monkie-kid'],
+  'one-piece': ['ninjago', 'star-wars', 'monkie-kid'],
+  wicked: ['disney', 'friends', 'icons'],
+  wednesday: ['harry-potter', 'icons', 'ideas'],
+  'monkie-kid': ['ninjago', 'city', 'dreamzzz'],
+  'stranger-things': ['icons', 'ideas', 'harry-potter'],
+  minifiguren: ['brickheadz', 'editions', 'overig'],
+  'animal-crossing': ['super-mario', 'friends', 'disney'],
+  'gabbys-dollhouse': ['friends', 'duplo', 'disney'],
   'speed-champions': ['technic', 'editions'],
 };
 

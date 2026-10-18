@@ -12,8 +12,8 @@ export interface CatalogRow {
   pieces: number | null;
   price: number;
   list: number | null;
-  /** E_AVAILABLE, E_TEMPORARILY_SOLD_OUT, ... */
-  avail: string;
+  /** in-stock, backorder (later leverbaar) of out (tijdelijk uitverkocht). */
+  avail: 'in-stock' | 'backorder' | 'out';
 }
 
 export const catalogFetchedAt: string = (catalog as { fetchedAt: string }).fetchedAt;
@@ -38,6 +38,23 @@ const KNOWN: Record<string, string> = {
   disney: 'disney',
   city: 'city',
   editions: 'editions',
+  nike: 'editions',
+  'creator expert': 'icons',
+  duplo: 'duplo',
+  'duplo peppa big': 'duplo',
+  'spider-man': 'marvel',
+  batman: 'dc',
+  frozen: 'disney',
+  'gabby\'s poppenhuis': 'gabbys-dollhouse',
+  'monkie kid': 'monkie-kid',
+  'lord of the rings': 'lord-of-the-rings',
+  'sonic the hedgehog': 'sonic',
+  'super mario': 'super-mario',
+  'powered up': 'overig',
+  education: 'overig',
+  'serious play': 'overig',
+  'kpop demon hunters': 'overig',
+  'the legend of zelda': 'overig',
 };
 
 export function brandLabel(brand: string): string {

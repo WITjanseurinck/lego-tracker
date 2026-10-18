@@ -109,7 +109,7 @@ export default async function SetPage({ params }: Params) {
             <tbody>
               {deal.offers.map((o, i) => (
                 <tr key={o.shop} className={i === 0 && (deal.offers.length < 2 || deal.offers[1].price - deal.offers[0].price >= 0.005) ? 'best' : undefined}>
-                  <th scope="row">{o.shop}{i === 0 && second && second.price - best.price >= 0.005 ? <span className="tag">{t.set.cheapest}</span> : null}</th>
+                  <th scope="row">{o.shop}{o.stock ? <span className="tag">{t2.stockOut}</span> : null}{i === 0 && second && second.price - best.price >= 0.005 ? <span className="tag">{t.set.cheapest}</span> : null}</th>
                   <td className="price">{eur(o.price)}</td>
                   <td className="rrp">{o.strikethrough && o.strikethrough > o.price ? eur(o.strikethrough) : ''}</td>
                   <td><a href={o.url} className="btn dark" target="_blank" rel="sponsored noopener" data-affiliate={o.shop.toLowerCase()}>{t.set.viewAt(o.shop)}</a></td>

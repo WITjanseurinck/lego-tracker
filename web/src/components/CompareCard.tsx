@@ -26,7 +26,7 @@ export function CompareCard({ deal, tint = '#1E55A8', locale = 'nl' }: { deal: C
           {deal.offers.map((o, i) => (
             <li key={o.shop} className={i === 0 && (deal.offers.length < 2 || deal.offers[1].price - deal.offers[0].price >= 0.005) ? 'best' : undefined}>
               <a href={o.url} className="pill" target="_blank" rel="sponsored noopener" data-affiliate={o.shop.toLowerCase()} aria-label={`${t.see} ${o.shop}: ${eur(o.price)}`}>
-                <span className="shop">{o.shop}</span>
+                <span className="shop">{o.shop}{o.stock ? <small className="stockout"> · {t2.stockOut}</small> : null}</span>
                 <span className="price">{eur(o.price)}</span>
                 <span className="rrp">{o.strikethrough && o.strikethrough > o.price ? eur(o.strikethrough) : ''}</span>
                 <span className="go" aria-hidden="true">{t.see} →</span>

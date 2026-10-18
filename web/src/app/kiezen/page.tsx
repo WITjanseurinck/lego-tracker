@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { BrickDuck } from '@/components/BrickDuck';
 import { CompareCard } from '@/components/CompareCard';
 import { getCompareDeals } from '@/lib/deals';
 import { THEMES, TIME_RANGES, buildHours, getDict2, themeName } from '@/lib/dict2';
@@ -119,7 +118,6 @@ export default async function Kiezen({ searchParams }: { searchParams: Promise<S
             {budget ? ` · ${f.around(eur(lo), eur(hi))}` : ''}
           </p>
           {list.length === 0 ? <p>{near || near2 ? f.timeNone(eur(budget ?? 0), range ? range[locale] : '') : f.none}</p> : null}
-          {near || near2 ? <BrickDuck caption={f.duckCaption} /> : null}
           {near || near2 ? (
             <div className="grid near" style={{ marginTop: 24 }}>
               {[near, near2].filter(Boolean).map((n, i) => (

@@ -258,6 +258,8 @@ figure.herofig figcaption { margin-top: 8px; font-size: 14px; color: var(--muted
 .about p { font-size: 18px; line-height: 1.65; }
 .near{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;align-items:start}
 .nearnote{font-weight:600;margin:0 0 10px}
-.duckfig{margin:24px 0 0;text-align:center}
-.duck{width:100%;max-width:440px;height:auto}
-.duckfig figcaption{margin-top:8px;font-weight:600}
+.giftintro{max-width:62ch;font-size:1.05rem;line-height:1.6}
+.agechips a.on{background:var(--ink,#111827);color:#fff}
+footer.site .footlinks{list-style:none;padding:0;margin:16px 0 0;display:flex;flex-wrap:wrap;gap:8px 20px}
+footer.site .footlinks a{color:#fff;text-decoration:none}
+footer.site .footlinks a:hover{text-decoration:underline}

@@ -3,6 +3,8 @@ import { getDict } from '@/lib/dict';
 import { formatEur } from '@/lib/format';
 import { isLocale } from '@/lib/i18n';
 import { findArticleById } from '@/lib/articles';
+import { GIFTS, isGiftSlug } from '@/lib/gifts';
+import { getDict2 } from '@/lib/dict2';
 import { renderOg } from '@/lib/og';
 
 export const dynamic = 'force-dynamic';
@@ -26,6 +28,13 @@ export async function GET(req: Request) {
       });
     }
     return renderOg({ title: t.og.fallbackTitle });
+  }
+
+  const gift = q.get('g');
+  if (gift && isGiftSlug(gift)) {
+    const c = GIFTS[gift].copy[locale];
+    const lines = { nl: ['Drie voorstellen per leeftijd', 'Laagste prijs in België'], fr: ['Trois idées par âge', 'Meilleur prix en Belgique'], en: ['Three ideas per age', 'Lowest price in Belgium'] }[locale];
+    return renderOg({ kicker: getDict2(locale).giftsLabel, title: c.h1, lines });
   }
 
   const a = q.get('a');

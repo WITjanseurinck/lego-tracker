@@ -1,3 +1,4 @@
+import { GIFTS, GIFT_SLUGS } from '@/lib/gifts';
 import { getDict2 } from '@/lib/dict2';
 import { Suspense } from 'react';
 import type { CSSProperties } from 'react';
@@ -78,6 +79,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             <div className="txt">
               <p>{t.footer[0]}</p>
               <p>{t.footer[1]}</p>
+              <ul className="footlinks">
+                {GIFT_SLUGS.map((g) => (
+                  <li key={g}><Link href={href(`/cadeau/${g}`)}>{GIFTS[g].copy[locale].nav}</Link></li>
+                ))}
+              </ul>
             </div>
           </div>
         </footer>

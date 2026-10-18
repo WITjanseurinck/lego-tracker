@@ -16,6 +16,7 @@ const SEGMENTS: Record<string, Record<Locale, string>> = {
   zoeken: { nl: 'zoeken', fr: 'recherche', en: 'search' },
   thema: { nl: 'thema', fr: 'theme', en: 'theme' },
   themas: { nl: 'themas', fr: 'themes', en: 'themes' },
+  cadeau: { nl: 'cadeau', fr: 'cadeau', en: 'gift' },
   kiezen: { nl: 'kiezen', fr: 'choisir', en: 'finder' },
 };
 

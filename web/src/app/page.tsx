@@ -7,7 +7,12 @@ import { amazonFetchedAt } from '@/lib/amazon';
 import { bolFetchedAt } from '@/lib/bol';
 import { getCompareDeals } from '@/lib/deals';
 import { isDemo } from '@/lib/demo';
-import { getArticles, getDeals, getThemes } from '@/lib/data';
+import { getDeals, getThemes } from '@/lib/data';
+import { allArticles } from '@/lib/articles';
+import { getI18n } from '@/lib/i18n-server';
+import { pageMeta } from '@/lib/seo';
+import { shopDates } from '@/lib/dict';
+import { localizePath } from '@/lib/i18n';
 import { formatDate, formatEur } from '@/lib/format';
 import { productImageUrl } from '@/lib/images';
 import { photoTint } from '@/lib/themes';
@@ -16,24 +21,24 @@ import { VERTICAL } from '@/verticals';
 
 export const dynamic = 'force-dynamic';
 
-export const metadata: Metadata = {
-  title: { absolute: `Lego prijzen vergelijken in België: bol en Amazon | ${SITE_NAME}` },
-  description: 'Vergelijk de prijs van Lego-sets bij bol en Amazon in België. Dagelijkse deals, de goedkoopste shop per set en de korting ten opzichte van de doorstreepprijs.',
-  alternates: { canonical: '/' },
-  openGraph: {
-    title: `Lego prijzen vergelijken in België: bol en Amazon | ${SITE_NAME}`,
-    description: 'Elke Lego-set bij bol en Amazon naast elkaar, met de goedkoopste prijs bovenaan.',
-    url: '/',
-    type: 'website',
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const { locale, t } = await getI18n();
+  return pageMeta({ locale, path: '/', title: t.home.metaTitle, absoluteTitle: true, description: t.home.metaDesc });
+}
 
 export default async function Home() {
-  const [{ deals, error }, articles, themes] = await Promise.all([getDeals(), getArticles(3), getThemes()]);
+  const { locale, t, href } = await getI18n();
+  const [{ deals, error }, themes] = await Promise.all([getDeals(), getThemes()]);
+  const articles = allArticles().slice(0, 3);
+  const eur = (n: number) => formatEur(n, locale);
   const compare = isDemo || deals.length === 0 ? getCompareDeals() : [];
   const useBol = compare.length > 0;
   const [first, ...rest] = useBol ? [] : deals;
-  const hero = compare.find((d) => d.image && d.offers.length > 1 && d.bestDiscount <= 45) ?? compare[0];
+  const priceGap = (d: (typeof compare)[number]) => d.offers.length > 1 && d.offers[1].price - d.offers[0].price > 0.005;
+  const hero =
+    compare.find((d) => d.image && priceGap(d) && d.bestDiscount <= 45 && d.name.length <= 40) ??
+    compare.find((d) => d.image && d.offers.length > 1 && d.bestDiscount <= 45) ??
+    compare[0];
   const gridDeals = compare.filter((d) => d !== hero);
   const firstImg = first ? productImageUrl(first.image_path) : null;
   const disc = first?.discount_pct ? Math.round(Number(first.discount_pct)) : null;
@@ -42,11 +47,11 @@ export default async function Home() {
     ? {
         '@context': 'https://schema.org',
         '@type': 'ItemList',
-        name: 'LEGO-deals vergeleken bij bol en Amazon',
+        name: t.home.itemListName,
         itemListElement: compare.slice(0, 24).map((d, i) => ({
           '@type': 'ListItem',
           position: i + 1,
-          url: `${SITE_URL}/set/${d.set}`,
+          url: `${SITE_URL}${localizePath(locale, `/set/${d.set}`)}`,
           name: `LEGO ${d.set} ${d.name}`,
         })),
       }
@@ -54,25 +59,25 @@ export default async function Home() {
 
   return (
     <>
-      <h1 className="sr-only">Lego prijzen vergelijken in België: bol en Amazon naast elkaar</h1>
+      <h1 className="sr-only">{t.home.h1}</h1>
       {itemList ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemList) }} /> : null}
       {useBol && hero ? (
         <section className="hero">
           <div className="grid2">
             <div className="text">
-              <div className="kicker">Prijsvergelijking van vandaag · {hero.set}</div>
-              <h2 className="title"><Link href={`/set/${hero.set}`}>{hero.name}</Link></h2>
+              <div className="kicker">{t.home.kicker} · {hero.set}</div>
+              <h2 className="title"><Link href={href(`/set/${hero.set}`)}>{hero.name}</Link></h2>
               <ul className="offers heroOffers">
                 {hero.offers.map((o, i) => (
-                  <li key={o.shop} className={i === 0 ? 'best' : undefined}>
+                  <li key={o.shop} className={i === 0 && (hero.offers.length < 2 || hero.offers[1].price - hero.offers[0].price >= 0.005) ? 'best' : undefined}>
                     <span className="shop">{o.shop}</span>
-                    <span className="price">{formatEur(o.price)}</span>
-                    {o.strikethrough && o.strikethrough > o.price ? <span className="rrp">{formatEur(o.strikethrough)}</span> : null}
-                    <a href={o.url} className="btn dark" target="_blank" rel="sponsored noopener" data-affiliate={o.shop.toLowerCase()}>Bekijk bij {o.shop}</a>
+                    <span className="price">{eur(o.price)}</span>
+                    {o.strikethrough && o.strikethrough > o.price ? <span className="rrp">{eur(o.strikethrough)}</span> : null}
+                    <a href={o.url} className="btn dark" target="_blank" rel="sponsored noopener" data-affiliate={o.shop.toLowerCase()}>{t.home.viewAt(o.shop)}</a>
                   </li>
                 ))}
               </ul>
-              <div className="cta"><Link href="/zoeken" className="btn">Zoek een {VERTICAL.productNoun}</Link></div>
+              <div className="cta"><Link href={href('/zoeken')} className="btn">{t.home.searchCta}</Link></div>
             </div>
             <div className="photo">{hero.image ? <img src={hero.image} alt={`LEGO ${hero.set} ${hero.name}`} referrerPolicy="no-referrer" /> : null}</div>
           </div>
@@ -109,12 +114,12 @@ export default async function Home() {
         <section className="wrap sec">
           <div className="sechead">
             <div>
-              <h2>LEGO-deals vergeleken</h2>
-              <p className="lead">Dezelfde set bij bol en Amazon naast elkaar, de goedkoopste bovenaan. Prijzen van {formatDate(bolFetchedAt)} (bol) en {formatDate(amazonFetchedAt)} (Amazon), controleer de actuele prijs in de shop.</p>
+              <h2>{t.home.sectionTitle}</h2>
+              <p className="lead">{t.home.sectionLead(shopDates(locale, formatDate(bolFetchedAt, locale), formatDate(amazonFetchedAt, locale)))}</p>
             </div>
           </div>
-          <div className="grid">{gridDeals.map((d, i) => <CompareCard key={d.set} deal={d} tint={photoTint(i + 1)} />)}</div>
-          <p className="lead" style={{ marginTop: 32 }}>Reclame: dit zijn affiliate links. Koop je via een link, dan ontvangen wij een commissie van bol of Amazon. Voor jou verandert de prijs niet.</p>
+          <div className="grid">{gridDeals.map((d, i) => <CompareCard key={d.set} deal={d} tint={photoTint(i + 1)} locale={locale} />)}</div>
+          <p className="lead" style={{ marginTop: 32 }}>{t.home.disclosure}</p>
         </section>
       ) : null}
 
@@ -147,27 +152,25 @@ export default async function Home() {
       <section className="band">
         <div className="wrap">
           <div>
-            <h2>Wacht tot jouw set zakt</h2>
-            <p>Open een set, kies een prijs en je krijgt een mail zodra een shop eronder zit. Geen account nodig.</p>
+            <h2>{useBol ? t.home.bandTitle : 'Wacht tot jouw set zakt'}</h2>
+            <p>{useBol ? t.home.bandText : 'Open een set, kies een prijs en je krijgt een mail zodra een shop eronder zit. Geen account nodig.'}</p>
           </div>
-          <Link href="/zoeken" className="btn dark">Kies een {VERTICAL.productNoun}</Link>
+          <Link href={useBol ? href('/gids') : href('/zoeken')} className="btn dark">{useBol ? t.home.bandButton : `Kies een ${VERTICAL.productNoun}`}</Link>
         </div>
       </section>
 
       {articles.length > 0 ? (
         <section className="wrap sec" style={{ paddingBottom: 120 }}>
-          <div className="sechead"><h2>Nieuws en uitleg</h2><Link href="/nieuws">Alle artikels</Link></div>
+          <div className="sechead"><h2>{t.home.guidesTitle}</h2><Link href={href('/gids')}>{t.home.allGuides}</Link></div>
           <div className="news">
             {articles.map((a, i) => (
-              <article className="art" key={a.slug}>
-                <Link href={`/nieuws/${a.slug}`}>
-                  <div className="pic" style={{ background: photoTint(i + 2) }}>
-                    {a.hero_image_url ? <img src={productImageUrl(a.hero_image_url) ?? a.hero_image_url} alt="" loading="lazy" /> : null}
-                  </div>
-                  <p className="date">{a.published_at ? formatDate(a.published_at) : ''}</p>
-                  <h3>{a.title}</h3>
+              <article className="art" key={a.id}>
+                <Link href={href(`/gids/${a.text[locale].slug}`)}>
+                  <div className="pic" style={{ background: photoTint(i + 2) }} />
+                  <p className="date">{formatDate(a.published, locale)}</p>
+                  <h3>{a.text[locale].title}</h3>
                 </Link>
-                <p className="s">{a.summary}</p>
+                <p className="s">{a.text[locale].summary}</p>
               </article>
             ))}
           </div>

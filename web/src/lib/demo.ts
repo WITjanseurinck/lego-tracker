@@ -73,35 +73,4 @@ export interface DemoArticle {
   body: string;
 }
 
-export const DEMO_ARTICLES: DemoArticle[] = [
-  {
-    slug: 'lego-deals-van-de-week',
-    title: 'Lego-deals van de week: de vijf grootste prijsdalingen',
-    summary: 'Welke sets zakken echt, en welke staan alleen een paar dagen lager?',
-    hero_image_url: '/demo/aerial-platform.png',
-    published_at: '2026-10-17T06:00:00Z',
-    updated_at: '2026-10-17T06:00:00Z',
-    body:
-      'Dit is een demo-artikel. De cijfers in deze tekst zijn voorbeeldwaarden.\n\nElke maandag stelt buildthatset automatisch een conceptartikel op met de grootste prijsdalingen van de week. Een redacteur leest het na, voegt context toe en publiceert het.\n\nDe noppenrij onder elke prijs toont waar de prijs zit tussen de laagste prijs ooit en de adviesprijs. Staat de gevulde nop links, dan is het een uitzonderlijk goede prijs.',
-  },
-  {
-    slug: 'zo-lees-je-een-prijsgrafiek',
-    title: 'Zo lees je een prijsgrafiek: koop je nu of wacht je?',
-    summary: 'Wat de prijslijn je vertelt, in drie voorbeelden.',
-    hero_image_url: '/demo/hogwarts-brug.png',
-    published_at: '2026-10-14T06:00:00Z',
-    updated_at: '2026-10-14T06:00:00Z',
-    body:
-      'Dit is een demo-artikel.\n\nDe prijslijn springt enkel als een prijs echt verandert. Een korte dip naar een lage prijs, gevolgd door een stijging, wijst vaak op een tijdelijke actie.\n\nVergelijk de huidige prijs altijd met de laagste prijs ooit en met de adviesprijs.',
-  },
-  {
-    slug: 'wanneer-worden-grote-sets-goedkoper',
-    title: 'Wanneer worden grote sets goedkoper?',
-    summary: 'Een blik op de prijsgeschiedenis van sets boven de 80 euro.',
-    hero_image_url: '/demo/megatron.png',
-    published_at: '2026-10-10T06:00:00Z',
-    updated_at: '2026-10-10T06:00:00Z',
-    body:
-      'Dit is een demo-artikel.\n\nGrote sets zakken meestal rond de feestperiodes en bij winkelacties. Met een prijsalert hoef je niet elke dag te kijken.',
-  },
-];
+export const DEMO_ARTICLES: DemoArticle[] = [];

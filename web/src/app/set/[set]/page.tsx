@@ -6,6 +6,10 @@ import { bolFetchedAt } from '@/lib/bol';
 import { getCompareDeal, getCompareDeals } from '@/lib/deals';
 import { formatDate, formatEur } from '@/lib/format';
 import { SITE_NAME, SITE_URL } from '@/lib/site';
+import { getI18n } from '@/lib/i18n-server';
+import { pageMeta } from '@/lib/seo';
+import { shopDates } from '@/lib/dict';
+import { localizePath } from '@/lib/i18n';
 
 export const dynamic = 'force-dynamic';
 
@@ -15,29 +19,27 @@ const title = (set: string, name: string) => `LEGO ${set} ${name}`;
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { set } = await params;
+  const { locale, t, tag } = await getI18n();
   const deal = getCompareDeal(set);
-  if (!deal) return { title: 'Set niet gevonden', robots: { index: false } };
+  if (!deal) return { title: t.set.notFound, robots: { index: false } };
   const best = deal.offers[0];
-  const shops = deal.offers.map((o) => o.shop).join(' en ');
-  const heading = `${title(deal.set, deal.name)}: prijs vergelijken`;
-  const description = `${title(deal.set, deal.name)} kost vanaf ${formatEur(best.price)} bij ${best.shop}. Vergelijk de prijs bij ${shops} in België en klik door naar de goedkoopste shop.`;
-  return {
-    title: heading,
-    description,
-    alternates: { canonical: `/set/${deal.set}` },
-    openGraph: { title: heading, description, url: `/set/${deal.set}`, type: 'website' },
-    twitter: { card: 'summary_large_image', title: heading, description },
-  };
+  const shops = deal.offers.map((o) => o.shop).join(` ${t.set.and} `);
+  const heading = t.set.heading(title(deal.set, deal.name));
+  const description = t.set.desc(title(deal.set, deal.name), formatEur(best.price, locale), best.shop, shops);
+  void tag;
+  return pageMeta({ locale, path: `/set/${deal.set}`, title: heading, description, og: { set: deal.set } });
 }
 
 export default async function SetPage({ params }: Params) {
   const { set } = await params;
+  const { locale, t, href, tag } = await getI18n();
+  const eur = (n: number) => formatEur(n, locale);
   const deal = getCompareDeal(set);
   if (!deal) notFound();
   const best = deal.offers[0];
   const second = deal.offers[1];
   const name = title(deal.set, deal.name);
-  const url = `${SITE_URL}/set/${deal.set}`;
+  const url = `${SITE_URL}${localizePath(locale, `/set/${deal.set}`)}`;
   const related = getCompareDeals().filter((d) => d.set !== deal.set).slice(0, 4);
 
   const jsonLd = {
@@ -50,6 +52,7 @@ export default async function SetPage({ params }: Params) {
         sku: deal.set,
         mpn: deal.set,
         brand: { '@type': 'Brand', name: 'LEGO' },
+        inLanguage: tag,
         ...(deal.image ? { image: [deal.image] } : {}),
         url,
         offers: {
@@ -72,7 +75,7 @@ export default async function SetPage({ params }: Params) {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: SITE_NAME, item: SITE_URL },
+          { '@type': 'ListItem', position: 1, name: SITE_NAME, item: `${SITE_URL}${localizePath(locale, '/')}`.replace(/\/$/, '') },
           { '@type': 'ListItem', position: 2, name, item: url },
         ],
       },
@@ -82,45 +85,42 @@ export default async function SetPage({ params }: Params) {
   return (
     <div className="wrap page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <nav aria-label="Kruimelpad" className="crumbs"><Link href="/">Alle deals</Link> / <span>LEGO {deal.set}</span></nav>
+      <nav aria-label={t.set.crumbAria} className="crumbs"><Link href={href('/')}>{t.set.crumbAll}</Link> / <span>LEGO {deal.set}</span></nav>
       <div className="setpage">
         <div className="setpic">
           {deal.image ? <img src={deal.image} alt={name} referrerPolicy="no-referrer" /> : <span className="none">LEGO {deal.set}</span>}
         </div>
         <div>
           <p className="kicker">LEGO {deal.set}</p>
-          <h1>{name}: prijs vergelijken</h1>
+          <h1>{t.set.heading(name)}</h1>
           <p className="lead">
-            Vanaf <strong>{formatEur(best.price)}</strong> bij {best.shop}
-            {second ? (second.price - best.price < 0.005 ? `, zelfde prijs bij ${second.shop}.` : `, ${formatEur(second.price - best.price)} goedkoper dan bij ${second.shop}.`) : '.'}
-            {deal.bestDiscount > 0 ? ` Dat is ${deal.bestDiscount}% onder de doorstreepprijs.` : ''}
+            {t.set.leadA}<strong>{eur(best.price)}</strong>{t.set.leadB(best.shop)}
+            {second ? (second.price - best.price < 0.005 ? t.set.tailSame(second.shop) : t.set.tailDiff(eur(second.price - best.price), second.shop)) : t.set.tailNone}
+            {deal.bestDiscount > 0 ? t.set.discount(deal.bestDiscount) : ''}
           </p>
           <table className="cmptable">
-            <caption className="sr-only">Prijzen van {name} per shop</caption>
-            <thead><tr><th scope="col">Shop</th><th scope="col">Prijs</th><th scope="col">Doorstreepprijs</th><th scope="col"><span className="sr-only">Link</span></th></tr></thead>
+            <caption className="sr-only">{t.set.caption(name)}</caption>
+            <thead><tr><th scope="col">{t.set.thShop}</th><th scope="col">{t.set.thPrice}</th><th scope="col">{t.set.thStrike}</th><th scope="col"><span className="sr-only">{t.set.thLink}</span></th></tr></thead>
             <tbody>
               {deal.offers.map((o, i) => (
-                <tr key={o.shop} className={i === 0 ? 'best' : undefined}>
-                  <th scope="row">{o.shop}{i === 0 ? <span className="tag">Goedkoopst</span> : null}</th>
-                  <td className="price">{formatEur(o.price)}</td>
-                  <td className="rrp">{o.strikethrough && o.strikethrough > o.price ? formatEur(o.strikethrough) : ''}</td>
-                  <td><a href={o.url} className="btn dark" target="_blank" rel="sponsored noopener" data-affiliate={o.shop.toLowerCase()}>Bekijk bij {o.shop}</a></td>
+                <tr key={o.shop} className={i === 0 && (deal.offers.length < 2 || deal.offers[1].price - deal.offers[0].price >= 0.005) ? 'best' : undefined}>
+                  <th scope="row">{o.shop}{i === 0 && second && second.price - best.price >= 0.005 ? <span className="tag">{t.set.cheapest}</span> : null}</th>
+                  <td className="price">{eur(o.price)}</td>
+                  <td className="rrp">{o.strikethrough && o.strikethrough > o.price ? eur(o.strikethrough) : ''}</td>
+                  <td><a href={o.url} className="btn dark" target="_blank" rel="sponsored noopener" data-affiliate={o.shop.toLowerCase()}>{t.set.viewAt(o.shop)}</a></td>
                 </tr>
               ))}
             </tbody>
           </table>
-          <p className="small">
-            Prijzen van {formatDate(bolFetchedAt)} (bol) en {formatDate(amazonFetchedAt)} (Amazon) en kunnen intussen veranderd zijn. Controleer de actuele prijs in de shop.
-            Reclame: dit zijn affiliate links. Koop je via een link, dan ontvangen wij een commissie van de shop. Voor jou verandert de prijs niet.
-          </p>
+          <p className="small">{t.set.note(shopDates(locale, formatDate(bolFetchedAt, locale), formatDate(amazonFetchedAt, locale)))}</p>
         </div>
       </div>
       {related.length > 0 ? (
         <section className="sec">
-          <h2>Meer LEGO-deals</h2>
+          <h2>{t.set.related}</h2>
           <ul className="relatedlist">
             {related.map((d) => (
-              <li key={d.set}><Link href={`/set/${d.set}`}>LEGO {d.set} {d.name}</Link> <span>vanaf {formatEur(d.offers[0].price)}</span></li>
+              <li key={d.set}><Link href={href(`/set/${d.set}`)}>LEGO {d.set} {d.name}</Link> <span>{t.set.from(eur(d.offers[0].price))}</span></li>
             ))}
           </ul>
         </section>

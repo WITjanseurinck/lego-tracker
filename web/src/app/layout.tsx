@@ -7,30 +7,37 @@ import { NOINDEX, SITE_NAME, SITE_URL } from '@/lib/site';
 import { VERTICAL } from '@/verticals';
 import { LogoMark } from '@/components/Logo';
 import { Gtm } from '@/components/Gtm';
+import { LanguageSwitcher } from '@/components/LanguageSwitcher';
+import { getI18n } from '@/lib/i18n-server';
+import { LOCALE_TAG, OG_LOCALE, localizePath } from '@/lib/i18n';
 
-export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
-  title: { default: `${SITE_NAME}: ${VERTICAL.tagline}`, template: `%s | ${SITE_NAME}` },
-  description: VERTICAL.description,
-  applicationName: SITE_NAME,
-  alternates: { canonical: '/' },
-  // Nodig voor grote beelden in Google Discover
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
-  },
-  openGraph: { siteName: SITE_NAME, locale: VERTICAL.locale.replace('-', '_'), type: 'website' },
-  twitter: { card: 'summary_large_image' },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const { locale, t } = await getI18n();
+  return {
+    metadataBase: new URL(SITE_URL),
+    title: { default: `${SITE_NAME}: ${t.tagline}`, template: `%s | ${SITE_NAME}` },
+    description: t.description,
+    applicationName: SITE_NAME,
+    // Nodig voor grote beelden in Google Discover
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
+    },
+    openGraph: { siteName: SITE_NAME, locale: OG_LOCALE[locale], type: 'website' },
+    twitter: { card: 'summary_large_image' },
+  };
+}
 
 export const viewport: Viewport = { width: 'device-width', initialScale: 1, themeColor: '#0F1722' };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const { locale, t, href, internalPath } = await getI18n();
+  const home = `${SITE_URL}${localizePath(locale, '/')}`.replace(/\/$/, '');
   const theme = { '--accent': VERTICAL.accent } as CSSProperties;
   const gtmId = process.env.GTM_ID;
   return (
-    <html lang={VERTICAL.locale} style={theme}>
+    <html lang={locale} style={theme}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
@@ -39,7 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@graph': [
-            { '@type': 'WebSite', '@id': `${SITE_URL}/#website`, url: SITE_URL, name: SITE_NAME, inLanguage: VERTICAL.locale, description: VERTICAL.description, potentialAction: { '@type': 'SearchAction', target: `${SITE_URL}/zoeken?q={search_term_string}`, 'query-input': 'required name=search_term_string' } },
+            { '@type': 'WebSite', '@id': `${SITE_URL}/#website`, url: home || SITE_URL, name: SITE_NAME, inLanguage: LOCALE_TAG[locale], description: t.description, potentialAction: { '@type': 'SearchAction', target: `${SITE_URL}${href('/zoeken')}?q={search_term_string}`, 'query-input': 'required name=search_term_string' } },
             { '@type': 'Organization', '@id': `${SITE_URL}/#org`, name: SITE_NAME, url: SITE_URL, logo: `${SITE_URL}/icon` },
           ] }) }}
         />
@@ -47,15 +54,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <header className="site">
           <div className="wrap">
-            <Link href="/" className="logo" aria-label={`${SITE_NAME}, naar de startpagina`}>
+            <Link href={href('/')} className="logo" aria-label={t.homeAria(SITE_NAME)}>
               <LogoMark />{SITE_NAME}
             </Link>
-            <nav aria-label="Hoofdmenu">
-              <Link href="/">Selectie</Link>
-              <Link href="/themas">Thema’s</Link>
-              <Link href="/nieuws">Nieuws</Link>
-              <Link href="/verlanglijst">Verlanglijst</Link>
-              <span className="country">{VERTICAL.homeCountryLabel}</span>
+            <nav aria-label={t.nav.main}>
+              <Link href={href('/')}>{t.nav.deals}</Link>
+              <Link href={href('/gids')}>{t.nav.guides}</Link>
+              <Link href={href('/zoeken')}>{t.nav.search}</Link>
+              <span className="country">{t.country}</span>
+              <LanguageSwitcher locale={locale} internalPath={internalPath} label={t.nav.language} />
             </nav>
           </div>
         </header>
@@ -64,14 +71,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="wrap">
             <span className="logo"><LogoMark size={26} />{SITE_NAME}</span>
             <div className="txt">
-              <p>
-                Prijzen worden dagelijks bijgewerkt en kunnen intussen veranderd zijn. Sommige links zijn affiliate
-                links: jij betaalt niets extra, wij krijgen een kleine commissie.
-              </p>
-              <p>
-                {SITE_NAME} is een onafhankelijke site en niet verbonden aan de LEGO Group. LEGO is een handelsmerk
-                van de LEGO Group.
-              </p>
+              <p>{t.footer[0]}</p>
+              <p>{t.footer[1]}</p>
             </div>
           </div>
         </footer>

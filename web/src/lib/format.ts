@@ -1,11 +1,9 @@
-import { VERTICAL } from '@/verticals';
+import { LOCALE_TAG, type Locale } from '@/lib/i18n';
 
-const eur = new Intl.NumberFormat(VERTICAL.locale, { style: 'currency', currency: 'EUR' });
-
-export function formatEur(value: number | string): string {
-  return eur.format(Number(value));
+export function formatEur(value: number | string, locale: Locale = 'nl'): string {
+  return new Intl.NumberFormat(LOCALE_TAG[locale], { style: 'currency', currency: 'EUR' }).format(Number(value));
 }
 
-export function formatDate(iso: string): string {
-  return new Date(iso).toLocaleDateString(VERTICAL.locale, { day: 'numeric', month: 'short', year: 'numeric' });
+export function formatDate(iso: string, locale: Locale = 'nl'): string {
+  return new Date(iso).toLocaleDateString(LOCALE_TAG[locale], { day: 'numeric', month: 'long', year: 'numeric' });
 }

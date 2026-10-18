@@ -197,3 +197,15 @@ footer.site .txt p + p { margin-top: 12px; color: #8B94A3; }
 .relatedlist { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 8px; }
 .relatedlist span { color: var(--muted); margin-left: 8px; }
 @media (max-width: 900px) { .setpage { grid-template-columns: minmax(0, 1fr); gap: 28px; } }
+
+/* Taalkiezer */
+header.site nav .lang { display: flex; gap: 2px; list-style: none; margin: 0; padding: 0; }
+header.site nav .lang a { display: block; padding: 4px 8px; border-radius: 6px; font-size: 13px; font-weight: 600; text-transform: uppercase; text-decoration: none; color: var(--muted); }
+header.site nav .lang a:hover { text-decoration: none; color: var(--ink); }
+header.site nav .lang a[aria-current] { background: var(--ink); color: #fff; }
+.cta-card { margin-top: 56px; padding: 32px; border-radius: 16px; background: #F4F6F9; }
+.cta-card h2 { margin: 0 0 8px; font-size: 24px; }
+.cta-card p { margin: 0 0 20px; color: var(--muted); }
+.prose h2 { margin: 40px 0 12px; font-size: clamp(22px, 2.6vw, 30px); line-height: 1.2; }
+.prose ul { margin: 0 0 1.2em; padding-left: 1.3em; font-size: 1.05rem; }
+.prose li { margin: 0 0 .5em; }

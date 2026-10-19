@@ -3,15 +3,25 @@ import { SITE_NAME } from '@/lib/site';
 
 export const OG_SIZE = { width: 1200, height: 630 };
 
-interface OgProps {
+/** Beeldverhoudingen die Google Discover en Google News graag naast elkaar zien (16:9, 4:3 en 1:1), naast de 1,91:1 van het deelbeeld. */
+export const OG_RATIOS = {
+  '16x9': { width: 1200, height: 675 },
+  '4x3': { width: 1200, height: 900 },
+  '1x1': { width: 1200, height: 1200 },
+} as const;
+export type OgRatio = keyof typeof OG_RATIOS;
+
+export interface OgProps {
   kicker?: string;
   title: string;
   lines?: string[];
   badge?: string;
+  /** Weglaten voor 1200x630. */
+  ratio?: OgRatio;
 }
 
-/** Deelbeeld van 1200x630 in de huisstijl: geel/donker, grote titel, prijsregels. */
-export function renderOg({ kicker, title, lines = [], badge }: OgProps) {
+/** Deelbeeld van 1200x630 (of een andere verhouding, zie OG_RATIOS) in de huisstijl: geel/donker, grote titel, prijsregels. */
+export function renderOg({ kicker, title, lines = [], badge, ratio }: OgProps) {
   const size = title.length > 60 ? 54 : title.length > 36 ? 66 : 78;
   return new ImageResponse(
     (
@@ -34,6 +44,6 @@ export function renderOg({ kicker, title, lines = [], badge }: OgProps) {
         </div>
       </div>
     ),
-    { ...OG_SIZE },
+    { ...(ratio ? OG_RATIOS[ratio] : OG_SIZE) },
   );
 }

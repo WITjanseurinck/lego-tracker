@@ -49,7 +49,8 @@ export default async function Gids({ params }: Params) {
         headline: x.title,
         description: x.summary,
         inLanguage: LOCALE_TAG[locale],
-        image: [`${SITE_URL}/og?l=${locale}&a=${a.id}`],
+        // Google Discover wil per artikel beelden in meerdere verhoudingen: 16:9, 4:3, 1:1 en het deelbeeld.
+        image: [undefined, '16x9', '4x3', '1x1'].map((r) => `${SITE_URL}/og?l=${locale}&a=${a.id}${r ? `&r=${r}` : ''}`),
         datePublished: a.published,
         dateModified: a.updated,
         mainEntityOfPage: url,

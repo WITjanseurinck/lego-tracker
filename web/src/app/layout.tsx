@@ -25,6 +25,9 @@ export async function generateMetadata(): Promise<Metadata> {
     robots: {
       index: true,
       follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
       googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 },
     },
     openGraph: { siteName: SITE_NAME, locale: OG_LOCALE[locale], type: 'website' },
@@ -47,6 +50,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200..800&display=swap" />
+        <link rel="alternate" type="application/atom+xml" title={`${SITE_NAME}: ${t.nav.guides}`} href={`${SITE_URL}${href('/feed')}`} />
         {NOINDEX ? <meta name="robots" content="noindex, nofollow" /> : null}
         <script
           type="application/ld+json"

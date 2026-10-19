@@ -33,6 +33,13 @@ export function articlePaths(a: Article): Record<Locale, string> {
 }
 
 /** Set waarvan de productfoto bij een gids hoort. De foto komt uit de prijsdata, dus hij volgt mee als die wisselt. */
-const HERO_SET: Record<string, string> = { 'when-to-buy': '42206', 'age-guide': '31387', 'price-per-piece': '75419' };
+const HERO_SET: Record<string, string> = {
+  'when-to-buy': '42206',
+  'age-guide': '31387',
+  'price-per-piece': '75419',
+  'bol-below-rrp-2026-10-19': '43290',
+  'new-sets-october-2026': '76348',
+  'advent-calendars-2026': '75456',
+};
 
 export const articleHeroSet = (a: Article): string | undefined => HERO_SET[a.id];

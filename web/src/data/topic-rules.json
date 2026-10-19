@@ -1,0 +1,97 @@
+{
+ "autos": {
+  "themes": [
+   "Speed Champions"
+  ],
+  "in": "\\b(cars?|autos?|racers?|racewagen\\w*|race cars?|racing|rally|f1|formula|supercars?|hypercars?|sports cars?|sportauto\\w*|pick-?up|pickup|jeep|muscle|sedan|convertible|cabrio|beetle|kever|mustang|camaro|corvette|bronco|supra|skyline|delorean|ferrari|porsche|lamborghini|mclaren|bugatti|koenigsegg|aston martin|bmw|mercedes|audi|toyota|nissan|chevrolet|dodge|ford|honda|lotus|pagani|maserati|alfa romeo|mini cooper|land rover|defender|volkswagen|tesla|jaguar|rolls|bentley|gt3|911|trucks?|vrachtwagen|monstertruck|taxi|bestelwagen|bus|camper|ambulance|politiewagen|brandweerwagen|brandweerauto|kart|karts|go-karts)\\b",
+  "out": "\\b(carpet|carousel|cartoon|postcard|ansichtkaart|ice cream|snack|pizza|burger|food|recycling|dump|kiep\\w*|tractor|excavator|crane|graafmachine|transporter|display|dragon|monsterboek|monster book|tipping|garbage|train|trein)\\b",
+  "review": [
+   {
+    "re": "\\b(helmet|helm|minifigure|minifiguur)\\b",
+    "why": "helm of minifiguur, geen auto"
+   },
+   {
+    "re": "\\b(motorcycle|motorbike|motor|bike|racefiets|kawasaki|ducati|scooter)\\b",
+    "why": "motor of fiets, geen auto"
+   },
+   {
+    "re": "\\b(toy story|bluey|unicorn|eenhoorn)\\b",
+    "why": "personage- of fantasiesets met een auto"
+   }
+  ]
+ },
+ "ruimte": {
+  "themes": [],
+  "in": "\\b(space|rockets?|raket\\w*|shuttle|astronauts?|moon|maan|mars|planets?|planet|nasa|galaxy|melkweg\\w*|ufo|telescoop|telescope|ruimte\\w*|apollo|artemis|lunar|interstellair|solar system|earth|aarde)\\b",
+  "out": "\\b(cosmos flowers|cosmeabloemen|concert|moon gazing|maanfeest|land rover|star wars|star destroyer|death star|falcon|moonlight|moonwalk|sailor moon|moon cake|aardemonster|earth monster|helm|helmet|brickheadz|grogu|speederbike)\\b",
+  "review": [
+   {
+    "re": "\\b(star trek|enterprise|millennium|star destroyer|executor|venator|lambda|juggernaut|razor crest|x-?wing|starfighter|command shuttle|firespray|anzellan|jango fetts ruimteschip|ruimteschip)\\b",
+    "why": "Star Wars- of Star Trek-schip, wel ruimte maar ook film",
+    "alone": true
+   },
+   {
+    "re": "\\b(alien|aliens|robot|mech|mecha)\\b",
+    "why": "alien of robot, weinig echte ruimte"
+   }
+  ]
+ },
+ "dieren": {
+  "themes": [],
+  "in": "\\b(dogs?|puppy|puppies|cats?|kittens?|horses?|ponys?|ponies|foal|panda|lions?|tigers?|elephants?|giraffes?|monkeys?|apes?|gorillas?|bears?|bunny|bunnies|rabbits?|parrots?|owls?|birds?|hummingbird|toucan|flamingo|koalas?|sharks?|dolphins?|whales?|turtles?|frogs?|penguins?|foxes|fox|wolf|wolves|cows?|pigs?|piglet|sheep|lambs?|chickens?|chicks?|ducks?|goats?|donkeys?|hedgehogs?|squirrels?|deer|reindeer|zebras?|crocodiles?|alligators?|snakes?|spiders?|butterfl\\w+|ladybugs?|animals?|pets?|zoo|safari|axolotl|hamster|armadillo|rhino|hippo|cheetah|leopard|camel|llama|peacock|swan|eagle|retriever|dalmatians?|dieren\\w*|dierenaccessoires|huisdier\\w*|hond\\w*|honden|katje|katten|kat|paard\\w*|paarden|veulen|konijn\\w*|vogel\\w*|haai|walvis|schildpad|kikker|pinguin|vos|koe|varken|biggetje|schaap|kip|kippen|kuiken|eend|geit|egel|eekhoorn|hert|vlinder|lieveheers\\w+|olifant\\w*|papegaai|uil|neushoorn|gordeldier\\w*|hamster)\\b",
+  "out": "\\b(dinosaur\\w*|dinos?|t-?rex|raptor\\w*|triceratops|jurassic|batman|bat-?mobile|spider-?man|spidey|corvette|stingray|falcon|honda|monkey king|mech\\w*|ninja\\w*|ninjago|mickey|minnie|donald|turtles figuren|ninja turtles|llama|fortnite|donkey kong|kampvuur|battle|strijd|boomhut|arena|spinjitzu|monster|mecha|ruimteschip|tiger-?shark|tijgerhaai\\w*|haaienonderzeeër|krokodilonderzeeër|submarine|onderzeeër|castle|kasteel|derpy|sussie)\\b",
+  "review": [
+   {
+    "re": "\\b(unicorn|eenhoorn\\w*|mermaid|zeemeermin\\w*|qilin|phoenix|dragon|draak|draken\\w*|griffin|pegasus)\\b",
+    "why": "fantasiedier (eenhoorn, draak, zeemeermin)",
+    "alone": true
+   },
+   {
+    "re": "\\b(bluey|peppa|opa big|grandpa pig|gabby|kitty|mickey|snoopy|bugs bunny|supply llama|derpy|sussie|ninja turtles|turtles|shrek|ezel|animal crossing|timmy)\\b",
+    "why": "stripfiguur of personage met een dier erin",
+    "alone": true
+   }
+  ]
+ },
+ "dinos": {
+  "themes": [
+   "Jurassic World"
+  ],
+  "in": "\\b(dinosaur\\w*|dinos?|dinosaurus\\w*|t-?rex|tyrannosaur\\w*|raptors?|raptor\\w*|velociraptor|triceratops|stegosaur\\w*|brachiosaur\\w*|spinosaur\\w*|pterodactyl|pteranodon|ankylosaur\\w*|allosaur\\w*|jurassic|mosasaur\\w*|carnotaur\\w*|dilophosaur\\w*|indominus|indoraptor|baryonyx|parasaurolophus|gallimimus|diplodocus|iguanodon|therizinosaur\\w*|spidey-rex|dino\\w*)\\b",
+  "out": "",
+  "review": [
+   {
+    "re": "\\b(spider-?man|spidey|dream\\w*)\\b",
+    "why": "personage met een dino-voertuig"
+   }
+  ]
+ },
+ "film": {
+  "themes": [
+   "Star Wars",
+   "Harry Potter",
+   "Disney",
+   "Frozen",
+   "Marvel",
+   "Spider-Man",
+   "DC",
+   "Batman",
+   "Lord of the Rings",
+   "Wicked",
+   "Jurassic World",
+   "KPop Demon Hunters"
+  ],
+  "in": "\\b(back to the future|ghostbusters|minions?|despicable|indiana jones|avatar|shrek|kung fu panda|dune|wallace|gromit|toy story|lion king|little mermaid|aladdin|moana|encanto|inside out|pixar|beetlejuice|jaws|titanic|joker|catwoman|superman|avengers|guardians|x-?men|deadpool|hulk|iron man|thor|black panther|captain america|hogwarts|harry potter|hobbit|mordor|gandalf|frodo|barbie|wonka|flintstones|scooby|matrix|top gun|elphaba|addams|trolls|zootropolis|zootopia|ratatouille|nemo|coco|tangled|elsa|olaf|mulan|bambi|dumbo|pinocchio|snow white|cinderella|maleficent|jungle book|winnie|pooh|stitch|lilo|incredibles|tron|star trek|pirates of the caribbean|james bond|007|fast and furious|fast furious|furious|f1 the movie|f1® the movie|how to train your dragon|hoe tem je een draak|twilight|tintin|paddington|mamma mia|mario movie|sonic movie|ghostbuster|jurassic)\\b",
+  "out": "",
+  "review": [
+   {
+    "re": "\\b(stranger things|wednesday|bluey|one piece|sonic|super mario|mario kart|minecraft|fortnite|ninjago|monkie|dreamzz|peppa|gabby)\\b",
+    "why": "serie, game of anime, geen film"
+   },
+   {
+    "re": "\\b(dungeons|dragons|peanuts|snoopy|simpsons|the office|animal crossing)\\b",
+    "why": "tv-serie of spel"
+   }
+  ]
+ }
+}

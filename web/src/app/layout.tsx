@@ -12,6 +12,7 @@ import { Gtm } from '@/components/Gtm';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { getI18n } from '@/lib/i18n-server';
 import { LOCALE_TAG, OG_LOCALE, localizePath } from '@/lib/i18n';
+import { TOPICS, TOPIC_KEYS } from '@/lib/topics';
 
 export async function generateMetadata(): Promise<Metadata> {
   const { locale, t } = await getI18n();
@@ -82,6 +83,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               <ul className="footlinks">
                 {GIFT_SLUGS.map((g) => (
                   <li key={g}><Link href={href(`/cadeau/${g}`)}>{GIFTS[g].copy[locale].nav}</Link></li>
+                ))}
+                {TOPIC_KEYS.map((k) => (
+                  <li key={k}><Link href={href(`/onderwerp/${k}`)}>{TOPICS[k].name[locale]}</Link></li>
                 ))}
               </ul>
             </div>

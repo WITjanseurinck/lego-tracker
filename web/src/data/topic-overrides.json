@@ -1,0 +1,7 @@
+{
+  "include": {},
+  "exclude": {},
+  "review": {
+    "autos": { "60465": "ambulancevliegtuig, geen auto", "60505": "vliegtuig en hovercraft met een servicewagen" }
+  }
+}

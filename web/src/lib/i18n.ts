@@ -18,6 +18,7 @@ const SEGMENTS: Record<string, Record<Locale, string>> = {
   themas: { nl: 'themas', fr: 'themes', en: 'themes' },
   cadeau: { nl: 'cadeau', fr: 'cadeau', en: 'gift' },
   kiezen: { nl: 'kiezen', fr: 'choisir', en: 'finder' },
+  onderwerp: { nl: 'onderwerp', fr: 'sujet', en: 'topic' },
 };
 
 export function isLocale(v: string | null | undefined): v is Locale {

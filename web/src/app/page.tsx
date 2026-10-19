@@ -13,6 +13,7 @@ import { formatDate, formatEur } from '@/lib/format';
 import { photoTint } from '@/lib/themes';
 import { THEMES, getDict2, themeName } from '@/lib/dict2';
 import { SITE_NAME, SITE_URL } from '@/lib/site';
+import { TOPICS, TOPIC_KEYS } from '@/lib/topics';
 
 export const dynamic = 'force-dynamic';
 
@@ -83,6 +84,9 @@ export default async function Home() {
       {themeKeys.length > 0 ? (
         <section className="wrap" style={{ paddingTop: 40 }}>
           <h2 className="sr-only">{t2.themeNav}</h2>
+          <ul className="chips" style={{ marginBottom: 10 }}>
+            {TOPIC_KEYS.map((k) => <li key={k}><Link href={href(`/onderwerp/${k}`)}>{TOPICS[k].name[locale]}</Link></li>)}
+          </ul>
           <ul className="chips">
             {themeKeys.map((k) => <li key={k}><Link href={href(`/thema/${k}`)}>{themeName(k, locale)}</Link></li>)}
             <li><Link href={href('/kiezen')} className="on">{t2.finder.nav} →</Link></li>

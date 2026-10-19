@@ -6,6 +6,7 @@ import { formatEur } from '@/lib/format';
 import { getI18n } from '@/lib/i18n-server';
 import { pageMeta } from '@/lib/seo';
 import { photoTint } from '@/lib/themes';
+import { TOPICS, TOPIC_KEYS } from '@/lib/topics';
 
 export const dynamic = 'force-dynamic';
 
@@ -27,6 +28,9 @@ export default async function Themas() {
     <div className="wrap page">
       <h1>{t2.themesTitle}</h1>
       <p className="lead">{t2.themesLead}</p>
+      <ul className="chips" style={{ margin: '20px 0 8px' }}>
+        {TOPIC_KEYS.map((k) => <li key={k}><Link href={href(`/onderwerp/${k}`)}>{TOPICS[k].name[locale]}</Link></li>)}
+      </ul>
       <div className="themegrid">
         {list.map(({ k, deals }, i) => {
           const prices = deals.map((d) => d.offers[0].price);

@@ -4,6 +4,7 @@ import { bolFetchedAt } from '@/lib/bol';
 import { getCompareDeals } from '@/lib/deals';
 import { LOCALES, LOCALE_TAG, localizePath, type Locale } from '@/lib/i18n';
 import { SITE_URL } from '@/lib/site';
+import { TOPIC_KEYS, dealsByTopic } from '@/lib/topics';
 
 export const dynamic = 'force-dynamic';
 
@@ -27,6 +28,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...entry(() => '/gids', { changeFrequency: 'weekly', priority: 0.9 }),
     ...entry(() => '/themas', { changeFrequency: 'weekly', priority: 0.9 }),
     ...['sinterklaas', 'verjaardag', 'kerstmis'].flatMap((g) => entry(() => `/cadeau/${g}`, { changeFrequency: 'weekly', priority: 0.8 })),
+    ...TOPIC_KEYS.filter((k) => dealsByTopic(k).length > 0).flatMap((k) => entry(() => `/onderwerp/${k}`, { lastModified: bolFetchedAt, changeFrequency: 'daily', priority: 0.8 })),
     ...entry(() => '/kiezen', { changeFrequency: 'weekly', priority: 0.9 }),
     ...[...new Set(getCompareDeals().map((d) => d.theme))].filter((t) => t !== 'overig').flatMap((t) => entry(() => `/thema/${t}`, { lastModified: bolFetchedAt, changeFrequency: 'daily', priority: 0.8 })),
     ...getCompareDeals().flatMap((d) => entry(() => `/set/${d.set}`, { lastModified: bolFetchedAt, changeFrequency: 'daily', priority: 0.8 })),

@@ -4,7 +4,8 @@ export interface AmazonDeal {
   set: string;
   name: string;
   price: number;
-  strikethrough: number;
+  strikethrough: number | null;
+  stock?: 'out';
   asin: string;
   image?: string | null;
   theme?: string;

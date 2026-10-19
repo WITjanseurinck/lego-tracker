@@ -1,7 +1,7 @@
 {
  "country": "BE",
  "source": "amazon.com.be zoekpagina LEGO, handmatig gefilterd op echte LEGO",
- "fetchedAt": "2026-10-18",
+ "fetchedAt": "2026-10-19",
  "items": [
   {
    "set": "10315",
@@ -12,7 +12,8 @@
    "theme": "icons",
    "age": 18,
    "pieces": 1363,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc1a3afc5b5af3287/10315.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc1a3afc5b5af3287/10315.png",
+   "stock": "out"
   },
   {
    "set": "10330",
@@ -23,7 +24,8 @@
    "theme": "icons",
    "age": 18,
    "pieces": 693,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf8476f68fa47b137/10330.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf8476f68fa47b137/10330.png",
+   "stock": "out"
   },
   {
    "set": "10331",
@@ -38,7 +40,7 @@
   },
   {
    "set": "10342",
-   "price": 41.95,
+   "price": 41.99,
    "strikethrough": 59.99,
    "asin": "B0DHSDBVKV",
    "name": "Botanicals Roze boeket",
@@ -89,7 +91,8 @@
    "theme": "icons",
    "age": 18,
    "pieces": 1060,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb43d0d2e48863e64/blt9b1cd88cf5ab5032-11376_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb43d0d2e48863e64/blt9b1cd88cf5ab5032-11376_Prod_en-gb.png",
+   "stock": "out"
   },
   {
    "set": "11379",
@@ -104,7 +107,7 @@
   },
   {
    "set": "11381",
-   "price": 109.0,
+   "price": 117.07,
    "strikethrough": 139.99,
    "asin": "B01MZ9GNNN",
    "name": "Jaguar E-Type",
@@ -144,7 +147,8 @@
    "theme": "botanicals",
    "age": 18,
    "pieces": 686,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt212b362b828622c3/blt1c33118501c8da2f-11502_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt212b362b828622c3/blt1c33118501c8da2f-11502_Prod_en-gb.png",
+   "stock": "out"
   },
   {
    "set": "11505",
@@ -166,7 +170,8 @@
    "theme": "architecture",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt6475bda6cee08acd/21060.png",
    "age": 18,
-   "pieces": 2125
+   "pieces": 2125,
+   "stock": "out"
   },
   {
    "set": "21061",
@@ -210,7 +215,8 @@
    "theme": "architecture",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt7f0c4925175ed3c0/21064_Prod_en-gb.png",
    "age": 18,
-   "pieces": 958
+   "pieces": 958,
+   "stock": "out"
   },
   {
    "set": "21345",
@@ -225,7 +231,7 @@
   },
   {
    "set": "21357",
-   "price": 46.76,
+   "price": 46.74,
    "strikethrough": 69.99,
    "asin": "B0DWF6XWX3",
    "name": "Disney Pixar Luxo Jr.",
@@ -280,7 +286,7 @@
   },
   {
    "set": "31167",
-   "price": 56.98,
+   "price": 56.99,
    "strikethrough": 89.99,
    "asin": "B0DWDY9WHQ",
    "name": "Spookhuis",
@@ -291,7 +297,7 @@
   },
   {
    "set": "31168",
-   "price": 78.99,
+   "price": 81.59,
    "strikethrough": 119.99,
    "asin": "B0DWDT5BQ9",
    "name": "Middeleeuws kasteel",
@@ -346,7 +352,7 @@
   },
   {
    "set": "31387",
-   "price": 62.99,
+   "price": 64.99,
    "strikethrough": 99.99,
    "asin": "B0FPXGBPR6",
    "name": "Klassiek piratenschip",
@@ -368,8 +374,8 @@
   },
   {
    "set": "42136",
-   "price": 52.99,
-   "strikethrough": 59.3,
+   "price": 67.2,
+   "strikethrough": null,
    "asin": "B09RSNZ447",
    "name": "John Deere 9620R 4WD Tractor",
    "theme": "technic",
@@ -441,11 +447,12 @@
    "theme": "technic",
    "age": 10,
    "pieces": 801,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc4ee2c0da944140f/42173.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc4ee2c0da944140f/42173.png",
+   "stock": "out"
   },
   {
    "set": "42175",
-   "price": 139.95,
+   "price": 139.99,
    "strikethrough": 199.99,
    "asin": "B0CWH1W4W3",
    "name": "Volvo FMX-truck en EC230 elektrische graafmachine",
@@ -463,7 +470,8 @@
    "theme": "technic",
    "age": 10,
    "pieces": 836,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt18f5c5a692b50842/42176.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt18f5c5a692b50842/42176.png",
+   "stock": "out"
   },
   {
    "set": "42177",
@@ -485,7 +493,8 @@
    "theme": "technic",
    "age": 10,
    "pieces": 526,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt09511e795b685260/42179.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt09511e795b685260/42179.png",
+   "stock": "out"
   },
   {
    "set": "42201",
@@ -507,7 +516,8 @@
    "theme": "technic",
    "age": 18,
    "pieces": 1603,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt8635b7505c107a18/42202_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8635b7505c107a18/42202_Prod_en-gb.png",
+   "stock": "out"
   },
   {
    "set": "42203",
@@ -628,7 +638,8 @@
    "theme": "technic",
    "age": 10,
    "pieces": 1135,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt569d545d0a7c06c7/42214_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt569d545d0a7c06c7/42214_Prod.png",
+   "stock": "out"
   },
   {
    "set": "42215",
@@ -661,7 +672,8 @@
    "theme": "technic",
    "age": 9,
    "pieces": 771,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0a9009b95130ef89/42222_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0a9009b95130ef89/42222_Prod_en-gb.png",
+   "stock": "out"
   },
   {
    "set": "42223",
@@ -683,7 +695,8 @@
    "theme": "technic",
    "age": 11,
    "pieces": 1313,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt63b0cec2f9e3eccd/42224_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt63b0cec2f9e3eccd/42224_Prod_en-gb.png",
+   "stock": "out"
   },
   {
    "set": "42226",
@@ -705,7 +718,8 @@
    "theme": "technic",
    "age": 10,
    "pieces": 723,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt8f7d3695517d3132/42227_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8f7d3695517d3132/42227_Prod.png",
+   "stock": "out"
   },
   {
    "set": "42228",
@@ -820,7 +834,7 @@
   {
    "set": "43019",
    "name": "Editions Voetbal",
-   "price": 84.98,
+   "price": 84.99,
    "strikethrough": 119.99,
    "asin": "B0FPXFDJ1H",
    "theme": "editions",
@@ -991,7 +1005,8 @@
    "theme": "star-wars",
    "age": 8,
    "pieces": 594,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt66adc043070e220c/75399_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt66adc043070e220c/75399_Prod.png",
+   "stock": "out"
   },
   {
    "set": "75402",
@@ -1002,7 +1017,8 @@
    "theme": "star-wars",
    "age": 9,
    "pieces": 497,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd6b2fe663f886921/75402_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd6b2fe663f886921/75402_Prod_en-gb.png",
+   "stock": "out"
   },
   {
    "set": "75413",
@@ -1035,7 +1051,8 @@
    "theme": "star-wars",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2b73e68649059dea/75435_Prod_en-gb.png",
    "age": 9,
-   "pieces": 976
+   "pieces": 976,
+   "stock": "out"
   },
   {
    "set": "75441",
@@ -1156,7 +1173,8 @@
    "theme": "harry-potter",
    "age": 8,
    "pieces": 499,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta9bc0a58cabf6ae2/76446_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta9bc0a58cabf6ae2/76446_Prod_en-gb.png",
+   "stock": "out"
   },
   {
    "set": "76447",
@@ -1172,7 +1190,7 @@
   {
    "set": "76449",
    "name": "Het monsterlijke monsterboek",
-   "price": 39.99,
+   "price": 46.49,
    "strikethrough": 59.99,
    "asin": "B0DWDJR3DK",
    "theme": "harry-potter",
@@ -1255,7 +1273,8 @@
    "theme": "harry-potter",
    "age": 10,
    "pieces": 764,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt15b25b3defb05464/76467_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt15b25b3defb05464/76467_Prod_en-gb.png",
+   "stock": "out"
   },
   {
    "set": "76470",
@@ -1321,7 +1340,8 @@
    "theme": "speed-champions",
    "age": 10,
    "pieces": 607,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd322b474d5fd14f0/77238_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd322b474d5fd14f0/77238_Prod.png",
+   "stock": "out"
   },
   {
    "set": "77244",
@@ -1398,7 +1418,8 @@
    "theme": "speed-champions",
    "age": 10,
    "pieces": 216,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt95522a33acfc96b9/blt480f8e3525715603-77259_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt95522a33acfc96b9/blt480f8e3525715603-77259_Prod_en-gb.png",
+   "stock": "out"
   },
   {
    "set": "77260",

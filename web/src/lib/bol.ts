@@ -6,6 +6,7 @@ export interface BolDeal {
   price: number;
   strikethrough: number | null;
   seller: string | null;
+  stock?: 'out';
   url: string;
   image: string;
   bolId: string;

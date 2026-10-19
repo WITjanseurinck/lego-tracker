@@ -54,6 +54,7 @@ export function getCompareDeals(): CompareDeal[] {
       price: b.price,
       strikethrough: b.strikethrough,
       url: bolAffiliateUrl(b.url, b.set),
+      ...(b.stock === 'out' ? { stock: 'out' as const } : {}),
     });
   }
   for (const a of getAmazonDeals()) {
@@ -62,6 +63,7 @@ export function getCompareDeals(): CompareDeal[] {
       price: a.price,
       strikethrough: a.strikethrough,
       url: amazonAffiliateUrl(a.asin),
+      ...(a.stock === 'out' ? { stock: 'out' as const } : {}),
     });
   }
   // Het volledige LEGO.com-assortiment: elke set krijgt een LEGO-aanbod (officiële prijs).

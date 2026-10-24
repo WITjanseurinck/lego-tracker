@@ -95,6 +95,17 @@ const nl = {
     sources: 'Bronnen',
   },
   notFound: { title: 'Pagina niet gevonden', text: 'Deze pagina bestaat niet (meer).', back: 'Terug naar de prijsvergelijking' },
+  privacy: {
+    title: 'Privacy en cookies',
+    intro: 'Wie er achter buildthatset zit, welke cookies we gebruiken en wat je rechten zijn.',
+    blocks: [
+      ['Wie zit achter buildthatset', 'buildthatset is een project van WIT bv, Villastraat 32, 3120 Tremelo, BTW BE0666972295. Heb je een vraag over deze pagina, mail dan naar info@buildthatset.com.'],
+      ['Cookies voor statistieken', 'We gebruiken Google Analytics om te meten welke sets en pagina’s goed werken, maar pas zodra je akkoord gaat via de cookiemelding onderaan de site. Weiger je, dan plaatsen we geen analytische cookies.'],
+      ['Links naar winkels', 'Klik je door naar bol.com, Amazon of LEGO.com, dan plaatst die winkel zijn eigen cookies om de aankoop aan buildthatset te koppelen. Daarvoor krijgen wij een kleine commissie, en jouw prijs blijft hetzelfde. Wat die winkel met je gegevens doet, lees je in hun eigen privacybeleid.'],
+      ['Jouw rechten', 'Je kan altijd vragen welke gegevens we over je bewaren, ze laten aanpassen of laten wissen. buildthatset heeft geen accounts, dus we bewaren zelf nauwelijks gegevens: enkel je cookiekeuze, in je eigen browser.'],
+      ['Contact', 'Vragen over privacy of cookies op buildthatset stuur je naar info@buildthatset.com.'],
+    ],
+  },
 };
 
 export type Dict = typeof nl;
@@ -194,6 +205,17 @@ const fr: Dict = {
     sources: 'Sources',
   },
   notFound: { title: 'Page introuvable', text: 'Cette page n’existe pas (ou plus).', back: 'Retour à la comparaison de prix' },
+  privacy: {
+    title: 'Confidentialité et cookies',
+    intro: 'Qui se trouve derrière buildthatset, quels cookies nous utilisons et quels sont vos droits.',
+    blocks: [
+      ['Qui est derrière buildthatset', 'buildthatset est un projet de WIT bv, Villastraat 32, 3120 Tremelo, numéro de TVA BE0666972295. Pour toute question sur cette page, écrivez à info@buildthatset.com.'],
+      ['Cookies de mesure d’audience', 'Nous utilisons Google Analytics pour voir quels sets et quelles pages fonctionnent bien, mais seulement après votre accord via le bandeau de cookies en bas du site. Si vous refusez, nous ne déposons aucun cookie analytique.'],
+      ['Liens vers les boutiques', 'En cliquant vers bol.com, Amazon ou LEGO.com, cette boutique place ses propres cookies pour relier l’achat à buildthatset. Cela nous donne une petite commission, et votre prix reste le même. Ce que cette boutique fait de vos données figure dans sa propre politique de confidentialité.'],
+      ['Vos droits', 'Vous pouvez toujours demander quelles données nous détenons sur vous, les faire corriger ou les faire supprimer. buildthatset ne crée aucun compte, donc nous conservons très peu de données nous-mêmes : juste votre choix de cookies, dans votre propre navigateur.'],
+      ['Contact', 'Pour toute question sur la confidentialité ou les cookies sur buildthatset, écrivez à info@buildthatset.com.'],
+    ],
+  },
 };
 
 const en: Dict = {
@@ -291,6 +313,17 @@ const en: Dict = {
     sources: 'Sources',
   },
   notFound: { title: 'Page not found', text: 'This page does not exist (anymore).', back: 'Back to the price comparison' },
+  privacy: {
+    title: 'Privacy and cookies',
+    intro: 'Who is behind buildthatset, which cookies we use, and what your rights are.',
+    blocks: [
+      ['Who is behind buildthatset', 'buildthatset is a project by WIT bv, Villastraat 32, 3120 Tremelo, Belgium, VAT BE0666972295. For any question about this page, email info@buildthatset.com.'],
+      ['Analytics cookies', 'We use Google Analytics to see which sets and pages work well, but only once you agree through the cookie notice at the bottom of the site. If you decline, we set no analytics cookies.'],
+      ['Links to shops', 'When you click through to bol.com, Amazon or LEGO.com, that shop sets its own cookies to link the purchase back to buildthatset. That earns us a small commission, and your price stays the same. What that shop does with your data is covered in its own privacy policy.'],
+      ['Your rights', 'You can always ask what data we hold about you, have it corrected, or have it deleted. buildthatset has no accounts, so we barely hold any data ourselves: just your cookie choice, stored in your own browser.'],
+      ['Contact', 'Questions about privacy or cookies on buildthatset go to info@buildthatset.com.'],
+    ],
+  },
 };
 
 const DICTS: Record<Locale, Dict> = { nl, fr, en };

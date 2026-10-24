@@ -85,6 +85,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               <p>{t.footer[0]}</p>
               <p>{t.footer[1]}</p>
               <ul className="footlinks">
+                <li><Link href={href('/privacy')}>{t.privacy.title}</Link></li>
                 {GIFT_SLUGS.map((g) => (
                   <li key={g}><Link href={href(`/cadeau/${g}`)}>{GIFTS[g].copy[locale].nav}</Link></li>
                 ))}

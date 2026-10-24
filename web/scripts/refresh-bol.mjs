@@ -63,7 +63,13 @@ for (const it of data.items) {
   await sleep(400);
 }
 
-if (!probe) {
+if (!probe && process.env.BOL_OVERLAY_FILE) {
+  // Op de server: schrijf enkel de prijzen naar een bestand op een persistent volume; de site leest dat live.
+  const prices = {};
+  for (const it of data.items) prices[it.set] = { price: it.price, strikethrough: it.strikethrough, seller: it.seller, stock: it.stock };
+  fs.writeFileSync(process.env.BOL_OVERLAY_FILE, JSON.stringify({ fetchedAt: new Date().toISOString().slice(0, 10), prices }));
+  console.log({ changed, uitVoorraad: out, mislukt: failed, overlay: process.env.BOL_OVERLAY_FILE });
+} else if (!probe) {
   data.fetchedAt = new Date().toISOString().slice(0, 10);
   data.source = 'bol Marketing Catalog API';
   fs.writeFileSync(FILE, JSON.stringify(data));

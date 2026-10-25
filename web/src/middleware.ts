@@ -7,6 +7,17 @@ import { internalize } from '@/lib/i18n';
  */
 export function middleware(req: NextRequest) {
   const { pathname, search } = req.nextUrl;
+
+  // www.buildthatset.com en buildthatset.com stonden allebei los geïndexeerd in Search
+  // Console (dubbele content). Canoniek is de apex zonder www, zoals ook SITE_URL zegt.
+  const host = req.headers.get('host') ?? '';
+  if (host.startsWith('www.')) {
+    const url = req.nextUrl.clone();
+    url.hostname = host.slice(4).split(':')[0];
+    url.port = '';
+    return NextResponse.redirect(url, 308);
+  }
+
   const { locale, path } = internalize(pathname);
 
   // Oude nieuws-URL's verhuisden naar de gidsen.

@@ -14,6 +14,7 @@ export const SOURCES = {
   BAM: { label: 'BAM Good Bricks: guide to LEGO set retirement', url: 'https://bamgoodbricks.com/blogs/lego-news/the-complete-guide-to-lego%C2%AE-set-retirement-what-it-means-for-collectors' },
   HSE: { label: 'HSE University: retired LEGO sets as an investment', url: 'https://community.hse.ru/en/news/research/536477053.html' },
   BRICKFANATICS_OCT26: { label: 'Brick Fanatics: every LEGO set releasing in October 2026', url: 'https://www.brickfanatics.com/every-lego-set-releasing-in-october-2026-doomsday' },
+  NEWELEMENTARY_OCT26: { label: 'New Elementary: new October 2026 LEGO sets and gifts', url: 'https://www.newelementary.com/2026/10/new-october-2026-lego-sets-and-gifts.html' },
   JAYS_OCT26: { label: 'Jay\'s Brick Blog: every new LEGO set releasing October 2026', url: 'https://jaysbrickblog.com/news/buying-guide-every-new-lego-set-releasing-october-2026/' },
 };
 
@@ -567,5 +568,464 @@ export const ARTICLES: Article[] = [
         ],
       },
     },
+  },
+  {
+    "id": "bol-below-rrp-2026-10-26",
+    "published": "2026-10-26T10:15:00.000Z",
+    "updated": "2026-10-26T10:15:00.000Z",
+    "text": {
+      "nl": {
+        "slug": "lego-sets-bij-bol-onder-de-adviesprijs-26-oktober",
+        "title": "Acht LEGO-sets die bij bol minstens een kwart onder de adviesprijs staan",
+        "summary": "Op 26 oktober 2026 staan acht LEGO-sets bij bol.com/be minstens een kwart onder de adviesprijs, van Paasei versieren tot Pikachu en Poké Ball.",
+        "body": [
+          {
+            "p": "Op 26 oktober 2026 staan er bij bol weer LEGO-sets ruim onder de adviesprijs van LEGO. We lazen elke prijs na op de productpagina van bol.com/be. Alle acht sets verkoopt bol zelf en ze zijn op voorraad. Bij sets onder € 25 komt er € 2,99 verzending bij, de andere worden gratis geleverd."
+          },
+          {
+            "h2": "De acht sets, van groot naar klein verschil"
+          },
+          {
+            "ul": [
+              "Paasei versieren (40816): € 10,39 bij bol, adviesprijs € 19,99. Dat is € 9,60 lager, ongeveer 48 procent. Met verzending € 13,38.",
+              "Editions Lionel Messi (43018): € 99,99 bij bol, adviesprijs € 179,99. Dat is € 80,00 lager, ongeveer 44 procent.",
+              "Editions Lionel Messi, Voetbalhoogtepunten (43011): € 16,99 bij bol, adviesprijs € 29,99. Dat is € 13,00 lager, ongeveer 43 procent. Met verzending € 19,98.",
+              "Pokémon Pikachu en Poké Ball (72152): € 115,00 bij bol, adviesprijs € 199,99. Dat is € 84,99 lager, ongeveer 42 procent.",
+              "Editions Lionel Messi, voetballegende (43015): € 49,99 bij bol, adviesprijs € 79,99. Dat is € 30,00 lager, ongeveer 38 procent.",
+              "Editions Scuderia Ferrari HP, helm van Charles Leclerc (43014): € 59,99 bij bol, adviesprijs € 89,99. Dat is € 30,00 lager, ongeveer 33 procent.",
+              "Editions Vinicius Jr., collectorplaat (43027): € 19,99 bij bol, adviesprijs € 29,99. Dat is € 10,00 lager, ongeveer 33 procent. Met verzending € 22,98.",
+              "Speed Champions Jaguar Project 7 en Land Rover Defender (77264): € 40,00 bij bol, adviesprijs € 54,99. Dat is € 14,99 lager, ongeveer 27 procent."
+            ]
+          },
+          {
+            "h2": "Wat opvalt"
+          },
+          {
+            "ul": [
+              "Vijf van de acht sets komen uit de Editions-reeks rond voetbal en Formule 1, met drie sets over Lionel Messi.",
+              "Pikachu en Poké Ball heeft het grootste verschil in euro: bijna 85 euro onder de adviesprijs.",
+              "Twee sets die we in onze lijst nog boven de drempel zagen vielen af. Cristiano Ronaldo, voetballegende (43016) staat op € 60,04, net minder dan een kwart onder de adviesprijs van € 79,99. F1 Academy racewagen (77258) staat op € 21,99 bij een adviesprijs van € 27,99."
+            ]
+          },
+          {
+            "h2": "Zo lees je deze prijzen"
+          },
+          {
+            "p": "We vergelijken met de adviesprijs die bol bij de set toont, en dat is niet altijd de laagste prijs van de voorbije maanden. Prijzen veranderen vaak, soms binnen een dag. Alle bedragen zijn gecontroleerd op 26 oktober 2026 op de productpagina van bol.com/be. Kijk de actuele prijs altijd na voor je bestelt."
+          }
+        ]
+      },
+      "fr": {
+        "slug": "sets-lego-chez-bol-sous-le-prix-conseille-26-octobre",
+        "title": "Huit sets LEGO au moins un quart sous le prix conseillé chez bol",
+        "summary": "Le 26 octobre 2026, huit sets LEGO sont chez bol.com/be au moins un quart sous le prix conseillé, de Décorer l’œuf de Pâques à Pikachu et Poké Ball.",
+        "body": [
+          {
+            "p": "Le 26 octobre 2026, bol propose à nouveau des sets LEGO nettement sous le prix conseillé par LEGO. Nous avons relu chaque prix sur la page produit de bol.com/be. Bol vend lui-même ces huit sets et tous sont en stock. Pour les sets sous 25 €, 2,99 € de livraison s’ajoutent, les autres sont livrés gratuitement."
+          },
+          {
+            "h2": "Les huit sets, de la plus grande à la plus petite différence"
+          },
+          {
+            "ul": [
+              "Décorer l’œuf de Pâques (40816) : 10,39 € chez bol, prix conseillé 19,99 €. Soit 9,60 € de moins, environ 48 pour cent. Livraison comprise : 13,38 €.",
+              "Editions Lionel Messi (43018) : 99,99 € chez bol, prix conseillé 179,99 €. Soit 80,00 € de moins, environ 44 pour cent.",
+              "Editions Lionel Messi, Temps forts du football (43011) : 16,99 € chez bol, prix conseillé 29,99 €. Soit 13,00 € de moins, environ 43 pour cent. Livraison comprise : 19,98 €.",
+              "Pokémon Pikachu et Poké Ball (72152) : 115,00 € chez bol, prix conseillé 199,99 €. Soit 84,99 € de moins, environ 42 pour cent.",
+              "Editions Lionel Messi, légende du football (43015) : 49,99 € chez bol, prix conseillé 79,99 €. Soit 30,00 € de moins, environ 38 pour cent.",
+              "Editions Scuderia Ferrari HP, casque de Charles Leclerc (43014) : 59,99 € chez bol, prix conseillé 89,99 €. Soit 30,00 € de moins, environ 33 pour cent.",
+              "Editions Vinicius Jr., plaque de collection (43027) : 19,99 € chez bol, prix conseillé 29,99 €. Soit 10,00 € de moins, environ 33 pour cent. Livraison comprise : 22,98 €.",
+              "Speed Champions Jaguar Project 7 et Land Rover Defender (77264) : 40,00 € chez bol, prix conseillé 54,99 €. Soit 14,99 € de moins, environ 27 pour cent."
+            ]
+          },
+          {
+            "h2": "Ce qui frappe"
+          },
+          {
+            "ul": [
+              "Cinq des huit sets viennent de la gamme Editions autour du football et de la Formule 1, dont trois consacrés à Lionel Messi.",
+              "Pikachu et Poké Ball affiche la plus grande différence en euros : près de 85 euros sous le prix conseillé.",
+              "Deux sets qui figuraient encore au-dessus du seuil dans notre liste sont tombés. Cristiano Ronaldo, légende du football (43016) est à 60,04 €, un peu moins d’un quart sous le prix conseillé de 79,99 €. La voiture de course F1 Academy (77258) est à 21,99 € pour un prix conseillé de 27,99 €."
+            ]
+          },
+          {
+            "h2": "Comment lire ces prix"
+          },
+          {
+            "p": "Nous comparons avec le prix conseillé que bol affiche pour le set, ce qui n’est pas toujours le prix le plus bas des derniers mois. Les prix changent souvent, parfois en une journée. Tous les montants ont été vérifiés le 26 octobre 2026 sur la page produit de bol.com/be. Vérifiez toujours le prix actuel avant de commander."
+          }
+        ]
+      },
+      "en": {
+        "slug": "lego-sets-at-bol-below-the-recommended-price-26-october",
+        "title": "Eight LEGO sets at least a quarter below the recommended price at bol",
+        "summary": "On 26 October 2026, eight LEGO sets at bol.com/be are at least a quarter below the recommended price, from the Easter egg set to Pikachu and Poké Ball.",
+        "body": [
+          {
+            "p": "On 26 October 2026, bol again has LEGO sets well below the price LEGO recommends. We read every price on the product page at bol.com/be. Bol sells all eight sets itself and all are in stock. Sets under €25 carry €2.99 shipping, the others ship free."
+          },
+          {
+            "h2": "The eight sets, from largest to smallest difference"
+          },
+          {
+            "ul": [
+              "Decorate the Easter Egg (40816): €10.39 at bol, recommended price €19.99. That is €9.60 lower, about 48 percent. With shipping €13.38.",
+              "Editions Lionel Messi (43018): €99.99 at bol, recommended price €179.99. That is €80.00 lower, about 44 percent.",
+              "Editions Lionel Messi, Football Highlights (43011): €16.99 at bol, recommended price €29.99. That is €13.00 lower, about 43 percent. With shipping €19.98.",
+              "Pokémon Pikachu and Poké Ball (72152): €115.00 at bol, recommended price €199.99. That is €84.99 lower, about 42 percent.",
+              "Editions Lionel Messi, football legend (43015): €49.99 at bol, recommended price €79.99. That is €30.00 lower, about 38 percent.",
+              "Editions Scuderia Ferrari HP, Charles Leclerc helmet (43014): €59.99 at bol, recommended price €89.99. That is €30.00 lower, about 33 percent.",
+              "Editions Vinicius Jr., collector plaque (43027): €19.99 at bol, recommended price €29.99. That is €10.00 lower, about 33 percent. With shipping €22.98.",
+              "Speed Champions Jaguar Project 7 and Land Rover Defender (77264): €40.00 at bol, recommended price €54.99. That is €14.99 lower, about 27 percent."
+            ]
+          },
+          {
+            "h2": "What stands out"
+          },
+          {
+            "ul": [
+              "Five of the eight sets come from the Editions line around football and Formula 1, with three about Lionel Messi.",
+              "Pikachu and Poké Ball has the biggest difference in euros: almost €85 below the recommended price.",
+              "Two sets that looked above the threshold in our list dropped out. Cristiano Ronaldo, football legend (43016) is €60.04, just under a quarter below the €79.99 recommended price. The F1 Academy race car (77258) is €21.99 against a recommended price of €27.99."
+            ]
+          },
+          {
+            "h2": "How to read these prices"
+          },
+          {
+            "p": "We compare with the recommended price bol shows for the set, which is not always the lowest price of recent months. Prices change often, sometimes within a day. All amounts were checked on 26 October 2026 on the product page at bol.com/be. Always check the current price before you order."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "new-sets-wednesday-avengers-2026-10-26",
+    "published": "2026-10-26T10:17:00.000Z",
+    "updated": "2026-10-26T10:17:00.000Z",
+    "text": {
+      "nl": {
+        "slug": "nieuwe-lego-sets-wednesday-avengers-wallace-gromit-bij-bol",
+        "title": "Nieuwe LEGO-sets van oktober, deel twee: Wednesday, Avengers en Wallace & Gromit bij bol",
+        "summary": "Wednesday, Avengers: Doomsday en Wallace & Gromit: wat deze nieuwe LEGO-sets bij bol.com/be kosten en welke nu leverbaar zijn. Gecontroleerd op 26 oktober.",
+        "body": [
+          {
+            "p": "Vorige week bekeken we vijf nieuwe sets van oktober. Volgens de lijst van New Elementary behoren ook deze vijf tot de LEGO-nieuwigheden van oktober 2026. We keken op 26 oktober op bol.com/be wat ze kosten en of je ze kunt bestellen."
+          },
+          {
+            "h2": "Nu leverbaar bij bol"
+          },
+          {
+            "ul": [
+              "Wednesday Rugzak (76787), 401 onderdelen: € 32,49, adviesprijs € 39,99. Op voorraad, verzending inbegrepen.",
+              "Wednesday Nevermore Academie (76788), 890 onderdelen en 3 figuren: € 53,13, adviesprijs € 69,99. Op voorraad, verzending inbegrepen.",
+              "Marvel Avengers: Doomsday Quinjet (76347): € 45,54, adviesprijs € 59,99. Op voorraad, verzending inbegrepen.",
+              "Marvel Avengers: Doomsday Nieuwe Avengers Toren (76352): € 87,00, adviesprijs € 109,99. Op voorraad, verzending inbegrepen."
+            ]
+          },
+          {
+            "p": "Bij alle vier verkoopt bol zelf en zegt de pagina \"morgen in huis\" bij een bestelling voor sluitingstijd."
+          },
+          {
+            "h2": "Nog niet te bestellen"
+          },
+          {
+            "ul": [
+              "Ideas Wallace & Gromit (21371): bol toont de set als niet leverbaar, zonder prijs of datum. Je kunt er een bericht voor aanvragen."
+            ]
+          },
+          {
+            "h2": "Wat opvalt"
+          },
+          {
+            "p": "Alle vier de leverbare sets staan onder de adviesprijs, tussen 19 en 24 procent. De Avengers Toren heeft het grootste verschil in euro: € 22,99, ongeveer 21 procent. In procent zitten de Nevermore Academie en de Quinjet het hoogst, met ongeveer 24 procent. Prijzen kunnen snel weer veranderen."
+          },
+          {
+            "h2": "Bronnen"
+          },
+          {
+            "src": [
+              {
+                "label": "New Elementary: new October 2026 LEGO sets and gifts",
+                "url": "https://www.newelementary.com/2026/10/new-october-2026-lego-sets-and-gifts.html"
+              }
+            ]
+          },
+          {
+            "p": "Prijzen veranderen vaak, soms binnen een dag. Alle bedragen zijn gecontroleerd op 26 oktober 2026 op de productpagina van bol.com/be. Kijk de actuele prijs altijd na voor je bestelt."
+          }
+        ]
+      },
+      "fr": {
+        "slug": "nouveaux-sets-lego-wednesday-avengers-wallace-gromit-chez-bol",
+        "title": "Nouveaux sets LEGO d’octobre, deuxième partie : Wednesday, Avengers et Wallace & Gromit chez bol",
+        "summary": "Wednesday, Avengers : Doomsday et Wallace & Gromit : prix chez bol.com/be de ces nouveaux sets LEGO et ceux qui sont disponibles. Vérifié le 26 octobre.",
+        "body": [
+          {
+            "p": "La semaine dernière, nous avons regardé cinq nouveautés d’octobre. D’après la liste de New Elementary, ces cinq-ci font aussi partie des nouveautés LEGO d’octobre 2026. Le 26 octobre, nous avons vérifié sur bol.com/be leur prix et s’il est possible de les commander."
+          },
+          {
+            "h2": "Disponibles maintenant chez bol"
+          },
+          {
+            "ul": [
+              "Wednesday Sac à dos (76787), 401 pièces : 32,49 €, prix conseillé 39,99 €. En stock, livraison comprise.",
+              "Wednesday Académie Nevermore (76788), 890 pièces et 3 figurines : 53,13 €, prix conseillé 69,99 €. En stock, livraison comprise.",
+              "Marvel Avengers : Doomsday Quinjet (76347) : 45,54 €, prix conseillé 59,99 €. En stock, livraison comprise.",
+              "Marvel Avengers : Doomsday Nouvelle tour des Avengers (76352) : 87,00 €, prix conseillé 109,99 €. En stock, livraison comprise."
+            ]
+          },
+          {
+            "p": "Pour ces quatre sets, bol est le vendeur et la page annonce « demain chez vous » pour une commande avant l’heure limite."
+          },
+          {
+            "h2": "Pas encore commandable"
+          },
+          {
+            "ul": [
+              "Ideas Wallace & Gromit (21371) : bol affiche le set comme indisponible, sans prix ni date. Vous pouvez demander à être prévenu."
+            ]
+          },
+          {
+            "h2": "Ce qui frappe"
+          },
+          {
+            "p": "Les quatre sets disponibles sont sous le prix conseillé, entre 19 et 24 pour cent. La Tour des Avengers affiche la plus grande différence en euros : 22,99 €, soit environ 21 pour cent. En pourcentage, l’Académie Nevermore et le Quinjet arrivent en tête, avec environ 24 pour cent. Les prix peuvent vite changer."
+          },
+          {
+            "h2": "Sources"
+          },
+          {
+            "src": [
+              {
+                "label": "New Elementary: new October 2026 LEGO sets and gifts",
+                "url": "https://www.newelementary.com/2026/10/new-october-2026-lego-sets-and-gifts.html"
+              }
+            ]
+          },
+          {
+            "p": "Les prix changent souvent, parfois en une journée. Tous les montants ont été vérifiés le 26 octobre 2026 sur la page produit de bol.com/be. Vérifiez toujours le prix actuel avant de commander."
+          }
+        ]
+      },
+      "en": {
+        "slug": "new-lego-sets-wednesday-avengers-wallace-gromit-at-bol",
+        "title": "New LEGO sets of October, part two: Wednesday, Avengers and Wallace & Gromit at bol",
+        "summary": "Wednesday, Avengers: Doomsday and Wallace & Gromit: what these new LEGO sets cost at bol.com/be and which you can order now. Checked on 26 October.",
+        "body": [
+          {
+            "p": "Last week we looked at five new sets from October. According to the New Elementary list, these five are also among the LEGO novelties of October 2026. On 26 October we checked at bol.com/be what they cost and whether you can order them."
+          },
+          {
+            "h2": "Available now at bol"
+          },
+          {
+            "ul": [
+              "Wednesday Backpack (76787), 401 pieces: €32.49, recommended price €39.99. In stock, shipping included.",
+              "Wednesday Nevermore Academy (76788), 890 pieces and 3 figures: €53.13, recommended price €69.99. In stock, shipping included.",
+              "Marvel Avengers: Doomsday Quinjet (76347): €45.54, recommended price €59.99. In stock, shipping included.",
+              "Marvel Avengers: Doomsday New Avengers Tower (76352): €87.00, recommended price €109.99. In stock, shipping included."
+            ]
+          },
+          {
+            "p": "Bol sells all four itself, and the page says \"delivered tomorrow\" for an order before the cut-off time."
+          },
+          {
+            "h2": "Not yet available"
+          },
+          {
+            "ul": [
+              "Ideas Wallace & Gromit (21371): bol shows the set as unavailable, with no price or date. You can ask to be notified."
+            ]
+          },
+          {
+            "h2": "What stands out"
+          },
+          {
+            "p": "All four available sets are below the recommended price, between 19 and 24 percent. The Avengers Tower has the biggest difference in euros: €22.99, about 21 percent. In percent, the Nevermore Academy and the Quinjet lead, with about 24 percent. Prices can change quickly."
+          },
+          {
+            "h2": "Sources"
+          },
+          {
+            "src": [
+              {
+                "label": "New Elementary: new October 2026 LEGO sets and gifts",
+                "url": "https://www.newelementary.com/2026/10/new-october-2026-lego-sets-and-gifts.html"
+              }
+            ]
+          },
+          {
+            "p": "Prices change often, sometimes within a day. All amounts were checked on 26 October 2026 on the product page at bol.com/be. Always check the current price before you order."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "christmas-sets-2026",
+    "published": "2026-10-26T10:19:00.000Z",
+    "updated": "2026-10-26T10:19:00.000Z",
+    "text": {
+      "nl": {
+        "slug": "lego-kerstsets-2026-prijs-per-steen-bij-bol",
+        "title": "Vijf LEGO-kerstsets voor tafel en boom: prijs en prijs per steen bij bol",
+        "summary": "Vijf LEGO-kerstsets bij bol.com/be van € 9,00 tot € 119,99, met aantal stenen en prijs per steen. Gecontroleerd op 26 oktober 2026.",
+        "body": [
+          {
+            "p": "Met Sinterklaas en kerst in zicht zetten we vijf LEGO-sets in de sfeer van de feestdagen op een rij, van klein naar groot. Bol verkoopt ze alle vijf zelf en ze zijn op voorraad. De prijs per steen is de setprijs gedeeld door het aantal stenen, zonder verzending."
+          },
+          {
+            "h2": "Sneeuwpopornamenten (40812): ongeveer € 0,05 per steen"
+          },
+          {
+            "p": "Twee hangende sneeuwmannen van 168 stenen voor € 9,00, adviesprijs € 12,99. Onder de € 25 komt er € 2,99 verzending bij, samen € 11,99."
+          },
+          {
+            "h2": "Kersttafeldecoratie met kaars en sterren (40743): ongeveer € 0,08 per steen"
+          },
+          {
+            "p": "433 stenen voor € 32,99, adviesprijs € 39,99, verzending inbegrepen. Bol toont er het label \"LEGO laatste kans\" bij."
+          },
+          {
+            "h2": "2-in-1 kersthuisje met Santa-kamer (40809): ongeveer € 0,07 per steen"
+          },
+          {
+            "p": "498 stenen voor € 32,99, adviesprijs € 39,99, verzending inbegrepen."
+          },
+          {
+            "h2": "Icons Kerstster Poinsettia (10370): ongeveer € 0,08 per steen"
+          },
+          {
+            "p": "608 stenen voor € 49,99, verzending inbegrepen. Bol toont geen adviesprijs."
+          },
+          {
+            "h2": "Icons Feestelijke Kersttrein (10361): ongeveer € 0,13 per steen"
+          },
+          {
+            "p": "956 stenen voor € 119,99, verzending inbegrepen. Bol toont geen adviesprijs. Dit is de grootste set van de vijf."
+          },
+          {
+            "h2": "Zo kies je"
+          },
+          {
+            "ul": [
+              "Voor een klein Sinterklaascadeau past het sneeuwmannenduo, zeker samen met een tweede set zodat de verzending wegvalt.",
+              "Voor de kersttafel kijk je naar de Kersttafeldecoratie of het kersthuisje, die op dezelfde prijs staan.",
+              "Voor een bouwproject voor volwassenen zijn de Poinsettia en de Kersttrein de Icons-sets in dit lijstje."
+            ]
+          },
+          {
+            "p": "Prijzen veranderen vaak, soms binnen een dag. Alle bedragen zijn gecontroleerd op 26 oktober 2026 op de productpagina van bol.com/be. Kijk de actuele prijs altijd na voor je bestelt."
+          }
+        ]
+      },
+      "fr": {
+        "slug": "sets-lego-noel-2026-prix-par-brique-chez-bol",
+        "title": "Cinq sets LEGO de Noël pour la table et le sapin : prix et prix par brique chez bol",
+        "summary": "Cinq sets LEGO de Noël chez bol.com/be de 9,00 € à 119,99 €, avec nombre de briques et prix par brique. Vérifié le 26 octobre 2026.",
+        "body": [
+          {
+            "p": "À l’approche de la Saint-Nicolas et de Noël, nous avons aligné cinq sets LEGO aux couleurs des fêtes, du plus petit au plus grand. Bol vend lui-même ces cinq sets et tous sont en stock. Le prix par brique est le prix du set divisé par le nombre de briques, livraison non comprise."
+          },
+          {
+            "h2": "Ornements bonhommes de neige (40812) : environ 0,05 € par brique"
+          },
+          {
+            "p": "Deux bonhommes de neige à suspendre, 168 briques, pour 9,00 €, prix conseillé 12,99 €. Sous 25 €, 2,99 € de livraison s’ajoutent, soit 11,99 €."
+          },
+          {
+            "h2": "Décoration de table de Noël, bougie et étoiles (40743) : environ 0,08 € par brique"
+          },
+          {
+            "p": "433 briques pour 32,99 €, prix conseillé 39,99 €, livraison comprise. Bol y ajoute l’étiquette « LEGO dernière chance »."
+          },
+          {
+            "h2": "Maisonnette de Noël 2 en 1 avec salon du Père Noël (40809) : environ 0,07 € par brique"
+          },
+          {
+            "p": "498 briques pour 32,99 €, prix conseillé 39,99 €, livraison comprise."
+          },
+          {
+            "h2": "Icons Étoile de Noël Poinsettia (10370) : environ 0,08 € par brique"
+          },
+          {
+            "p": "608 briques pour 49,99 €, livraison comprise. Bol n’affiche pas de prix conseillé."
+          },
+          {
+            "h2": "Icons Train de Noël festif (10361) : environ 0,13 € par brique"
+          },
+          {
+            "p": "956 briques pour 119,99 €, livraison comprise. Bol n’affiche pas de prix conseillé. C’est le plus grand set des cinq."
+          },
+          {
+            "h2": "Comment choisir"
+          },
+          {
+            "ul": [
+              "Pour un petit cadeau de Saint-Nicolas, le duo de bonhommes de neige convient, surtout avec un deuxième set pour éviter les frais de livraison.",
+              "Pour la table de Noël, regardez la décoration de table ou la maisonnette, au même prix.",
+              "Pour un projet de construction adulte, la Poinsettia et le train de Noël sont les sets Icons de cette liste."
+            ]
+          },
+          {
+            "p": "Les prix changent souvent, parfois en une journée. Tous les montants ont été vérifiés le 26 octobre 2026 sur la page produit de bol.com/be. Vérifiez toujours le prix actuel avant de commander."
+          }
+        ]
+      },
+      "en": {
+        "slug": "lego-christmas-sets-2026-price-per-piece-at-bol",
+        "title": "Five LEGO Christmas sets for table and tree: price and price per piece at bol",
+        "summary": "Five LEGO Christmas sets at bol.com/be from €9.00 to €119.99, with piece count and price per piece. Checked on 26 October 2026.",
+        "body": [
+          {
+            "p": "With Sinterklaas and Christmas in sight, we lined up five LEGO sets with a holiday feel, from small to large. Bol sells all five itself and all are in stock. Price per piece is the set price divided by the piece count, shipping not included."
+          },
+          {
+            "h2": "Snowman Ornaments (40812): about €0.05 per piece"
+          },
+          {
+            "p": "Two hanging snowmen of 168 pieces for €9.00, recommended price €12.99. Under €25, €2.99 shipping is added, €11.99 in total."
+          },
+          {
+            "h2": "Christmas Table Decoration with candle and stars (40743): about €0.08 per piece"
+          },
+          {
+            "p": "433 pieces for €32.99, recommended price €39.99, shipping included. Bol adds a \"LEGO last chance\" label."
+          },
+          {
+            "h2": "2-in-1 Christmas house with Santa room (40809): about €0.07 per piece"
+          },
+          {
+            "p": "498 pieces for €32.99, recommended price €39.99, shipping included."
+          },
+          {
+            "h2": "Icons Poinsettia Christmas Star (10370): about €0.08 per piece"
+          },
+          {
+            "p": "608 pieces for €49.99, shipping included. Bol shows no recommended price."
+          },
+          {
+            "h2": "Icons Festive Christmas Train (10361): about €0.13 per piece"
+          },
+          {
+            "p": "956 pieces for €119.99, shipping included. Bol shows no recommended price. This is the largest of the five."
+          },
+          {
+            "h2": "How to choose"
+          },
+          {
+            "ul": [
+              "For a small Sinterklaas gift, the snowman pair fits, especially with a second set so the shipping drops away.",
+              "For the Christmas table, look at the table decoration or the Christmas house, at the same price.",
+              "For an adult building project, the Poinsettia and the Christmas Train are the Icons sets on this list."
+            ]
+          },
+          {
+            "p": "Prices change often, sometimes within a day. All amounts were checked on 26 October 2026 on the product page at bol.com/be. Always check the current price before you order."
+          }
+        ]
+      }
+    }
   },
 ];

@@ -63,13 +63,17 @@ for (const it of data.items) {
   await sleep(400);
 }
 
-if (!probe && process.env.BOL_OVERLAY_FILE) {
-  // Op de server: schrijf enkel de prijzen naar een bestand op een persistent volume; de site leest dat live.
-  const prices = {};
-  for (const it of data.items) prices[it.set] = { price: it.price, strikethrough: it.strikethrough, seller: it.seller, stock: it.stock };
-  fs.writeFileSync(process.env.BOL_OVERLAY_FILE, JSON.stringify({ fetchedAt: new Date().toISOString().slice(0, 10), prices }));
-  console.log({ changed, uitVoorraad: out, mislukt: failed, overlay: process.env.BOL_OVERLAY_FILE });
-} else if (!probe) {
+if (!probe) {
+  // Prijshistoriek: per set een lijst [datum, prijs], enkel bij een wijziging.
+  const HIST = path.join(path.dirname(FILE), 'price-history.json');
+  const hist = fs.existsSync(HIST) ? JSON.parse(fs.readFileSync(HIST, 'utf8')) : {};
+  const day = new Date().toISOString().slice(0, 10);
+  for (const it of data.items) {
+    if (it.stock === 'out') continue;
+    const h = (hist[it.set] ||= []);
+    if (!h.length || h[h.length - 1][1] !== it.price) h.push([day, it.price]);
+  }
+  fs.writeFileSync(HIST, JSON.stringify(hist));
   data.fetchedAt = new Date().toISOString().slice(0, 10);
   data.source = 'bol Marketing Catalog API';
   fs.writeFileSync(FILE, JSON.stringify(data));

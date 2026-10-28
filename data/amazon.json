@@ -178,7 +178,8 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt6475bda6cee08acd/21060.png",
    "age": 18,
    "pieces": 2125,
-   "stock": "out"
+   "stock": "out",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21061",
@@ -990,7 +991,8 @@
    "theme": "star-wars",
    "age": 10,
    "pieces": 1050,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt1dbcc5584e0e1f47/75379_alt2.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1dbcc5584e0e1f47/75379_alt2.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75382",
@@ -4561,7 +4563,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 1413,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc374a18928c9cdf8/71500_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc374a18928c9cdf8/71500_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71513",
@@ -4875,14 +4878,15 @@
   },
   {
    "set": "72050",
-   "price": 133.87,
+   "price": 130.0,
    "strikethrough": 179.99,
    "asin": "B0FPXGBHMZ",
    "name": "Mario Kart™: Luigi en Mach 8",
    "theme": "overig",
    "age": 18,
    "pieces": 2234,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt8b9de9e7d31005f9/72050_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8b9de9e7d31005f9/72050_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "72051",
@@ -6014,14 +6018,15 @@
   },
   {
    "set": "77985",
-   "price": 73.87,
+   "price": 61.99,
    "strikethrough": 99.99,
    "asin": "B0FPXJL3QZ",
    "name": "Dinosaurusfossielen: Triceratops",
    "theme": "overig",
    "age": 18,
    "pieces": 1154,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc702354f2004d613/blt7dfb23345a86bf30-77985_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc702354f2004d613/blt7dfb23345a86bf30-77985_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   }
  ]
 }

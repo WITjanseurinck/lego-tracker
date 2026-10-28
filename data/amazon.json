@@ -673,7 +673,7 @@
   },
   {
    "set": "42214",
-   "price": 126.47,
+   "price": 124.99,
    "strikethrough": 179.99,
    "asin": "B0DWDTRG1P",
    "name": "Lamborghini Revuelto Supersportwagen",
@@ -681,7 +681,7 @@
    "age": 10,
    "pieces": 1135,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt569d545d0a7c06c7/42214_Prod.png",
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42215",
@@ -1209,13 +1209,14 @@
   {
    "set": "76348",
    "name": "Marvel Avengers: Doomsday, het legendarische gevecht",
-   "price": 66.39,
+   "price": 74.99,
    "strikethrough": 99.99,
    "asin": "B0GGSDPMP8",
    "theme": "overig",
    "age": 9,
    "pieces": 846,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2de82c4e5e80b0d9/blte08480224b17a8b6-76348_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2de82c4e5e80b0d9/blte08480224b17a8b6-76348_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76419",
@@ -3417,14 +3418,15 @@
   },
   {
    "set": "42663",
-   "price": 43.55,
+   "price": 39.98,
    "strikethrough": 59.99,
    "asin": "B0DHSG1KS3",
    "name": "Camperavontuur met vrienden",
    "theme": "overig",
    "age": 7,
    "pieces": 778,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt39ef16d4b25a0630/42663_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt39ef16d4b25a0630/42663_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42664",
@@ -3828,7 +3830,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 784,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt56c61562d64dc2e4/43257_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt56c61562d64dc2e4/43257_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43258",
@@ -4160,14 +4163,15 @@
   },
   {
    "set": "60367",
-   "price": 64.98,
+   "price": 72.72,
    "strikethrough": 99.99,
    "asin": "B0BV793KD1",
    "name": "Passagiersvliegtuig",
    "theme": "overig",
    "age": 7,
    "pieces": 913,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta636ffccc87fdf4b/60367.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta636ffccc87fdf4b/60367.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60373",

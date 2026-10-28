@@ -816,7 +816,8 @@
    "theme": "technic",
    "age": 12,
    "pieces": 719,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0aa9f1c9bd984f96/42239_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0aa9f1c9bd984f96/42239_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42240",
@@ -1123,7 +1124,8 @@
    "theme": "star-wars",
    "age": 10,
    "pieces": 1453,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt91d78d4aac6cb7b0/blt85d0f4c13827cddd-75454_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt91d78d4aac6cb7b0/blt85d0f4c13827cddd-75454_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75455",
@@ -3661,7 +3663,8 @@
    "theme": "overig",
    "age": 12,
    "pieces": 2842,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt92b9ec933bd790fc/43020_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt92b9ec933bd790fc/43020_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43027",
@@ -4754,14 +4757,15 @@
   },
   {
    "set": "71860",
-   "price": 96.83,
+   "price": 84.99,
    "strikethrough": 129.99,
    "asin": "B0FPXDV2NK",
    "name": "15-jarig jubileum: Lloyds reusachtige mecha",
    "theme": "overig",
    "age": 14,
    "pieces": 1293,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt609389066eb25032/71860_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt609389066eb25032/71860_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71862",
@@ -5843,14 +5847,15 @@
   },
   {
    "set": "77082",
-   "price": 138.31,
+   "price": 137.99,
    "strikethrough": 199.99,
    "asin": "B0FPXFS1Y3",
    "name": "Rave Cave",
    "theme": "overig",
    "age": 12,
    "pieces": 1963,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt3bc25de67658f70d/bltf4f2b1ee3281fb61-77082_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt3bc25de67658f70d/bltf4f2b1ee3281fb61-77082_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77118",

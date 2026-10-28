@@ -542,7 +542,8 @@
    "theme": "technic",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt26518ff52eac988e/42201_Prod_en-gb.png",
    "age": 9,
-   "pieces": 413
+   "pieces": 413,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42202",
@@ -3129,7 +3130,9 @@
    "theme": "overig",
    "age": 9,
    "pieces": 485,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta6a2a7863e935b86/bltb56717c20a5cd496-31392_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta6a2a7863e935b86/bltb56717c20a5cd496-31392_Prod_en-gb.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "31393",
@@ -4131,14 +4134,15 @@
   },
   {
    "set": "43304",
-   "price": 32.95,
+   "price": 32.93,
    "strikethrough": 49.99,
    "asin": "B0FPXG718F",
    "name": "Blaze's paardenranch",
    "theme": "overig",
    "age": 4,
    "pieces": 209,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0ddec6212108de5e/blt54505dd508cd2524-43304_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0ddec6212108de5e/blt54505dd508cd2524-43304_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43305",
@@ -4817,14 +4821,15 @@
   },
   {
    "set": "71836",
-   "price": 67.31,
+   "price": 67.3,
    "strikethrough": 99.99,
    "asin": "B0DHSCB8TD",
    "name": "Boogdraak van Concentratie",
    "theme": "overig",
    "age": 9,
    "pieces": 869,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt91d399cd13b699b6/71836_prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt91d399cd13b699b6/71836_prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71839",
@@ -5846,14 +5851,15 @@
   },
   {
    "set": "76788",
-   "price": 56.99,
+   "price": 52.95,
    "strikethrough": 69.99,
    "asin": "B0GGSV7TY4",
    "name": "Nimmermeer Academie",
    "theme": "overig",
    "age": 10,
    "pieces": 890,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf1f4a0b23741fb92/76788_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf1f4a0b23741fb92/76788_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76969",

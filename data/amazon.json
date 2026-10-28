@@ -1753,14 +1753,15 @@
   },
   {
    "set": "10428",
-   "price": 89.99,
+   "price": 82.99,
    "strikethrough": 139.99,
    "asin": "B01MRT5327",
    "name": "Grote interactieve buurttrein",
    "theme": "overig",
    "age": 3,
    "pieces": 103,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltfb5fdc7f04c6a3cb/10428_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltfb5fdc7f04c6a3cb/10428_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10441",
@@ -4586,7 +4587,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 1548,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt8705672dafa0cdd8/71515_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8705672dafa0cdd8/71515_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71808",
@@ -5207,7 +5209,9 @@
    "theme": "overig",
    "age": 9,
    "pieces": 1705,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt42c8b85302b0039f/blt1bcd427fbf52cb6e-75646_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt42c8b85302b0039f/blt1bcd427fbf52cb6e-75646_Prod_en-gb.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "75684",
@@ -5218,7 +5222,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 945,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt8733175bceb3eb21/75684_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8733175bceb3eb21/75684_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75685",
@@ -5263,7 +5268,8 @@
    "theme": "overig",
    "age": 12,
    "pieces": 909,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltadc1db6fcaf2a3ad/76304_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltadc1db6fcaf2a3ad/76304_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76307",

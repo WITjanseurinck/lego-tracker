@@ -652,14 +652,15 @@
   },
   {
    "set": "42212",
-   "price": 39.99,
+   "price": 46.82,
    "strikethrough": 59.99,
    "asin": "B0DWDRX69Q",
    "name": "Ferrari FXX K Modelauto",
    "theme": "technic",
    "age": 10,
    "pieces": 897,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb2365f8463768d5c/42212_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb2365f8463768d5c/42212_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42213",
@@ -2777,14 +2778,15 @@
   },
   {
    "set": "21595",
-   "price": 38.99,
+   "price": 33.74,
    "strikethrough": 59.99,
    "asin": "B0FPXJYG33",
    "name": "De Enderdraak",
    "theme": "overig",
    "age": 10,
    "pieces": 710,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt09bd422862d0b250/blt323cbf2c39a14975-21595_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt09bd422862d0b250/blt323cbf2c39a14975-21595_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21596",
@@ -2878,14 +2880,15 @@
   },
   {
    "set": "31166",
-   "price": 36.47,
+   "price": 32.99,
    "strikethrough": 49.99,
    "asin": "B0DWDXTHX3",
    "name": "Prachtig paard",
    "theme": "overig",
    "age": 9,
    "pieces": 685,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt4110ba43129b9c05/31166_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt4110ba43129b9c05/31166_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31169",
@@ -3674,14 +3677,15 @@
   },
   {
    "set": "42699",
-   "price": 37.49,
+   "price": 33.99,
    "strikethrough": 49.99,
    "asin": "B0FPXFJ3X6",
    "name": "Strandhuis met zeehonden",
    "theme": "overig",
    "age": 7,
    "pieces": 400,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb8e11195bb56f1c0/42699_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb8e11195bb56f1c0/42699_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42700",
@@ -4384,7 +4388,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 752,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltfa6a2e2bbc870765/60469_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltfa6a2e2bbc870765/60469_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60479",

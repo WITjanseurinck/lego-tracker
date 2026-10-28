@@ -569,14 +569,15 @@
   },
   {
    "set": "42207",
-   "price": 159.99,
-   "strikethrough": 229.99,
+   "price": 159.98,
+   "strikethrough": null,
    "asin": "B0DHSCYDL2",
    "name": "Ferrari SF 24 F1 Auto",
    "theme": "technic",
    "age": 18,
    "pieces": 1361,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt1dd4e21e38b03edd/42207_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1dd4e21e38b03edd/42207_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42208",
@@ -735,7 +736,8 @@
    "theme": "technic",
    "age": 18,
    "pieces": 1675,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltac01ce3b2335370b/blt94fedcc1daf48b2a-42228_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltac01ce3b2335370b/blt94fedcc1daf48b2a-42228_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42229",
@@ -801,18 +803,20 @@
    "theme": "technic",
    "age": 12,
    "pieces": 719,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0aa9f1c9bd984f96/42239_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0aa9f1c9bd984f96/42239_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42240",
-   "price": 161.99,
-   "strikethrough": 229.99,
+   "price": 159.99,
+   "strikethrough": null,
    "asin": "B0GGSHY123",
    "name": "Aston Martin Aramco AMR25 F1 Auto",
    "theme": "technic",
    "age": 18,
    "pieces": 1547,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd75d9ab1c2aec844/blt3711b74994551d04-42240_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd75d9ab1c2aec844/blt3711b74994551d04-42240_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43014",
@@ -4877,7 +4881,8 @@
    "theme": "overig",
    "age": 10,
    "pieces": 1555,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb6f5dfaf01195072/75394_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb6f5dfaf01195072/75394_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75400",
@@ -5784,14 +5789,15 @@
   },
   {
    "set": "77078",
-   "price": 159.19,
-   "strikethrough": 229.99,
+   "price": 175.0,
+   "strikethrough": null,
    "asin": "B0DWDMKNK2",
    "name": "Mecha Team Leader",
    "theme": "overig",
    "age": 18,
    "pieces": 2503,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt08e304cdd764c23b/77078_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt08e304cdd764c23b/77078_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77079",

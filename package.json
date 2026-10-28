@@ -1,0 +1,17 @@
+{
+  "name": "buildthatset",
+  "private": true,
+  "type": "module",
+  "version": "0.2.0",
+  "description": "buildthatset, prijsvergelijker voor LEGO-sets in België",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "refresh:bol": "node scripts/refresh-bol.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/hanken-grotesk": "5.2.8",
+    "astro": "5.18.2"
+  }
+}

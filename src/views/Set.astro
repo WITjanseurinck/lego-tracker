@@ -1,0 +1,134 @@
+---
+import Base from '@/layouts/Base.astro';
+import CompareCard from '@/components/CompareCard.astro';
+import { amazonFetchedAt } from '@/lib/amazon';
+import { bolFetchedAt } from '@/lib/bol';
+import { getCompareDeal, relatedByPrice } from '@/lib/deals';
+import { buildTimeRange, getDict2, themeName } from '@/lib/dict2';
+import { photoTint } from '@/lib/themes';
+import { formatDate, formatEur } from '@/lib/format';
+import { SITE_NAME, SITE_URL } from '@/lib/site';
+import { getI18n } from '@/lib/i18n-server';
+import { pageMeta } from '@/lib/seo';
+import { shopDates } from '@/lib/dict';
+import { localizePath, type Locale } from '@/lib/i18n';
+
+interface Props { locale: Locale; set: string }
+const { locale, set } = Astro.props;
+const { t, href, tag } = getI18n(locale, `/set/${set}`);
+const deal = getCompareDeal(set)!;
+const eur = (n: number) => formatEur(n, locale);
+const best = deal.offers[0];
+const second = deal.offers[1];
+const name = `LEGO ${deal.set} ${deal.name}`;
+const url = `${SITE_URL}${localizePath(locale, `/set/${deal.set}`)}`;
+const related = relatedByPrice(deal);
+const t2 = getDict2(locale);
+const shops = deal.offers.map((o) => o.shop).join(` ${t.set.and} `);
+const head = pageMeta({
+  locale,
+  path: `/set/${deal.set}`,
+  title: t.set.heading(name),
+  description: t.set.desc(name, eur(best.price), best.shop, shops),
+  ogSet: deal.set,
+});
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Product',
+      '@id': `${url}#product`,
+      name,
+      sku: deal.set,
+      mpn: deal.set,
+      brand: { '@type': 'Brand', name: 'LEGO' },
+      inLanguage: tag,
+      ...(deal.image ? { image: [deal.image] } : {}),
+      url,
+      ...(deal.desc?.[locale] ? { description: deal.desc[locale]!.replace(/\n+/g, ' ') } : {}),
+      offers: {
+        '@type': 'AggregateOffer',
+        priceCurrency: 'EUR',
+        lowPrice: best.price.toFixed(2),
+        highPrice: deal.offers[deal.offers.length - 1].price.toFixed(2),
+        offerCount: deal.offers.length,
+        availability: 'https://schema.org/InStock',
+        offers: deal.offers.map((o) => ({
+          '@type': 'Offer',
+          priceCurrency: 'EUR',
+          price: o.price.toFixed(2),
+          url: o.url,
+          availability: 'https://schema.org/InStock',
+          seller: { '@type': 'Organization', name: o.shop },
+        })),
+      },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: SITE_NAME, item: `${SITE_URL}${localizePath(locale, '/')}`.replace(/\/$/, '') },
+        { '@type': 'ListItem', position: 2, name, item: url },
+      ],
+    },
+  ],
+};
+const isBest = (i: number) => i === 0 && (deal.offers.length < 2 || deal.offers[1].price - deal.offers[0].price >= 0.005);
+---
+<Base locale={locale} internalPath={`/set/${set}`} head={head} jsonLd={jsonLd}>
+  <div class="wrap page">
+    <nav aria-label={t.set.crumbAria} class="crumbs"><a href={href('/')}>{t.set.crumbAll}</a> / <span>LEGO {deal.set}</span></nav>
+    <div class="setpage">
+      <div class="setpic">
+        {deal.image ? <img src={deal.image} alt={name} referrerpolicy="no-referrer" /> : <span class="none">LEGO {deal.set}</span>}
+      </div>
+      <div>
+        <p class="kicker">LEGO {deal.set}{deal.theme !== 'overig' ? <> · <a href={href(`/thema/${deal.theme}`)}>{themeName(deal.theme, locale)}</a></> : null}</p>
+        <h1>{t.set.heading(name.replace(/^LEGO /, 'LEGO® '))}</h1>
+        <p class="lead">{t.set.leadA}<strong>{eur(best.price)}</strong>{t.set.leadB(best.shop)}{second ? (second.price - best.price < 0.005 ? t.set.tailSame(second.shop) : t.set.tailDiff(eur(second.price - best.price), second.shop)) : t.set.tailNone}{deal.bestDiscount > 0 ? t.set.discount(deal.bestDiscount) : ''}</p>
+        <table class="cmptable">
+          <caption class="sr-only">{t.set.caption(name)}</caption>
+          <thead><tr><th scope="col">{t.set.thShop}</th><th scope="col">{t.set.thPrice}</th><th scope="col">{t.set.thStrike}</th><th scope="col"><span class="sr-only">{t.set.thLink}</span></th></tr></thead>
+          <tbody>
+            {deal.offers.map((o, i) => (
+              <tr class={isBest(i) ? 'best' : undefined}>
+                <th scope="row">{o.shop}{o.stock ? <span class="tag">{t2.stockOut}</span> : null}{i === 0 && second && second.price - best.price >= 0.005 ? <span class="tag">{t.set.cheapest}</span> : null}</th>
+                <td class="price">{eur(o.price)}</td>
+                <td class="rrp">{o.strikethrough && o.strikethrough > o.price ? eur(o.strikethrough) : ''}</td>
+                <td><a href={o.url} class="btn dark" target="_blank" rel="sponsored nofollow noopener" data-affiliate={o.shop.toLowerCase()}>{t.set.viewAt(o.shop)}</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        {deal.pieces || deal.age ? (
+          <ul class="facts">
+            {deal.pieces ? <li>{new Intl.NumberFormat(tag).format(deal.pieces)} {t2.piecesWord}</li> : null}
+            {deal.pieces ? <li>{t2.buildFact.replace('{t}', buildTimeRange(deal.pieces, deal.theme, t2.hoursUnit, t2.minutesUnit))}</li> : null}
+            {deal.age ? <li>{t2.ageFact.replace('{a}', String(deal.age))}</li> : null}
+            {deal.theme !== 'overig' ? <li><a href={href(`/thema/${deal.theme}`)}>{themeName(deal.theme, locale)}</a></li> : null}
+          </ul>
+        ) : null}
+        <p class="small">{t.set.note(shopDates(locale, formatDate(bolFetchedAt, locale), formatDate(amazonFetchedAt, locale)))}</p>
+      </div>
+    </div>
+    {deal.desc?.[locale] ? (
+      <section class="sec about">
+        <h2>{t2.aboutTitle}</h2>
+        {deal.desc[locale]!.split('\n\n').map((para) => <p>{para}</p>)}
+      </section>
+    ) : null}
+    {related.length > 0 ? (
+      <section class="sec">
+        <h2>{t2.related.title}</h2>
+        <p class="lead">{t2.related.intro}</p>
+        <div class="grid related3">
+          {related.map((r, i) => (
+            <div>
+              <p class="relkind">{t2.related[r.kind]}</p>
+              <CompareCard deal={r.deal} tint={photoTint(i)} locale={locale} />
+            </div>
+          ))}
+        </div>
+      </section>
+    ) : null}
+  </div>
+</Base>

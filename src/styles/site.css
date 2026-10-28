@@ -10,7 +10,7 @@
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; }
-body { background: #fff; color: var(--ink); font-family: 'Hanken Grotesk', system-ui, sans-serif; font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased; line-height: 1.5; }
+body { background: #fff; color: var(--ink); font-family: 'Hanken Grotesk Variable', 'Hanken Grotesk', system-ui, sans-serif; font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased; line-height: 1.5; }
 a { color: inherit; }
 a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
 h1, h2, h3 { margin: 0; font-weight: 300; letter-spacing: -0.04em; line-height: 1.05; }

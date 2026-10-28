@@ -1,0 +1,46 @@
+---
+import { getDict } from '@/lib/dict';
+import { getDict2, themeName } from '@/lib/dict2';
+import { formatEur } from '@/lib/format';
+import { localizePath, type Locale } from '@/lib/i18n';
+import type { CompareDeal } from '@/lib/deals';
+
+interface Props { deal: CompareDeal; tint?: string; locale?: Locale }
+const { deal, tint = '#1E55A8', locale = 'nl' } = Astro.props;
+const t = getDict(locale).card;
+const t2 = getDict2(locale);
+const eur = (n: number) => formatEur(n, locale);
+const best = deal.offers[0];
+const second = deal.offers[1];
+const saving = second ? second.price - best.price : 0;
+const href = localizePath(locale, `/set/${deal.set}`);
+const isBest = (i: number) => i === 0 && (deal.offers.length < 2 || deal.offers[1].price - deal.offers[0].price >= 0.005);
+---
+<article class="tile">
+  <a href={href} class="pic" style={`background:${tint}`} aria-label={t.aria(`LEGO ${deal.set} ${deal.name}`)}>
+    {deal.image ? <img src={deal.image} alt={`LEGO ${deal.set} ${deal.name}`} loading="lazy" referrerpolicy="no-referrer" /> : <span class="none">LEGO {deal.set}</span>}
+    {deal.bestDiscount > 0 ? <span class="flag">-{deal.bestDiscount}%</span> : null}
+  </a>
+  <div class="info">
+    <div class="num">LEGO {deal.set}</div>
+    <a href={href} class="name">{deal.name}</a>
+    <ul class="offers">
+      {deal.offers.map((o, i) => (
+        <li class={isBest(i) ? 'best' : undefined}>
+          <a href={o.url} class="pill" target="_blank" rel="sponsored nofollow noopener" data-affiliate={o.shop.toLowerCase()} aria-label={`${t.see} ${o.shop}: ${eur(o.price)}`}>
+            <span class="shop">{o.shop}{o.stock ? <small class="stockout"> · {t2.stockOut}</small> : null}</span>
+            <span class="price">{eur(o.price)}</span>
+            <span class="rrp">{o.strikethrough && o.strikethrough > o.price ? eur(o.strikethrough) : ''}</span>
+            <span class="go" aria-hidden="true">{t.see} →</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    {second
+      ? (saving < 0.005
+        ? <p class="cmp">{t.same(best.shop, second.shop)}</p>
+        : <p class="cmp">{t.cheaper(best.shop, eur(saving), second.shop)}</p>)
+      : <p class="cmp">{t.only(best.shop)}</p>}
+    {deal.theme !== 'overig' ? <a href={localizePath(locale, `/thema/${deal.theme}`)} class="themelink">{t2.moreIn(themeName(deal.theme, locale))} →</a> : null}
+  </div>
+</article>

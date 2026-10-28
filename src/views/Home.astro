@@ -1,0 +1,136 @@
+---
+import Base from '@/layouts/Base.astro';
+import CompareCard from '@/components/CompareCard.astro';
+import { amazonFetchedAt } from '@/lib/amazon';
+import { bolFetchedAt } from '@/lib/bol';
+import { getCompareDeal, getCompareDeals } from '@/lib/deals';
+import { allArticles, articleHeroSet } from '@/lib/articles';
+import { getI18n } from '@/lib/i18n-server';
+import { pageMeta } from '@/lib/seo';
+import { shopDates } from '@/lib/dict';
+import { localizePath, type Locale } from '@/lib/i18n';
+import { formatDate, formatEur } from '@/lib/format';
+import { photoTint } from '@/lib/themes';
+import { THEMES, getDict2, themeName } from '@/lib/dict2';
+import { SITE_URL } from '@/lib/site';
+import { TOPICS, TOPIC_KEYS } from '@/lib/topics';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const { t, href } = getI18n(locale, '/');
+const head = pageMeta({ locale, path: '/', title: t.home.metaTitle, absoluteTitle: true, description: t.home.metaDesc });
+const articles = allArticles().slice(0, 3);
+const eur = (n: number) => formatEur(n, locale);
+const compare = getCompareDeals();
+const priceGap = (d: (typeof compare)[number]) => d.offers.length > 1 && d.offers[1].price - d.offers[0].price > 0.005;
+const hero =
+  compare.find((d) => d.image && priceGap(d) && d.bestDiscount <= 45 && d.name.length <= 40 && d.offers[0].price >= 60 && ['technic', 'speed-champions', 'icons', 'creator'].includes(d.theme)) ??
+  compare.find((d) => d.image && priceGap(d) && d.bestDiscount <= 45 && d.name.length <= 40) ??
+  compare.find((d) => d.image && d.offers.length > 1 && d.bestDiscount <= 45) ??
+  compare[0];
+const gridDeals = compare.filter((d) => d !== hero).slice(0, 24);
+const t2 = getDict2(locale);
+const themeCount = (k: string) => compare.filter((d) => d.theme === k).length;
+const themeKeys = Object.keys(THEMES).filter((k) => k !== 'overig' && themeCount(k) > 0).sort((a, b) => themeCount(b) - themeCount(a)).slice(0, 16);
+const itemList = compare.length > 0
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: t.home.itemListName,
+      itemListElement: compare.slice(0, 24).map((d, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: `${SITE_URL}${localizePath(locale, `/set/${d.set}`)}`,
+        name: `LEGO ${d.set} ${d.name}`,
+      })),
+    }
+  : null;
+const heroBest = (i: number) => i === 0 && (hero.offers.length < 2 || hero.offers[1].price - hero.offers[0].price >= 0.005);
+---
+<Base locale={locale} internalPath="/" head={head} jsonLd={itemList}>
+  <h1 class="sr-only">{t.home.h1}</h1>
+  {hero ? (
+    <section class="hero">
+      <div class="grid2">
+        <div class="text">
+          <div class="kicker">{t.home.kicker} · {hero.set}</div>
+          <h2 class="title"><a href={href(`/set/${hero.set}`)}>{hero.name}</a></h2>
+          <ul class="offers heroOffers">
+            {hero.offers.map((o, i) => (
+              <li class={heroBest(i) ? 'best' : undefined}>
+                <a href={o.url} class="pill" target="_blank" rel="sponsored nofollow noopener" data-affiliate={o.shop.toLowerCase()}>
+                  <span class="shop">{o.shop}</span>
+                  <span class="price">{eur(o.price)}</span>
+                  <span class="rrp">{o.strikethrough && o.strikethrough > o.price ? eur(o.strikethrough) : ''}</span>
+                  <span class="btn dark">{t.home.viewAt(o.shop)}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div class="cta"><a href={href('/zoeken')} class="btn">{t.home.searchCta}</a></div>
+        </div>
+        <div class="photo">{hero.image ? <img src={hero.image} alt={`LEGO ${hero.set} ${hero.name}`} referrerpolicy="no-referrer" /> : null}</div>
+      </div>
+    </section>
+  ) : null}
+
+  {themeKeys.length > 0 ? (
+    <section class="wrap" style="padding-top:40px">
+      <h2 class="sr-only">{t2.themeNav}</h2>
+      <ul class="chips" style="margin-bottom:10px">
+        {TOPIC_KEYS.map((k) => <li><a href={href(`/onderwerp/${k}`)}>{TOPICS[k].name[locale]}</a></li>)}
+      </ul>
+      <ul class="chips">
+        {themeKeys.map((k) => <li><a href={href(`/thema/${k}`)}>{themeName(k, locale)}</a></li>)}
+        <li><a href={href('/kiezen')} class="on">{t2.finder.nav} →</a></li>
+      </ul>
+    </section>
+  ) : null}
+
+  {gridDeals.length > 0 ? (
+    <section class="wrap sec">
+      <div class="sechead">
+        <div>
+          <h2>{t.home.sectionTitle}</h2>
+          <p class="lead">{t.home.sectionLead(shopDates(locale, formatDate(bolFetchedAt, locale), formatDate(amazonFetchedAt, locale)))}</p>
+        </div>
+      </div>
+      <div class="grid">{gridDeals.map((d, i) => <CompareCard deal={d} tint={photoTint(i + 1)} locale={locale} />)}</div>
+      <p style="margin-top:32px"><a href={href('/kiezen')} class="btn dark">{t2.finder.nav} →</a></p>
+      <p class="lead" style="margin-top:32px">{t.home.disclosure}</p>
+    </section>
+  ) : null}
+
+  <section class="band">
+    <div class="wrap">
+      <div>
+        <h2>{t.home.bandTitle}</h2>
+        <p>{t.home.bandText}</p>
+      </div>
+      <a href={href('/gids')} class="btn dark">{t.home.bandButton}</a>
+    </div>
+  </section>
+
+  {articles.length > 0 ? (
+    <section class="wrap sec" style="padding-bottom:120px">
+      <div class="sechead"><h2>{t.home.guidesTitle}</h2><a href={href('/gids')}>{t.home.allGuides}</a></div>
+      <div class="news">
+        {articles.map((a, i) => {
+          const d = getCompareDeal(articleHeroSet(a) ?? '');
+          return (
+            <article class="art">
+              <a href={href(`/gids/${a.text[locale].slug}`)}>
+                <div class="pic" style={`background:${photoTint(i + 2)}`}>
+                  {d?.image ? <img src={d.image} alt={`LEGO ${d.set} ${d.name}`} loading="lazy" referrerpolicy="no-referrer" /> : null}
+                </div>
+                <p class="date">{formatDate(a.published, locale)}</p>
+                <h3>{a.text[locale].title}</h3>
+              </a>
+              <p class="s">{a.text[locale].summary}</p>
+            </article>
+          );
+        })}
+      </div>
+    </section>
+  ) : null}
+</Base>

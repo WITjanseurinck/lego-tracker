@@ -1,0 +1,158 @@
+---
+import '@fontsource-variable/hanken-grotesk';
+import '@/styles/site.css';
+import Logo from '@/components/Logo.astro';
+import { GIFTS, GIFT_SLUGS } from '@/lib/gifts';
+import { getDict2 } from '@/lib/dict2';
+import { getI18n } from '@/lib/i18n-server';
+import { LANG_NAME, LOCALES, LOCALE_TAG, localizePath, type Locale } from '@/lib/i18n';
+import { switchPath } from '@/lib/switch';
+import { NOINDEX, SITE_NAME, SITE_URL } from '@/lib/site';
+import { TOPICS, TOPIC_KEYS } from '@/lib/topics';
+import { VERTICAL } from '@/verticals';
+import type { PageHead } from '@/lib/seo';
+
+interface Props { locale: Locale; internalPath: string; head: PageHead; jsonLd?: object | null }
+const { locale, internalPath, head, jsonLd = null } = Astro.props;
+const { t, href } = getI18n(locale, internalPath);
+const t2 = getDict2(locale);
+const home = `${SITE_URL}${localizePath(locale, '/')}`.replace(/\/$/, '') || SITE_URL;
+const gtmId = process.env.GTM_ID || '';
+// Het meet-ID van GA4 staat ook in elke pagina-bron. Met GTM_ID ingesteld loopt alles via GTM.
+const gaId = gtmId ? '' : process.env.GA_ID || 'G-733CL2WZSR';
+const siteLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebSite', '@id': `${SITE_URL}/#website`, url: home, name: SITE_NAME, inLanguage: LOCALE_TAG[locale], description: t.description, potentialAction: { '@type': 'SearchAction', target: `${SITE_URL}${href('/zoeken')}?q={search_term_string}`, 'query-input': 'required name=search_term_string' } },
+    { '@type': 'Organization', '@id': `${SITE_URL}/#org`, name: SITE_NAME, url: SITE_URL, logo: `${SITE_URL}/icon.svg` },
+  ],
+};
+const robots = NOINDEX || head.noindex
+  ? (NOINDEX ? 'noindex, nofollow' : 'noindex, follow')
+  : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+---
+<!doctype html>
+<html lang={locale} style={`--accent:${VERTICAL.accent}`}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0F1722" />
+    <title>{head.title}</title>
+    <meta name="description" content={head.description} />
+    <meta name="robots" content={robots} />
+    <link rel="canonical" href={head.canonical} />
+    {Object.entries(head.languages).map(([l, u]) => <link rel="alternate" hreflang={l} href={u} />)}
+    <link rel="alternate" type="application/atom+xml" title={`${SITE_NAME}: ${t.nav.guides}`} href={`${SITE_URL}${href('/feed')}`} />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <meta property="og:site_name" content={head.og.siteName} />
+    <meta property="og:title" content={head.og.title} />
+    <meta property="og:description" content={head.og.description} />
+    <meta property="og:url" content={head.og.url} />
+    <meta property="og:type" content={head.og.type} />
+    <meta property="og:locale" content={head.og.locale} />
+    {head.og.alternateLocale.map((l) => <meta property="og:locale:alternate" content={l} />)}
+    <meta property="og:image" content={head.og.image.url} />
+    <meta property="og:image:width" content={String(head.og.image.width)} />
+    <meta property="og:image:height" content={String(head.og.image.height)} />
+    <meta property="og:image:alt" content={head.og.image.alt} />
+    {head.og.publishedTime ? <meta property="article:published_time" content={head.og.publishedTime} /> : null}
+    {head.og.modifiedTime ? <meta property="article:modified_time" content={head.og.modifiedTime} /> : null}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={head.og.title} />
+    <meta name="twitter:description" content={head.og.description} />
+    <meta name="twitter:image" content={head.og.image.url} />
+    <script type="application/ld+json" set:html={JSON.stringify(siteLd)} />
+    {jsonLd ? <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} /> : null}
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap">
+        <a href={href('/')} class="logo" aria-label={t.homeAria(SITE_NAME)}><Logo />{SITE_NAME}</a>
+        <nav aria-label={t.nav.main}>
+          <a href={href('/')}>{t.nav.deals}</a>
+          <a href={href('/gids')}>{t.nav.guides}</a>
+          <a href={href('/themas')}>{t2.themesLabel}</a>
+          <a href={href('/kiezen')}>{t2.finder.nav}</a>
+          <a href={href('/zoeken')}>{t.nav.search}</a>
+          <span class="country">{t.country}</span>
+          <ul class="lang" aria-label={t.nav.language}>
+            {LOCALES.map((l) => (
+              <li>
+                <a href={switchPath(internalPath, locale, l)} lang={LOCALE_TAG[l].split('-')[0]} hreflang={LOCALE_TAG[l].split('-')[0]} aria-current={l === locale ? 'true' : undefined} title={LANG_NAME[l]}>{l}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main><slot /></main>
+    <footer class="site">
+      <div class="wrap">
+        <span class="logo"><Logo size={26} />{SITE_NAME}</span>
+        <div class="txt">
+          <p>{t.footer[0]}</p>
+          <p>{t.footer[1]}</p>
+          <ul class="footlinks">
+            <li><a href={href('/privacy')}>{t.privacy.title}</a></li>
+            {GIFT_SLUGS.map((g) => <li><a href={href(`/cadeau/${g}`)}>{GIFTS[g].copy[locale].nav}</a></li>)}
+            {TOPIC_KEYS.map((k) => <li><a href={href(`/onderwerp/${k}`)}>{TOPICS[k].name[locale]}</a></li>)}
+          </ul>
+        </div>
+      </div>
+    </footer>
+    {gtmId ? <noscript><iframe src={`https://www.googletagmanager.com/ns.html?id=${gtmId}`} height="0" width="0" style="display:none;visibility:hidden" title="gtm"></iframe></noscript> : null}
+    {(gtmId || gaId) ? (
+      <div id="consent" class="consent" role="dialog" aria-label="Cookies voor statistieken" hidden>
+        <p>We meten anoniem hoe de site gebruikt wordt met Google Analytics. Dat mag alleen als jij het goedvindt.</p>
+        <div class="acts">
+          <button type="button" class="btn" data-consent="denied">Weigeren</button>
+          <button type="button" class="btn dark" data-consent="granted">Accepteren</button>
+        </div>
+      </div>
+      <script is:inline define:vars={{ gtmId, gaId }}>
+        (function () {
+          var KEY = 'consent-analytics';
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { window.dataLayer.push(arguments); }
+          function apply(granted) {
+            var v = granted ? 'granted' : 'denied';
+            gtag('consent', 'update', { analytics_storage: v, ad_storage: v, ad_user_data: v, ad_personalization: v });
+          }
+          gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500 });
+          var stored = null;
+          try { stored = localStorage.getItem(KEY); } catch (e) {}
+          if (stored === 'granted') apply(true);
+          var box = document.getElementById('consent');
+          if (stored === null && box) box.hidden = false;
+          var s = document.createElement('script');
+          s.async = true;
+          if (gtmId) {
+            window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
+            s.src = 'https://www.googletagmanager.com/gtm.js?id=' + encodeURIComponent(gtmId);
+          } else {
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(gaId);
+            gtag('js', new Date());
+            gtag('config', gaId, { send_page_view: false });
+            gtag('event', 'page_view', { page_path: location.pathname + location.search, page_title: document.title });
+          }
+          document.head.appendChild(s);
+          document.addEventListener('click', function (e) {
+            var b = e.target && e.target.closest && e.target.closest('[data-consent]');
+            if (b) {
+              var g = b.getAttribute('data-consent') === 'granted';
+              try { localStorage.setItem(KEY, g ? 'granted' : 'denied'); } catch (x) {}
+              apply(g);
+              if (box) box.hidden = true;
+              return;
+            }
+            var a = e.target && e.target.closest && e.target.closest('a[rel~="sponsored"]');
+            if (!a) return;
+            var info = { link_url: a.href, link_text: (a.textContent || '').trim(), shop: a.dataset.affiliate, page_path: location.pathname };
+            if (gtmId) window.dataLayer.push(Object.assign({ event: 'affiliate_click' }, info));
+            else gtag('event', 'affiliate_click', info);
+          });
+        })();
+      </script>
+    ) : null}
+  </body>
+</html>

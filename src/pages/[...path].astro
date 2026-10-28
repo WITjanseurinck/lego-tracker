@@ -1,0 +1,12 @@
+---
+import Home from '@/views/Home.astro';
+import Set from '@/views/Set.astro';
+import { allRoutes, routeParam, type Route } from '@/lib/routes';
+
+export function getStaticPaths() {
+  return allRoutes().map((r) => ({ params: { path: routeParam(r) }, props: { route: r } }));
+}
+const { route } = Astro.props as { route: Route };
+---
+{route.kind === 'home' ? <Home locale={route.locale} /> : null}
+{route.kind === 'set' ? <Set locale={route.locale} set={route.set!} /> : null}

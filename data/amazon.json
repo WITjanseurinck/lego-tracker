@@ -292,7 +292,8 @@
    "theme": "creator",
    "age": 8,
    "pieces": 626,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt637c086e666cff92/31165_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt637c086e666cff92/31165_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31167",
@@ -882,14 +883,15 @@
   },
   {
    "set": "43024",
-   "price": 64.99,
+   "price": 52.49,
    "strikethrough": 89.99,
    "asin": "B0GGT99LRC",
    "name": "Helm van Ayrton Senna",
    "theme": "editions",
    "image": "https://www.lego.com/cdn/cs/set/assets/bltad711ce14ade35fe/43024_Prod.png",
    "age": 14,
-   "pieces": 931
+   "pieces": 931,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43272",
@@ -1039,14 +1041,15 @@
   },
   {
    "set": "75413",
-   "price": 109.95,
+   "price": 104.99,
    "strikethrough": 149.99,
    "asin": "B0DWDQ4YGR",
    "name": "Republic Juggernaut",
    "theme": "star-wars",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt3e5d1d463262f82d/75413_Prod_en-gb.png",
    "age": 9,
-   "pieces": 813
+   "pieces": 813,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75417",
@@ -1091,7 +1094,8 @@
    "theme": "star-wars",
    "age": 10,
    "pieces": 930,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt34b27553596c6ef5/75447_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt34b27553596c6ef5/75447_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75453",
@@ -1219,14 +1223,15 @@
   },
   {
    "set": "76450",
-   "price": 69.99,
+   "price": 63.99,
    "strikethrough": 99.99,
    "asin": "B0DWF1W82X",
    "name": "Boekensteun: Zweinstein Express",
    "theme": "harry-potter",
    "age": 10,
    "pieces": 832,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt86a28c5596668d3b/76450_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt86a28c5596668d3b/76450_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76451",

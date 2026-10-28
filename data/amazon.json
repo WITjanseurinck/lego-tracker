@@ -1524,14 +1524,14 @@
   {
    "set": "77259",
    "name": "Audi Revolut F1 Team R26",
-   "price": 19.52,
+   "price": 19.29,
    "strikethrough": 27.99,
    "asin": "B0FPXGRFLV",
    "theme": "speed-champions",
    "age": 10,
    "pieces": 216,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt95522a33acfc96b9/blt480f8e3525715603-77259_Prod_en-gb.png",
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77260",
@@ -1960,14 +1960,15 @@
   },
   {
    "set": "10453",
-   "price": 39.95,
+   "price": 31.99,
    "strikethrough": 49.99,
    "asin": "B00CYHRMP8",
    "name": "Kermis",
    "theme": "overig",
    "age": 2,
    "pieces": 53,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf3cfaefcf9a961a6/10453_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf3cfaefcf9a961a6/10453_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10456",
@@ -1990,7 +1991,8 @@
    "theme": "overig",
    "age": 2,
    "pieces": 22,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt1ff20da0419cb6ac/10458_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1ff20da0419cb6ac/10458_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10459",
@@ -4408,14 +4410,15 @@
   },
   {
    "set": "60451",
-   "price": 16.99,
+   "price": 16.62,
    "strikethrough": 19.99,
    "asin": "B0DHSFHMJH",
    "name": "Ambulance",
    "theme": "overig",
    "age": 5,
    "pieces": 184,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt64c62359edab92f8/60451_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt64c62359edab92f8/60451_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60454",
@@ -4426,7 +4429,8 @@
    "theme": "overig",
    "age": 6,
    "pieces": 385,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt39909b68e8ab0c11/60454_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt39909b68e8ab0c11/60454_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60456",

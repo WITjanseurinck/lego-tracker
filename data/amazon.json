@@ -987,7 +987,8 @@
    "theme": "star-wars",
    "age": 18,
    "pieces": 921,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltea91c53f2609bfa5/75375.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltea91c53f2609bfa5/75375.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75379",
@@ -1082,7 +1083,8 @@
    "theme": "star-wars",
    "age": 18,
    "pieces": 1513,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt98568413538e8f35/75417_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt98568413538e8f35/75417_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75435",
@@ -1300,14 +1302,15 @@
   },
   {
    "set": "76463",
-   "price": 65.99,
+   "price": 61.99,
    "strikethrough": 99.99,
    "asin": "B0FPXCK2QL",
    "name": "Kasteel Zweinstein Ziekenzaal",
    "theme": "harry-potter",
    "age": 9,
    "pieces": 907,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb722633ab53c083e/76463_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb722633ab53c083e/76463_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76466",
@@ -2733,7 +2736,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 607,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt31c0228b83af9658/blt285f2e1cc4ec083f-21596_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt31c0228b83af9658/blt285f2e1cc4ec083f-21596_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21597",
@@ -3643,14 +3647,15 @@
   },
   {
    "set": "42704",
-   "price": 99.99,
+   "price": 91.99,
    "strikethrough": 149.99,
    "asin": "B0FPXFNDZM",
    "name": "Heartlake City Grand Hotel",
    "theme": "overig",
    "age": 9,
    "pieces": 1406,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt03c32ea5ffa7c9d4/blt630e1f33b9e4faab-42704_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt03c32ea5ffa7c9d4/blt630e1f33b9e4faab-42704_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42705",

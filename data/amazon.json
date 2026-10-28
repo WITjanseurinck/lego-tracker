@@ -532,7 +532,8 @@
    "age": 10,
    "pieces": 526,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt09511e795b685260/42179.png",
-   "stock": "out"
+   "stock": "out",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42201",
@@ -1786,14 +1787,15 @@
   },
   {
    "set": "10421",
-   "price": 26.99,
+   "price": 25.99,
    "strikethrough": 39.99,
    "asin": "B01MQRRE1X",
    "name": "Alfabetvrachtwagen",
    "theme": "overig",
    "age": 2,
    "pieces": 36,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5b3bf48f37ebfc73/10421_alt1.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5b3bf48f37ebfc73/10421_alt1.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10425",
@@ -1815,7 +1817,8 @@
    "theme": "overig",
    "age": 2,
    "pieces": 42,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5f1fdf8ff555a113/10426_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5f1fdf8ff555a113/10426_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10427",
@@ -3739,14 +3742,15 @@
   },
   {
    "set": "42700",
-   "price": 42.99,
+   "price": 42.5,
    "strikethrough": 59.99,
    "asin": "B0FPXHK8Q2",
    "name": "Reuzenrad van snoep en cupcakes",
    "theme": "overig",
    "age": 7,
    "pieces": 602,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2b96a1aef8a0cc87/blt56dbc4093ff77ecc-42700_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2b96a1aef8a0cc87/blt56dbc4093ff77ecc-42700_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42702",
@@ -4168,14 +4172,15 @@
   },
   {
    "set": "43298",
-   "price": 24.99,
+   "price": 24.98,
    "strikethrough": 34.99,
    "asin": "B0GGSM57DD",
    "name": "LEGO® ǀ Disney Princess Adventskalender 2026",
    "theme": "overig",
    "age": 5,
    "pieces": 290,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt82f3c5cf5bc37ada/blt0fed8b3062f3baae-43298_Box1_v39_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt82f3c5cf5bc37ada/blt0fed8b3062f3baae-43298_Box1_v39_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43304",

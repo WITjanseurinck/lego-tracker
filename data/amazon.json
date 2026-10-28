@@ -450,7 +450,8 @@
    "theme": "technic",
    "age": 18,
    "pieces": 1643,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2d0b04908f20c4fb/42171.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2d0b04908f20c4fb/42171.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42172",
@@ -490,7 +491,7 @@
   },
   {
    "set": "42176",
-   "price": 116.72,
+   "price": 116.7,
    "strikethrough": 169.99,
    "asin": "B0CWH44JKC",
    "name": "Porsche GT4 E Performance Racewagen",
@@ -498,7 +499,7 @@
    "age": 10,
    "pieces": 836,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt18f5c5a692b50842/42176.png",
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42177",
@@ -1669,7 +1670,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 3600,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt062f49aeb5924ace/10356_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt062f49aeb5924ace/10356_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10358",
@@ -3302,7 +3304,9 @@
    "theme": "overig",
    "age": 18,
    "pieces": 4104,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltdd490f7023a9625c/blt115568a63fa37862-42232_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltdd490f7023a9625c/blt115568a63fa37862-42232_Prod.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "42644",
@@ -3782,14 +3786,15 @@
   },
   {
    "set": "43258",
-   "price": 69.99,
+   "price": 64.99,
    "strikethrough": 99.99,
    "asin": "B0DWDSF7DM",
    "name": "Kakamora boot",
    "theme": "overig",
    "age": 7,
    "pieces": 572,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt245955053948ef0b/43258_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt245955053948ef0b/43258_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43260",

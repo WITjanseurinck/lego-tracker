@@ -1587,7 +1587,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 878,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt4fa1e0206e541309/10281_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt4fa1e0206e541309/10281_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10309",
@@ -2115,14 +2116,15 @@
   },
   {
    "set": "10475",
-   "price": 19.99,
+   "price": 17.64,
    "strikethrough": 24.99,
    "asin": "B01MTWBPPI",
    "name": "3-in-1 bouwvoertuigen",
    "theme": "overig",
    "age": 2,
    "pieces": 22,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt1771aa90c58d7edc/10475_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1771aa90c58d7edc/10475_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10478",
@@ -3394,14 +3396,15 @@
   },
   {
    "set": "42199",
-   "price": 19.39,
+   "price": 19.35,
    "strikethrough": 27.99,
    "asin": "B0DHS9F966",
    "name": "Monster Jam™ DIGatron™ pull-back",
    "theme": "overig",
    "age": 7,
    "pieces": 218,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt499be3baeb0512f3/42199_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt499be3baeb0512f3/42199_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42220",
@@ -4858,7 +4861,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 181,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt9abebce4362751aa/71828_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9abebce4362751aa/71828_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71829",
@@ -5218,14 +5222,15 @@
   },
   {
    "set": "75408",
-   "price": 53.45,
+   "price": 53.42,
    "strikethrough": 79.99,
    "asin": "B0DHSBVRFM",
    "name": "Jango Fett™ helm",
    "theme": "overig",
    "age": 18,
    "pieces": 616,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt855daa4a629583f3/75408_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt855daa4a629583f3/75408_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75410",

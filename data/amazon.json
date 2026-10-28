@@ -611,14 +611,15 @@
   },
   {
    "set": "42209",
-   "price": 69.99,
+   "price": 69.94,
    "strikethrough": 99.99,
    "asin": "B0DRCWG11G",
    "name": "Volvo L120 Electric wiellader",
    "theme": "technic",
    "image": "https://www.lego.com/cdn/cs/set/assets/blte0550cc3ef3afc1f/42209_Prod.png",
    "age": 9,
-   "pieces": 973
+   "pieces": 973,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42210",
@@ -1030,7 +1031,8 @@
    "theme": "star-wars",
    "age": 18,
    "pieces": 1138,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt1d21181b67dcb8a5/75398_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1d21181b67dcb8a5/75398_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75399",
@@ -4143,7 +4145,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 811,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta3c2f35e46ae78e2/60423.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta3c2f35e46ae78e2/60423.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60430",
@@ -4169,14 +4172,15 @@
   },
   {
    "set": "60445",
-   "price": 64.99,
+   "price": 64.98,
    "strikethrough": 99.99,
    "asin": "B0DHSCGSLT",
    "name": "F1® truck met RB20 en AMR24 F1® auto's",
    "theme": "overig",
    "age": 8,
    "pieces": 1086,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt552b70def7e93527/60445_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt552b70def7e93527/60445_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60447",
@@ -4713,14 +4717,15 @@
   },
   {
    "set": "71847",
-   "price": 104.99,
+   "price": 104.98,
    "strikethrough": 149.99,
    "asin": "B0DWDS6X8Y",
    "name": "De drakenbewaker",
    "theme": "overig",
    "age": 14,
    "pieces": 1650,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf3d926151472c33c/71847_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf3d926151472c33c/71847_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71853",

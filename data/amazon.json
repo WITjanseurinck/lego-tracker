@@ -1076,7 +1076,7 @@
    "age": 9,
    "pieces": 497,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltd6b2fe663f886921/75402_Prod_en-gb.png",
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75413",
@@ -3410,14 +3410,15 @@
   },
   {
    "set": "42664",
-   "price": 48.99,
+   "price": 48.97,
    "strikethrough": 74.99,
    "asin": "B0DWDQWL46",
    "name": "Avontuurlijke bootreis",
    "theme": "overig",
    "age": 8,
    "pieces": 685,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0ed38f292438868d/42664_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0ed38f292438868d/42664_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42666",
@@ -5000,7 +5001,9 @@
    "theme": "overig",
    "age": 18,
    "pieces": 1367,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt40ba11f38226fc58/72051_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt40ba11f38226fc58/72051_Prod.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "75372",
@@ -5476,7 +5479,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 436,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltfa071cc60deb491e/76327_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltfa071cc60deb491e/76327_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76330",
@@ -5569,14 +5573,15 @@
   },
   {
    "set": "76341",
-   "price": 40.79,
+   "price": 42.99,
    "strikethrough": 59.99,
    "asin": "B0FPXF62K2",
    "name": "Groot in Ravager jumpsuit",
    "theme": "overig",
    "age": 10,
    "pieces": 604,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltfdc3dfd99aac9d44/76341_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltfdc3dfd99aac9d44/76341_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76342",

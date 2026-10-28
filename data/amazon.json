@@ -1589,7 +1589,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 771,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt65dad1067eb63ecc/10309.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt65dad1067eb63ecc/10309.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10311",
@@ -1675,14 +1676,15 @@
   },
   {
    "set": "10348",
-   "price": 39.99,
+   "price": 39.98,
    "strikethrough": 59.99,
    "asin": "B0DWF6VKYB",
    "name": "Japanse esdoorn bonsaiboompje",
    "theme": "overig",
    "age": 18,
    "pieces": 474,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd4a3e6e4bf1b680c/10348_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd4a3e6e4bf1b680c/10348_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10349",
@@ -2664,7 +2666,8 @@
    "theme": "overig",
    "age": 8,
    "pieces": 530,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt84548788d42da89d/21277_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt84548788d42da89d/21277_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21278",
@@ -3439,14 +3442,15 @@
   },
   {
    "set": "42661",
-   "price": 29.99,
+   "price": 29.8,
    "strikethrough": 39.99,
    "asin": "B0DWDY7DTQ",
    "name": "Verkleedfeestje met eenhoorn en fee",
    "theme": "overig",
    "age": 6,
    "pieces": 261,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc4ae14396c13ffa2/42661_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc4ae14396c13ffa2/42661_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42663",
@@ -5722,14 +5726,15 @@
   },
   {
    "set": "76346",
-   "price": 66.39,
+   "price": 69.99,
    "strikethrough": 99.99,
    "asin": "B0FR9QQ1B1",
    "name": "Spider-Man heldenfiguur",
    "theme": "overig",
    "age": 12,
    "pieces": 813,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt585a9a54e5181812/76346_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt585a9a54e5181812/76346_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76347",

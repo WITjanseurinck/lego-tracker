@@ -369,14 +369,15 @@
   },
   {
    "set": "31387",
-   "price": 64.99,
+   "price": 62.99,
    "strikethrough": 99.99,
    "asin": "B0FPXGBPR6",
    "name": "Klassiek piratenschip",
    "theme": "creator",
    "age": 9,
    "pieces": 1074,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt1223855066b9b380/blte1f97ee73c17994d-31387_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1223855066b9b380/blte1f97ee73c17994d-31387_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31389",
@@ -621,14 +622,15 @@
   },
   {
    "set": "42210",
-   "price": 99.99,
+   "price": 99.98,
    "strikethrough": 139.99,
    "asin": "B0DRCXL888",
    "name": "2 Fast 2 Furious Nissan Skyline GT-R",
    "theme": "technic",
    "age": 18,
    "pieces": 1410,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt4281f045b5e8888c/42210_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt4281f045b5e8888c/42210_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42212",
@@ -1346,14 +1348,15 @@
   },
   {
    "set": "76474",
-   "price": 68.66,
+   "price": 62.99,
    "strikethrough": 99.99,
    "asin": "B0FPXFR4XB",
    "name": "Zweinstein Kruidenkunde planten",
    "theme": "harry-potter",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt38d292ab6f3051ab/blt0860330851b273fa-76474_Prod_en-gb.png",
    "age": 12,
-   "pieces": 817
+   "pieces": 817,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76911",
@@ -3989,14 +3992,15 @@
   },
   {
    "set": "43297",
-   "price": 71.99,
+   "price": 59.99,
    "strikethrough": 99.99,
    "asin": "B0FR9JYZBR",
    "name": "Rapunzels kasteel",
    "theme": "overig",
    "age": 6,
    "pieces": 676,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt404f0f59c91a45fe/blt97a4990d03023d2a-43297_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt404f0f59c91a45fe/blt97a4990d03023d2a-43297_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43298",
@@ -5018,7 +5022,8 @@
    "theme": "overig",
    "age": 10,
    "pieces": 1039,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt01e041de08bd7aa0/75416_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt01e041de08bd7aa0/75416_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75419",

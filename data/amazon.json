@@ -5,7 +5,7 @@
  "items": [
   {
    "set": "10315",
-   "price": 72.63,
+   "price": 79.95,
    "strikethrough": 104.99,
    "asin": "B00BLHZED4",
    "name": "Rustgevende tuin",
@@ -13,7 +13,7 @@
    "age": 18,
    "pieces": 1363,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc1a3afc5b5af3287/10315.png",
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10330",
@@ -97,7 +97,7 @@
    "age": 18,
    "pieces": 1060,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb43d0d2e48863e64/blt9b1cd88cf5ab5032-11376_Prod_en-gb.png",
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11379",
@@ -234,7 +234,8 @@
    "theme": "ideas",
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb0d4865e1765d9bc/21345.png",
    "age": 18,
-   "pieces": 516
+   "pieces": 516,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21357",
@@ -256,7 +257,8 @@
    "theme": "ideas",
    "age": 18,
    "pieces": 1234,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5fa64829f3e08bad/blt99f895fe40c0a54a-21366_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5fa64829f3e08bad/blt99f895fe40c0a54a-21366_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21367",
@@ -267,7 +269,8 @@
    "theme": "ideas",
    "age": 18,
    "pieces": 1283,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt58a7c9abdca9fe83/blt7f64bcf9a02deb90-21367_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt58a7c9abdca9fe83/blt7f64bcf9a02deb90-21367_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31161",

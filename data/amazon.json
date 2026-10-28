@@ -384,14 +384,15 @@
   },
   {
    "set": "31389",
-   "price": 59.99,
+   "price": 55.99,
    "strikethrough": 89.99,
    "asin": "B0FPXD6FNL",
    "name": "Creator 3-in-1 Klassiek reuzenrad, UFO-attractie en zweefmolen",
    "theme": "creator",
    "age": 8,
    "pieces": 916,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt9f9a9c0945433fe9/bltda4538cf414fdc36-31389_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9f9a9c0945433fe9/bltda4538cf414fdc36-31389_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42136",
@@ -1048,7 +1049,7 @@
   },
   {
    "set": "75399",
-   "price": 49.99,
+   "price": 49.98,
    "strikethrough": 69.99,
    "asin": "B0DHSC8HYM",
    "name": "Andor: Rebel U-Wing Starfighter",
@@ -1056,7 +1057,7 @@
    "age": 8,
    "pieces": 594,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt66adc043070e220c/75399_Prod.png",
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75402",
@@ -2281,7 +2282,8 @@
    "theme": "overig",
    "age": 4,
    "pieces": 382,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt944cea1679c0bb8e/11203_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt944cea1679c0bb8e/11203_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11206",
@@ -4157,14 +4159,15 @@
   },
   {
    "set": "60414",
-   "price": 58.11,
+   "price": 58.1,
    "strikethrough": 79.99,
    "asin": "B0CFWMZQ3Y",
    "name": "Brandweerkazerne en brandweerauto",
    "theme": "overig",
    "age": 6,
    "pieces": 843,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt7e2d25e6978bb21b/60414_alt1.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt7e2d25e6978bb21b/60414_alt1.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60415",
@@ -5914,14 +5917,15 @@
   },
   {
    "set": "77078",
-   "price": 159.19,
+   "price": 175.0,
    "strikethrough": 229.99,
    "asin": "B0DWDMKNK2",
    "name": "Mecha Team Leader",
    "theme": "overig",
    "age": 18,
    "pieces": 2503,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt08e304cdd764c23b/77078_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt08e304cdd764c23b/77078_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77079",

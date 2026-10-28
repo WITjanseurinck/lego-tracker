@@ -143,7 +143,8 @@
    "theme": "icons",
    "image": "https://www.lego.com/cdn/cs/set/assets/blteb6b17f3f4ae151d/bltfe9034ee5bed08f3-11389_Prod.png",
    "age": 18,
-   "pieces": 830
+   "pieces": 830,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11502",
@@ -480,7 +481,8 @@
    "theme": "technic",
    "age": 10,
    "pieces": 2274,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt28e79ccdf0659cef/42175_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt28e79ccdf0659cef/42175_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42176",
@@ -1661,7 +1663,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 1505,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf513a3746b8267e9/10358_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf513a3746b8267e9/10358_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10363",
@@ -1694,7 +1697,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 709,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2c4d86926d510d45/10373_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2c4d86926d510d45/10373_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10374",
@@ -4516,7 +4520,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 575,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt3c20dfe8449e0184/bltd44a5963267013d3-60511_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt3c20dfe8449e0184/bltd44a5963267013d3-60511_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71052",

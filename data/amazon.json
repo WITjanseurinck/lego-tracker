@@ -664,14 +664,15 @@
   },
   {
    "set": "42213",
-   "price": 39.99,
+   "price": 46.54,
    "strikethrough": 59.99,
    "asin": "B0DWDQ8BN5",
    "name": "Ford Bronco SUV",
    "theme": "technic",
    "age": 9,
    "pieces": 943,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbb52bac713429615/42213_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbb52bac713429615/42213_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42214",
@@ -867,13 +868,14 @@
   {
    "set": "43014",
    "name": "Scuderia Ferrari HP: helm van Charles Leclerc",
-   "price": 59.99,
+   "price": 52.49,
    "strikethrough": 89.99,
    "asin": "B0FPXFDFV8",
    "theme": "editions",
    "age": 14,
    "pieces": 886,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta0e51783efba6e23/43014_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta0e51783efba6e23/43014_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43017",
@@ -1257,7 +1259,7 @@
    "age": 8,
    "pieces": 499,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta9bc0a58cabf6ae2/76446_Prod_en-gb.png",
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76447",
@@ -2018,14 +2020,15 @@
   },
   {
    "set": "10467",
-   "price": 55.99,
+   "price": 44.99,
    "strikethrough": 69.99,
    "asin": "B0FPXGMSQ3",
    "name": "Familiehuis",
    "theme": "overig",
    "age": 2,
    "pieces": 84,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb09d770a22148a18/blt85689746e54b83e6-10467_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb09d770a22148a18/blt85689746e54b83e6-10467_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10468",
@@ -5285,14 +5288,15 @@
   },
   {
    "set": "75451",
-   "price": 34.98,
+   "price": 34.2,
    "strikethrough": 49.99,
    "asin": "B0GGSRJ24F",
    "name": "Paleis van de Hutt Sentry Droid confrontatie",
    "theme": "overig",
    "age": 9,
    "pieces": 415,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltcbdf08565d92df57/75451_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltcbdf08565d92df57/75451_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75452",

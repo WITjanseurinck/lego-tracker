@@ -327,7 +327,8 @@
    "theme": "art",
    "image": "https://www.lego.com/cdn/cs/set/assets/bltbbddf9140f849bb9/31212.png",
    "age": 18,
-   "pieces": 3091
+   "pieces": 3091,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31215",
@@ -749,7 +750,8 @@
    "theme": "technic",
    "age": 18,
    "pieces": 1675,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltac01ce3b2335370b/blt94fedcc1daf48b2a-42228_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltac01ce3b2335370b/blt94fedcc1daf48b2a-42228_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42229",
@@ -1158,7 +1160,8 @@
    "theme": "overig",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt25bc5b8dc7d77c0b/75639_Prod_en-gb.png",
    "age": 10,
-   "pieces": 1376
+   "pieces": 1376,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76348",
@@ -2864,14 +2867,15 @@
   },
   {
    "set": "31216",
-   "price": 93.99,
+   "price": 84.99,
    "strikethrough": 119.99,
    "asin": "B0DL9MQ4TL",
    "name": "Keith Haring – Dansende figuren",
    "theme": "overig",
    "age": 18,
    "pieces": 1773,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt709d460037ccde76/31216_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt709d460037ccde76/31216_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31220",
@@ -4853,7 +4857,8 @@
    "theme": "overig",
    "age": 12,
    "pieces": 2178,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb895347975e9b56e/blt6c6d8825f3ae31df-71872_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb895347975e9b56e/blt6c6d8825f3ae31df-71872_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "72050",

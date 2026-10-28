@@ -1143,14 +1143,15 @@
   },
   {
    "set": "75455",
-   "price": 117.95,
+   "price": 117.99,
    "strikethrough": 169.99,
    "asin": "B0GGSSF1ST",
    "name": "Boba Fett",
    "theme": "star-wars",
    "age": 18,
    "pieces": 1544,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt01e72d2fd0c9fa53/blt0fed9d785e5abb17-75455_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt01e72d2fd0c9fa53/blt0fed9d785e5abb17-75455_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75459",
@@ -1161,7 +1162,8 @@
    "theme": "star-wars",
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc25c22ecb800e962/bltdb45b22aa9b13e52-75459_Prod_en-gb.png",
    "age": 14,
-   "pieces": 961
+   "pieces": 961,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75639",
@@ -2904,14 +2906,15 @@
   },
   {
    "set": "31220",
-   "price": 150.0,
+   "price": 149.0,
    "strikethrough": 199.99,
    "asin": "B0FPXG24C9",
    "name": "Claude Monet – Brug over een vijver met waterlelies",
    "theme": "overig",
    "age": 18,
    "pieces": 3179,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt363f1ae96e0f5199/blt4065b9e490396e28-31220_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt363f1ae96e0f5199/blt4065b9e490396e28-31220_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31376",
@@ -4450,14 +4453,15 @@
   },
   {
    "set": "60504",
-   "price": 75.85,
+   "price": 75.83,
    "strikethrough": 109.99,
    "asin": "B0FPXF8YRH",
    "name": "Kustwacht reddingsboot met helikopter",
    "theme": "overig",
    "age": 7,
    "pieces": 742,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf30305d3326ff2af/60504_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf30305d3326ff2af/60504_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60505",
@@ -4567,7 +4571,9 @@
    "theme": "overig",
    "age": 9,
    "pieces": 929,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbdd48d2c30cca0dc/71499_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbdd48d2c30cca0dc/71499_Prod_en-gb.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "71500",

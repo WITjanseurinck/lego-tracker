@@ -1673,14 +1673,15 @@
   },
   {
    "set": "10347",
-   "price": 19.99,
+   "price": 19.98,
    "strikethrough": 29.99,
    "asin": "B01N5B2ILL",
    "name": "Klein zomers boeket",
    "theme": "overig",
    "age": 9,
    "pieces": 373,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt3e93aaf180737b50/10347_WEB_SEC01_NOBG.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt3e93aaf180737b50/10347_WEB_SEC01_NOBG.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10348",
@@ -2192,14 +2193,15 @@
   },
   {
    "set": "10913",
-   "price": 22.99,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B07W4KVGJM",
    "name": "Opbergdoos",
    "theme": "overig",
    "age": 1.5,
    "pieces": 65,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte88e29b40e206dc1/10913.jpg"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte88e29b40e206dc1/10913.jpg",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10914",
@@ -3403,7 +3405,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 243,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2d2c8515bbd2612b/42220_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2d2c8515bbd2612b/42220_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42232",
@@ -5872,14 +5875,15 @@
   },
   {
    "set": "76461",
-   "price": 19.89,
+   "price": 18.74,
    "strikethrough": 29.99,
    "asin": "B0FPXGPT4J",
    "name": "Keltisch Aardmannetje",
    "theme": "overig",
    "age": 8,
    "pieces": 320,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt928a2eac4f906fc2/76461_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt928a2eac4f906fc2/76461_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76462",
@@ -6172,7 +6176,8 @@
    "theme": "overig",
    "age": 12,
    "pieces": 1230,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta812336e05c32ed5/blt2016cb7e0a6ff994-77081_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta812336e05c32ed5/blt2016cb7e0a6ff994-77081_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77082",

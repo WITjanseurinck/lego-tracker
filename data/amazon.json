@@ -816,7 +816,8 @@
    "theme": "technic",
    "age": 10,
    "pieces": 973,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc500591cc79bf53c/blt6afc886561547236-42236_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc500591cc79bf53c/blt6afc886561547236-42236_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42239",
@@ -1234,7 +1235,9 @@
    "theme": "harry-potter",
    "image": "https://www.lego.com/cdn/cs/set/assets/bltca42229884f56fed/76447_Prod_en-gb.png",
    "age": 9,
-   "pieces": 651
+   "pieces": 651,
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "76449",
@@ -3386,14 +3389,15 @@
   },
   {
    "set": "42671",
-   "price": 63.99,
+   "price": 53.99,
    "strikethrough": 89.99,
    "asin": "B0DWDQMP9N",
    "name": "Plantencafé en bloemenwinkel",
    "theme": "overig",
    "age": 9,
    "pieces": 1138,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt654cf742adb57908/42671_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt654cf742adb57908/42671_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42673",
@@ -4952,7 +4956,8 @@
    "theme": "overig",
    "age": 10,
    "pieces": 1555,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb6f5dfaf01195072/75394_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb6f5dfaf01195072/75394_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75400",
@@ -5739,14 +5744,15 @@
   },
   {
    "set": "76976",
-   "price": 109.0,
+   "price": 95.99,
    "strikethrough": 149.99,
    "asin": "B0DNZSQPP6",
    "name": "Spinosaurus en Quetzalcoatlus luchtmissie",
    "theme": "overig",
    "age": 8,
    "pieces": 984,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt380694221ffbc765/76976_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt380694221ffbc765/76976_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77001",

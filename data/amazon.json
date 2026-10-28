@@ -2839,7 +2839,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 253,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt1e80dee5dde5c723/31136.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1e80dee5dde5c723/31136.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31146",
@@ -3400,7 +3401,8 @@
    "theme": "overig",
    "age": 6,
    "pieces": 375,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc3b94af9fe07e002/42650_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc3b94af9fe07e002/42650_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42652",
@@ -4027,7 +4029,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 478,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt9bcf160a34a7c824/43287_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9bcf160a34a7c824/43287_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43288",
@@ -4088,14 +4091,15 @@
   },
   {
    "set": "43295",
-   "price": 36.22,
+   "price": 36.2,
    "strikethrough": 49.99,
    "asin": "B0FR9JCWY1",
    "name": "Jasmines sieradendoos",
    "theme": "overig",
    "age": 6,
    "pieces": 458,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbcef68e4079f6efb/blt86c4434f62e9b89f-43295_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbcef68e4079f6efb/blt86c4434f62e9b89f-43295_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43296",
@@ -5249,7 +5253,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 297,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt043955a8ee1e2706/blt1a085f1ef4d5c931-75444_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt043955a8ee1e2706/blt1a085f1ef4d5c931-75444_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75445",

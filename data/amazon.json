@@ -246,14 +246,15 @@
   },
   {
    "set": "21357",
-   "price": 46.74,
+   "price": 52.49,
    "strikethrough": 69.99,
    "asin": "B0DWF6XWX3",
    "name": "Disney Pixar Luxo Jr.",
    "theme": "ideas",
    "age": 18,
    "pieces": 613,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt9ed8450ea64591dc/21357_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9ed8450ea64591dc/21357_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21366",
@@ -709,7 +710,7 @@
    "age": 9,
    "pieces": 771,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0a9009b95130ef89/42222_Prod_en-gb.png",
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42223",
@@ -2626,7 +2627,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 665,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt20eeb327767a55d1/21278_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt20eeb327767a55d1/21278_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21279",
@@ -3823,14 +3825,15 @@
   },
   {
    "set": "43262",
-   "price": 45.43,
+   "price": 49.99,
    "strikethrough": 69.99,
    "asin": "B0DHSCCM3M",
    "name": "De jurken van Maleficent en Cruella De Vil",
    "theme": "overig",
    "age": 9,
    "pieces": 524,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt605215e6d74ef935/43262_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt605215e6d74ef935/43262_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43264",
@@ -5173,7 +5176,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 701,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt8ff7e21f8488b900/75445_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8ff7e21f8488b900/75445_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75446",

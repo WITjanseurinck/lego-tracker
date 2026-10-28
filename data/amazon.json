@@ -1288,7 +1288,9 @@
    "theme": "harry-potter",
    "age": 9,
    "pieces": 518,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt190aaf13d851f58d/76449_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt190aaf13d851f58d/76449_Prod_en-gb.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "76450",
@@ -1872,14 +1874,15 @@
   },
   {
    "set": "10445",
-   "price": 33.74,
+   "price": 28.99,
    "strikethrough": 44.99,
    "asin": "B0DHSC9G69",
    "name": "F1® team racewagens en coureurs",
    "theme": "overig",
    "age": 2,
    "pieces": 70,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb75b09d7abde4975/10445_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb75b09d7abde4975/10445_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10446",
@@ -2027,7 +2030,8 @@
    "theme": "overig",
    "age": 2,
    "pieces": 87,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltae6d8e889c05d8e2/10465_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltae6d8e889c05d8e2/10465_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10467",
@@ -2191,14 +2195,15 @@
   },
   {
    "set": "10914",
-   "price": 33.74,
+   "price": 31.99,
    "strikethrough": 49.99,
    "asin": "B07WLMV14S",
    "name": "Luxe opbergdoos",
    "theme": "overig",
    "age": 1.5,
    "pieces": 85,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt9af342aa5b220e2c/10914_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9af342aa5b220e2c/10914_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10941",
@@ -3333,14 +3338,15 @@
   },
   {
    "set": "40825",
-   "price": 28.99,
+   "price": 31.99,
    "strikethrough": 39.99,
    "asin": "B0FLPJ16MC",
    "name": "Halloweenkrans",
    "theme": "overig",
    "age": 12,
    "pieces": 617,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt43e116a81cdae61f/40825_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt43e116a81cdae61f/40825_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42198",

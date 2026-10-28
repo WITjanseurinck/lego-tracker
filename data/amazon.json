@@ -1661,14 +1661,15 @@
   },
   {
    "set": "10343",
-   "price": 21.99,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B01N6CJ1QW",
    "name": "Miniorchidee",
    "theme": "overig",
    "age": 18,
    "pieces": 274,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltade30768c791af76/10343_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltade30768c791af76/10343_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10347",
@@ -2271,14 +2272,15 @@
   },
   {
    "set": "11041",
-   "price": 24.74,
+   "price": 24.69,
    "strikethrough": 34.99,
    "asin": "B01MZ0C0UD",
    "name": "Creatieve dinosaurussen",
    "theme": "overig",
    "age": 5,
    "pieces": 450,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt98193aee9d65cc20/11041_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt98193aee9d65cc20/11041_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11045",
@@ -4002,14 +4004,15 @@
   },
   {
    "set": "43270",
-   "price": 41.95,
+   "price": 39.99,
    "strikethrough": 59.99,
    "asin": "B0DHSDL4JT",
    "name": "Vaiana's avonturenkano",
    "theme": "overig",
    "age": 6,
    "pieces": 529,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt7e0cf7fe91678cf0/43270_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt7e0cf7fe91678cf0/43270_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43271",
@@ -6027,7 +6030,8 @@
    "theme": "overig",
    "age": 8,
    "pieces": 350,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt05ac12a38be5c5aa/77005_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt05ac12a38be5c5aa/77005_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77006",
@@ -6218,14 +6222,15 @@
   },
   {
    "set": "77242",
-   "price": 20.24,
+   "price": 21.59,
    "strikethrough": 26.99,
    "asin": "B0DHSBBV6R",
    "name": "Ferrari SF-24 F1® racewagen",
    "theme": "overig",
    "age": 10,
    "pieces": 275,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt62a0047ef561f2db/77242_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt62a0047ef561f2db/77242_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77243",

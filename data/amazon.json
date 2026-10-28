@@ -434,14 +434,15 @@
   },
   {
    "set": "42172",
-   "price": 309.0,
+   "price": 309.95,
    "strikethrough": 449.99,
    "asin": "B0CWH3TBGB",
    "name": "McLaren P1",
    "theme": "technic",
    "age": 18,
    "pieces": 3893,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt519dac201a3dd4c1/42172.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt519dac201a3dd4c1/42172.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42173",
@@ -480,14 +481,15 @@
   },
   {
    "set": "42177",
-   "price": 173.85,
+   "price": 169.99,
    "strikethrough": 249.99,
    "asin": "B0CWH2C8LK",
    "name": "Mercedes-Benz G 500 Professional Line",
    "theme": "technic",
    "age": 18,
    "pieces": 2891,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltcbe6394b9677d5bd/42177_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltcbe6394b9677d5bd/42177_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42179",
@@ -559,25 +561,27 @@
   },
   {
    "set": "42206",
-   "price": 149.99,
+   "price": 159.99,
    "strikethrough": 229.99,
    "asin": "B0DHSCHP9P",
    "name": "Oracle Red Bull Racing RB20 F1 Auto",
    "theme": "technic",
    "age": 18,
    "pieces": 1639,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltca542b859ace5383/42206_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltca542b859ace5383/42206_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42207",
-   "price": 159.99,
+   "price": 159.98,
    "strikethrough": 229.99,
    "asin": "B0DHSCYDL2",
    "name": "Ferrari SF 24 F1 Auto",
    "theme": "technic",
    "age": 18,
    "pieces": 1361,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt1dd4e21e38b03edd/42207_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1dd4e21e38b03edd/42207_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42208",
@@ -655,7 +659,8 @@
    "theme": "technic",
    "age": 18,
    "pieces": 2359,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt6027837d523f859d/42215_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt6027837d523f859d/42215_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42221",
@@ -805,14 +810,15 @@
   },
   {
    "set": "42240",
-   "price": 161.99,
+   "price": 159.99,
    "strikethrough": 229.99,
    "asin": "B0GGSHY123",
    "name": "Aston Martin Aramco AMR25 F1 Auto",
    "theme": "technic",
    "age": 18,
    "pieces": 1547,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd75d9ab1c2aec844/blt3711b74994551d04-42240_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd75d9ab1c2aec844/blt3711b74994551d04-42240_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43014",

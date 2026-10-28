@@ -1418,7 +1418,9 @@
    "theme": "speed-champions",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt5fb26fee0777bc45/76911.png",
    "age": 8,
-   "pieces": 298
+   "pieces": 298,
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "76924",
@@ -2506,14 +2508,15 @@
   },
   {
    "set": "11507",
-   "price": 32.95,
+   "price": 32.94,
    "strikethrough": 44.99,
    "asin": "B0GGSRL31C",
    "name": "Olivia Rodrigo's bloemenboeket",
    "theme": "overig",
    "age": 9,
    "pieces": 400,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc9cd1306bad8a70a/blt9e03e492c9f9f77b-11507_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc9cd1306bad8a70a/blt9e03e492c9f9f77b-11507_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11508",
@@ -3101,7 +3104,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 542,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbf6cbcbb8ff1610b/31385_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbf6cbcbb8ff1610b/31385_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31390",
@@ -3669,14 +3673,15 @@
   },
   {
    "set": "42697",
-   "price": 35.99,
+   "price": 32.99,
    "strikethrough": 49.99,
    "asin": "B0FPXDC9M4",
    "name": "Creatieve poppenhuiskoffer",
    "theme": "overig",
    "age": 6,
    "pieces": 355,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltab4f735d9387f884/blt532af7fe935cacb6-42697_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltab4f735d9387f884/blt532af7fe935cacb6-42697_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42698",
@@ -5880,7 +5885,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 468,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta858c81e5621fe72/76969_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta858c81e5621fe72/76969_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76972",

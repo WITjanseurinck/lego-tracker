@@ -2230,14 +2230,15 @@
   },
   {
    "set": "11036",
-   "price": 37.95,
+   "price": 37.99,
    "strikethrough": 54.99,
    "asin": "B0CFW22SBY",
    "name": "Creatieve voertuigen",
    "theme": "overig",
    "age": 5,
    "pieces": 900,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2e65c0cc0597c8dc/11036.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2e65c0cc0597c8dc/11036.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11039",
@@ -2621,14 +2622,15 @@
   },
   {
    "set": "21270",
-   "price": 32.99,
+   "price": 37.99,
    "strikethrough": 49.99,
    "asin": "B0DHSD1JN6",
    "name": "Het Mooshroom huis",
    "theme": "overig",
    "age": 8,
    "pieces": 500,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt195407a3e1332413/21270_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt195407a3e1332413/21270_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21272",
@@ -2792,14 +2794,15 @@
   },
   {
    "set": "21594",
-   "price": 30.99,
+   "price": 26.24,
    "strikethrough": 44.99,
    "asin": "B0FPXG724G",
    "name": "Het skelet",
    "theme": "overig",
    "age": 10,
    "pieces": 502,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc606c3ae67a67ec6/blt7056ccc1d0e380db-21594_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc606c3ae67a67ec6/blt7056ccc1d0e380db-21594_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21595",
@@ -5648,14 +5651,15 @@
   },
   {
    "set": "76338",
-   "price": 22.95,
+   "price": 21.99,
    "strikethrough": 29.99,
    "asin": "B0FPXFPLRZ",
    "name": "Mechaduel: Spider-Man vs. Doc Ock",
    "theme": "overig",
    "age": 6,
    "pieces": 315,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt998df642757b7cdf/76338_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt998df642757b7cdf/76338_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76339",
@@ -6100,14 +6104,15 @@
   },
   {
    "set": "77080",
-   "price": 26.86,
+   "price": 27.95,
    "strikethrough": 39.99,
    "asin": "B0FPXF3G9L",
    "name": "Supply Drop",
    "theme": "overig",
    "age": 10,
    "pieces": 314,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte23438e4954c3feb/blt3e979d6d7675975e-77080_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte23438e4954c3feb/blt3e979d6d7675975e-77080_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77081",

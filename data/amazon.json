@@ -721,14 +721,15 @@
   },
   {
    "set": "42223",
-   "price": 49.99,
+   "price": 52.74,
    "strikethrough": 74.99,
    "asin": "B0FPXDNT2N",
    "name": "1966 Ford GT40 MKII Racewagen",
    "theme": "technic",
    "age": 18,
    "pieces": 793,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltfedfb750ecdecbc5/42223_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltfedfb750ecdecbc5/42223_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42224",
@@ -1624,7 +1625,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 822,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt08f4d88d801a4cf8/10328.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt08f4d88d801a4cf8/10328.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10333",
@@ -4363,14 +4365,15 @@
   },
   {
    "set": "60466",
-   "price": 41.99,
+   "price": 47.99,
    "strikethrough": 59.99,
    "asin": "B0DWF1T6CZ",
    "name": "Gele bulldozer",
    "theme": "overig",
    "age": 8,
    "pieces": 682,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt753a816b6e10f6ae/60466_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt753a816b6e10f6ae/60466_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60469",
@@ -4516,7 +4519,8 @@
    "theme": "overig",
    "age": 6,
    "pieces": 583,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt7c848b40102af953/blt33a2eda4c9d743f2-60497_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt7c848b40102af953/blt33a2eda4c9d743f2-60497_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60498",
@@ -5684,14 +5688,15 @@
   },
   {
    "set": "76347",
-   "price": 39.99,
+   "price": 45.0,
    "strikethrough": 59.99,
    "asin": "B0GGT9YZVR",
    "name": "Avengers: Doomsday Quinjet",
    "theme": "overig",
    "age": 9,
    "pieces": 433,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbfa25eafbbe050a9/blt0b01e7e47f3494e9-76347_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbfa25eafbbe050a9/blt0b01e7e47f3494e9-76347_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76350",

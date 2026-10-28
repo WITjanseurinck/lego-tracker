@@ -1735,14 +1735,15 @@
   },
   {
    "set": "10374",
-   "price": 39.99,
+   "price": 41.99,
    "strikethrough": 59.99,
    "asin": "B01NAET89S",
    "name": "Roze rozenboeket",
    "theme": "overig",
    "age": 18,
    "pieces": 789,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0afd56c00e0b0970/10374_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0afd56c00e0b0970/10374_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10412",
@@ -1865,7 +1866,9 @@
    "theme": "overig",
    "age": 2,
    "pieces": 92,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt6fe2ac21bb0d40fe/10446_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt6fe2ac21bb0d40fe/10446_Prod.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "10447",
@@ -2658,14 +2661,15 @@
   },
   {
    "set": "21362",
-   "price": 39.99,
+   "price": 45.8,
    "strikethrough": 59.99,
    "asin": "B0DWDRWJ2P",
    "name": "Mineralenverzameling",
    "theme": "overig",
    "age": 18,
    "pieces": 880,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt49598d5e86615a68/21362_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt49598d5e86615a68/21362_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21582",
@@ -4799,7 +4803,8 @@
    "theme": "overig",
    "age": 14,
    "pieces": 996,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbd4be09b55a2a95b/71846_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbd4be09b55a2a95b/71846_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71847",
@@ -5896,7 +5901,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 768,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt7e9278dae5b178fd/77037_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt7e9278dae5b178fd/77037_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77056",

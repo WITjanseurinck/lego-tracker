@@ -36,7 +36,7 @@ export async function renderOg({ kicker, title, lines = [], badge, ratio }: OgPr
       [0, 1, 2, 3].map(() => h('div', { width: 12, height: 12, borderRadius: 6, background: '#E8AC10' }))),
     h('div', { fontSize: 32, fontWeight: 700 }, SITE_NAME),
   ]);
-  const tree = h('div', { width: '100%', height: '100%', flexDirection: 'column', justifyContent: 'space-between', background: '#0F1722', color: '#ffffff', padding: 64, fontFamily: 'Hanken Grotesk' }, [
+  const tree = h('div', { width: size.width, height: size.height, boxSizing: 'border-box', flexDirection: 'column', justifyContent: 'space-between', background: '#0F1722', color: '#ffffff', padding: 64, fontFamily: 'Hanken Grotesk' }, [
     h('div', { alignItems: 'center', justifyContent: 'space-between' }, [
       logo,
       badge ? h('div', { background: '#FFC52E', color: '#0F1722', fontSize: 34, fontWeight: 800, padding: '8px 22px', borderRadius: 12 }, badge) : h('div', {}),

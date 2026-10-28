@@ -36,7 +36,7 @@ export const getStaticPaths = (() => {
       for (const r of Object.keys(OG_RATIOS) as OgRatio[]) add(`${l}-a-${a.id}-${r}`, make, r);
     }
   }
-  return out;
+  return process.env.OG_LIMIT ? out.slice(0, Number(process.env.OG_LIMIT)) : out;
 }) satisfies GetStaticPaths;
 
 export const GET: APIRoute = async ({ props }) => {

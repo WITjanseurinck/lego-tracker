@@ -112,14 +112,15 @@
   },
   {
    "set": "11381",
-   "price": 117.07,
+   "price": 118.99,
    "strikethrough": 139.99,
    "asin": "B01MZ9GNNN",
    "name": "Jaguar E-Type",
    "theme": "icons",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2548c675c5013fce/bltd7618c334ab0fcf6-11381_Prod_en-gb.png",
    "age": 18,
-   "pieces": 1673
+   "pieces": 1673,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11383",
@@ -130,7 +131,8 @@
    "theme": "icons",
    "age": 18,
    "pieces": 1420,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5999ea5e1c071687/blt21fb8295f9caaf81-11383_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5999ea5e1c071687/blt21fb8295f9caaf81-11383_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11389",
@@ -5090,7 +5092,8 @@
    "theme": "overig",
    "age": 10,
    "pieces": 1200,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb65ce1284755d194/blta8d62a90e62e020c-75446_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb65ce1284755d194/blta8d62a90e62e020c-75446_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75448",
@@ -5222,7 +5225,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 1518,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt6cb8355ed4a686b5/75685_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt6cb8355ed4a686b5/75685_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75687",
@@ -5457,14 +5461,15 @@
   },
   {
    "set": "76342",
-   "price": 76.79,
+   "price": 86.99,
    "strikethrough": 109.99,
    "asin": "B0FPXG5S99",
    "name": "Spider-Man vs. Mysterio: de Daily Bugle",
    "theme": "overig",
    "age": 10,
    "pieces": 781,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt74be7e0374bd82ac/76342_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt74be7e0374bd82ac/76342_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76343",

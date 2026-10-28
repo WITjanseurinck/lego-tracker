@@ -42,7 +42,7 @@ const robots = NOINDEX || head.noindex
     <meta name="robots" content={robots} />
     <link rel="canonical" href={head.canonical} />
     {Object.entries(head.languages).map(([l, u]) => <link rel="alternate" hreflang={l} href={u} />)}
-    <link rel="alternate" type="application/atom+xml" title={`${SITE_NAME}: ${t.nav.guides}`} href={`${SITE_URL}${href('/feed')}`} />
+    <link rel="alternate" type="application/atom+xml" title={`${SITE_NAME}: ${t.nav.guides}`} href={`${SITE_URL}${href('/feed.xml')}`} />
     <link rel="icon" type="image/svg+xml" href="/icon.svg" />
     <meta property="og:site_name" content={head.og.siteName} />
     <meta property="og:title" content={head.og.title} />

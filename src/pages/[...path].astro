@@ -1,12 +1,32 @@
 ---
 import Home from '@/views/Home.astro';
 import Set from '@/views/Set.astro';
+import Gids from '@/views/Gids.astro';
+import Article from '@/views/Article.astro';
+import Thema from '@/views/Thema.astro';
+import Themas from '@/views/Themas.astro';
+import Onderwerp from '@/views/Onderwerp.astro';
+import Cadeau from '@/views/Cadeau.astro';
+import Kiezen from '@/views/Kiezen.astro';
+import Zoeken from '@/views/Zoeken.astro';
+import Privacy from '@/views/Privacy.astro';
 import { allRoutes, routeParam, type Route } from '@/lib/routes';
 
 export function getStaticPaths() {
   return allRoutes().map((r) => ({ params: { path: routeParam(r) }, props: { route: r } }));
 }
 const { route } = Astro.props as { route: Route };
+const l = route.locale;
+const k = route.key as any;
 ---
-{route.kind === 'home' ? <Home locale={route.locale} /> : null}
-{route.kind === 'set' ? <Set locale={route.locale} set={route.set!} /> : null}
+{route.kind === 'home' && <Home locale={l} />}
+{route.kind === 'set' && <Set locale={l} set={k} />}
+{route.kind === 'gids' && <Gids locale={l} />}
+{route.kind === 'artikel' && <Article locale={l} id={k} />}
+{route.kind === 'thema' && <Thema locale={l} slug={k} />}
+{route.kind === 'themas' && <Themas locale={l} />}
+{route.kind === 'onderwerp' && <Onderwerp locale={l} slug={k} />}
+{route.kind === 'cadeau' && <Cadeau locale={l} slug={k} />}
+{route.kind === 'kiezen' && <Kiezen locale={l} />}
+{route.kind === 'zoeken' && <Zoeken locale={l} />}
+{route.kind === 'privacy' && <Privacy locale={l} />}

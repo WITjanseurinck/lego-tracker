@@ -1,0 +1,40 @@
+---
+import Base from '@/layouts/Base.astro';
+import { allArticles, articleHeroSet } from '@/lib/articles';
+import { getCompareDeal } from '@/lib/deals';
+import { formatDate } from '@/lib/format';
+import { getI18n } from '@/lib/i18n-server';
+import { pageMeta } from '@/lib/seo';
+import { photoTint } from '@/lib/themes';
+import type { Locale } from '@/lib/i18n';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const { t, href } = getI18n(locale, '/gids');
+const head = pageMeta({ locale, path: '/gids', title: t.guides.metaTitle, description: t.guides.metaDesc });
+const articles = allArticles();
+---
+<Base locale={locale} internalPath="/gids" head={head}>
+  <div class="wrap page">
+    <h1>{t.guides.h1}</h1>
+    <p class="lead">{t.guides.lead}</p>
+    {articles.length === 0 ? <div class="empty">{t.guides.empty}</div> : null}
+    <div class="news" style="margin-top:48px">
+      {articles.map((a, i) => {
+        const d = getCompareDeal(articleHeroSet(a) ?? '');
+        return (
+          <article class="art">
+            <a href={href(`/gids/${a.text[locale].slug}`)}>
+              <div class="pic" style={`background:${photoTint(i)}`}>
+                {d?.image ? <img src={d.image} alt={`LEGO ${d.set} ${d.name}`} loading="lazy" referrerpolicy="no-referrer" /> : null}
+              </div>
+              <p class="date">{formatDate(a.published, locale)}</p>
+              <h3>{a.text[locale].title}</h3>
+            </a>
+            <p class="s">{a.text[locale].summary}</p>
+          </article>
+        );
+      })}
+    </div>
+  </div>
+</Base>

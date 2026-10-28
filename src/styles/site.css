@@ -265,3 +265,5 @@ footer.site .footlinks a{color:#fff;text-decoration:none}
 footer.site .footlinks a:hover{text-decoration:underline}
 
 .stockout{font-weight:400;opacity:.7;font-size:.8em}
+
+[hidden] { display: none !important; }

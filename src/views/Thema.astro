@@ -1,0 +1,59 @@
+---
+import Base from '@/layouts/Base.astro';
+import CompareCard from '@/components/CompareCard.astro';
+import { dealsByTheme } from '@/lib/deals';
+import { THEMES, getDict2, themeName } from '@/lib/dict2';
+import { formatEur } from '@/lib/format';
+import { getI18n } from '@/lib/i18n-server';
+import { localizePath, type Locale } from '@/lib/i18n';
+import { pageMeta } from '@/lib/seo';
+import { photoTint } from '@/lib/themes';
+import { SITE_NAME, SITE_URL } from '@/lib/site';
+
+interface Props { locale: Locale; slug: string }
+const { locale, slug } = Astro.props;
+const { href } = getI18n(locale, `/thema/${slug}`);
+const deals = dealsByTheme(slug);
+const t2 = getDict2(locale);
+const n = themeName(slug, locale);
+const sorted = [...deals].sort((a, b) => a.offers[0].price - b.offers[0].price);
+const eur = (x: number) => formatEur(x, locale);
+const head = pageMeta({ locale, path: `/thema/${slug}`, title: t2.themeTitle(n), description: t2.themeDesc(n, deals.length, eur(sorted[0].offers[0].price)) });
+const url = `${SITE_URL}${localizePath(locale, `/thema/${slug}`)}`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'ItemList',
+      name: t2.themeTitle(n),
+      itemListElement: sorted.slice(0, 30).map((d, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE_URL}${localizePath(locale, `/set/${d.set}`)}`, name: `LEGO ${d.set} ${d.name}` })),
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: SITE_NAME, item: `${SITE_URL}${localizePath(locale, '/')}`.replace(/\/$/, '') },
+        { '@type': 'ListItem', position: 2, name: n, item: url },
+      ],
+    },
+  ],
+};
+const others = Object.keys(THEMES).filter((k) => k !== slug && k !== 'overig' && dealsByTheme(k).length > 0);
+---
+<Base locale={locale} internalPath={`/thema/${slug}`} head={head} jsonLd={jsonLd}>
+  <div class="wrap page">
+    <nav class="crumbs"><a href={href('/')}>{SITE_NAME}</a> / <span>{n}</span></nav>
+    <h1>{t2.themeH1(n)}</h1>
+    <p class="lead">{THEMES[slug].blurb[locale]}</p>
+    <p class="muted">{t2.themeCount(sorted.length, eur(sorted[0].offers[0].price), eur(sorted[sorted.length - 1].offers[0].price))}</p>
+    <div class="grid" style="margin-top:32px">
+      {sorted.map((d, i) => <CompareCard deal={d} tint={photoTint(i)} locale={locale} />)}
+    </div>
+    <section class="sec">
+      <h2>{t2.allThemes}</h2>
+      <ul class="chips">
+        {others.map((k) => <li><a href={href(`/thema/${k}`)}>{themeName(k, locale)}</a></li>)}
+        <li><a href={href('/kiezen')}>{t2.finder.nav}</a></li>
+      </ul>
+    </section>
+  </div>
+</Base>

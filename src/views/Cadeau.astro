@@ -1,0 +1,151 @@
+---
+import Base from '@/layouts/Base.astro';
+import { THEMES, getDict2, themeName } from '@/lib/dict2';
+import { getCompareDeals } from '@/lib/deals';
+import { AGE_GROUPS, GIFTS, type GiftSlug } from '@/lib/gifts';
+import { getI18n } from '@/lib/i18n-server';
+import { pageMeta } from '@/lib/seo';
+import type { Locale } from '@/lib/i18n';
+
+interface Props { locale: Locale; slug: GiftSlug }
+const { locale, slug } = Astro.props;
+const { href } = getI18n(locale, `/cadeau/${slug}`);
+const g = GIFTS[slug];
+const c = g.copy[locale];
+const t2 = getDict2(locale);
+const f = t2.finder;
+const base = `/cadeau/${slug}`;
+const head = pageMeta({ locale, path: base, title: c.title, description: c.desc, ogSet: `g-${slug}` });
+const all = getCompareDeals();
+const themes = Object.keys(THEMES).filter((k) => all.some((d) => d.theme === k));
+---
+<Base locale={locale} internalPath={base} head={head}>
+  <div class="wrap page" id="gift" data-slug={slug}>
+    <h1>{c.h1}</h1>
+    <p class="lead">{c.lead}</p>
+    <p class="giftintro">{c.intro}</p>
+
+    <section class="sec" id="leeftijd">
+      <h2>{c.ageTitle}</h2>
+      <ul class="chips agechips">
+        {AGE_GROUPS.map((a) => <li><a href={href(`${base}?leeftijd=${a.v}#voorstellen`)} data-age={a.v}>{a.label[locale]}</a></li>)}
+      </ul>
+      <p class="muted small">{c.ageHelp}</p>
+    </section>
+
+    <section class="sec" id="voorstellen" hidden>
+      <h2 id="picks-title"></h2>
+      <div class="grid related3" id="picks"></div>
+    </section>
+
+    <section class="sec" id="keuzehulp">
+      <h2>{c.midTitle}</h2>
+      <p class="lead">{c.midText}</p>
+      <form class="finder" action={`${href(base)}#keuzehulp`} method="get" id="gift-form">
+        <input type="hidden" name="leeftijd" />
+        <label>
+          <span>{f.budget}</span>
+          <input type="number" name="budget" min="1" step="1" inputmode="numeric" placeholder={f.budgetPh} />
+          <small>{f.budgetHelp}</small>
+        </label>
+        <label>
+          <span>{f.theme}</span>
+          <select name="thema">
+            <option value="">{f.anyTheme}</option>
+            {themes.map((k) => <option value={k}>{themeName(k, locale)}</option>)}
+          </select>
+        </label>
+        <label>
+          <span>{f.keyword}</span>
+          <input type="search" name="q" maxlength="40" placeholder={f.keywordPh} />
+        </label>
+        <div class="actions">
+          <button type="submit" class="btn dark">{f.submit}</button>
+          <a href={href(base)} id="gift-reset" hidden>{f.reset}</a>
+        </div>
+      </form>
+      <div class="grid related3" id="gift-extra" style="margin-top:24px" hidden></div>
+      <p id="gift-none" style="margin-top:24px" hidden>{f.none}</p>
+      <p style="margin-top:16px"><a href={href('/kiezen')} id="gift-all">{f.nav} →</a></p>
+    </section>
+
+    <section class="sec">
+      <h2>{c.endTitle}</h2>
+      <p class="giftintro">{c.endText}</p>
+      <p class="small muted">{t2.giftDisclosure}</p>
+    </section>
+  </div>
+  <script is:inline define:vars={{ picksTitles: Object.fromEntries(AGE_GROUPS.map((a) => [a.v, c.picksTitle(a.label[locale])])) }}>
+    window.__picksTitles = picksTitles;
+  </script>
+</Base>
+<script>
+  import { AGE_GROUPS, GIFTS, TIER_LABELS, isGiftSlug, pickTrio } from '@/lib/gifts';
+  import { expandKeyword, matchesKeyword } from '@/lib/finder';
+  import { loadDeals, numParam, pageLocale, renderCard, type ClientDeal } from '@/client/cards';
+  import { THEMES } from '@/lib/dict2';
+  import type { CompareDeal } from '@/lib/deals';
+
+  const root = document.getElementById('gift');
+  if (root && isGiftSlug(root.dataset.slug ?? '')) {
+    const locale = pageLocale();
+    const g = GIFTS[root.dataset.slug as keyof typeof GIFTS];
+    const sp = new URLSearchParams(location.search);
+    const group = AGE_GROUPS.find((a) => a.v === sp.get('leeftijd'));
+    const theme = (sp.get('thema') ?? '') in THEMES ? (sp.get('thema') ?? '') : '';
+    const budget = numParam(sp.get('budget'));
+    const qRaw = (sp.get('q') ?? '').slice(0, 40);
+    const kw = expandKeyword(qRaw);
+    const used = Boolean(theme || budget || kw);
+    const form = document.getElementById('gift-form') as HTMLFormElement;
+    const field = (n: string) => form.elements.namedItem(n) as HTMLInputElement | HTMLSelectElement;
+    field('leeftijd').value = group ? group.v : '';
+    field('budget').value = budget ? String(budget) : '';
+    field('thema').value = theme;
+    field('q').value = qRaw;
+    if (used) document.getElementById('gift-reset')!.hidden = false;
+    document.querySelectorAll<HTMLAnchorElement>('[data-age]').forEach((a) => { if (a.dataset.age === group?.v) a.classList.add('on'); });
+    const qs = new URLSearchParams();
+    if (budget) qs.set('budget', String(budget));
+    if (theme) qs.set('thema', theme);
+    if (qRaw) qs.set('q', qRaw);
+    if (group) qs.set('leeftijd', String(group.hi === 99 ? 18 : group.hi));
+    const all = document.getElementById('gift-all') as HTMLAnchorElement;
+    if (qs.toString()) all.href += `?${qs.toString()}`;
+
+    if (group || used) {
+      loadDeals().then((deals) => {
+        if (group) {
+          const trio = pickTrio(deals as unknown as CompareDeal[], group, g.tiers);
+          const sec = document.getElementById('voorstellen')!;
+          sec.hidden = false;
+          document.getElementById('picks-title')!.textContent = (window as unknown as { __picksTitles: Record<string, string> }).__picksTitles[group.v];
+          document.getElementById('picks')!.innerHTML = trio
+            .map(({ tier, deal }, i) => `<div><p class="nearnote">${TIER_LABELS[locale][tier]}</p>${renderCard(deal as unknown as ClientDeal, i, locale)}</div>`)
+            .join('');
+        }
+        if (used) {
+          const price = (d: ClientDeal) => d.offers[0].price;
+          const extra = deals
+            .filter(
+              (d) =>
+                (!theme || d.theme === theme) &&
+                (!budget || (price(d) >= budget * 0.8 && price(d) <= budget * 1.25)) &&
+                (!group || (d.age !== null && d.age >= group.lo && d.age <= group.hi)) &&
+                (!kw || matchesKeyword(kw, `${d.name} ${d.set}`, d.theme)),
+            )
+            .sort((a, b) => (budget ? Math.abs(price(a) - budget) - Math.abs(price(b) - budget) : price(a) - price(b)))
+            .slice(0, 3);
+          const box = document.getElementById('gift-extra')!;
+          if (extra.length) {
+            box.hidden = false;
+            box.innerHTML = extra.map((d, i) => renderCard(d, i + 1, locale)).join('');
+          } else {
+            document.getElementById('gift-none')!.hidden = false;
+          }
+        }
+        if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+      });
+    }
+  }
+</script>

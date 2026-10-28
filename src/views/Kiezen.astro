@@ -1,0 +1,141 @@
+---
+import Base from '@/layouts/Base.astro';
+import { getCompareDeals } from '@/lib/deals';
+import { THEMES, TIME_RANGES, getDict2, themeName } from '@/lib/dict2';
+import { getI18n } from '@/lib/i18n-server';
+import { pageMeta } from '@/lib/seo';
+import type { Locale } from '@/lib/i18n';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const { href } = getI18n(locale, '/kiezen');
+const f = getDict2(locale).finder;
+const head = pageMeta({ locale, path: '/kiezen', title: f.title, description: f.desc });
+const all = getCompareDeals();
+const themes = Object.keys(THEMES).filter((k) => all.some((d) => d.theme === k));
+const ageOptions = [3, 6, 8, 10, 12, 14, 18];
+---
+<Base locale={locale} internalPath="/kiezen" head={head}>
+  <div class="wrap page" id="finder-page">
+    <h1>{f.h1}</h1>
+    <p class="lead">{f.lead}</p>
+    <form class="finder" action={href('/kiezen')} method="get" id="finder-form">
+      <label>
+        <span>{f.budget}</span>
+        <input type="number" name="budget" min="1" step="1" inputmode="numeric" placeholder={f.budgetPh} />
+        <small>{f.budgetHelp}</small>
+      </label>
+      <label>
+        <span>{f.theme}</span>
+        <select name="thema">
+          <option value="">{f.anyTheme}</option>
+          {themes.map((k) => <option value={k}>{themeName(k, locale)}</option>)}
+        </select>
+      </label>
+      <label>
+        <span>{f.keyword}</span>
+        <input type="search" name="q" maxlength="40" placeholder={f.keywordPh} />
+      </label>
+      <label>
+        <span>{f.age}</span>
+        <input type="number" name="leeftijd" min="1" max="99" step="1" inputmode="numeric" placeholder={f.agePh} list="ages" />
+        <datalist id="ages">{ageOptions.map((a) => <option value={a} />)}</datalist>
+        <small>{f.ageHelp}</small>
+      </label>
+      <label>
+        <span>{f.time}</span>
+        <select name="tijd">
+          <option value="">{f.anyTime}</option>
+          {TIME_RANGES.map((r) => <option value={r.v}>{r[locale]}</option>)}
+        </select>
+        <small>{f.timeHelp}</small>
+      </label>
+      <div class="actions">
+        <button type="submit" class="btn dark">{f.submit}</button>
+        <a href={href('/kiezen')} id="finder-reset" hidden>{f.reset}</a>
+      </div>
+    </form>
+    <p class="muted" role="status" id="finder-status" hidden></p>
+    <div class="grid near" id="finder-near" style="margin-top:24px" hidden></div>
+    <div class="grid" id="finder-results" style="margin-top:24px"></div>
+    <section class="sec" id="finder-themes">
+      <ul class="chips">
+        {themes.filter((k) => k !== 'overig').map((k) => <li><a href={href(`/thema/${k}`)}>{themeName(k, locale)}</a></li>)}
+      </ul>
+    </section>
+  </div>
+</Base>
+<script>
+  import { THEMES, TIME_RANGES, buildHours, getDict2 } from '@/lib/dict2';
+  import { expandKeyword, matchesKeyword } from '@/lib/finder';
+  import { formatEur } from '@/lib/format';
+  import { esc, loadDeals, numParam, pageLocale, renderCard, type ClientDeal } from '@/client/cards';
+
+  const root = document.getElementById('finder-page');
+  if (root) {
+    const locale = pageLocale();
+    const f = getDict2(locale).finder;
+    const eur = (n: number) => formatEur(n, locale);
+    const sp = new URLSearchParams(location.search);
+    const form = document.getElementById('finder-form') as HTMLFormElement;
+    const field = (n: string) => form.elements.namedItem(n) as HTMLInputElement | HTMLSelectElement;
+    const budget = numParam(sp.get('budget'));
+    const age = numParam(sp.get('leeftijd'));
+    const range = TIME_RANGES.find((r) => r.v === sp.get('tijd'));
+    const qRaw = (sp.get('q') ?? '').slice(0, 40);
+    const themeWanted = sp.get('thema') ?? '';
+    const theme = themeWanted in THEMES ? themeWanted : '';
+    field('budget').value = budget ? String(budget) : '';
+    field('leeftijd').value = age ? String(age) : '';
+    field('thema').value = theme;
+    field('q').value = qRaw;
+    field('tijd').value = range ? range.v : '';
+    const kw = expandKeyword(qRaw);
+    const used = Boolean(theme || budget || age || range || kw);
+
+    if (used) {
+      document.getElementById('finder-reset')!.hidden = false;
+      document.getElementById('finder-themes')!.hidden = true;
+      loadDeals().then((all) => {
+        const lo = budget ? budget * 0.8 : 0;
+        const hi = budget ? budget * 1.25 : Infinity;
+        const price = (d: ClientDeal) => d.offers[0].price;
+        const hrs = (d: ClientDeal) => (d.pieces ? buildHours(d.pieces, d.theme) : 0);
+        const fitsTime = (d: ClientDeal) => !range || (d.pieces !== null && hrs(d) >= range.lo && hrs(d) <= range.hi);
+        const fitsKw = (d: ClientDeal) => !kw || matchesKeyword(kw, `${d.name} ${d.set}`, d.theme);
+        let list = all.filter(
+          (d) => (!theme || d.theme === theme) && (!budget || (price(d) >= lo && price(d) <= hi)) && (!age || (d.age !== null && d.age <= age)) && fitsTime(d) && fitsKw(d),
+        );
+        list = [...list].sort((a, b) => (budget ? Math.abs(price(a) - budget) - Math.abs(price(b) - budget) : price(a) - price(b)));
+        // Onmogelijke combinatie (bv. veel bouwtijd en weinig budget): toon wat er het dichtst bij komt.
+        let near: { text: string; deal: ClientDeal } | null = null;
+        let near2: { text: string; deal: ClientDeal } | null = null;
+        if (list.length === 0 && budget && range) {
+          const base = all.filter((d) => (!theme || d.theme === theme) && (!age || (d.age !== null && d.age <= age)) && fitsKw(d));
+          const byTime = base.filter(fitsTime).sort((a, b) => price(a) - price(b))[0];
+          const byBudget = base.filter((d) => price(d) <= hi).sort((a, b) => hrs(b) - hrs(a))[0];
+          if (byTime) near = { text: f.nearTime(range[locale], eur(price(byTime))), deal: byTime };
+          if (byBudget) {
+            const h = Math.max(1, Math.round(hrs(byBudget)));
+            near2 = { text: f.nearBudget(eur(budget), `${h} ${locale === 'fr' ? 'h' : locale === 'en' ? (h === 1 ? 'hour' : 'hours') : 'uur'}`), deal: byBudget };
+          }
+        }
+        const status = document.getElementById('finder-status')!;
+        status.hidden = false;
+        status.textContent = f.results(list.length) + (budget ? ` · ${f.around(eur(lo), eur(hi))}` : '');
+        if (list.length === 0) {
+          const p = document.createElement('p');
+          p.textContent = near || near2 ? f.timeNone(eur(budget ?? 0), range ? range[locale] : '') : f.none;
+          status.after(p);
+        }
+        const nearBox = document.getElementById('finder-near')!;
+        const nears = [near, near2].filter((n): n is { text: string; deal: ClientDeal } => Boolean(n));
+        if (nears.length) {
+          nearBox.hidden = false;
+          nearBox.innerHTML = nears.map((n, i) => `<div><p class="nearnote">${esc(n.text)}</p>${renderCard(n.deal, i, locale)}</div>`).join('');
+        }
+        document.getElementById('finder-results')!.innerHTML = list.slice(0, 48).map((d, i) => renderCard(d, i, locale)).join('');
+      });
+    }
+  }
+</script>

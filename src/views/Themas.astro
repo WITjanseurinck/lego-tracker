@@ -1,0 +1,44 @@
+---
+import Base from '@/layouts/Base.astro';
+import { dealsByTheme } from '@/lib/deals';
+import { THEMES, getDict2, themeName } from '@/lib/dict2';
+import { formatEur } from '@/lib/format';
+import { getI18n } from '@/lib/i18n-server';
+import { pageMeta } from '@/lib/seo';
+import { photoTint } from '@/lib/themes';
+import { TOPICS, TOPIC_KEYS } from '@/lib/topics';
+import type { Locale } from '@/lib/i18n';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const { href } = getI18n(locale, '/themas');
+const t2 = getDict2(locale);
+const head = pageMeta({ locale, path: '/themas', title: t2.themesTitle, description: t2.themesLead });
+const list = Object.keys(THEMES)
+  .map((k) => ({ k, deals: dealsByTheme(k) }))
+  .filter((x) => x.deals.length > 0 && x.k !== 'overig')
+  .sort((a, b) => b.deals.length - a.deals.length);
+---
+<Base locale={locale} internalPath="/themas" head={head}>
+  <div class="wrap page">
+    <h1>{t2.themesTitle}</h1>
+    <p class="lead">{t2.themesLead}</p>
+    <ul class="chips" style="margin:20px 0 8px">
+      {TOPIC_KEYS.map((k) => <li><a href={href(`/onderwerp/${k}`)}>{TOPICS[k].name[locale]}</a></li>)}
+    </ul>
+    <div class="themegrid">
+      {list.map(({ k, deals }, i) => {
+        const prices = deals.map((d) => d.offers[0].price);
+        const img = deals.find((d) => d.image)?.image;
+        return (
+          <a href={href(`/thema/${k}`)} class="themecard">
+            <span class="pic" style={`background:${photoTint(i)}`}>{img ? <img src={img} alt="" loading="lazy" referrerpolicy="no-referrer" /> : null}</span>
+            <span class="tname">{themeName(k, locale)}</span>
+            <span class="tmeta">{deals.length} {t2.setsWord} · {formatEur(Math.min(...prices), locale)} – {formatEur(Math.max(...prices), locale)}</span>
+            <span class="tblurb">{THEMES[k].blurb[locale]}</span>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+</Base>

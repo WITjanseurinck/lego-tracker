@@ -1,0 +1,18 @@
+---
+import Base from '@/layouts/Base.astro';
+import { getI18n } from '@/lib/i18n-server';
+import { pageMeta } from '@/lib/seo';
+import type { Locale } from '@/lib/i18n';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const { t, href } = getI18n(locale, '/');
+const head = { ...pageMeta({ locale, path: '/', title: t.notFound.title, description: t.notFound.text }), noindex: true };
+---
+<Base locale={locale} internalPath="/" head={head}>
+  <div class="wrap page">
+    <h1>{t.notFound.title}</h1>
+    <p class="lead">{t.notFound.text}</p>
+    <p style="margin-top:32px"><a href={href('/')} class="btn dark">{t.notFound.back}</a></p>
+  </div>
+</Base>

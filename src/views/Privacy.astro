@@ -1,0 +1,25 @@
+---
+import Base from '@/layouts/Base.astro';
+import { getI18n } from '@/lib/i18n-server';
+import { pageMeta } from '@/lib/seo';
+import type { Locale } from '@/lib/i18n';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const { t } = getI18n(locale, '/privacy');
+const head = pageMeta({ locale, path: '/privacy', title: t.privacy.title, description: t.privacy.intro });
+---
+<Base locale={locale} internalPath="/privacy" head={head}>
+  <div class="wrap page">
+    <h1>{t.privacy.title}</h1>
+    <p class="lead">{t.privacy.intro}</p>
+    <div class="prose">
+      {t.privacy.blocks.map(([h, b]) => (
+        <div>
+          <h2>{h}</h2>
+          <p>{b}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</Base>

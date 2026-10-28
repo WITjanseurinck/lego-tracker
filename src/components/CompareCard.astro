@@ -16,7 +16,7 @@ const saving = second ? second.price - best.price : 0;
 const href = localizePath(locale, `/set/${deal.set}`);
 const isBest = (i: number) => i === 0 && (deal.offers.length < 2 || deal.offers[1].price - deal.offers[0].price >= 0.005);
 ---
-<article class="tile">
+<article class="tile" data-theme={deal.theme} data-price={best.price}>
   <a href={href} class="pic" style={`background:${tint}`} aria-label={t.aria(`LEGO ${deal.set} ${deal.name}`)}>
     {deal.image ? <img src={deal.image} alt={`LEGO ${deal.set} ${deal.name}`} loading="lazy" referrerpolicy="no-referrer" /> : <span class="none">LEGO {deal.set}</span>}
     {deal.bestDiscount > 0 ? <span class="flag">-{deal.bestDiscount}%</span> : null}

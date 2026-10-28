@@ -1,0 +1,103 @@
+---
+import Base from '@/layouts/Base.astro';
+import CompareCard from '@/components/CompareCard.astro';
+import { getDict2, themeName } from '@/lib/dict2';
+import { formatEur } from '@/lib/format';
+import { getI18n } from '@/lib/i18n-server';
+import { localizePath, type Locale } from '@/lib/i18n';
+import { pageMeta } from '@/lib/seo';
+import { SITE_NAME, SITE_URL } from '@/lib/site';
+import { photoTint } from '@/lib/themes';
+import { TOPICS, TOPIC_KEYS, dealsByTopic, type TopicKey } from '@/lib/topics';
+
+interface Props { locale: Locale; slug: TopicKey }
+const { locale, slug } = Astro.props;
+const { href } = getI18n(locale, `/onderwerp/${slug}`);
+
+const ALL: Record<Locale, string> = { nl: 'Alle', fr: 'Tous', en: 'All' };
+const otherWord: Record<Locale, string> = { nl: 'Andere onderwerpen', fr: 'Autres sujets', en: 'Other topics' };
+const title = (n: string, l: Locale) =>
+  ({ nl: `LEGO ${n}: prijzen vergelijken bij de Belgische webshops`, fr: `LEGO ${n} : comparer les prix dans les boutiques en ligne belges`, en: `LEGO ${n}: compare prices at Belgian web shops` })[l];
+const desc = (n: string, c: number, from: string, l: Locale) =>
+  ({
+    nl: `${c} LEGO-sets rond ${n.toLowerCase()} met de prijzen van de Belgische webshops naast elkaar, vanaf ${from}. Zie meteen waar elke set het goedkoopst is.`,
+    fr: `${c} sets LEGO autour du thème « ${n.toLowerCase()} » avec les prix des boutiques en ligne belges côte à côte, dès ${from}. Voyez tout de suite où chaque set est le moins cher.`,
+    en: `${c} LEGO sets about ${n.toLowerCase()} with the prices of the Belgian web shops side by side, from ${from}. See at once where each set is cheapest.`,
+  })[l];
+
+const all = dealsByTopic(slug);
+const t2 = getDict2(locale);
+const copy = TOPICS[slug];
+const n = copy.name[locale];
+const eur = (x: number) => formatEur(x, locale);
+const counts = new Map<string, number>();
+for (const d of all) counts.set(d.theme, (counts.get(d.theme) ?? 0) + 1);
+const themes = [...counts.entries()].sort((a, b) => b[1] - a[1]);
+const sorted = [...all].sort((a, b) => a.offers[0].price - b.offers[0].price);
+const base = `/onderwerp/${slug}`;
+const url = `${SITE_URL}${localizePath(locale, base)}`;
+const head = pageMeta({ locale, path: base, title: title(n, locale), description: desc(n, all.length, eur(sorted[0].offers[0].price), locale) });
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'ItemList',
+      name: title(n, locale),
+      itemListElement: sorted.slice(0, 30).map((d, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE_URL}${localizePath(locale, `/set/${d.set}`)}`, name: `LEGO ${d.set} ${d.name}` })),
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: SITE_NAME, item: `${SITE_URL}${localizePath(locale, '/')}`.replace(/\/$/, '') },
+        { '@type': 'ListItem', position: 2, name: n, item: url },
+      ],
+    },
+  ],
+};
+---
+<Base locale={locale} internalPath={base} head={head} jsonLd={jsonLd}>
+  <div class="wrap page" id="topic" data-locale={locale}>
+    <nav class="crumbs"><a href={href('/')}>{SITE_NAME}</a> / <span>{n}</span></nav>
+    <h1>{copy.h1[locale]}</h1>
+    <p class="lead">{copy.lead[locale]}</p>
+    <ul class="chips" style="margin-top:20px" id="topic-chips">
+      <li><a href={href(base)} class="on" data-filter="">{ALL[locale]} ({all.length})</a></li>
+      {themes.map(([k, c]) => <li><a href={href(`${base}?thema=${k}`)} data-filter={k}>{themeName(k, locale)} ({c})</a></li>)}
+    </ul>
+    <p class="muted" style="margin-top:16px" id="topic-count">{t2.themeCount(sorted.length, eur(sorted[0].offers[0].price), eur(sorted[sorted.length - 1].offers[0].price))}</p>
+    <div class="grid" style="margin-top:24px">
+      {sorted.map((d, i) => <CompareCard deal={d} tint={photoTint(i)} locale={locale} />)}
+    </div>
+    <section class="sec">
+      <h2>{otherWord[locale]}</h2>
+      <ul class="chips">
+        {TOPIC_KEYS.filter((k) => k !== slug).map((k) => <li><a href={href(`/onderwerp/${k}`)}>{TOPICS[k].name[locale]}</a></li>)}
+        <li><a href={href('/themas')}>{t2.allThemes}</a></li>
+        <li><a href={href('/kiezen')}>{t2.finder.nav}</a></li>
+      </ul>
+    </section>
+  </div>
+</Base>
+<script>
+  import { getDict2 } from '@/lib/dict2';
+  import { formatEur } from '@/lib/format';
+  import { pageLocale } from '@/client/cards';
+
+  // De pagina is statisch en toont alle sets. Met ?thema=... verbergen we de andere reeksen.
+  const root = document.getElementById('topic');
+  if (root) {
+    const locale = pageLocale();
+    const t2 = getDict2(locale);
+    const cards = [...root.querySelectorAll<HTMLElement>('.grid > .tile')];
+    const chips = [...root.querySelectorAll<HTMLAnchorElement>('#topic-chips a')];
+    const valid = new Set(chips.map((c) => c.dataset.filter));
+    const wanted = new URLSearchParams(location.search).get('thema') ?? '';
+    const active = valid.has(wanted) ? wanted : '';
+    const shown = cards.filter((c) => !active || c.dataset.theme === active);
+    cards.forEach((c) => { c.hidden = !shown.includes(c); });
+    chips.forEach((c) => c.classList.toggle('on', (c.dataset.filter ?? '') === active));
+    const prices = shown.map((c) => Number(c.dataset.price));
+    const out = document.getElementById('topic-count');
+    if (out && prices.length) out.textContent = t2.themeCount(prices.length, formatEur(Math.min(...prices), locale), formatEur(Math.max(...prices), locale));
+  }
+</script>

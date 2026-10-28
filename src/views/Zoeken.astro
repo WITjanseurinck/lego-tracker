@@ -1,0 +1,46 @@
+---
+import Base from '@/layouts/Base.astro';
+import { getI18n } from '@/lib/i18n-server';
+import { pageMeta } from '@/lib/seo';
+import type { Locale } from '@/lib/i18n';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const { t, href } = getI18n(locale, '/zoeken');
+const head = pageMeta({ locale, path: '/zoeken', title: t.search.title, description: t.search.hint, noindex: true });
+---
+<Base locale={locale} internalPath="/zoeken" head={head}>
+  <div class="wrap page" id="search">
+    <h1>{t.search.h1}</h1>
+    <p class="lead">{t.search.hint}</p>
+    <form class="searchbar" action={href('/zoeken')} style="margin-top:32px">
+      <label for="q" class="sr">{t.search.label}</label>
+      <input id="q" type="search" name="q" placeholder={t.search.placeholder} />
+      <button type="submit">{t.search.button}</button>
+    </form>
+    <p class="muted" id="search-note" role="status"></p>
+    <div class="grid" id="search-results"></div>
+  </div>
+</Base>
+<script>
+  import { getDict } from '@/lib/dict';
+  import { loadDeals, pageLocale, renderCard } from '@/client/cards';
+
+  const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const root = document.getElementById('search');
+  if (root) {
+    const locale = pageLocale();
+    const t = getDict(locale);
+    const q = (new URLSearchParams(location.search).get('q') ?? '').trim();
+    const term = q.replace(/[%,()]/g, '');
+    (root.querySelector('#q') as HTMLInputElement).value = q;
+    if (term) {
+      loadDeals().then((all) => {
+        const found = all.filter((d) => d.set.includes(term) || norm(`${d.name} lego`).includes(norm(term)));
+        const note = document.getElementById('search-note')!;
+        note.textContent = found.length === 0 ? t.search.none(term) : t.search.count(found.length);
+        document.getElementById('search-results')!.innerHTML = found.map((d, i) => renderCard(d, i, locale)).join('');
+      });
+    }
+  }
+</script>

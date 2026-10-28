@@ -947,7 +947,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 2050,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltcc712e807c108c42/72152_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltcc712e807c108c42/72152_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "72537",
@@ -1193,14 +1194,15 @@
   },
   {
    "set": "76444",
-   "price": 144.99,
+   "price": 125.99,
    "strikethrough": 199.99,
    "asin": "B0DHSDY156",
    "name": "Wegisweg: tovenaarswinkels",
    "theme": "harry-potter",
    "age": 18,
    "pieces": 2750,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta8d5b7c13b5a3a81/76444_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta8d5b7c13b5a3a81/76444_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76446",
@@ -1297,14 +1299,15 @@
   },
   {
    "set": "76466",
-   "price": 115.0,
+   "price": 101.99,
    "strikethrough": 159.99,
    "asin": "B0FPXHC19W",
    "name": "De Steen der Wijzen",
    "theme": "harry-potter",
    "age": 18,
    "pieces": 1571,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltff6d2570f98dec12/76466_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltff6d2570f98dec12/76466_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76467",
@@ -4757,14 +4760,15 @@
   },
   {
    "set": "71858",
-   "price": 71.05,
+   "price": 70.0,
    "strikethrough": 99.99,
    "asin": "B0FPXCSQ6V",
    "name": "15-jarig jubileum: Smederij De Vier Wapens",
    "theme": "overig",
    "age": 14,
    "pieces": 1259,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt79eb1e27fdb30cc6/71858_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt79eb1e27fdb30cc6/71858_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71859",
@@ -4824,14 +4828,15 @@
   },
   {
    "set": "71868",
-   "price": 67.09,
+   "price": 59.95,
    "strikethrough": 89.99,
    "asin": "B0FPXGXPWD",
    "name": "Wyldfyre's transformerende drakenmecha",
    "theme": "overig",
    "age": 9,
    "pieces": 821,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt70009e00006fc806/blt122ca73dce6af4fb-71868_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt70009e00006fc806/blt122ca73dce6af4fb-71868_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71869",

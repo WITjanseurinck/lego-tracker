@@ -2015,7 +2015,8 @@
    "theme": "overig",
    "age": 2,
    "pieces": 166,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt15d1a99be79bc16c/10470_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt15d1a99be79bc16c/10470_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10471",
@@ -3084,7 +3085,8 @@
    "theme": "overig",
    "age": 8,
    "pieces": 657,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0a409927c14e2687/31393_Resize.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0a409927c14e2687/31393_Resize.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "40460",
@@ -3343,14 +3345,15 @@
   },
   {
    "set": "42652",
-   "price": 48.99,
+   "price": 44.99,
    "strikethrough": 69.99,
    "asin": "B0DHSCPGTZ",
    "name": "Boomhut voor de vrienden",
    "theme": "overig",
    "age": 8,
    "pieces": 701,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd444170cf7873fd8/42652_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd444170cf7873fd8/42652_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42659",
@@ -3842,14 +3845,15 @@
   },
   {
    "set": "43268",
-   "price": 59.99,
+   "price": 59.95,
    "strikethrough": 89.99,
    "asin": "B0DHSDSWW4",
    "name": "Lilo en Stitch strandhuis",
    "theme": "overig",
    "age": 9,
    "pieces": 834,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt31388c4187d41a21/43268_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt31388c4187d41a21/43268_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43269",
@@ -4904,7 +4908,9 @@
    "theme": "overig",
    "age": 9,
    "pieces": 1214,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt8dd8ede44a3ecac1/blt2708d07997a9387e-71869_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8dd8ede44a3ecac1/blt2708d07997a9387e-71869_Prod_en-gb.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "71870",

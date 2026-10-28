@@ -283,14 +283,15 @@
   },
   {
    "set": "31161",
-   "price": 44.99,
+   "price": 44.64,
    "strikethrough": 59.99,
    "asin": "B0DHSHL111",
    "name": "Middeleeuwse draak",
    "theme": "creator",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt7ad1e67d93d41778/31161_Prod_en-gb.png",
    "age": 9,
-   "pieces": 715
+   "pieces": 715,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31165",
@@ -2458,14 +2459,15 @@
   },
   {
    "set": "11504",
-   "price": 39.99,
+   "price": 41.99,
    "strikethrough": 59.99,
    "asin": "B0FPXCX4H7",
    "name": "Lepelplant",
    "theme": "overig",
    "age": 18,
    "pieces": 474,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf61cb3273fb972f3/11504_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf61cb3273fb972f3/11504_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11506",
@@ -4703,7 +4705,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 322,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0192c0588136894c/71808.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0192c0588136894c/71808.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71826",
@@ -4971,14 +4974,15 @@
   },
   {
    "set": "71871",
-   "price": 64.99,
+   "price": 62.99,
    "strikethrough": 89.99,
    "asin": "B0FPXG1KY3",
    "name": "Strijd bij het Drakenzwaard",
    "theme": "overig",
    "age": 9,
    "pieces": 1016,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt65f309fef250a79b/blt6e3b5c4a46f9e0c5-71871_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt65f309fef250a79b/blt6e3b5c4a46f9e0c5-71871_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71872",
@@ -5164,7 +5168,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 567,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt28d411b5749c5e6e/75432_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt28d411b5749c5e6e/75432_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75437",

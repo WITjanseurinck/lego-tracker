@@ -864,7 +864,8 @@
    "theme": "editions",
    "age": 10,
    "pieces": 1498,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt04084759a9389541/bltec1b6ad847503d45-43019_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt04084759a9389541/bltec1b6ad847503d45-43019_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43022",
@@ -1576,7 +1577,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 5471,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt370b7e8cc1fcceb2/10333.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt370b7e8cc1fcceb2/10333.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10343",
@@ -2357,7 +2359,9 @@
    "theme": "overig",
    "age": 18,
    "pieces": 1015,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt9856b50107421ce5/blte9afc6fc58e0fa7b-11380_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9856b50107421ce5/blte9afc6fc58e0fa7b-11380_Prod_en-gb.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "11382",
@@ -2379,7 +2383,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 2102,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt22ef7be6fa023f34/blt00e69bfd89abdb56-11384_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt22ef7be6fa023f34/blt00e69bfd89abdb56-11384_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11504",
@@ -5467,14 +5472,15 @@
   },
   {
    "set": "76344",
-   "price": 109.0,
+   "price": 94.99,
    "strikethrough": 129.99,
    "asin": "B0FPXDNJ1T",
    "name": "Iron Man Mark 3 – Verzameleditie",
    "theme": "overig",
    "age": 18,
    "pieces": 1297,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltce8022e1d28c430d/76344_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltce8022e1d28c430d/76344_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76345",

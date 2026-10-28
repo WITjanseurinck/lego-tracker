@@ -1,6 +1,8 @@
 ---
 import Base from '@/layouts/Base.astro';
 import CompareCard from '@/components/CompareCard.astro';
+import PriceChart from '@/components/PriceChart.astro';
+import { priceHistory } from '@/lib/history';
 import { amazonFetchedAt } from '@/lib/amazon';
 import { bolFetchedAt } from '@/lib/bol';
 import { getCompareDeal, relatedByPrice } from '@/lib/deals';
@@ -23,6 +25,8 @@ const second = deal.offers[1];
 const name = `LEGO ${deal.set} ${deal.name}`;
 const url = `${SITE_URL}${localizePath(locale, `/set/${deal.set}`)}`;
 const related = relatedByPrice(deal);
+const history = priceHistory(deal.set);
+const chartTitle = { nl: 'Prijsverloop bij bol', fr: 'Évolution du prix chez bol', en: 'Price history at bol' }[locale];
 const t2 = getDict2(locale);
 const shops = deal.offers.map((o) => o.shop).join(` ${t.set.and} `);
 const head = pageMeta({
@@ -114,6 +118,12 @@ const isBest = (i: number) => i === 0 && (deal.offers.length < 2 || deal.offers[
       <section class="sec about">
         <h2>{t2.aboutTitle}</h2>
         {deal.desc[locale]!.split('\n\n').map((para) => <p>{para}</p>)}
+      </section>
+    ) : null}
+    {history.length >= 2 ? (
+      <section class="sec">
+        <h2>{chartTitle}</h2>
+        <PriceChart locale={locale} points={history} today={bolFetchedAt} label={chartTitle} />
       </section>
     ) : null}
     {related.length > 0 ? (

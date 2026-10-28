@@ -6,7 +6,7 @@ export const lego: VerticalConfig = {
   label: 'Lego',
   brand: 'LEGO',
   tagline: 'Lego prijzen in België. Weet wanneer je koopt',
-  description: 'Volg de prijs van Lego-sets bij Belgische shops, met prijshistoriek en prijsalerts.',
+  description: 'Volg de prijs van Lego-sets bij Belgische shops, met prijshistoriek.',
   productNoun: 'set',
   productNounPlural: 'sets',
   skuPattern: /^\d{4,6}$/,

@@ -1,4 +1,4 @@
-import data from '@/data/bol-deals.json';
+import data from '../../data/products.json';
 
 export interface BolDeal {
   set: string;

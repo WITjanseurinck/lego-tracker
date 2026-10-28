@@ -1,4 +1,4 @@
-// Ververst prijzen in src/data/bol-deals.json via de bol Marketing Catalog API.
+// Ververst prijzen in data/products.json via de bol Marketing Catalog API.
 // Gebruik:  BOL_CLIENT_ID=... BOL_CLIENT_SECRET=... node scripts/refresh-bol.mjs [--probe] [--limit N]
 // --probe: haalt 1 product op en toont de ruwe respons (zonder te schrijven), om de veldnamen te controleren.
 // Afbeeldingen, namen en urls blijven ongemoeid: enkel price, strikethrough, seller en stock veranderen.
@@ -6,7 +6,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const FILE = path.join(path.dirname(fileURLToPath(import.meta.url)), '../src/data/bol-deals.json');
+const FILE = path.join(path.dirname(fileURLToPath(import.meta.url)), '../data/products.json');
 const ID = process.env.BOL_CLIENT_ID;
 const SECRET = process.env.BOL_CLIENT_SECRET;
 if (!ID || !SECRET) { console.error('BOL_CLIENT_ID en BOL_CLIENT_SECRET ontbreken'); process.exit(1); }
@@ -64,14 +64,14 @@ for (const it of data.items) {
 }
 
 if (!probe) {
-  // Prijshistoriek: per set een lijst [datum, prijs], enkel bij een wijziging.
-  const HIST = path.join(path.dirname(FILE), 'price-history.json');
+  // Prijshistoriek (zelfde formaat als kaoru): per set een lijst { d: datum, p: prijs }, enkel bij een wijziging.
+  const HIST = path.join(path.dirname(FILE), 'history.json');
   const hist = fs.existsSync(HIST) ? JSON.parse(fs.readFileSync(HIST, 'utf8')) : {};
   const day = new Date().toISOString().slice(0, 10);
   for (const it of data.items) {
     if (it.stock === 'out') continue;
     const h = (hist[it.set] ||= []);
-    if (!h.length || h[h.length - 1][1] !== it.price) h.push([day, it.price]);
+    if (!h.length || h[h.length - 1].p !== it.price) h.push({ d: day, p: it.price });
   }
   fs.writeFileSync(HIST, JSON.stringify(hist));
   data.fetchedAt = new Date().toISOString().slice(0, 10);

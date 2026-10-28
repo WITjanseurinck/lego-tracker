@@ -1,0 +1,37 @@
+---
+import type { HistoryPoint } from '@/lib/history';
+import { formatDate, formatEur } from '@/lib/format';
+import type { Locale } from '@/lib/i18n';
+interface Props { locale: Locale; points: HistoryPoint[]; today: string; label: string }
+const { locale, points, today, label } = Astro.props;
+// Een stap per wijziging: de prijs blijft staan tot de volgende datum, en loopt door tot vandaag.
+const pts = [...points];
+if (pts[pts.length - 1].d !== today) pts.push({ d: today, p: pts[pts.length - 1].p });
+const W = 600, H = 220, L = 56, R = 96, T = 16, B = 40;
+const ts = pts.map((q) => Date.parse(q.d));
+const t0 = ts[0], t1 = ts[ts.length - 1] || t0 + 1;
+const vals = pts.map((q) => q.p);
+const lo = Math.floor(Math.min(...vals) / 5) * 5 - 5;
+const hi = Math.ceil(Math.max(...vals) / 5) * 5 + 5;
+const x = (t: number) => L + ((t - t0) * (W - L - R)) / (t1 - t0 || 1);
+const y = (v: number) => T + ((hi - v) * (H - T - B)) / (hi - lo);
+let path = `M${x(ts[0]).toFixed(1)},${y(vals[0]).toFixed(1)}`;
+for (let i = 1; i < pts.length; i++) path += ` H${x(ts[i]).toFixed(1)} V${y(vals[i]).toFixed(1)}`;
+const step = hi - lo > 30 ? 10 : 5;
+const ticks: number[] = [];
+for (let v = Math.ceil(lo / step) * step; v <= hi; v += step) ticks.push(v);
+const last = vals[vals.length - 1];
+---
+<svg class="chart" viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`${label}: ${formatEur(vals[0], locale)} (${formatDate(pts[0].d, locale)}) → ${formatEur(last, locale)} (${formatDate(today, locale)})`}>
+  {ticks.map((v) => (
+    <g>
+      <line x1={L} x2={W - R} y1={y(v)} y2={y(v)} stroke="var(--line)" stroke-width="1" />
+      <text x={L - 10} y={y(v) + 4} text-anchor="end" font-size="12" fill="var(--muted)">{Math.round(v)}</text>
+    </g>
+  ))}
+  <path d={path} fill="none" stroke="var(--ink)" stroke-width="3" stroke-linejoin="round" />
+  <circle cx={x(t1)} cy={y(last)} r="7" fill="var(--accent)" stroke="var(--ink)" stroke-width="2" />
+  <text x={x(t1) + 12} y={y(last) + 5} font-size="14" font-weight="700" fill="var(--ink)">{formatEur(last, locale)}</text>
+  <text x={L} y={H - 10} font-size="12" fill="var(--muted)">{formatDate(pts[0].d, locale)}</text>
+  <text x={W - R} y={H - 10} text-anchor="end" font-size="12" fill="var(--muted)">{formatDate(today, locale)}</text>
+</svg>

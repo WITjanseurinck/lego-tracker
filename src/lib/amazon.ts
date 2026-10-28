@@ -1,4 +1,4 @@
-import data from '@/data/amazon-deals.json';
+import data from '../../data/amazon.json';
 
 export interface AmazonDeal {
   set: string;

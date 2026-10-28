@@ -25,7 +25,7 @@
    "age": 18,
    "pieces": 693,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf8476f68fa47b137/10330.png",
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10331",
@@ -363,14 +363,15 @@
   },
   {
    "set": "31386",
-   "price": 42.99,
+   "price": 37.49,
    "strikethrough": 64.99,
    "asin": "B0FPXFKHL7",
    "name": "Wilde Dieren Majestueuze Leeuw",
    "theme": "creator",
    "age": 9,
    "pieces": 839,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5aee402dec20f8a9/bltb6ab79e07c83bcf5-31386_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5aee402dec20f8a9/bltb6ab79e07c83bcf5-31386_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31387",
@@ -3551,14 +3552,15 @@
   },
   {
    "set": "42686",
-   "price": 42.56,
+   "price": 42.54,
    "strikethrough": 59.99,
    "asin": "B0FPXC1K1G",
    "name": "Binnenspeeltuin",
    "theme": "overig",
    "age": 7,
    "pieces": 668,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt6ca6f139ec44a6c3/42686_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt6ca6f139ec44a6c3/42686_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42687",
@@ -5585,14 +5587,15 @@
   },
   {
    "set": "76343",
-   "price": 43.88,
+   "price": 44.95,
    "strikethrough": 49.99,
    "asin": "B0FPXFWSHG",
    "name": "Ultieme strijd: Hulkbuster vs. Hulk",
    "theme": "overig",
    "age": 9,
    "pieces": 413,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0cd25e92e7f9ad5c/76343_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0cd25e92e7f9ad5c/76343_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76344",
@@ -5907,7 +5910,8 @@
    "theme": "overig",
    "age": 10,
    "pieces": 513,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf73c9b4850c6de31/77059_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf73c9b4850c6de31/77059_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77071",

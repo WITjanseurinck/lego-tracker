@@ -950,7 +950,8 @@
    "theme": "disney",
    "age": 9,
    "pieces": 566,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt97a2b239f7b7c21b/43272_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt97a2b239f7b7c21b/43272_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43279",
@@ -1924,7 +1925,8 @@
    "theme": "overig",
    "age": 3,
    "pieces": 47,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd1080925ad0a700b/10450_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd1080925ad0a700b/10450_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10452",
@@ -2951,7 +2953,8 @@
    "theme": "overig",
    "age": 8,
    "pieces": 366,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt504267e3d0f05a1a/31172_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt504267e3d0f05a1a/31172_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31173",
@@ -3590,14 +3593,15 @@
   },
   {
    "set": "42684",
-   "price": 29.99,
+   "price": 26.99,
    "strikethrough": 39.99,
    "asin": "B0FPVZ2B9Y",
    "name": "Eenhoorn droomcafé",
    "theme": "overig",
    "age": 6,
    "pieces": 475,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt83ef724ade6083c3/42684_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt83ef724ade6083c3/42684_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42685",
@@ -4391,14 +4395,15 @@
   },
   {
    "set": "60465",
-   "price": 34.82,
+   "price": 37.99,
    "strikethrough": 49.99,
    "asin": "B0DWDDNK1Q",
    "name": "Ambulancevliegtuig",
    "theme": "overig",
    "age": 6,
    "pieces": 403,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0abe01f1b26ca98d/60465_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0abe01f1b26ca98d/60465_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60466",

@@ -1777,14 +1777,15 @@
   },
   {
    "set": "10427",
-   "price": 57.99,
+   "price": 47.99,
    "strikethrough": 79.99,
    "asin": "B0CWH4J73Z",
    "name": "Interactieve avonturentrein",
    "theme": "overig",
    "age": 2,
    "pieces": 57,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte31178c2a972fcc4/10427_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte31178c2a972fcc4/10427_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10428",
@@ -2076,14 +2077,15 @@
   },
   {
    "set": "10480",
-   "price": 52.99,
+   "price": 49.99,
    "strikethrough": 79.99,
    "asin": "B01MRT56S7",
    "name": "Ontdekkingsbos met wilde dieren",
    "theme": "overig",
    "age": 3,
    "pieces": 131,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb2f2d83a041b1c62/blt290f773f4fa00d0c-10480_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb2f2d83a041b1c62/blt290f773f4fa00d0c-10480_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10696",
@@ -3433,7 +3435,8 @@
    "theme": "overig",
    "age": 8,
    "pieces": 1140,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc87eae92abe73051/42673_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc87eae92abe73051/42673_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42676",
@@ -3687,7 +3690,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 1229,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt843dba8668c8b4df/bltd8d1735152ae9a8a-42705_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt843dba8668c8b4df/bltd8d1735152ae9a8a-42705_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43011",
@@ -5615,14 +5619,15 @@
   },
   {
    "set": "76350",
-   "price": 62.99,
+   "price": 66.32,
    "strikethrough": 89.99,
    "asin": "B0FTFSDHK7",
    "name": "Spider-Man vs. Hulk ultieme confrontatie",
    "theme": "overig",
    "age": 8,
    "pieces": 534,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltdebaf770fcfbc39e/76350_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltdebaf770fcfbc39e/76350_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76352",

@@ -108,7 +108,9 @@
    "theme": "icons",
    "age": 18,
    "pieces": 1690,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt93b12260f66cd50b/11379_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt93b12260f66cd50b/11379_Prod.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "11381",
@@ -428,14 +430,15 @@
   },
   {
    "set": "42170",
-   "price": 59.97,
+   "price": 54.99,
    "strikethrough": 79.99,
    "asin": "B0CFW29BDH",
    "name": "Kawasaki Ninja H2R Motor",
    "theme": "technic",
    "age": 10,
    "pieces": 643,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta83a881921fd4b76/42170.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta83a881921fd4b76/42170.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42171",
@@ -2113,7 +2116,8 @@
    "theme": "overig",
    "age": 4,
    "pieces": 498,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd72eccb2d4ece270/10788.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd72eccb2d4ece270/10788.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10913",
@@ -5179,14 +5183,15 @@
   },
   {
    "set": "75452",
-   "price": 56.99,
+   "price": 59.99,
    "strikethrough": 89.99,
    "asin": "B0FPXFW6PM",
    "name": "BB-8™ Astromech Droid",
    "theme": "overig",
    "age": 10,
    "pieces": 569,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltaeaf94035320fce0/75452_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltaeaf94035320fce0/75452_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75456",
@@ -5823,7 +5828,9 @@
    "theme": "overig",
    "age": 7,
    "pieces": 543,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf0a7ea271067c206/77056_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf0a7ea271067c206/77056_Prod.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "77058",

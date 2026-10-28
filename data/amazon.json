@@ -2771,14 +2771,15 @@
   },
   {
    "set": "21589",
-   "price": 43.99,
+   "price": 44.54,
    "strikethrough": 59.99,
    "asin": "B0FPXG6D7P",
    "name": "Minibiomen",
    "theme": "overig",
    "age": 12,
    "pieces": 797,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta08dda398d9abf55/21589_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta08dda398d9abf55/21589_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21592",
@@ -3139,14 +3140,15 @@
   },
   {
    "set": "31390",
-   "price": 21.77,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B0FPXG94YQ",
    "name": "Bloemenschilderij",
    "theme": "overig",
    "age": 8,
    "pieces": 348,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt63b4cb7d243cad55/blt53b23092155d2118-31390_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt63b4cb7d243cad55/blt53b23092155d2118-31390_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31391",
@@ -3553,14 +3555,15 @@
   },
   {
    "set": "42677",
-   "price": 21.85,
+   "price": 21.8,
    "strikethrough": 29.99,
    "asin": "B0FPXF1CJ5",
    "name": "Bakkerij voor hondensnacks",
    "theme": "overig",
    "age": 6,
    "pieces": 278,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf0ef036de4da3c89/42677_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf0ef036de4da3c89/42677_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42678",
@@ -5133,14 +5136,15 @@
   },
   {
    "set": "75372",
-   "price": 20.77,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B0CFVY784R",
    "name": "Clone Trooper™ & Battle Droid™ Battle Pack",
    "theme": "overig",
    "age": 7,
    "pieces": 215,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt45a3f479c8d95dce/75372.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt45a3f479c8d95dce/75372.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75394",
@@ -6084,7 +6088,8 @@
    "theme": "overig",
    "age": 12,
    "pieces": 691,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt7023c0abc89347a3/77071_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt7023c0abc89347a3/77071_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77075",

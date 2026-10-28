@@ -1974,7 +1974,8 @@
    "theme": "overig",
    "age": 2,
    "pieces": 35,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt134c41fec4d12535/10456_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt134c41fec4d12535/10456_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10458",
@@ -3175,7 +3176,9 @@
    "theme": "overig",
    "age": 8,
    "pieces": 272,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbb8273a69199cc15/blt2a21d3800a5cad38-31391_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbb8273a69199cc15/blt2a21d3800a5cad38-31391_Prod_en-gb.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "31392",
@@ -3851,14 +3854,15 @@
   },
   {
    "set": "43013",
-   "price": 22.9,
+   "price": 23.99,
    "strikethrough": 29.99,
    "asin": "B0FPXDCDX2",
    "name": "Kylian Mbappé – Voetbalhoogtepunten",
    "theme": "overig",
    "age": 10,
    "pieces": 490,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt9587955051aae5c7/bltf6552fb7f6f1f8af-43013_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9587955051aae5c7/bltf6552fb7f6f1f8af-43013_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43020",
@@ -5061,7 +5065,9 @@
    "theme": "overig",
    "age": 7,
    "pieces": 232,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltcd55a8e48ba2dfbd/blt3d7c15f7cd3fbd7b-71863_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltcd55a8e48ba2dfbd/blt3d7c15f7cd3fbd7b-71863_Prod_en-gb.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "71867",
@@ -6276,14 +6282,15 @@
   },
   {
    "set": "77249",
-   "price": 19.49,
+   "price": 19.05,
    "strikethrough": 26.99,
    "asin": "B0DHSD9VPK",
    "name": "Williams Racing FW46 F1® racewagen",
    "theme": "overig",
    "age": 10,
    "pieces": 263,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltcd131f583dfa706b/77249_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltcd131f583dfa706b/77249_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77257",

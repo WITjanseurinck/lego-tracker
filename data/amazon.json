@@ -338,14 +338,15 @@
   },
   {
    "set": "31215",
-   "price": 136.99,
+   "price": 149.02,
    "strikethrough": 199.99,
    "asin": "B0DHSF7W4X",
    "name": "Vincent van Gogh – Zonnebloemen",
    "theme": "art",
    "image": "https://www.lego.com/cdn/cs/set/assets/blte22f55d6a533beae/31215_Prod_en-gb.png",
    "age": 18,
-   "pieces": 2615
+   "pieces": 2615,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31218",
@@ -1934,14 +1935,15 @@
   },
   {
    "set": "10459",
-   "price": 55.99,
+   "price": 52.49,
    "strikethrough": 69.99,
    "asin": "B0DWDTQ44X",
    "name": "Huis van Bluey en haar familie met geheugenspel",
    "theme": "overig",
    "age": 3,
    "pieces": 83,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltca35daee82228bdd/10459_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltca35daee82228bdd/10459_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10462",
@@ -2583,14 +2585,15 @@
   },
   {
    "set": "21273",
-   "price": 47.75,
+   "price": 47.59,
    "strikethrough": 69.99,
    "asin": "B0DHSD8TPT",
    "name": "De Ghast-ballon aanval op het dorp",
    "theme": "overig",
    "age": 10,
    "pieces": 555,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb36fa246b8ac1158/21273_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb36fa246b8ac1158/21273_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21274",
@@ -4485,7 +4488,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 691,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltcb7c92b388c3caa7/60499_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltcb7c92b388c3caa7/60499_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60500",
@@ -4931,7 +4935,8 @@
    "theme": "overig",
    "age": 12,
    "pieces": 1707,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf60e7d22f7473b49/bltb3acc6e016e85676-71870_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf60e7d22f7473b49/bltb3acc6e016e85676-71870_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71871",

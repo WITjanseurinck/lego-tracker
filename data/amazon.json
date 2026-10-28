@@ -151,14 +151,14 @@
   {
    "set": "11502",
    "name": "Botanicals Boeket met zonnebloemen",
-   "price": 38.99,
+   "price": 38.59,
    "strikethrough": 59.99,
    "asin": "B0FPXGD4DQ",
    "theme": "botanicals",
    "age": 18,
    "pieces": 686,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt212b362b828622c3/blt1c33118501c8da2f-11502_Prod_en-gb.png",
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11505",
@@ -743,14 +743,15 @@
   },
   {
    "set": "42226",
-   "price": 44.99,
+   "price": 44.95,
    "strikethrough": 64.99,
    "asin": "B0FPXFKGQR",
    "name": "BMW M4 GT3 Evo Racewagen",
    "theme": "technic",
    "age": 11,
    "pieces": 747,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb53d1567fcd649c0/42226_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb53d1567fcd649c0/42226_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42227",
@@ -910,13 +911,14 @@
   {
    "set": "43023",
    "name": "McLaren F1 Team: helm van Lando Norris",
-   "price": 59.99,
+   "price": 52.49,
    "strikethrough": 89.99,
    "asin": "B0FPXFT73X",
    "theme": "editions",
    "age": 14,
    "pieces": 793,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte8da17d05f13f3d1/bltb96d0e886d1b1e2e-43023_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte8da17d05f13f3d1/bltb96d0e886d1b1e2e-43023_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43024",
@@ -1987,14 +1989,15 @@
   },
   {
    "set": "10464",
-   "price": 36.62,
+   "price": 31.99,
    "strikethrough": 49.99,
    "asin": "B01N5B2OKI",
    "name": "Team Spidey hoofdkwartier",
    "theme": "overig",
    "age": 2,
    "pieces": 65,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt30bd786747465e69/blt24dd7c37b60921a8-10464_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt30bd786747465e69/blt24dd7c37b60921a8-10464_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10465",
@@ -3706,7 +3709,8 @@
    "theme": "overig",
    "age": 8,
    "pieces": 864,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbae08cb449b4596c/bltf676803b7a668dee-42703_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbae08cb449b4596c/bltf676803b7a668dee-42703_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42704",

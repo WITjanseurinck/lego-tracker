@@ -1550,14 +1550,15 @@
   },
   {
    "set": "77264",
-   "price": 37.49,
+   "price": 36.99,
    "strikethrough": 54.99,
    "asin": "B0GGSHJWPS",
    "name": "Jaguar Project 7 en Land Rover Defender",
    "theme": "speed-champions",
    "age": 10,
    "pieces": 740,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte0ad32fa5493eb4e/bltfd5a25913938ff1d-77264_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte0ad32fa5493eb4e/bltfd5a25913938ff1d-77264_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10281",
@@ -3814,14 +3815,15 @@
   },
   {
    "set": "43029",
-   "price": 38.99,
+   "price": 37.89,
    "strikethrough": 49.99,
    "asin": "B0GGSNWQ7Z",
    "name": "Olivia Rodrigo's concertmaan",
    "theme": "overig",
    "age": 14,
    "pieces": 670,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt8a7b8521ea5b18b0/blt7fcb58180a9fcf6d-43029_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8a7b8521ea5b18b0/blt7fcb58180a9fcf6d-43029_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43249",
@@ -3964,14 +3966,15 @@
   },
   {
    "set": "43281",
-   "price": 35.99,
+   "price": 37.49,
    "strikethrough": 49.99,
    "asin": "B0FPXFQP8V",
    "name": "Elsa's ijskasteel en sneeuwrit",
    "theme": "overig",
    "age": 4,
    "pieces": 216,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt3c56a41db2717b7b/43281_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt3c56a41db2717b7b/43281_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43282",
@@ -4481,14 +4484,15 @@
   },
   {
    "set": "60493",
-   "price": 34.9,
+   "price": 31.98,
    "strikethrough": 44.99,
    "asin": "B0FPXFL5ZW",
    "name": "F1® displaytruck met Audi F1® racewagen",
    "theme": "overig",
    "age": 7,
    "pieces": 508,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt77407eace9e6911a/60493_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt77407eace9e6911a/60493_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60494",
@@ -6006,7 +6010,8 @@
    "theme": "overig",
    "age": 10,
    "pieces": 546,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt168b6e6636a725d4/77076_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt168b6e6636a725d4/77076_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77078",

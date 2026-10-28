@@ -2758,7 +2758,8 @@
    "theme": "overig",
    "age": 10,
    "pieces": 497,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt3a6a3027ede2c455/21588_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt3a6a3027ede2c455/21588_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21589",
@@ -3104,14 +3105,15 @@
   },
   {
    "set": "31384",
-   "price": 23.67,
+   "price": 22.49,
    "strikethrough": 29.99,
    "asin": "B0FPXJT7BW",
    "name": "Wilde dieren: kleurrijke kolibrie",
    "theme": "overig",
    "age": 8,
    "pieces": 312,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta735df411e869f69/31384_Prod_Crop.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta735df411e869f69/31384_Prod_Crop.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31385",
@@ -3411,14 +3413,15 @@
   },
   {
    "set": "42649",
-   "price": 22.49,
+   "price": 21.15,
    "strikethrough": 29.99,
    "asin": "B0DHSC3KNH",
    "name": "Heartlake City snoepwinkel",
    "theme": "overig",
    "age": 6,
    "pieces": 376,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte6e15d7bc21b3418/42649_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte6e15d7bc21b3418/42649_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42650",
@@ -3847,14 +3850,15 @@
   },
   {
    "set": "43028",
-   "price": 21.99,
+   "price": 23.71,
    "strikethrough": 29.99,
    "asin": "B0GGSMGRJF",
    "name": "Olivia Rodrigo's vinylplaat",
    "theme": "overig",
    "age": 10,
    "pieces": 360,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd0736737927dacb0/blt286d78f816b5b6e2-43028_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd0736737927dacb0/blt286d78f816b5b6e2-43028_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43029",
@@ -5611,14 +5615,15 @@
   },
   {
    "set": "76331",
-   "price": 23.99,
+   "price": 21.6,
    "strikethrough": 29.99,
    "asin": "B0FPXFHX1B",
    "name": "Batman v Superman™ Batmobile™",
    "theme": "overig",
    "age": 9,
    "pieces": 220,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt317e9db487b5d4a2/76331_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt317e9db487b5d4a2/76331_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76332",

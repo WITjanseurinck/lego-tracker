@@ -725,7 +725,7 @@
    "age": 11,
    "pieces": 1313,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt63b0cec2f9e3eccd/42224_Prod_en-gb.png",
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42226",
@@ -1343,14 +1343,15 @@
   },
   {
    "set": "76471",
-   "price": 65.66,
+   "price": 65.63,
    "strikethrough": 99.99,
    "asin": "B0FPXGSWZ5",
    "name": "Verdonkeremaansteeg tovenaarswinkels",
    "theme": "harry-potter",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0397c99741bf72ec/blt576f67fbbf7fdd09-76471_Prod_en-gb.png",
    "age": 8,
-   "pieces": 788
+   "pieces": 788,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76474",
@@ -2850,7 +2851,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 780,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2f66eba79a60b3d2/31171_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2f66eba79a60b3d2/31171_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31172",
@@ -4965,14 +4967,15 @@
   },
   {
    "set": "75403",
-   "price": 69.64,
+   "price": 69.62,
    "strikethrough": 99.99,
    "asin": "B0DHSDMSWQ",
    "name": "Grogu™ met zweefkinderwagen",
    "theme": "overig",
    "age": 10,
    "pieces": 1048,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt15f914b936f5b57a/75403_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt15f914b936f5b57a/75403_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75407",
@@ -5587,7 +5590,9 @@
    "theme": "overig",
    "age": 12,
    "pieces": 954,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf041c34546857793/76352_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf041c34546857793/76352_Prod.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "76442",

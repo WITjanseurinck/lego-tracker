@@ -36,40 +36,44 @@
    "theme": "botanicals",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt6cf7f51b0edcecfd/10331.png",
    "age": 18,
-   "pieces": 834
+   "pieces": 834,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10342",
-   "price": 41.99,
+   "price": 41.98,
    "strikethrough": 59.99,
    "asin": "B0DHSDBVKV",
    "name": "Botanicals Roze boeket",
    "theme": "botanicals",
    "age": 18,
    "pieces": 749,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt1bcb187351a12753/10342_WEB_PRI_NOBG.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1bcb187351a12753/10342_WEB_PRI_NOBG.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10353",
-   "price": 59.43,
+   "price": 52.99,
    "strikethrough": 79.99,
    "asin": "B01NAEP1AX",
    "name": "Williams Racing FW14B en Nigel Mansell",
    "theme": "icons",
    "age": 18,
    "pieces": 799,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte94c63168e761c74/10353_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte94c63168e761c74/10353_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11372",
-   "price": 88.0,
+   "price": 80.99,
    "strikethrough": 109.99,
    "asin": "B0FPXG6FS8",
    "name": "Herfsttuin met Cottage",
    "theme": "icons",
    "age": 18,
    "pieces": 1102,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0345da5be8baeb2d/11372_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0345da5be8baeb2d/11372_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11375",
@@ -80,7 +84,8 @@
    "theme": "icons",
    "age": 18,
    "pieces": 735,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt7cb1d7e438d8cf8a/blt1b09b2c445792134-11375_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt7cb1d7e438d8cf8a/blt1b09b2c445792134-11375_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11376",

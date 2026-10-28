@@ -187,7 +187,8 @@
    "theme": "architecture",
    "image": "https://www.lego.com/cdn/cs/set/assets/blte79009bca2be0858/21061.png",
    "age": 18,
-   "pieces": 4383
+   "pieces": 4383,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21062",
@@ -202,14 +203,15 @@
   },
   {
    "set": "21063",
-   "price": 186.39,
+   "price": 188.78,
    "strikethrough": 269.99,
    "asin": "B0DWDX63HC",
    "name": "Slot Neuschwanstein",
    "theme": "architecture",
    "image": "https://www.lego.com/cdn/cs/set/assets/blta2a10403bde99e82/21063_Prod_en-gb.png",
    "age": 18,
-   "pieces": 3455
+   "pieces": 3455,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21064",
@@ -983,7 +985,8 @@
    "theme": "star-wars",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt42c7adf188ed2eb8/75382.png",
    "age": 18,
-   "pieces": 1931
+   "pieces": 1931,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75389",
@@ -1096,7 +1099,9 @@
    "theme": "star-wars",
    "age": 14,
    "pieces": 1683,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt53e994b7ffae6117/blt2993cb6d6e763651-75453_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt53e994b7ffae6117/blt2993cb6d6e763651-75453_Prod_en-gb.png",
+   "stock": "out",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75454",
@@ -1244,14 +1249,15 @@
   },
   {
    "set": "76454",
-   "price": 174.0,
+   "price": 170.0,
    "strikethrough": 249.99,
    "asin": "B0DHZ5B366",
    "name": "Kasteel Zweinstein: de Hoofdtoren",
    "theme": "harry-potter",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt69cd6053c5e32973/76454_Prod_en-gb.png",
    "age": 10,
-   "pieces": 2135
+   "pieces": 2135,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76463",

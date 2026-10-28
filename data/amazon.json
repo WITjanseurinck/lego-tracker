@@ -2198,14 +2198,15 @@
   },
   {
    "set": "10941",
-   "price": 26.88,
+   "price": 24.99,
    "strikethrough": 34.99,
    "asin": "B08GPKTN2B",
    "name": "Mickey & Minnie Verjaardagstrein",
    "theme": "overig",
    "age": 2,
    "pieces": 22,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta1999c7058f17ae7/10941_alt2.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta1999c7058f17ae7/10941_alt2.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10954",
@@ -3053,14 +3054,15 @@
   },
   {
    "set": "31381",
-   "price": 26.99,
+   "price": 23.99,
    "strikethrough": 34.99,
    "asin": "B0FPXD42JJ",
    "name": "Woeste haai met schatkist",
    "theme": "overig",
    "age": 8,
    "pieces": 379,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt360959af12fb5bfc/31381_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt360959af12fb5bfc/31381_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31382",
@@ -3207,7 +3209,8 @@
    "theme": "overig",
    "age": 12,
    "pieces": 433,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt6cc18cd0dcc98749/40743_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt6cc18cd0dcc98749/40743_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "40807",
@@ -4701,7 +4704,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 443,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt098353f01dc57b9e/71492_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt098353f01dc57b9e/71492_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71499",
@@ -5958,14 +5962,15 @@
   },
   {
    "set": "77006",
-   "price": 45.89,
+   "price": 51.99,
    "strikethrough": 69.99,
    "asin": "B0DWDT2R96",
    "name": "Team Sonic commandotruck",
    "theme": "overig",
    "age": 8,
    "pieces": 747,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf8a63c03159797be/77006_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf8a63c03159797be/77006_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77037",

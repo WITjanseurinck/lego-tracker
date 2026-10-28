@@ -2942,7 +2942,8 @@
    "theme": "overig",
    "age": 8,
    "pieces": 363,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta6acd9882132e80e/31169_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta6acd9882132e80e/31169_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31170",
@@ -4057,14 +4058,15 @@
   },
   {
    "set": "43283",
-   "price": 20.95,
+   "price": 20.99,
    "strikethrough": 29.99,
    "asin": "B0FPXMXSS2",
    "name": "Assepoesters kasteel met dierenvriendjes",
    "theme": "overig",
    "age": 4,
    "pieces": 149,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltac24a5b0a6e97013/blta619083a86d101f7-43283_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltac24a5b0a6e97013/blta619083a86d101f7-43283_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43285",
@@ -5656,14 +5658,15 @@
   },
   {
    "set": "76332",
-   "price": 19.99,
+   "price": 21.6,
    "strikethrough": 29.99,
    "asin": "B0FPXG53K5",
    "name": "The Batman – Batmobile™",
    "theme": "overig",
    "age": 9,
    "pieces": 330,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltabe47b64c2db06e9/76332_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltabe47b64c2db06e9/76332_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76336",
@@ -5966,7 +5969,8 @@
    "theme": "overig",
    "age": 6,
    "pieces": 285,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltebfe2970ef5976fe/76972_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltebfe2970ef5976fe/76972_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76975",
@@ -6187,7 +6191,8 @@
    "theme": "overig",
    "age": 8,
    "pieces": 378,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5f55844ca8104951/77118_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5f55844ca8104951/77118_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77237",

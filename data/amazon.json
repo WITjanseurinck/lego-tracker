@@ -795,14 +795,15 @@
   },
   {
    "set": "42234",
-   "price": 44.86,
+   "price": 44.85,
    "strikethrough": 64.99,
    "asin": "B0GGSPC7W8",
    "name": "Dodge Viper GTS R Sportauto",
    "theme": "technic",
    "age": 10,
    "pieces": 805,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt262620946843b8c2/42234_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt262620946843b8c2/42234_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42235",
@@ -976,7 +977,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 825,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte9ccc3926979825e/blt69dcc92d7cf6a33f-72537_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte9ccc3926979825e/blt69dcc92d7cf6a33f-72537_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75347",
@@ -3560,14 +3562,15 @@
   },
   {
    "set": "42687",
-   "price": 48.74,
+   "price": 43.99,
    "strikethrough": 69.99,
    "asin": "B0FPXDT6R3",
    "name": "Lianns huis",
    "theme": "overig",
    "age": 7,
    "pieces": 946,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt7e2b2642d62c89d8/42687_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt7e2b2642d62c89d8/42687_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42690",
@@ -4093,7 +4096,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 544,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb3e96f260a822e0d/blt5d5130e90d453750-43305_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb3e96f260a822e0d/blt5d5130e90d453750-43305_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43307",
@@ -5420,7 +5424,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 427,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt7b60d9815f14e762/76316_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt7b60d9815f14e762/76316_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76319",

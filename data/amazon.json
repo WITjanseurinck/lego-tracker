@@ -1487,14 +1487,15 @@
   },
   {
    "set": "77254",
-   "price": 20.99,
+   "price": 20.49,
    "strikethrough": 27.99,
    "asin": "B0FPXK52K8",
    "name": "Ferrari SF90 XX Stradale",
    "theme": "speed-champions",
    "age": 9,
    "pieces": 339,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0cb8360713f3186b/77254_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0cb8360713f3186b/77254_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77255",
@@ -1545,13 +1546,14 @@
   {
    "set": "77261",
    "name": "Ferrari 499P",
-   "price": 19.59,
+   "price": 19.58,
    "strikethrough": 27.99,
    "asin": "B0FPXGT7K7",
    "theme": "speed-champions",
    "age": 9,
    "pieces": 329,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2ef642f515a20969/blt647dc85b2bb429f4-77261_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2ef642f515a20969/blt647dc85b2bb429f4-77261_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77262",
@@ -2310,14 +2312,15 @@
   },
   {
    "set": "11200",
-   "price": 37.59,
+   "price": 39.99,
    "strikethrough": 54.99,
    "asin": "B0DHSD3TXW",
    "name": "Spidey en Gobby's raptorstrijd bij de boomhut",
    "theme": "overig",
    "age": 4,
    "pieces": 143,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt7ad4fdb403be30e6/11200_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt7ad4fdb403be30e6/11200_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11201",
@@ -2802,14 +2805,15 @@
   },
   {
    "set": "21593",
-   "price": 20.99,
+   "price": 20.94,
    "strikethrough": 29.99,
    "asin": "B0FPXHJ4ZZ",
    "name": "Eerste nacht-avontuur",
    "theme": "overig",
    "age": 8,
    "pieces": 301,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltfa732ea0963a7209/bltb130513e7871ac5d-21593_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltfa732ea0963a7209/bltb130513e7871ac5d-21593_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21594",
@@ -4138,14 +4142,15 @@
   },
   {
    "set": "43293",
-   "price": 26.69,
+   "price": 26.59,
    "strikethrough": 39.99,
    "asin": "B0FPVTSQ8P",
    "name": "Kakamora",
    "theme": "overig",
    "age": 9,
    "pieces": 407,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt63469b210283ded0/blt61ce460cf4bb9a88-43293_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt63469b210283ded0/blt61ce460cf4bb9a88-43293_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43294",

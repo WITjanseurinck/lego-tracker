@@ -483,7 +483,8 @@
    "age": 10,
    "pieces": 801,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc4ee2c0da944140f/42173.png",
-   "stock": "out"
+   "stock": "out",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42175",
@@ -1421,14 +1422,15 @@
   },
   {
    "set": "76924",
-   "price": 33.74,
+   "price": 37.49,
    "strikethrough": 49.99,
    "asin": "B0CWH3J5D6",
    "name": "Mercedes-AMG G 63 en Mercedes-AMG SL 63",
    "theme": "speed-champions",
    "age": 10,
    "pieces": 808,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbc71c879c160329c/76924.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbc71c879c160329c/76924.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77238",
@@ -2544,7 +2546,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 435,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb28bea3d57aae2f5/bltf1012114bd36e2ac-11510_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb28bea3d57aae2f5/bltf1012114bd36e2ac-11510_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11511",
@@ -4729,7 +4732,9 @@
    "theme": "overig",
    "age": 7,
    "pieces": 505,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbe7512c57ea50fe2/71513_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbe7512c57ea50fe2/71513_Prod_en-gb.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "71515",
@@ -5897,7 +5902,8 @@
    "theme": "overig",
    "age": 5,
    "pieces": 199,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte2074cf013008510/76975_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte2074cf013008510/76975_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76976",

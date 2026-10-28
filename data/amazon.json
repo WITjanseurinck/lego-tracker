@@ -933,13 +933,14 @@
   {
    "set": "43279",
    "name": "Disney Pixar Wall-E en EVE",
-   "price": 45.99,
+   "price": 52.49,
    "strikethrough": 69.99,
    "asin": "B0DWDR21C4",
    "theme": "disney",
    "age": 18,
    "pieces": 811,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb61df5c6a83a2624/43279_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb61df5c6a83a2624/43279_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "72046",
@@ -1105,7 +1106,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2b73e68649059dea/75435_Prod_en-gb.png",
    "age": 9,
    "pieces": 976,
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75441",
@@ -2633,7 +2634,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 867,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt69e0c9637cf8c1e8/21279_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt69e0c9637cf8c1e8/21279_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21362",
@@ -4517,7 +4519,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 990,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltfa864b4b2110824e/60505_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltfa864b4b2110824e/60505_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60506",
@@ -6107,7 +6110,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 820,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltee901e49f0c2d17d/blte4b13441b2f774e9-77982_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltee901e49f0c2d17d/blte4b13441b2f774e9-77982_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77985",

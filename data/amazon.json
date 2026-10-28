@@ -1542,7 +1542,8 @@
    "theme": "speed-champions",
    "age": 10,
    "pieces": 292,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt770931e91e58912e/bltab8874e11ad4b2db-77260_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt770931e91e58912e/bltab8874e11ad4b2db-77260_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77261",
@@ -2810,7 +2811,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 428,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt67f10c7d0f8428d9/bltc437cf308ebfec32-21592_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt67f10c7d0f8428d9/bltc437cf308ebfec32-21592_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21593",
@@ -3646,7 +3648,8 @@
    "theme": "overig",
    "age": 6,
    "pieces": 295,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt9ea26b901bf70322/blt2a34d544bec8e03d-42682_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9ea26b901bf70322/blt2a34d544bec8e03d-42682_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42684",
@@ -5875,14 +5878,15 @@
   },
   {
    "set": "76442",
-   "price": 16.99,
+   "price": 17.99,
    "strikethrough": 19.99,
    "asin": "B0DHSFF382",
    "name": "Kasteel Zweinstein™: toverspreukenles",
    "theme": "overig",
    "age": 8,
    "pieces": 204,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt271da676b8133ad2/76442_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt271da676b8133ad2/76442_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76459",
@@ -6336,7 +6340,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 373,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltfbdb678eb5a709f2/blt934803c471454482-77977_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltfbdb678eb5a709f2/blt934803c471454482-77977_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77978",

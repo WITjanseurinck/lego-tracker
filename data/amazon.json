@@ -305,25 +305,27 @@
   },
   {
    "set": "31167",
-   "price": 56.99,
+   "price": 57.59,
    "strikethrough": 89.99,
    "asin": "B0DWDY9WHQ",
    "name": "Spookhuis",
    "theme": "creator",
    "age": 9,
    "pieces": 736,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt61735fb0922b35cc/31167_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt61735fb0922b35cc/31167_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31168",
-   "price": 81.59,
+   "price": 81.58,
    "strikethrough": 119.99,
    "asin": "B0DWDT5BQ9",
    "name": "Middeleeuws kasteel",
    "theme": "creator",
    "age": 9,
    "pieces": 1371,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt704380e8e257025f/31168_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt704380e8e257025f/31168_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31212",
@@ -2937,7 +2939,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 791,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0949422483130cc5/31214_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0949422483130cc5/31214_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31216",
@@ -5139,7 +5142,9 @@
    "theme": "overig",
    "age": 12,
    "pieces": 1088,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5677559d5974a4f3/75428_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5677559d5974a4f3/75428_Prod_en-gb.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "75432",
@@ -5551,14 +5556,15 @@
   },
   {
    "set": "76339",
-   "price": 46.39,
+   "price": 48.12,
    "strikethrough": 69.99,
    "asin": "B0GGSL87HR",
    "name": "The Fantastic Four H.E.R.B.I.E.",
    "theme": "overig",
    "age": 10,
    "pieces": 747,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt085f29171651abc0/76339_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt085f29171651abc0/76339_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76340",

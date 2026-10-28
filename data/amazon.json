@@ -708,7 +708,8 @@
    "theme": "technic",
    "age": 9,
    "pieces": 632,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5c67fdd9e4bd98de/42221_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5c67fdd9e4bd98de/42221_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42222",
@@ -768,7 +769,7 @@
    "age": 10,
    "pieces": 723,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8f7d3695517d3132/42227_Prod.png",
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42228",
@@ -5109,14 +5110,15 @@
   },
   {
    "set": "75407",
-   "price": 49.99,
+   "price": 52.46,
    "strikethrough": 69.99,
    "asin": "B0DHSFZHLN",
    "name": "Star Wars™ logo",
    "theme": "overig",
    "age": 18,
    "pieces": 700,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt9ae67d7d9f7f24cc/75407_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9ae67d7d9f7f24cc/75407_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75408",
@@ -5356,7 +5358,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 733,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta76bbeaec518a27c/75644_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta76bbeaec518a27c/75644_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75645",
@@ -5476,14 +5479,15 @@
   },
   {
    "set": "76315",
-   "price": 41.24,
+   "price": 45.99,
    "strikethrough": 54.99,
    "asin": "B0DHSDK7GR",
    "name": "Iron Mans laboratorium: harnasruimte",
    "theme": "overig",
    "age": 8,
    "pieces": 384,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt52605e2f8ad36100/76315_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt52605e2f8ad36100/76315_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76316",

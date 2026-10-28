@@ -1387,7 +1387,8 @@
    "theme": "harry-potter",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt1225e4f894a3fce3/76470_Prod_en-gb.png",
    "age": 14,
-   "pieces": 868
+   "pieces": 868,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76471",
@@ -2082,14 +2083,15 @@
   },
   {
    "set": "10473",
-   "price": 22.99,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B01NAEKPWW",
    "name": "Brandweertruck met slang en brandweerman",
    "theme": "overig",
    "age": 2,
    "pieces": 28,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta15b2a389de169db/10473_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta15b2a389de169db/10473_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10474",
@@ -2327,7 +2329,8 @@
    "theme": "overig",
    "age": 4,
    "pieces": 133,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0a4271812c04aed9/11202_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0a4271812c04aed9/11202_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11203",
@@ -4527,14 +4530,15 @@
   },
   {
    "set": "60492",
-   "price": 23.73,
+   "price": 22.58,
    "strikethrough": 29.99,
    "asin": "B0FPXHFCBV",
    "name": "Passagierstoestel",
    "theme": "overig",
    "age": 4,
    "pieces": 118,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt436ec5ec60929bcb/bltbf50b6ba2985828a-60492_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt436ec5ec60929bcb/bltbf50b6ba2985828a-60492_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60493",
@@ -5372,14 +5376,15 @@
   },
   {
    "set": "75456",
-   "price": 26.44,
+   "price": 25.21,
    "strikethrough": 34.99,
    "asin": "B0GGSK4J2N",
    "name": "LEGO® Star Wars™ Adventskalender 2026",
    "theme": "overig",
    "age": 6,
    "pieces": 293,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc5633fee6fa8abc1/blt691e598d84db744d-75456_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc5633fee6fa8abc1/blt691e598d84db744d-75456_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75636",

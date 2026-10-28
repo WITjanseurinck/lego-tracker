@@ -569,14 +569,15 @@
   },
   {
    "set": "42204",
-   "price": 44.53,
+   "price": 38.8,
    "strikethrough": 59.99,
    "asin": "B0DHSCKXP2",
    "name": "Fast and Furious Toyota Supra MK4",
    "theme": "technic",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt11a8473b3fce79f9/42204_Prod.png",
    "age": 9,
-   "pieces": 810
+   "pieces": 810,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42205",
@@ -1580,14 +1581,15 @@
   },
   {
    "set": "10311",
-   "price": 34.99,
+   "price": 36.99,
    "strikethrough": 49.99,
    "asin": "B09BNV2Q49",
    "name": "Orchidee",
    "theme": "overig",
    "age": 18,
    "pieces": 608,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt08ea230311e717b8/10311.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt08ea230311e717b8/10311.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10313",
@@ -2132,7 +2134,8 @@
    "theme": "overig",
    "age": 4,
    "pieces": 790,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf7601db33f12c491/10698_box1_na.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf7601db33f12c491/10698_box1_na.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10713",
@@ -3881,7 +3884,9 @@
    "theme": "overig",
    "age": 4,
    "pieces": 206,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0e16135cae7c1bc9/43264_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0e16135cae7c1bc9/43264_Prod_en-gb.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "43265",
@@ -4492,14 +4497,15 @@
   },
   {
    "set": "60496",
-   "price": 37.99,
+   "price": 34.95,
    "strikethrough": 49.99,
    "asin": "B0FPXF7Q9H",
    "name": "Pizzacentrale met voertuigen",
    "theme": "overig",
    "age": 6,
    "pieces": 494,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt8d7652ca824f8909/blt0122db24849b46a8-60496_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8d7652ca824f8909/blt0122db24849b46a8-60496_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60497",

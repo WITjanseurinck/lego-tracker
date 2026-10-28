@@ -860,13 +860,14 @@
   {
    "set": "43017",
    "name": "McLaren F1 Team: helm van Oscar Piastri",
-   "price": 59.99,
+   "price": 52.49,
    "strikethrough": 89.99,
    "asin": "B0FWNMT9X6",
    "theme": "editions",
    "age": 14,
    "pieces": 793,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt4fcb71893af17e2a/bltab4a10ed7b29fa28-43017_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt4fcb71893af17e2a/bltab4a10ed7b29fa28-43017_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43019",
@@ -4068,7 +4069,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 714,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt4c48eb17d0d1f128/bltff0c6e768c1656b3-43307_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt4c48eb17d0d1f128/bltff0c6e768c1656b3-43307_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60205",
@@ -4513,7 +4515,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 1313,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltede96bac05a716d0/60508_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltede96bac05a716d0/60508_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60510",
@@ -4856,14 +4859,15 @@
   },
   {
    "set": "71867",
-   "price": 56.8,
+   "price": 54.95,
    "strikethrough": 79.99,
    "asin": "B0FPXJYG2H",
    "name": "15-jarig jubileum: X-1 Ninja Charger",
    "theme": "overig",
    "age": 14,
    "pieces": 691,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb06033460fa2b23f/blt79894081d06b9e54-71867_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb06033460fa2b23f/blt79894081d06b9e54-71867_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71868",
@@ -5239,14 +5243,15 @@
   },
   {
    "set": "75645",
-   "price": 66.95,
+   "price": 66.99,
    "strikethrough": 99.99,
    "asin": "B0GGSZZ69C",
    "name": "Slag bij kasteel Drum",
    "theme": "overig",
    "age": 9,
    "pieces": 1038,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb82af25ae4f0e82b/blt6411630c5fe4ea67-75645_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb82af25ae4f0e82b/blt6411630c5fe4ea67-75645_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75646",

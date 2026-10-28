@@ -1009,14 +1009,15 @@
   },
   {
    "set": "75389",
-   "price": 135.0,
+   "price": 142.78,
    "strikethrough": 179.99,
    "asin": "B0CWH3FX31",
    "name": "Dark Falcon",
    "theme": "star-wars",
    "age": 10,
    "pieces": 1579,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt9045e5d9071ed23b/75389_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9045e5d9071ed23b/75389_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75398",
@@ -1311,7 +1312,7 @@
   },
   {
    "set": "76467",
-   "price": 69.99,
+   "price": 61.99,
    "strikethrough": 99.99,
    "asin": "B0FPXDNRPP",
    "name": "Het huis van Loena Leeflang",
@@ -1319,7 +1320,7 @@
    "age": 10,
    "pieces": 764,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt15b25b3defb05464/76467_Prod_en-gb.png",
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76470",
@@ -2358,7 +2359,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 8278,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5e6d5f93a1811e3b/bltfbf117028d65c7c2-11377_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5e6d5f93a1811e3b/bltfbf117028d65c7c2-11377_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11380",
@@ -2495,7 +2497,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 1465,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd1ddb9dd5c856269/blt9f9250d1b9de56b8-21066_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd1ddb9dd5c856269/blt9f9250d1b9de56b8-21066_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21067",
@@ -4661,14 +4664,15 @@
   },
   {
    "set": "71834",
-   "price": 72.99,
+   "price": 64.99,
    "strikethrough": 99.99,
    "asin": "B0DHSBH37T",
    "name": "Zane's ultra-combomecha",
    "theme": "overig",
    "age": 9,
    "pieces": 1187,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt76506be46cba5e04/71834_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt76506be46cba5e04/71834_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71836",

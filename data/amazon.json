@@ -169,7 +169,8 @@
    "theme": "botanicals",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt6eea34c98ee76abb/bltaa6c5faaf18aa138-11505_Prod_en-gb.png",
    "age": 18,
-   "pieces": 806
+   "pieces": 806,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21060",
@@ -818,7 +819,8 @@
    "theme": "technic",
    "age": 9,
    "pieces": 882,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt03e6801da1ee5f26/42235_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt03e6801da1ee5f26/42235_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42236",
@@ -1590,7 +1592,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 939,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc4a6c2103a34f22e/10313_alt2.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc4a6c2103a34f22e/10313_alt2.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10316",
@@ -2323,14 +2326,15 @@
   },
   {
    "set": "11208",
-   "price": 39.99,
+   "price": 40.99,
    "strikethrough": 49.99,
    "asin": "B0FMK5H64X",
    "name": "Team Spidey piratenschip",
    "theme": "overig",
    "age": 4,
    "pieces": 201,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf72903fdda759260/11208_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf72903fdda759260/11208_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11209",
@@ -5627,14 +5631,15 @@
   },
   {
    "set": "76345",
-   "price": 39.99,
+   "price": 41.99,
    "strikethrough": 49.99,
    "asin": "B0GGSBQKYV",
    "name": "Doctor Doom buste",
    "theme": "overig",
    "age": 18,
    "pieces": 379,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta7a2a9ec28607b76/bltaa1f5d2205b08b15-76345_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta7a2a9ec28607b76/bltaa1f5d2205b08b15-76345_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76346",

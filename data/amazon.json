@@ -1691,14 +1691,15 @@
   },
   {
    "set": "10363",
-   "price": 49.95,
+   "price": 48.99,
    "strikethrough": 59.99,
    "asin": "B01NAELBNS",
    "name": "De vliegmachine van Leonardo da Vinci",
    "theme": "overig",
    "age": 18,
    "pieces": 493,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltfb6b9d757d63ea76/10363_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltfb6b9d757d63ea76/10363_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10369",
@@ -2388,7 +2389,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 538,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2b9cea17b647aa44/blt3741cf2d0a12aa6a-11373_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2b9cea17b647aa44/blt3741cf2d0a12aa6a-11373_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11377",
@@ -2542,14 +2544,15 @@
   },
   {
    "set": "21067",
-   "price": 207.19,
+   "price": 213.88,
    "strikethrough": 299.99,
    "asin": "B0GGPD67DQ",
    "name": "Tower Bridge",
    "theme": "overig",
    "age": 18,
    "pieces": 3745,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt22f5cc04d8ebabf1/bltdc033ed672251563-21067_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt22f5cc04d8ebabf1/bltdc033ed672251563-21067_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21267",
@@ -3871,14 +3874,15 @@
   },
   {
    "set": "43269",
-   "price": 91.33,
+   "price": 96.99,
    "strikethrough": 139.99,
    "asin": "B0DWDLR94L",
    "name": "101 Dalmatiërs puppy",
    "theme": "overig",
    "age": 18,
    "pieces": 1722,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt27cea75527c828ee/43269_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt27cea75527c828ee/43269_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43270",
@@ -5471,7 +5475,8 @@
    "theme": "overig",
    "age": 12,
    "pieces": 678,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltff7d13b0a317c0a6/76330_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltff7d13b0a317c0a6/76330_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76331",

@@ -426,7 +426,8 @@
    "theme": "technic",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt43ee5a1d2bc6afe0/42161.png",
    "age": 9,
-   "pieces": 806
+   "pieces": 806,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42170",
@@ -884,13 +885,14 @@
   {
    "set": "43022",
    "name": "Scuderia Ferrari HP: helm van Lewis Hamilton",
-   "price": 54.99,
+   "price": 59.0,
    "strikethrough": 89.99,
    "asin": "B0FPXFB54W",
    "theme": "editions",
    "age": 14,
    "pieces": 884,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt91b18dbcb302f294/43022_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt91b18dbcb302f294/43022_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43023",
@@ -1199,14 +1201,15 @@
   },
   {
    "set": "76419",
-   "price": 130.0,
+   "price": 109.99,
    "strikethrough": 169.99,
    "asin": "B0BV7BYNYD",
    "name": "Kasteel Zweinstein en terrein",
    "theme": "harry-potter",
    "age": 18,
    "pieces": 2660,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte09f96efc93d5c1d/76419.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte09f96efc93d5c1d/76419.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76444",
@@ -1277,7 +1280,8 @@
    "theme": "harry-potter",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8536053b62de88b1/76451_Prod_en-gb.png",
    "age": 8,
-   "pieces": 639
+   "pieces": 639,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76452",
@@ -2746,14 +2750,15 @@
   },
   {
    "set": "21597",
-   "price": 61.99,
+   "price": 65.99,
    "strikethrough": 99.99,
    "asin": "B0FPXHJSM8",
    "name": "Ghast-huis",
    "theme": "overig",
    "age": 9,
    "pieces": 754,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltba690b30f7be3cdb/blt486edd329f0f51a4-21597_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltba690b30f7be3cdb/blt486edd329f0f51a4-21597_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31134",

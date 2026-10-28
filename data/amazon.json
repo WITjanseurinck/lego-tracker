@@ -2289,7 +2289,8 @@
    "theme": "overig",
    "age": 5,
    "pieces": 820,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt97ecb8248913cc79/bltf57afbfafe31c236-11045_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt97ecb8248913cc79/bltf57afbfafe31c236-11045_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11198",
@@ -2733,7 +2734,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 344,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltcbfe6f6babf61b8d/bltd9332c3bc0f557e7-21582_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltcbfe6f6babf61b8d/bltd9332c3bc0f557e7-21582_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21584",
@@ -3112,7 +3114,8 @@
    "theme": "overig",
    "age": 8,
    "pieces": 286,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte4d6b7fc2d423a35/bltae9e52e993836261-31383_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte4d6b7fc2d423a35/bltae9e52e993836261-31383_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31384",
@@ -3688,7 +3691,9 @@
    "theme": "overig",
    "age": 7,
    "pieces": 377,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt668b57fe342446e7/blt09595536fe8674bc-42693_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt668b57fe342446e7/blt09595536fe8674bc-42693_Prod_en-gb.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "42694",
@@ -5918,14 +5923,15 @@
   },
   {
    "set": "76787",
-   "price": 32.49,
+   "price": 30.35,
    "strikethrough": 39.99,
    "asin": "B0GGSZKM7Z",
    "name": "Wednesdays rugzak",
    "theme": "overig",
    "age": 9,
    "pieces": 401,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt454ff9d60950120b/76787_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt454ff9d60950120b/76787_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76788",

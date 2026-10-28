@@ -581,14 +581,15 @@
   },
   {
    "set": "42205",
-   "price": 44.99,
+   "price": 39.99,
    "strikethrough": 59.99,
    "asin": "B0DHSDLJTF",
    "name": "Chevrolet Corvette Stingray",
    "theme": "technic",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt018fec9e8a7bfdf4/42205_Prod.png",
    "age": 9,
-   "pieces": 732
+   "pieces": 732,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42206",
@@ -3830,14 +3831,15 @@
   },
   {
    "set": "43249",
-   "price": 43.95,
+   "price": 43.99,
    "strikethrough": 64.99,
    "asin": "B0CFVZG5TR",
    "name": "Stitch",
    "theme": "overig",
    "age": 9,
    "pieces": 730,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltde91ef1db83222dd/43249.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltde91ef1db83222dd/43249.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43257",
@@ -4025,14 +4027,15 @@
   },
   {
    "set": "43288",
-   "price": 32.99,
+   "price": 37.49,
    "strikethrough": 49.99,
    "asin": "B0FPXCXS3B",
    "name": "Sally's bloempot",
    "theme": "overig",
    "age": 9,
    "pieces": 346,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt06d58489163cda98/43288_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt06d58489163cda98/43288_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43291",
@@ -4785,7 +4788,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 333,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt38238bd95f7d6c5d/71830_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt38238bd95f7d6c5d/71830_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71831",
@@ -5800,7 +5804,8 @@
    "theme": "overig",
    "age": 10,
    "pieces": 652,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt4569ff27af2c7298/76464_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt4569ff27af2c7298/76464_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76469",

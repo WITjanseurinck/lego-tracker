@@ -1461,7 +1461,8 @@
    "theme": "speed-champions",
    "age": 10,
    "pieces": 267,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt495e05f3e8b60dbf/77244_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt495e05f3e8b60dbf/77244_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77251",
@@ -1557,14 +1558,15 @@
   },
   {
    "set": "77262",
-   "price": 19.99,
+   "price": 17.99,
    "strikethrough": 27.99,
    "asin": "B0FPXGKBCS",
    "name": "Ken Blocks 1965 Ford Mustang Hoonicorn",
    "theme": "speed-champions",
    "age": 9,
    "pieces": 345,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte17e3046698381dd/blt2e5240070ad5f2ec-77262_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte17e3046698381dd/blt2e5240070ad5f2ec-77262_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77264",
@@ -1747,14 +1749,15 @@
   },
   {
    "set": "10369",
-   "price": 23.99,
+   "price": 22.99,
    "strikethrough": 29.99,
    "asin": "B00CALQB1E",
    "name": "Japanse abrikoos",
    "theme": "overig",
    "age": 18,
    "pieces": 327,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbd23c81083af1abb/10369_Prod_1.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbd23c81083af1abb/10369_Prod_1.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10373",
@@ -1929,7 +1932,8 @@
    "theme": "overig",
    "age": 2,
    "pieces": 58,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0b2305932c28001d/10448_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0b2305932c28001d/10448_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10450",
@@ -5954,7 +5958,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 358,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt7b4451ac435d0976/76784_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt7b4451ac435d0976/76784_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76787",

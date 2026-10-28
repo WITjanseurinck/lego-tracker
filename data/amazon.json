@@ -1498,14 +1498,15 @@
   },
   {
    "set": "77255",
-   "price": 20.99,
+   "price": 20.17,
    "strikethrough": 27.99,
    "asin": "B0FPXCYXHM",
    "name": "Bliksem McQueen",
    "theme": "speed-champions",
    "age": 9,
    "pieces": 270,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt81a65b6671890864/77255_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt81a65b6671890864/77255_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77256",
@@ -2895,14 +2896,15 @@
   },
   {
    "set": "31148",
-   "price": 22.99,
+   "price": 20.99,
    "strikethrough": 29.99,
    "asin": "B0CFW1FPFJ",
    "name": "Retro rolschaats",
    "theme": "overig",
    "age": 8,
    "pieces": 342,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2afcd0d2c787e72f/31148.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2afcd0d2c787e72f/31148.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31159",
@@ -3089,14 +3091,15 @@
   },
   {
    "set": "31382",
-   "price": 20.99,
+   "price": 18.74,
    "strikethrough": 29.99,
    "asin": "B0FPXCHLDX",
    "name": "Schattige dieren: speelse puppy",
    "theme": "overig",
    "age": 8,
    "pieces": 336,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt788e6ce58e8bbcd1/31382_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt788e6ce58e8bbcd1/31382_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "31383",
@@ -4098,7 +4101,8 @@
    "theme": "overig",
    "age": 5,
    "pieces": 358,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt3f84f2528fffa89d/43291_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt3f84f2528fffa89d/43291_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43292",
@@ -4934,14 +4938,15 @@
   },
   {
    "set": "71854",
-   "price": 22.58,
+   "price": 21.16,
    "strikethrough": 29.99,
    "asin": "B0FPXG2DNH",
    "name": "Cole's missiemecha en draak Zane",
    "theme": "overig",
    "age": 7,
    "pieces": 364,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt679981dad8d2f71e/71854_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt679981dad8d2f71e/71854_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71856",

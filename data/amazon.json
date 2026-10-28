@@ -222,7 +222,7 @@
   },
   {
    "set": "21064",
-   "price": 53.59,
+   "price": 60.2,
    "strikethrough": 79.99,
    "asin": "B0FPXJ7MGT",
    "name": "Parijs – Stad van de liefde",
@@ -230,7 +230,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt7f0c4925175ed3c0/21064_Prod_en-gb.png",
    "age": 18,
    "pieces": 958,
-   "stock": "out"
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21345",
@@ -982,7 +982,8 @@
    "theme": "star-wars",
    "image": "https://www.lego.com/cdn/cs/set/assets/bltd3b63280c2b9f8fc/75347.png",
    "age": 9,
-   "pieces": 625
+   "pieces": 625,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75375",
@@ -1113,7 +1114,8 @@
    "theme": "star-wars",
    "age": 18,
    "pieces": 643,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc42756bf25d0dfb6/75441_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc42756bf25d0dfb6/75441_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75447",
@@ -4011,14 +4013,15 @@
   },
   {
    "set": "43296",
-   "price": 50.99,
+   "price": 41.24,
    "strikethrough": 69.99,
    "asin": "B0FQP58M4R",
    "name": "Stitch en Scrump",
    "theme": "overig",
    "age": 9,
    "pieces": 713,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt34f742fc0cf1956c/blt8b5c9faf4553b10e-43296_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt34f742fc0cf1956c/blt8b5c9faf4553b10e-43296_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43297",
@@ -4796,14 +4799,15 @@
   },
   {
    "set": "71857",
-   "price": 51.73,
+   "price": 51.72,
    "strikethrough": 79.99,
    "asin": "B0FPVT6L4X",
    "name": "Ninjavoertuigen bij de boomhut",
    "theme": "overig",
    "age": 7,
    "pieces": 642,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt968dd9c2176f49ef/71857_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt968dd9c2176f49ef/71857_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71858",

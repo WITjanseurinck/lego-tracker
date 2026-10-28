@@ -199,7 +199,8 @@
    "theme": "architecture",
    "image": "https://www.lego.com/cdn/cs/set/assets/bltda5fbafc5a35fa4c/21062_Prod.png",
    "age": 18,
-   "pieces": 1880
+   "pieces": 1880,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21063",
@@ -385,25 +386,27 @@
   },
   {
    "set": "42136",
-   "price": 67.2,
+   "price": 68.53,
    "strikethrough": null,
    "asin": "B09RSNZ447",
    "name": "John Deere 9620R 4WD Tractor",
    "theme": "technic",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0a8d81639354c858/42136.png",
    "age": 8,
-   "pieces": 390
+   "pieces": 390,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42154",
-   "price": 86.56,
+   "price": 84.99,
    "strikethrough": 119.99,
    "asin": "B0BBRZXX8B",
    "name": "2022 Ford GT",
    "theme": "technic",
    "age": 18,
    "pieces": 1468,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5014244d8d8dc8ad/42154.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5014244d8d8dc8ad/42154.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42161",
@@ -768,7 +771,8 @@
    "theme": "technic",
    "age": 18,
    "pieces": 1516,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt79f919a7738e75f9/blt6a94296f3012a30e-42231_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt79f919a7738e75f9/blt6a94296f3012a30e-42231_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42234",
@@ -1253,7 +1257,9 @@
    "theme": "harry-potter",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt588dbe2bbaeab7b8/76452_Prod_en-gb.png",
    "age": 8,
-   "pieces": 795
+   "pieces": 795,
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "76454",

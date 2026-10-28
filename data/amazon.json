@@ -567,7 +567,8 @@
    "theme": "technic",
    "age": 9,
    "pieces": 462,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt8e48148bb440da81/42203_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8e48148bb440da81/42203_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42204",
@@ -3492,14 +3493,15 @@
   },
   {
    "set": "42666",
-   "price": 24.99,
+   "price": 21.41,
    "strikethrough": 29.99,
    "asin": "B0DWDWMVZ4",
    "name": "Kattenverjaardagsfeestje en boomhut",
    "theme": "overig",
    "age": 6,
    "pieces": 321,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte8849793b8c95f2f/42666_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte8849793b8c95f2f/42666_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42671",
@@ -3940,14 +3942,15 @@
   },
   {
    "set": "43265",
-   "price": 23.95,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B0DHSBJQWD",
    "name": "Frozen kasteel van Arendelle",
    "theme": "overig",
    "age": 5,
    "pieces": 177,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc634387967780536/43265_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc634387967780536/43265_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43268",
@@ -5572,14 +5575,15 @@
   },
   {
    "set": "76322",
-   "price": 34.39,
+   "price": 34.99,
    "strikethrough": 49.99,
    "asin": "B0DWF1V6CT",
    "name": "Avengers: Endgame Thor vs. Chitauri",
    "theme": "overig",
    "age": 8,
    "pieces": 373,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt4eadbda3e25bb536/76322_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt4eadbda3e25bb536/76322_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76327",
@@ -5839,14 +5843,15 @@
   },
   {
    "set": "76462",
-   "price": 34.82,
+   "price": 37.49,
    "strikethrough": 49.99,
    "asin": "B0FPXDT4CG",
    "name": "Zweinstein™ afdelingswapen",
    "theme": "overig",
    "age": 12,
    "pieces": 545,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd44742be587c1885/blt8109326057a1ec3f-76462_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd44742be587c1885/blt8109326057a1ec3f-76462_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76464",

@@ -2634,7 +2634,8 @@
    "theme": "overig",
    "age": 10,
    "pieces": 491,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt09d304b0929be43b/21272_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt09d304b0929be43b/21272_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "21273",
@@ -3264,14 +3265,15 @@
   },
   {
    "set": "40813",
-   "price": 23.99,
+   "price": 23.98,
    "strikethrough": 29.99,
    "asin": "B0DTVS54FX",
    "name": "Gelukskatje",
    "theme": "overig",
    "age": 9,
    "pieces": 280,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2a16cd2101cabe10/40813_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2a16cd2101cabe10/40813_Prod.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "40814",
@@ -3612,7 +3614,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 410,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte4fca31aecb33fa8/42685_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte4fca31aecb33fa8/42685_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42686",
@@ -4917,14 +4920,15 @@
   },
   {
    "set": "71856",
-   "price": 39.14,
+   "price": 38.99,
    "strikethrough": 49.99,
    "asin": "B0FPXDLC39",
    "name": "Jay's transformerende auto",
    "theme": "overig",
    "age": 8,
    "pieces": 387,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt40f371ab3978696c/71856_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt40f371ab3978696c/71856_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71857",
@@ -5165,14 +5169,15 @@
   },
   {
    "set": "75410",
-   "price": 23.95,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B0DHSBCB59",
    "name": "Mando en Grogu's N-1 Starfighter™",
    "theme": "overig",
    "age": 4,
    "pieces": 92,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltfc8f5b203cd252ca/75410_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltfc8f5b203cd252ca/75410_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "75412",

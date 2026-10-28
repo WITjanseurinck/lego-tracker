@@ -3843,14 +3843,15 @@
   },
   {
    "set": "43012",
-   "price": 20.57,
+   "price": 18.74,
    "strikethrough": 29.99,
    "asin": "B0FPXGJL6H",
    "name": "Cristiano Ronaldo – Voetbalhoogtepunten",
    "theme": "overig",
    "age": 10,
    "pieces": 490,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt6a8b4a052e9b26ae/bltfc4b335f7772a5b7-43012_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt6a8b4a052e9b26ae/bltfc4b335f7772a5b7-43012_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "43013",
@@ -4540,14 +4541,15 @@
   },
   {
    "set": "60489",
-   "price": 20.78,
+   "price": 19.9,
    "strikethrough": 29.99,
    "asin": "B0FPXH4F66",
    "name": "Straalvliegtuig vs. sportauto",
    "theme": "overig",
    "age": 6,
    "pieces": 259,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf28881bb9b9dc4cb/60489_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf28881bb9b9dc4cb/60489_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "60490",
@@ -5579,14 +5581,15 @@
   },
   {
    "set": "76309",
-   "price": 23.99,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B0DHSC1BF8",
    "name": "Spider-Man vs. Venoms klassieke auto",
    "theme": "overig",
    "age": 7,
    "pieces": 254,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte9af60604dfa1359/76309_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte9af60604dfa1359/76309_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76315",
@@ -5750,7 +5753,8 @@
    "theme": "overig",
    "age": 6,
    "pieces": 317,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2a7ca384045cfc3e/blt91ca18fede88b80f-76340_Box1_v39_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2a7ca384045cfc3e/blt91ca18fede88b80f-76340_Box1_v39_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "76341",
@@ -6334,7 +6338,8 @@
    "theme": "overig",
    "age": 4,
    "pieces": 115,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb89757873082bbe9/blt98cc43dd89b295da-77978_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb89757873082bbe9/blt98cc43dd89b295da-77978_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "77982",

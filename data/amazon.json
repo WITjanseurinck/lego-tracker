@@ -1860,14 +1860,15 @@
   },
   {
    "set": "10443",
-   "price": 22.28,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B0DWDQ9YBY",
    "name": "Voor het eerst op het vliegveld",
    "theme": "overig",
    "age": 2,
    "pieces": 23,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2aeb6f67b90d68e0/10443_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2aeb6f67b90d68e0/10443_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "10444",
@@ -2579,14 +2580,15 @@
   },
   {
    "set": "11511",
-   "price": 26.99,
+   "price": 26.98,
    "strikethrough": 39.99,
    "asin": "B0FPXL53FK",
    "name": "Waterlelies",
    "theme": "overig",
    "age": 9,
    "pieces": 259,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta24fb4240d01af9c/blt94b7e5a40e9cda89-11511_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta24fb4240d01af9c/blt94b7e5a40e9cda89-11511_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11514",
@@ -3315,7 +3317,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 402,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltde4f8a80c59a7e86/40814_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltde4f8a80c59a7e86/40814_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "40815",
@@ -4746,14 +4749,15 @@
   },
   {
    "set": "71441",
-   "price": 34.39,
+   "price": 34.99,
    "strikethrough": 49.99,
    "asin": "B0CWH17Z6F",
    "name": "Avonturen met interactieve LEGO® Peach™",
    "theme": "overig",
    "age": 6,
    "pieces": 208,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltfb41c0e86b783a71/71441.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltfb41c0e86b783a71/71441.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71492",
@@ -4876,14 +4880,15 @@
   },
   {
    "set": "71831",
-   "price": 31.95,
+   "price": 29.99,
    "strikethrough": 39.99,
    "asin": "B0DHSDC4QB",
    "name": "Spinjitzu ninjatempel",
    "theme": "overig",
    "age": 4,
    "pieces": 158,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt8658c3b995398361/71831_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8658c3b995398361/71831_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71834",

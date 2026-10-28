@@ -622,7 +622,8 @@
    "theme": "technic",
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8c07857b5c44c9f4/42208_Prod.png",
    "age": 9,
-   "pieces": 707
+   "pieces": 707,
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "42209",
@@ -961,7 +962,8 @@
    "theme": "overig",
    "age": 18,
    "pieces": 421,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt96a11f71928f8103/72046_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt96a11f71928f8103/72046_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "72152",
@@ -2371,7 +2373,9 @@
    "theme": "overig",
    "age": 6,
    "pieces": 324,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5ebf7dcf6a7bb552/11215_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5ebf7dcf6a7bb552/11215_Prod_en-gb.png",
+   "checkedAt": "2026-10-28",
+   "stock": "out"
   },
   {
    "set": "11216",
@@ -2386,14 +2390,15 @@
   },
   {
    "set": "11217",
-   "price": 45.76,
+   "price": 45.75,
    "strikethrough": 69.99,
    "asin": "B0FR9FC68H",
    "name": "Bouwbare figuren van Bluey en haar familie",
    "theme": "overig",
    "age": 5,
    "pieces": 466,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt74fd26d8a690662f/blt58eeee8d68bc4bb4-11217_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt74fd26d8a690662f/blt58eeee8d68bc4bb4-11217_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "11373",
@@ -4887,7 +4892,8 @@
    "theme": "overig",
    "age": 9,
    "pieces": 1050,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt55cbf25c777dd296/71859_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt55cbf25c777dd296/71859_Prod_en-gb.png",
+   "checkedAt": "2026-10-28"
   },
   {
    "set": "71860",

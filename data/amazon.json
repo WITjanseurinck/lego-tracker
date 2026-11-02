@@ -4049,7 +4049,7 @@
   },
   {
    "set": "43262",
-   "price": 49.99,
+   "price": 52.79,
    "strikethrough": 69.99,
    "asin": "B0DHSCCM3M",
    "name": "De jurken van Maleficent en Cruella De Vil",
@@ -4057,11 +4057,11 @@
    "age": 9,
    "pieces": 524,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt605215e6d74ef935/43262_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43264",
-   "price": 34.99,
+   "price": 36.69,
    "strikethrough": 39.99,
    "asin": "B0DWDT11RK",
    "name": "Toy Story feesttrein en RC auto",
@@ -4069,8 +4069,7 @@
    "age": 4,
    "pieces": 206,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0e16135cae7c1bc9/43264_Prod_en-gb.png",
-   "checkedAt": "2026-10-28",
-   "stock": "out"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43265",
@@ -4082,7 +4081,7 @@
    "age": 5,
    "pieces": 177,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc634387967780536/43265_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43268",
@@ -4094,11 +4093,11 @@
    "age": 9,
    "pieces": 834,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt31388c4187d41a21/43268_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43269",
-   "price": 96.99,
+   "price": 104.0,
    "strikethrough": 139.99,
    "asin": "B0DWDLR94L",
    "name": "101 Dalmatiërs puppy",
@@ -4106,7 +4105,7 @@
    "age": 18,
    "pieces": 1722,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt27cea75527c828ee/43269_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43270",
@@ -4118,18 +4117,20 @@
    "age": 6,
    "pieces": 529,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt7e0cf7fe91678cf0/43270_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "43271",
-   "price": 17.2,
+   "price": 17.19,
    "strikethrough": 24.99,
    "asin": "B0DRCXX59J",
    "name": "Lucky en Penny uit 101 Dalmatiërs",
    "theme": "overig",
    "age": 6,
    "pieces": 268,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt966bdb2d9acb8d00/43271_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt966bdb2d9acb8d00/43271_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43280",
@@ -4140,7 +4141,8 @@
    "theme": "overig",
    "age": 4,
    "pieces": 113,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt210efadd18b9e8c2/blta3c37610dc6a8633-43280_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt210efadd18b9e8c2/blta3c37610dc6a8633-43280_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43281",
@@ -4152,7 +4154,8 @@
    "age": 4,
    "pieces": 216,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt3c56a41db2717b7b/43281_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "43282",
@@ -4163,11 +4166,12 @@
    "theme": "overig",
    "age": 4,
    "pieces": 85,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt03debfa276729200/bltebede5a7b16a5f42-43282_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt03debfa276729200/bltebede5a7b16a5f42-43282_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43283",
-   "price": 20.99,
+   "price": 19.88,
    "strikethrough": 29.99,
    "asin": "B0FPXMXSS2",
    "name": "Assepoesters kasteel met dierenvriendjes",
@@ -4175,18 +4179,19 @@
    "age": 4,
    "pieces": 149,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltac24a5b0a6e97013/blta619083a86d101f7-43283_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43285",
-   "price": 16.95,
+   "price": 13.59,
    "strikethrough": 19.99,
    "asin": "B0FPXJHB6S",
    "name": "Ariëls magische minipaleis",
    "theme": "overig",
    "age": 5,
    "pieces": 179,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt94ef472f0237eea7/43285_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt94ef472f0237eea7/43285_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43287",
@@ -4198,7 +4203,7 @@
    "age": 7,
    "pieces": 478,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt9bcf160a34a7c824/43287_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43288",
@@ -4210,11 +4215,11 @@
    "age": 9,
    "pieces": 346,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt06d58489163cda98/43288_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43291",
-   "price": 27.99,
+   "price": 28.99,
    "strikethrough": 39.99,
    "asin": "B0FPXG9QQL",
    "name": "Mini Belle en Tiana met kasteel",
@@ -4222,7 +4227,7 @@
    "age": 5,
    "pieces": 358,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt3f84f2528fffa89d/43291_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43292",
@@ -4234,7 +4239,8 @@
    "age": 9,
    "pieces": 885,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt929b49dd229adcba/bltbc19e105e483f56b-43292_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "43293",
@@ -4246,18 +4252,19 @@
    "age": 9,
    "pieces": 407,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt63469b210283ded0/blt61ce460cf4bb9a88-43293_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43294",
-   "price": 13.99,
+   "price": 14.99,
    "strikethrough": 19.99,
    "asin": "B0FPXDPKD7",
    "name": "Rapunzels minitoren",
    "theme": "overig",
    "age": 5,
    "pieces": 171,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt864db38c2bdb281e/bltd267807f9340e779-43294_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt864db38c2bdb281e/bltd267807f9340e779-43294_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43295",
@@ -4269,7 +4276,7 @@
    "age": 6,
    "pieces": 458,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltbcef68e4079f6efb/blt86c4434f62e9b89f-43295_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43296",
@@ -4281,11 +4288,11 @@
    "age": 9,
    "pieces": 713,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt34f742fc0cf1956c/blt8b5c9faf4553b10e-43296_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43297",
-   "price": 59.99,
+   "price": 71.97,
    "strikethrough": 99.99,
    "asin": "B0FR9JYZBR",
    "name": "Rapunzels kasteel",
@@ -4293,7 +4300,7 @@
    "age": 6,
    "pieces": 676,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt404f0f59c91a45fe/blt97a4990d03023d2a-43297_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43298",
@@ -4305,7 +4312,7 @@
    "age": 5,
    "pieces": 290,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt82f3c5cf5bc37ada/blt0fed8b3062f3baae-43298_Box1_v39_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43304",
@@ -4317,7 +4324,7 @@
    "age": 4,
    "pieces": 209,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0ddec6212108de5e/blt54505dd508cd2524-43304_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43305",
@@ -4329,7 +4336,7 @@
    "age": 9,
    "pieces": 544,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb3e96f260a822e0d/blt5d5130e90d453750-43305_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "43307",
@@ -4341,29 +4348,31 @@
    "age": 9,
    "pieces": 714,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt4c48eb17d0d1f128/bltff0c6e768c1656b3-43307_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60205",
-   "price": 15.99,
+   "price": 13.9,
    "strikethrough": 19.99,
    "asin": "B078K44BP9",
    "name": "Treinrails",
    "theme": "overig",
    "age": 5,
    "pieces": 20,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt05dd2e8802f45f28/60205.jpg"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt05dd2e8802f45f28/60205.jpg",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60238",
-   "price": 15.06,
+   "price": 13.9,
    "strikethrough": 19.99,
    "asin": "B079Z63G1F",
    "name": "Wissels",
    "theme": "overig",
    "age": 5,
    "pieces": 8,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta1ba001b11b48283/60238.jpg"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta1ba001b11b48283/60238.jpg",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60367",
@@ -4375,44 +4384,47 @@
    "age": 7,
    "pieces": 913,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta636ffccc87fdf4b/60367.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60373",
-   "price": 16.98,
+   "price": 13.99,
    "strikethrough": 19.99,
    "asin": "B0BBRXB8S8",
    "name": "Reddingsboot Brand",
    "theme": "overig",
    "age": 5,
    "pieces": 144,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0e2d022ae559c801/60373.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0e2d022ae559c801/60373.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60404",
-   "price": 15.11,
+   "price": 16.95,
    "strikethrough": 19.99,
    "asin": "B0CFW2KC3H",
    "name": "Hamburgertruck",
    "theme": "overig",
    "age": 5,
    "pieces": 194,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta619ec8f2276fa45/60404_alt1.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta619ec8f2276fa45/60404_alt1.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60407",
-   "price": 21.77,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B0CTHVQVCP",
    "name": "Toeristische rode dubbeldekker",
    "theme": "overig",
    "age": 7,
    "pieces": 384,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt787b6506c3044573/60407.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt787b6506c3044573/60407.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60414",
-   "price": 58.1,
+   "price": 54.99,
    "strikethrough": 79.99,
    "asin": "B0CFWMZQ3Y",
    "name": "Brandweerkazerne en brandweerauto",
@@ -4420,22 +4432,23 @@
    "age": 6,
    "pieces": 843,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt7e2d25e6978bb21b/60414_alt1.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60415",
-   "price": 16.99,
+   "price": 13.99,
    "strikethrough": 19.99,
    "asin": "B0CFW1BPKM",
    "name": "Politiewagen en snelle autoachtervolging",
    "theme": "overig",
    "age": 6,
    "pieces": 213,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt1f2c4bdbf4b62da6/60415_alt1.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt1f2c4bdbf4b62da6/60415_alt1.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60423",
-   "price": 64.95,
+   "price": 59.0,
    "strikethrough": 89.99,
    "asin": "B0CWH283WW",
    "name": "Stadstram en station",
@@ -4443,18 +4456,19 @@
    "age": 7,
    "pieces": 811,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta3c2f35e46ae78e2/60423.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60430",
-   "price": 16.99,
+   "price": 13.9,
    "strikethrough": 19.99,
    "asin": "B0CFW17QG2",
    "name": "Interstellair ruimteschip",
    "theme": "overig",
    "age": 6,
    "pieces": 240,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt18bab539b3fea5c1/60430_alt1.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt18bab539b3fea5c1/60430_alt1.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60442",
@@ -4465,7 +4479,9 @@
    "theme": "overig",
    "age": 6,
    "pieces": 86,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt447ec03c313bc511/60442_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt447ec03c313bc511/60442_Prod.png",
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "60445",
@@ -4477,22 +4493,23 @@
    "age": 8,
    "pieces": 1086,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt552b70def7e93527/60445_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60447",
-   "price": 15.08,
+   "price": 13.99,
    "strikethrough": 19.99,
    "asin": "B0DHSFQWFC",
    "name": "4x4 terreinwagen voor in de bergen",
    "theme": "overig",
    "age": 6,
    "pieces": 221,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta955e27409977b00/60447_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta955e27409977b00/60447_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60451",
-   "price": 16.62,
+   "price": 13.99,
    "strikethrough": 19.99,
    "asin": "B0DHSFHMJH",
    "name": "Ambulance",
@@ -4500,7 +4517,7 @@
    "age": 5,
    "pieces": 184,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt64c62359edab92f8/60451_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60454",
@@ -4512,11 +4529,11 @@
    "age": 6,
    "pieces": 385,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt39909b68e8ab0c11/60454_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60456",
-   "price": 20.99,
+   "price": 19.66,
    "strikethrough": 29.99,
    "asin": "B0DWDQGXLF",
    "name": "Achtervolging met politieboot",
@@ -4524,7 +4541,7 @@
    "age": 6,
    "pieces": 264,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte649b14ab3466ad0/60456_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60463",
@@ -4535,18 +4552,20 @@
    "theme": "overig",
    "age": 4,
    "pieces": 82,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5664e75c3cdad2a3/60463_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5664e75c3cdad2a3/60463_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60464",
-   "price": 13.85,
+   "price": 12.99,
    "strikethrough": 19.99,
    "asin": "B0DHSCLFYG",
    "name": "F1® Williams Racing en Haas F1® racewagens",
    "theme": "overig",
    "age": 4,
    "pieces": 92,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt473eac56e9b144c4/60464_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt473eac56e9b144c4/60464_Prod.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60465",
@@ -4558,7 +4577,7 @@
    "age": 6,
    "pieces": 403,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0abe01f1b26ca98d/60465_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60466",
@@ -4570,7 +4589,8 @@
    "age": 8,
    "pieces": 682,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt753a816b6e10f6ae/60466_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "60469",
@@ -4582,18 +4602,19 @@
    "age": 7,
    "pieces": 752,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltfa6a2e2bbc870765/60469_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60479",
-   "price": 15.06,
+   "price": 12.99,
    "strikethrough": 19.99,
    "asin": "B0FPXDHCX5",
    "name": "Politie gevangenentransport",
    "theme": "overig",
    "age": 6,
    "pieces": 198,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt4a44579fc4feca81/60479_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt4a44579fc4feca81/60479_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60480",
@@ -4605,7 +4626,7 @@
    "age": 7,
    "pieces": 301,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2408ad6c4abbfd33/blta311a6424f975f77-60480_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60487",
@@ -4616,18 +4637,20 @@
    "theme": "overig",
    "age": 5,
    "pieces": 122,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt186633b1202b74dd/60487_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt186633b1202b74dd/60487_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60488",
-   "price": 16.95,
+   "price": 14.11,
    "strikethrough": 19.99,
    "asin": "B0FPXBGJFX",
    "name": "Snackbartruck",
    "theme": "overig",
    "age": 5,
    "pieces": 216,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt95b5cf43f602d21b/60488_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt95b5cf43f602d21b/60488_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60489",

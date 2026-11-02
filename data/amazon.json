@@ -617,7 +617,7 @@
    "age": 18,
    "pieces": 1361,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt1dd4e21e38b03edd/42207_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42208",
@@ -629,11 +629,11 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8c07857b5c44c9f4/42208_Prod.png",
    "age": 9,
    "pieces": 707,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42209",
-   "price": 69.94,
+   "price": 69.98,
    "strikethrough": 99.99,
    "asin": "B0DRCWG11G",
    "name": "Volvo L120 Electric wiellader",
@@ -641,7 +641,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blte0550cc3ef3afc1f/42209_Prod.png",
    "age": 9,
    "pieces": 973,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42210",
@@ -653,7 +653,7 @@
    "age": 18,
    "pieces": 1410,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt4281f045b5e8888c/42210_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42212",
@@ -665,7 +665,7 @@
    "age": 10,
    "pieces": 897,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb2365f8463768d5c/42212_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42213",
@@ -677,7 +677,8 @@
    "age": 9,
    "pieces": 943,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltbb52bac713429615/42213_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02",
+   "stock": "out"
   },
   {
    "set": "42214",
@@ -689,7 +690,7 @@
    "age": 10,
    "pieces": 1135,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt569d545d0a7c06c7/42214_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42215",
@@ -701,7 +702,7 @@
    "age": 18,
    "pieces": 2359,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt6027837d523f859d/42215_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42221",
@@ -713,7 +714,7 @@
    "age": 9,
    "pieces": 632,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt5c67fdd9e4bd98de/42221_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42222",
@@ -725,11 +726,11 @@
    "age": 9,
    "pieces": 771,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0a9009b95130ef89/42222_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42223",
-   "price": 52.74,
+   "price": 49.99,
    "strikethrough": 74.99,
    "asin": "B0FPXDNT2N",
    "name": "1966 Ford GT40 MKII Racewagen",
@@ -737,7 +738,7 @@
    "age": 18,
    "pieces": 793,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltfedfb750ecdecbc5/42223_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42224",
@@ -749,11 +750,11 @@
    "age": 11,
    "pieces": 1313,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt63b0cec2f9e3eccd/42224_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42226",
-   "price": 44.95,
+   "price": 44.98,
    "strikethrough": 64.99,
    "asin": "B0FPXFKGQR",
    "name": "BMW M4 GT3 Evo Racewagen",
@@ -761,7 +762,7 @@
    "age": 11,
    "pieces": 747,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb53d1567fcd649c0/42226_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42227",
@@ -773,11 +774,11 @@
    "age": 10,
    "pieces": 723,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8f7d3695517d3132/42227_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42228",
-   "price": 159.99,
+   "price": 159.0,
    "strikethrough": 229.99,
    "asin": "B0FPXDRZYV",
    "name": "McLaren MCL39 F1 Car",
@@ -785,7 +786,7 @@
    "age": 18,
    "pieces": 1675,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltac01ce3b2335370b/blt94fedcc1daf48b2a-42228_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42229",
@@ -797,11 +798,11 @@
    "age": 14,
    "pieces": 827,
    "image": "https://www.lego.com/cdn/cs/set/assets/blteef6e0987044f2f6/bltfaea35d387a1edf7-42229_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42231",
-   "price": 104.99,
+   "price": 104.0,
    "strikethrough": 149.99,
    "asin": "B0FPXGL73L",
    "name": "Fast & Furious Dodge Charger R/T",
@@ -809,7 +810,7 @@
    "age": 18,
    "pieces": 1516,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt79f919a7738e75f9/blt6a94296f3012a30e-42231_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42234",
@@ -821,7 +822,7 @@
    "age": 10,
    "pieces": 805,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt262620946843b8c2/42234_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42235",
@@ -833,7 +834,7 @@
    "age": 9,
    "pieces": 882,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt03e6801da1ee5f26/42235_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42236",
@@ -845,7 +846,7 @@
    "age": 10,
    "pieces": 973,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc500591cc79bf53c/blt6afc886561547236-42236_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42239",
@@ -857,7 +858,7 @@
    "age": 12,
    "pieces": 719,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0aa9f1c9bd984f96/42239_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42240",
@@ -869,7 +870,7 @@
    "age": 18,
    "pieces": 1547,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltd75d9ab1c2aec844/blt3711b74994551d04-42240_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "43014",
@@ -881,7 +882,7 @@
    "age": 14,
    "pieces": 886,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta0e51783efba6e23/43014_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "43017",
@@ -893,7 +894,7 @@
    "age": 14,
    "pieces": 793,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt4fcb71893af17e2a/bltab4a10ed7b29fa28-43017_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "43019",
@@ -905,19 +906,19 @@
    "age": 10,
    "pieces": 1498,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt04084759a9389541/bltec1b6ad847503d45-43019_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "43022",
    "name": "Scuderia Ferrari HP: helm van Lewis Hamilton",
-   "price": 59.0,
+   "price": 52.49,
    "strikethrough": 89.99,
    "asin": "B0FPXFB54W",
    "theme": "editions",
    "age": 14,
    "pieces": 884,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt91b18dbcb302f294/43022_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "43023",
@@ -929,7 +930,7 @@
    "age": 14,
    "pieces": 793,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte8da17d05f13f3d1/bltb96d0e886d1b1e2e-43023_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "43024",
@@ -941,7 +942,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/bltad711ce14ade35fe/43024_Prod.png",
    "age": 14,
    "pieces": 931,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "43272",
@@ -953,7 +954,8 @@
    "age": 9,
    "pieces": 566,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt97a2b239f7b7c21b/43272_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02",
+   "stock": "out"
   },
   {
    "set": "43279",
@@ -965,7 +967,7 @@
    "age": 18,
    "pieces": 811,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb61df5c6a83a2624/43279_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "72046",
@@ -977,7 +979,7 @@
    "age": 18,
    "pieces": 421,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt96a11f71928f8103/72046_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "72152",
@@ -989,7 +991,7 @@
    "age": 18,
    "pieces": 2050,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltcc712e807c108c42/72152_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "72537",
@@ -1001,7 +1003,7 @@
    "age": 9,
    "pieces": 825,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte9ccc3926979825e/blt69dcc92d7cf6a33f-72537_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75347",
@@ -1013,7 +1015,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/bltd3b63280c2b9f8fc/75347.png",
    "age": 9,
    "pieces": 625,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75375",
@@ -1025,7 +1027,7 @@
    "age": 18,
    "pieces": 921,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltea91c53f2609bfa5/75375.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75379",
@@ -1037,11 +1039,11 @@
    "age": 10,
    "pieces": 1050,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt1dbcc5584e0e1f47/75379_alt2.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75382",
-   "price": 221.0,
+   "price": 226.84,
    "strikethrough": 229.99,
    "asin": "B0CWH2DGNN",
    "name": "TIE Interceptor",
@@ -1049,11 +1051,11 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt42c7adf188ed2eb8/75382.png",
    "age": 18,
    "pieces": 1931,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75389",
-   "price": 142.78,
+   "price": 142.86,
    "strikethrough": 179.99,
    "asin": "B0CWH3FX31",
    "name": "Dark Falcon",
@@ -1061,7 +1063,7 @@
    "age": 10,
    "pieces": 1579,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt9045e5d9071ed23b/75389_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75398",
@@ -1073,7 +1075,7 @@
    "age": 18,
    "pieces": 1138,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt1d21181b67dcb8a5/75398_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75399",
@@ -1085,7 +1087,7 @@
    "age": 8,
    "pieces": 594,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt66adc043070e220c/75399_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75402",
@@ -1097,7 +1099,7 @@
    "age": 9,
    "pieces": 497,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltd6b2fe663f886921/75402_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75413",
@@ -1109,7 +1111,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt3e5d1d463262f82d/75413_Prod_en-gb.png",
    "age": 9,
    "pieces": 813,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75417",
@@ -1121,7 +1123,7 @@
    "age": 18,
    "pieces": 1513,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt98568413538e8f35/75417_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75435",
@@ -1133,7 +1135,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2b73e68649059dea/75435_Prod_en-gb.png",
    "age": 9,
    "pieces": 976,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75441",
@@ -1145,7 +1147,7 @@
    "age": 18,
    "pieces": 643,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc42756bf25d0dfb6/75441_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75447",
@@ -1157,11 +1159,11 @@
    "age": 10,
    "pieces": 930,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt34b27553596c6ef5/75447_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75453",
-   "price": 145.0,
+   "price": 144.99,
    "strikethrough": 199.99,
    "asin": "B0GGSD1PNX",
    "name": "De Mandalorian: Offworld Sandcrawler",
@@ -1169,8 +1171,7 @@
    "age": 14,
    "pieces": 1683,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt53e994b7ffae6117/blt2993cb6d6e763651-75453_Prod_en-gb.png",
-   "stock": "out",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75454",
@@ -1182,7 +1183,7 @@
    "age": 10,
    "pieces": 1453,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt91d78d4aac6cb7b0/blt85d0f4c13827cddd-75454_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75455",
@@ -1194,7 +1195,7 @@
    "age": 18,
    "pieces": 1544,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt01e72d2fd0c9fa53/blt0fed9d785e5abb17-75455_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75459",
@@ -1206,7 +1207,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc25c22ecb800e962/bltdb45b22aa9b13e52-75459_Prod_en-gb.png",
    "age": 14,
    "pieces": 961,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "75639",

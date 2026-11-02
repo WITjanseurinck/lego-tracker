@@ -13,7 +13,7 @@
    "age": 18,
    "pieces": 1363,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc1a3afc5b5af3287/10315.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10330",
@@ -25,7 +25,7 @@
    "age": 18,
    "pieces": 693,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf8476f68fa47b137/10330.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10331",
@@ -37,11 +37,11 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt6cf7f51b0edcecfd/10331.png",
    "age": 18,
    "pieces": 834,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10342",
-   "price": 41.98,
+   "price": 38.98,
    "strikethrough": 59.99,
    "asin": "B0DHSDBVKV",
    "name": "Botanicals Roze boeket",
@@ -49,7 +49,7 @@
    "age": 18,
    "pieces": 749,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt1bcb187351a12753/10342_WEB_PRI_NOBG.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10353",
@@ -61,11 +61,11 @@
    "age": 18,
    "pieces": 799,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte94c63168e761c74/10353_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "11372",
-   "price": 80.99,
+   "price": 84.99,
    "strikethrough": 109.99,
    "asin": "B0FPXG6FS8",
    "name": "Herfsttuin met Cottage",
@@ -73,7 +73,7 @@
    "age": 18,
    "pieces": 1102,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0345da5be8baeb2d/11372_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "11375",
@@ -85,7 +85,7 @@
    "age": 18,
    "pieces": 735,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt7cb1d7e438d8cf8a/blt1b09b2c445792134-11375_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "11376",
@@ -97,7 +97,7 @@
    "age": 18,
    "pieces": 1060,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb43d0d2e48863e64/blt9b1cd88cf5ab5032-11376_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "11379",
@@ -109,12 +109,12 @@
    "age": 18,
    "pieces": 1690,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt93b12260f66cd50b/11379_Prod.png",
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-11-02",
    "stock": "out"
   },
   {
    "set": "11381",
-   "price": 118.99,
+   "price": 111.99,
    "strikethrough": 139.99,
    "asin": "B01MZ9GNNN",
    "name": "Jaguar E-Type",
@@ -122,7 +122,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2548c675c5013fce/bltd7618c334ab0fcf6-11381_Prod_en-gb.png",
    "age": 18,
    "pieces": 1673,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "11383",
@@ -134,7 +134,7 @@
    "age": 18,
    "pieces": 1420,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt5999ea5e1c071687/blt21fb8295f9caaf81-11383_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "11389",
@@ -146,23 +146,23 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blteb6b17f3f4ae151d/bltfe9034ee5bed08f3-11389_Prod.png",
    "age": 18,
    "pieces": 830,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "11502",
    "name": "Botanicals Boeket met zonnebloemen",
-   "price": 38.59,
+   "price": 38.58,
    "strikethrough": 59.99,
    "asin": "B0FPXGD4DQ",
    "theme": "botanicals",
    "age": 18,
    "pieces": 686,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt212b362b828622c3/blt1c33118501c8da2f-11502_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "11505",
-   "price": 52.99,
+   "price": 58.75,
    "strikethrough": 79.99,
    "asin": "B0FPXH5T6S",
    "name": "Bospaddenstoelen",
@@ -170,7 +170,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt6eea34c98ee76abb/bltaa6c5faaf18aa138-11505_Prod_en-gb.png",
    "age": 18,
    "pieces": 806,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "21060",
@@ -183,11 +183,11 @@
    "age": 18,
    "pieces": 2125,
    "stock": "out",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "21061",
-   "price": 171.27,
+   "price": 169.99,
    "strikethrough": 229.99,
    "asin": "B0CWH1M12W",
    "name": "Notre-Dame van Parijs",
@@ -195,11 +195,11 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blte79009bca2be0858/21061.png",
    "age": 18,
    "pieces": 4383,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "21062",
-   "price": 109.44,
+   "price": 109.0,
    "strikethrough": 159.99,
    "asin": "B0DHSD22WP",
    "name": "Trevifontein",
@@ -207,7 +207,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/bltda5fbafc5a35fa4c/21062_Prod.png",
    "age": 18,
    "pieces": 1880,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "21063",
@@ -219,11 +219,11 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blta2a10403bde99e82/21063_Prod_en-gb.png",
    "age": 18,
    "pieces": 3455,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "21064",
-   "price": 60.2,
+   "price": 59.99,
    "strikethrough": 79.99,
    "asin": "B0FPXJ7MGT",
    "name": "Parijs – Stad van de liefde",
@@ -231,7 +231,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt7f0c4925175ed3c0/21064_Prod_en-gb.png",
    "age": 18,
    "pieces": 958,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "21345",
@@ -243,7 +243,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb0d4865e1765d9bc/21345.png",
    "age": 18,
    "pieces": 516,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "21357",
@@ -255,11 +255,11 @@
    "age": 18,
    "pieces": 613,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt9ed8450ea64591dc/21357_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "21366",
-   "price": 83.32,
+   "price": 79.99,
    "strikethrough": 109.99,
    "asin": "B0FPXDCQCV",
    "name": "Drijvende Zeeotters",
@@ -267,7 +267,7 @@
    "age": 18,
    "pieces": 1234,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt5fa64829f3e08bad/blt99f895fe40c0a54a-21366_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "21367",
@@ -279,11 +279,11 @@
    "age": 18,
    "pieces": 1283,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt58a7c9abdca9fe83/blt7f64bcf9a02deb90-21367_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "31161",
-   "price": 44.64,
+   "price": 38.99,
    "strikethrough": 59.99,
    "asin": "B0DHSHL111",
    "name": "Middeleeuwse draak",
@@ -291,7 +291,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt7ad1e67d93d41778/31161_Prod_en-gb.png",
    "age": 9,
    "pieces": 715,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "31165",
@@ -303,11 +303,11 @@
    "age": 8,
    "pieces": 626,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt637c086e666cff92/31165_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "31167",
-   "price": 57.59,
+   "price": 57.98,
    "strikethrough": 89.99,
    "asin": "B0DWDY9WHQ",
    "name": "Spookhuis",
@@ -315,7 +315,7 @@
    "age": 9,
    "pieces": 736,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt61735fb0922b35cc/31167_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "31168",
@@ -327,7 +327,7 @@
    "age": 9,
    "pieces": 1371,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt704380e8e257025f/31168_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "31212",
@@ -339,7 +339,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/bltbbddf9140f849bb9/31212.png",
    "age": 18,
    "pieces": 3091,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "31215",
@@ -351,11 +351,11 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blte22f55d6a533beae/31215_Prod_en-gb.png",
    "age": 18,
    "pieces": 2615,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "31218",
-   "price": 83.99,
+   "price": 89.95,
    "strikethrough": 119.99,
    "asin": "B0FPXFJKPN",
    "name": "Art Landschap met Japanse kersenbloesems",
@@ -363,7 +363,7 @@
    "age": 18,
    "pieces": 1892,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt3f6cace2ff7687c6/31218_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "31386",
@@ -375,7 +375,7 @@
    "age": 9,
    "pieces": 839,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt5aee402dec20f8a9/bltb6ab79e07c83bcf5-31386_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "31387",
@@ -387,7 +387,7 @@
    "age": 9,
    "pieces": 1074,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt1223855066b9b380/blte1f97ee73c17994d-31387_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "31389",
@@ -399,11 +399,11 @@
    "age": 8,
    "pieces": 916,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt9f9a9c0945433fe9/bltda4538cf414fdc36-31389_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42136",
-   "price": 68.53,
+   "price": 71.99,
    "strikethrough": null,
    "asin": "B09RSNZ447",
    "name": "John Deere 9620R 4WD Tractor",
@@ -411,11 +411,11 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0a8d81639354c858/42136.png",
    "age": 8,
    "pieces": 390,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42154",
-   "price": 84.99,
+   "price": 84.0,
    "strikethrough": 119.99,
    "asin": "B0BBRZXX8B",
    "name": "2022 Ford GT",
@@ -423,7 +423,7 @@
    "age": 18,
    "pieces": 1468,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt5014244d8d8dc8ad/42154.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42161",
@@ -435,7 +435,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt43ee5a1d2bc6afe0/42161.png",
    "age": 9,
    "pieces": 806,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42170",
@@ -447,7 +447,7 @@
    "age": 10,
    "pieces": 643,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta83a881921fd4b76/42170.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42171",
@@ -459,7 +459,7 @@
    "age": 18,
    "pieces": 1643,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2d0b04908f20c4fb/42171.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42172",
@@ -471,7 +471,7 @@
    "age": 18,
    "pieces": 3893,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt519dac201a3dd4c1/42172.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42173",
@@ -484,7 +484,7 @@
    "pieces": 801,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc4ee2c0da944140f/42173.png",
    "stock": "out",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42175",
@@ -496,7 +496,7 @@
    "age": 10,
    "pieces": 2274,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt28e79ccdf0659cef/42175_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42176",
@@ -508,7 +508,7 @@
    "age": 10,
    "pieces": 836,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt18f5c5a692b50842/42176.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42177",
@@ -520,11 +520,11 @@
    "age": 18,
    "pieces": 2891,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltcbe6394b9677d5bd/42177_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42179",
-   "price": 59.52,
+   "price": 54.99,
    "strikethrough": 79.99,
    "asin": "B0CFVYHXV5",
    "name": "De Aarde en de Maan in Beweging",
@@ -532,8 +532,7 @@
    "age": 10,
    "pieces": 526,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt09511e795b685260/42179.png",
-   "stock": "out",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42201",
@@ -545,7 +544,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt26518ff52eac988e/42201_Prod_en-gb.png",
    "age": 9,
    "pieces": 413,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42202",
@@ -557,7 +556,8 @@
    "age": 18,
    "pieces": 1603,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8635b7505c107a18/42202_Prod_en-gb.png",
-   "stock": "out"
+   "stock": "out",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42203",
@@ -569,11 +569,11 @@
    "age": 9,
    "pieces": 462,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8e48148bb440da81/42203_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42204",
-   "price": 38.8,
+   "price": 39.99,
    "strikethrough": 59.99,
    "asin": "B0DHSCKXP2",
    "name": "Fast and Furious Toyota Supra MK4",
@@ -581,7 +581,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt11a8473b3fce79f9/42204_Prod.png",
    "age": 9,
    "pieces": 810,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42205",
@@ -593,11 +593,11 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt018fec9e8a7bfdf4/42205_Prod.png",
    "age": 9,
    "pieces": 732,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42206",
-   "price": 159.99,
+   "price": 159.0,
    "strikethrough": 229.99,
    "asin": "B0DHSCHP9P",
    "name": "Oracle Red Bull Racing RB20 F1 Auto",
@@ -605,7 +605,7 @@
    "age": 18,
    "pieces": 1639,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltca542b859ace5383/42206_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "42207",

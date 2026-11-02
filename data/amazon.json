@@ -4662,7 +4662,7 @@
    "age": 6,
    "pieces": 259,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf28881bb9b9dc4cb/60489_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60490",
@@ -4673,7 +4673,8 @@
    "theme": "overig",
    "age": 6,
    "pieces": 263,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb82af482d729cc82/60490_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb82af482d729cc82/60490_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60491",
@@ -4684,11 +4685,12 @@
    "theme": "overig",
    "age": 4,
    "pieces": 88,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt179fb3258b86f3d0/60491_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt179fb3258b86f3d0/60491_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60492",
-   "price": 22.58,
+   "price": 21.16,
    "strikethrough": 29.99,
    "asin": "B0FPXHFCBV",
    "name": "Passagierstoestel",
@@ -4696,7 +4698,7 @@
    "age": 4,
    "pieces": 118,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt436ec5ec60929bcb/bltbf50b6ba2985828a-60492_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60493",
@@ -4708,7 +4710,7 @@
    "age": 7,
    "pieces": 508,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt77407eace9e6911a/60493_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60494",
@@ -4720,12 +4722,12 @@
    "age": 8,
    "pieces": 1132,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt847704be5dc15e1f/blt6045e3b889a69670-60494_Prod_en-gb.png",
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-11-03",
    "stock": "out"
   },
   {
    "set": "60496",
-   "price": 34.95,
+   "price": 37.22,
    "strikethrough": 49.99,
    "asin": "B0FPXF7Q9H",
    "name": "Pizzacentrale met voertuigen",
@@ -4733,11 +4735,11 @@
    "age": 6,
    "pieces": 494,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8d7652ca824f8909/blt0122db24849b46a8-60496_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60497",
-   "price": 37.8,
+   "price": 34.99,
    "strikethrough": 54.99,
    "asin": "B0FPXJ4LLJ",
    "name": "Autowasstraat",
@@ -4745,18 +4747,19 @@
    "age": 6,
    "pieces": 583,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt7c848b40102af953/blt33a2eda4c9d743f2-60497_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60498",
-   "price": 15.95,
+   "price": 13.99,
    "strikethrough": 19.99,
    "asin": "B0FPXGS8Z3",
    "name": "Tractor",
    "theme": "overig",
    "age": 6,
    "pieces": 204,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2fc0d73b9ed92228/60498_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2fc0d73b9ed92228/60498_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60499",
@@ -4768,22 +4771,23 @@
    "age": 7,
    "pieces": 691,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltcb7c92b388c3caa7/60499_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60500",
-   "price": 22.95,
+   "price": 20.99,
    "strikethrough": 29.99,
    "asin": "B0FPXHJ3C2",
    "name": "De LEGO® bestelwagen",
    "theme": "overig",
    "age": 6,
    "pieces": 276,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt40a8e521aa35c2ad/60500_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt40a8e521aa35c2ad/60500_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60504",
-   "price": 75.83,
+   "price": 74.99,
    "strikethrough": 109.99,
    "asin": "B0FPXF8YRH",
    "name": "Kustwacht reddingsboot met helikopter",
@@ -4791,7 +4795,7 @@
    "age": 7,
    "pieces": 742,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf30305d3326ff2af/60504_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60505",
@@ -4803,7 +4807,7 @@
    "age": 7,
    "pieces": 990,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltfa864b4b2110824e/60505_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60506",
@@ -4815,7 +4819,7 @@
    "age": 7,
    "pieces": 693,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0104106c069a5976/blt9b24b376a275fe12-60506_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60508",
@@ -4827,18 +4831,19 @@
    "age": 7,
    "pieces": 1313,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltede96bac05a716d0/60508_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60510",
-   "price": 18.26,
+   "price": 21.59,
    "strikethrough": 26.99,
    "asin": "B0GGSTTS1R",
    "name": "LEGO® City Adventskalender 2026",
    "theme": "overig",
    "age": 5,
    "pieces": 252,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt89ecb458625a72f5/blte2a9ca4bf40536af-60510_Box1_v39_en-us.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt89ecb458625a72f5/blte2a9ca4bf40536af-60510_Box1_v39_en-us.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "60511",
@@ -4850,7 +4855,7 @@
    "age": 7,
    "pieces": 575,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt3c20dfe8449e0184/bltd44a5963267013d3-60511_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71052",
@@ -4861,7 +4866,8 @@
    "theme": "overig",
    "age": 6,
    "pieces": 8,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd96c757178715939/bltb0549d82daa2d4ff-71052_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd96c757178715939/bltb0549d82daa2d4ff-71052_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71053",
@@ -4872,7 +4878,8 @@
    "theme": "overig",
    "age": 6,
    "pieces": 7,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt11defb77b4e145c4/blt4849c1b44cb1dbf6-71053_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt11defb77b4e145c4/blt4849c1b44cb1dbf6-71053_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71441",
@@ -4884,7 +4891,7 @@
    "age": 6,
    "pieces": 208,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltfb41c0e86b783a71/71441.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71492",
@@ -4896,7 +4903,7 @@
    "age": 7,
    "pieces": 443,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt098353f01dc57b9e/71492_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71499",
@@ -4908,8 +4915,7 @@
    "age": 9,
    "pieces": 929,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltbdd48d2c30cca0dc/71499_Prod_en-gb.png",
-   "checkedAt": "2026-10-28",
-   "stock": "out"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71500",
@@ -4921,7 +4927,7 @@
    "age": 9,
    "pieces": 1413,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc374a18928c9cdf8/71500_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71513",
@@ -4933,12 +4939,12 @@
    "age": 7,
    "pieces": 505,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltbe7512c57ea50fe2/71513_Prod_en-gb.png",
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-11-03",
    "stock": "out"
   },
   {
    "set": "71515",
-   "price": 119.99,
+   "price": 124.99,
    "strikethrough": 139.99,
    "asin": "B0FPXG554X",
    "name": "Tijgerhaaitank",
@@ -4946,7 +4952,7 @@
    "age": 9,
    "pieces": 1548,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8705672dafa0cdd8/71515_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71808",
@@ -4958,18 +4964,19 @@
    "age": 7,
    "pieces": 322,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0192c0588136894c/71808.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71826",
-   "price": 15.15,
+   "price": 14.23,
    "strikethrough": 19.99,
    "asin": "B0DHSCC5Q7",
    "name": "Spinjitzu drakenstrijdpakket",
    "theme": "overig",
    "age": 6,
    "pieces": 186,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0f6b5a166cfa4a25/71826_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0f6b5a166cfa4a25/71826_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71828",
@@ -4981,7 +4988,7 @@
    "age": 7,
    "pieces": 181,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt9abebce4362751aa/71828_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71829",
@@ -4992,7 +4999,8 @@
    "theme": "overig",
    "age": 6,
    "pieces": 128,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt97457b5deff61b79/71829_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt97457b5deff61b79/71829_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71830",
@@ -5004,7 +5012,7 @@
    "age": 7,
    "pieces": 333,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt38238bd95f7d6c5d/71830_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71831",
@@ -5016,11 +5024,11 @@
    "age": 4,
    "pieces": 158,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8658c3b995398361/71831_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71834",
-   "price": 64.99,
+   "price": 65.99,
    "strikethrough": 99.99,
    "asin": "B0DHSBH37T",
    "name": "Zane's ultra-combomecha",
@@ -5028,11 +5036,11 @@
    "age": 9,
    "pieces": 1187,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt76506be46cba5e04/71834_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71836",
-   "price": 67.3,
+   "price": 67.29,
    "strikethrough": 99.99,
    "asin": "B0DHSCB8TD",
    "name": "Boogdraak van Concentratie",
@@ -5040,7 +5048,7 @@
    "age": 9,
    "pieces": 869,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt91d399cd13b699b6/71836_prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71839",
@@ -5051,11 +5059,12 @@
    "theme": "overig",
    "age": 7,
    "pieces": 213,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt01cdf2c60583e907/71839_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt01cdf2c60583e907/71839_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71846",
-   "price": 83.57,
+   "price": 79.99,
    "strikethrough": 119.99,
    "asin": "B0DWDQTCRV",
    "name": "De vuurriddermecha",
@@ -5063,7 +5072,7 @@
    "age": 14,
    "pieces": 996,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltbd4be09b55a2a95b/71846_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71847",
@@ -5075,7 +5084,7 @@
    "age": 14,
    "pieces": 1650,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf3d926151472c33c/71847_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71853",
@@ -5086,7 +5095,8 @@
    "theme": "overig",
    "age": 4,
    "pieces": 107,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt273017c67b5d6a4b/71853_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt273017c67b5d6a4b/71853_Prod.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71854",
@@ -5098,7 +5108,7 @@
    "age": 7,
    "pieces": 364,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt679981dad8d2f71e/71854_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71856",
@@ -5110,7 +5120,7 @@
    "age": 8,
    "pieces": 387,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt40f371ab3978696c/71856_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71857",
@@ -5122,11 +5132,11 @@
    "age": 7,
    "pieces": 642,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt968dd9c2176f49ef/71857_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71858",
-   "price": 70.0,
+   "price": 69.99,
    "strikethrough": 99.99,
    "asin": "B0FPXCSQ6V",
    "name": "15-jarig jubileum: Smederij De Vier Wapens",
@@ -5134,7 +5144,7 @@
    "age": 14,
    "pieces": 1259,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt79eb1e27fdb30cc6/71858_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71859",
@@ -5146,7 +5156,7 @@
    "age": 9,
    "pieces": 1050,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt55cbf25c777dd296/71859_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71860",
@@ -5158,18 +5168,19 @@
    "age": 14,
    "pieces": 1293,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt609389066eb25032/71860_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71862",
-   "price": 7.52,
+   "price": 8.99,
    "strikethrough": 9.99,
    "asin": "B0FPXFP95Z",
    "name": "Lloyds drakenmecha strijdpakket",
    "theme": "overig",
    "age": 6,
    "pieces": 81,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt31fa443e486f0de5/blt36509e5a33aa3598-71862_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt31fa443e486f0de5/blt36509e5a33aa3598-71862_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71863",
@@ -5181,7 +5192,7 @@
    "age": 7,
    "pieces": 232,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltcd55a8e48ba2dfbd/blt3d7c15f7cd3fbd7b-71863_Prod_en-gb.png",
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-11-03",
    "stock": "out"
   },
   {
@@ -5194,7 +5205,7 @@
    "age": 14,
    "pieces": 691,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb06033460fa2b23f/blt79894081d06b9e54-71867_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71868",
@@ -5206,11 +5217,11 @@
    "age": 9,
    "pieces": 821,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt70009e00006fc806/blt122ca73dce6af4fb-71868_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71869",
-   "price": 97.47,
+   "price": 96.99,
    "strikethrough": 129.99,
    "asin": "B0FPXDTTPC",
    "name": "Land-Bounty",
@@ -5218,8 +5229,7 @@
    "age": 9,
    "pieces": 1214,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8dd8ede44a3ecac1/blt2708d07997a9387e-71869_Prod_en-gb.png",
-   "checkedAt": "2026-10-28",
-   "stock": "out"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71870",
@@ -5231,11 +5241,11 @@
    "age": 12,
    "pieces": 1707,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf60e7d22f7473b49/bltb3acc6e016e85676-71870_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71871",
-   "price": 62.99,
+   "price": 61.99,
    "strikethrough": 89.99,
    "asin": "B0FPXG1KY3",
    "name": "Strijd bij het Drakenzwaard",
@@ -5243,7 +5253,7 @@
    "age": 9,
    "pieces": 1016,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt65f309fef250a79b/blt6e3b5c4a46f9e0c5-71871_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "71872",

@@ -5265,7 +5265,7 @@
    "age": 12,
    "pieces": 2178,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb895347975e9b56e/blt6c6d8825f3ae31df-71872_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "72050",
@@ -5277,7 +5277,8 @@
    "age": 18,
    "pieces": 2234,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8b9de9e7d31005f9/72050_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "72051",
@@ -5289,7 +5290,7 @@
    "age": 18,
    "pieces": 1367,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt40ba11f38226fc58/72051_Prod.png",
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-11-03",
    "stock": "out"
   },
   {
@@ -5302,7 +5303,7 @@
    "age": 7,
    "pieces": 215,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt45a3f479c8d95dce/75372.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75394",
@@ -5314,18 +5315,19 @@
    "age": 10,
    "pieces": 1555,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb6f5dfaf01195072/75394_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75400",
-   "price": 10.99,
+   "price": 9.99,
    "strikethrough": 14.99,
    "asin": "B0DWDJVSVG",
    "name": "Plo Koons Jedi Starfighter™ microfighter",
    "theme": "overig",
    "age": 6,
    "pieces": 89,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd18c0e5a8d1cc2db/75400_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd18c0e5a8d1cc2db/75400_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75403",
@@ -5337,11 +5339,11 @@
    "age": 10,
    "pieces": 1048,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt15f914b936f5b57a/75403_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75407",
-   "price": 52.46,
+   "price": 49.99,
    "strikethrough": 69.99,
    "asin": "B0DHSFZHLN",
    "name": "Star Wars™ logo",
@@ -5349,7 +5351,7 @@
    "age": 18,
    "pieces": 700,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt9ae67d7d9f7f24cc/75407_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75408",
@@ -5361,7 +5363,7 @@
    "age": 18,
    "pieces": 616,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt855daa4a629583f3/75408_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75410",
@@ -5373,18 +5375,19 @@
    "age": 4,
    "pieces": 92,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltfc8f5b203cd252ca/75410_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75412",
-   "price": 13.64,
+   "price": 13.51,
    "strikethrough": 19.99,
    "asin": "B0DWF1N45H",
    "name": "Death Trooper en Night Trooper Battle Pack",
    "theme": "overig",
    "age": 6,
    "pieces": 119,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt4b92bb842cd8561f/75412_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt4b92bb842cd8561f/75412_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75414",
@@ -5395,7 +5398,8 @@
    "theme": "overig",
    "age": 7,
    "pieces": 349,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt833d87a2b9baebda/75414_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt833d87a2b9baebda/75414_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75416",
@@ -5407,11 +5411,11 @@
    "age": 10,
    "pieces": 1039,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt01e041de08bd7aa0/75416_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75419",
-   "price": 949.0,
+   "price": 929.0,
    "strikethrough": 999.99,
    "asin": "B0FPXFMGVT",
    "name": "Death Star™",
@@ -5419,7 +5423,7 @@
    "age": 18,
    "pieces": 9023,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt725a94446f56dbe2/75419_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75428",
@@ -5431,7 +5435,7 @@
    "age": 12,
    "pieces": 1088,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt5677559d5974a4f3/75428_Prod_en-gb.png",
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-11-03",
    "stock": "out"
   },
   {
@@ -5444,33 +5448,35 @@
    "age": 9,
    "pieces": 567,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt28d411b5749c5e6e/75432_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75437",
-   "price": 21.99,
+   "price": 19.98,
    "strikethrough": 29.99,
    "asin": "B0FPXCTW4P",
    "name": "Cobb Vanths speeder",
    "theme": "overig",
    "age": 7,
    "pieces": 207,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt74204d585275936e/75437_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt74204d585275936e/75437_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75443",
-   "price": 14.99,
+   "price": 13.97,
    "strikethrough": 19.99,
    "asin": "B0FPXFP3PP",
    "name": "Grogu's thuis",
    "theme": "overig",
    "age": 4,
    "pieces": 107,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5cfc120f8db94ad2/75443_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5cfc120f8db94ad2/75443_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75444",
-   "price": 29.24,
+   "price": 29.22,
    "strikethrough": 44.99,
    "asin": "B0FPXF2J99",
    "name": "AT-RT™ aanval",
@@ -5478,7 +5484,7 @@
    "age": 7,
    "pieces": 297,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt043955a8ee1e2706/blt1a085f1ef4d5c931-75444_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75445",
@@ -5490,7 +5496,7 @@
    "age": 9,
    "pieces": 701,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8ff7e21f8488b900/75445_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75446",
@@ -5502,29 +5508,31 @@
    "age": 10,
    "pieces": 1200,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb65ce1284755d194/blta8d62a90e62e020c-75446_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75448",
-   "price": 11.13,
+   "price": 11.12,
    "strikethrough": 14.99,
    "asin": "B0FPXGJKCG",
    "name": "Clone Shock Trooper™ mecha",
    "theme": "overig",
    "age": 6,
    "pieces": 151,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte3c4366369f7bc63/75448_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte3c4366369f7bc63/75448_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75449",
-   "price": 13.85,
+   "price": 13.84,
    "strikethrough": 19.99,
    "asin": "B0FPXDBMC9",
    "name": "Beleg van Mandalore Battle Pack",
    "theme": "overig",
    "age": 6,
    "pieces": 116,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0fdf83e6bf4515e8/75449_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0fdf83e6bf4515e8/75449_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75451",
@@ -5536,11 +5544,11 @@
    "age": 9,
    "pieces": 415,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltcbdf08565d92df57/75451_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75452",
-   "price": 59.99,
+   "price": 56.99,
    "strikethrough": 89.99,
    "asin": "B0FPXFW6PM",
    "name": "BB-8™ Astromech Droid",
@@ -5548,11 +5556,11 @@
    "age": 10,
    "pieces": 569,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltaeaf94035320fce0/75452_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75456",
-   "price": 25.21,
+   "price": 23.58,
    "strikethrough": 34.99,
    "asin": "B0GGSK4J2N",
    "name": "LEGO® Star Wars™ Adventskalender 2026",
@@ -5560,29 +5568,31 @@
    "age": 6,
    "pieces": 293,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc5633fee6fa8abc1/blt691e598d84db744d-75456_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75636",
-   "price": 21.99,
+   "price": 21.95,
    "strikethrough": 29.99,
    "asin": "B0DWDRZQYP",
    "name": "Hut in Windmolendorp",
    "theme": "overig",
    "age": 8,
    "pieces": 299,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0feb85637d359729/75636_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0feb85637d359729/75636_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75641",
-   "price": 23.71,
+   "price": 23.69,
    "strikethrough": 29.99,
    "asin": "B0GGPBWL13",
    "name": "De schuilplaats van Dr. Hiriluk",
    "theme": "overig",
    "age": 9,
    "pieces": 271,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt59758844342bc6b4/blt8bb61c22405ce956-75641_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt59758844342bc6b4/blt8bb61c22405ce956-75641_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75644",
@@ -5594,7 +5604,7 @@
    "age": 9,
    "pieces": 733,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta76bbeaec518a27c/75644_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75645",
@@ -5606,7 +5616,7 @@
    "age": 9,
    "pieces": 1038,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb82af25ae4f0e82b/blt6411630c5fe4ea67-75645_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75646",
@@ -5618,12 +5628,11 @@
    "age": 9,
    "pieces": 1705,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt42c8b85302b0039f/blt1bcd427fbf52cb6e-75646_Prod_en-gb.png",
-   "checkedAt": "2026-10-28",
-   "stock": "out"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75684",
-   "price": 75.99,
+   "price": 74.86,
    "strikethrough": 99.99,
    "asin": "B0CWH1W3XF",
    "name": "Welkom in Emerald City",
@@ -5631,7 +5640,7 @@
    "age": 9,
    "pieces": 945,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8733175bceb3eb21/75684_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75685",
@@ -5643,7 +5652,7 @@
    "age": 18,
    "pieces": 1518,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt6cb8355ed4a686b5/75685_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "75687",
@@ -5654,7 +5663,9 @@
    "theme": "overig",
    "age": 7,
    "pieces": 228,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0a108775484ca5af/75687_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0a108775484ca5af/75687_Prod_en-gb.png",
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "76303",
@@ -5666,7 +5677,8 @@
    "age": 8,
    "pieces": 429,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt6f3ee52e95ff88f6/76303_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "76304",
@@ -5678,7 +5690,8 @@
    "age": 12,
    "pieces": 909,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltadc1db6fcaf2a3ad/76304_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "76307",
@@ -5689,7 +5702,9 @@
    "theme": "overig",
    "age": 6,
    "pieces": 101,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt43b12ae3fe64c2ca/76307_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt43b12ae3fe64c2ca/76307_Prod_en-gb.png",
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "76308",
@@ -5700,7 +5715,9 @@
    "theme": "overig",
    "age": 6,
    "pieces": 107,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt329716dcd71e652a/76308_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt329716dcd71e652a/76308_Prod_en-gb.png",
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "76309",
@@ -5712,11 +5729,12 @@
    "age": 7,
    "pieces": 254,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte9af60604dfa1359/76309_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "76315",
-   "price": 45.99,
+   "price": 39.99,
    "strikethrough": 54.99,
    "asin": "B0DHSDK7GR",
    "name": "Iron Mans laboratorium: harnasruimte",
@@ -5724,7 +5742,7 @@
    "age": 8,
    "pieces": 384,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt52605e2f8ad36100/76315_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76316",
@@ -5736,7 +5754,8 @@
    "age": 9,
    "pieces": 427,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt7b60d9815f14e762/76316_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "76319",
@@ -5748,7 +5767,7 @@
    "age": 4,
    "pieces": 107,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltcd2dffb9f234ca4e/76319_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76320",
@@ -5759,7 +5778,9 @@
    "theme": "overig",
    "age": 7,
    "pieces": 204,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt432d46fc27e0198a/76320_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt432d46fc27e0198a/76320_Prod.png",
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "76322",
@@ -5771,7 +5792,7 @@
    "age": 8,
    "pieces": 373,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt4eadbda3e25bb536/76322_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76327",
@@ -5783,11 +5804,12 @@
    "age": 18,
    "pieces": 436,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltfa071cc60deb491e/76327_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "76330",
-   "price": 55.71,
+   "price": 54.99,
    "strikethrough": 79.99,
    "asin": "B0FPXD2Y9T",
    "name": "Batman™ logo",
@@ -5795,7 +5817,7 @@
    "age": 12,
    "pieces": 678,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltff7d13b0a317c0a6/76330_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76331",
@@ -5807,7 +5829,7 @@
    "age": 9,
    "pieces": 220,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt317e9db487b5d4a2/76331_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76332",
@@ -5819,29 +5841,31 @@
    "age": 9,
    "pieces": 330,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltabe47b64c2db06e9/76332_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76336",
-   "price": 15.29,
+   "price": 16.95,
    "strikethrough": 19.99,
    "asin": "B0FPXLGSNX",
    "name": "Spider-Man auto vs. Venomized Wolverine",
    "theme": "overig",
    "age": 7,
    "pieces": 134,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte4034fd5a66d2eb3/76336_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte4034fd5a66d2eb3/76336_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76337",
-   "price": 11.14,
+   "price": 12.99,
    "strikethrough": 14.99,
    "asin": "B0FPXGZQ1Y",
    "name": "Miles Morales mecha vs. Spider-Man 2099",
    "theme": "overig",
    "age": 6,
    "pieces": 135,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt071362fc54fbb4e1/76337_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt071362fc54fbb4e1/76337_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76338",

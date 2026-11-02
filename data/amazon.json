@@ -1814,14 +1814,15 @@
   },
   {
    "set": "10425",
-   "price": 15.06,
+   "price": 13.57,
    "strikethrough": 19.99,
    "asin": "B07BT3WM3H",
    "name": "Treintunnel en rails uitbreidingsset",
    "theme": "overig",
    "age": 2,
    "pieces": 20,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blta3cce6ceb668d3d8/10425_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blta3cce6ceb668d3d8/10425_Prod.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10426",
@@ -1833,7 +1834,7 @@
    "age": 2,
    "pieces": 42,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt5f1fdf8ff555a113/10426_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10427",
@@ -1845,7 +1846,7 @@
    "age": 2,
    "pieces": 57,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte31178c2a972fcc4/10427_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10428",
@@ -1857,18 +1858,19 @@
    "age": 3,
    "pieces": 103,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltfb5fdc7f04c6a3cb/10428_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10441",
-   "price": 23.95,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B0DWDT3Y89",
    "name": "Vormenstoof: puppyhuis",
    "theme": "overig",
    "age": 1.5,
    "pieces": 17,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt9931a7468a165282/10441_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9931a7468a165282/10441_Prod_en-gb.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10443",
@@ -1880,7 +1882,7 @@
    "age": 2,
    "pieces": 23,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2aeb6f67b90d68e0/10443_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10444",
@@ -1891,7 +1893,8 @@
    "theme": "overig",
    "age": 2,
    "pieces": 45,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0091f3c770a82a07/10444_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0091f3c770a82a07/10444_Prod.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10445",
@@ -1903,7 +1906,7 @@
    "age": 2,
    "pieces": 70,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb75b09d7abde4975/10445_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10446",
@@ -1915,19 +1918,20 @@
    "age": 2,
    "pieces": 92,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt6fe2ac21bb0d40fe/10446_Prod.png",
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-11-02",
    "stock": "out"
   },
   {
    "set": "10447",
-   "price": 16.99,
+   "price": 14.41,
    "strikethrough": 19.99,
    "asin": "B00CYH1VLY",
    "name": "Ambulance met chauffeur",
    "theme": "overig",
    "age": 2,
    "pieces": 19,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt3e82907e97f51fc6/10447_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt3e82907e97f51fc6/10447_Prod_en-gb.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10448",
@@ -1939,11 +1943,11 @@
    "age": 2,
    "pieces": 58,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0b2305932c28001d/10448_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10450",
-   "price": 27.99,
+   "price": 25.89,
    "strikethrough": 39.99,
    "asin": "B0DWDSMBYH",
    "name": "Hopsy's kasteelspel",
@@ -1951,7 +1955,7 @@
    "age": 3,
    "pieces": 47,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltd1080925ad0a700b/10450_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10452",
@@ -1962,7 +1966,8 @@
    "theme": "overig",
    "age": 2,
    "pieces": 32,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt386de822ec4f8e34/10452_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt386de822ec4f8e34/10452_Prod_en-gb.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10453",
@@ -1974,7 +1979,7 @@
    "age": 2,
    "pieces": 53,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf3cfaefcf9a961a6/10453_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10456",
@@ -1986,11 +1991,12 @@
    "age": 2,
    "pieces": 35,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt134c41fec4d12535/10456_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02",
+   "stock": "out"
   },
   {
    "set": "10458",
-   "price": 21.77,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B0DWF16F36",
    "name": "Een ijsje halen met Bluey",
@@ -1998,11 +2004,11 @@
    "age": 2,
    "pieces": 22,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt1ff20da0419cb6ac/10458_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10459",
-   "price": 52.49,
+   "price": 49.99,
    "strikethrough": 69.99,
    "asin": "B0DWDTQ44X",
    "name": "Huis van Bluey en haar familie met geheugenspel",
@@ -2010,29 +2016,31 @@
    "age": 3,
    "pieces": 83,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltca35daee82228bdd/10459_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10462",
-   "price": 15.29,
+   "price": 14.99,
    "strikethrough": 19.99,
    "asin": "B01N9DA50W",
    "name": "Frozen creatieve doos met Elsa en Olaf",
    "theme": "overig",
    "age": 2,
    "pieces": 37,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf03ea3cd1c79de7d/blteed6450f808f83fc-10462_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf03ea3cd1c79de7d/blteed6450f808f83fc-10462_Prod_en-gb.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10463",
-   "price": 15.99,
+   "price": 13.99,
    "strikethrough": 19.99,
    "asin": "B01N0MJBWN",
    "name": "Dinosaurus Spidey-Rex vs. Green Goblin",
    "theme": "overig",
    "age": 2,
    "pieces": 25,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt763e88fc87fa0f63/10463_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt763e88fc87fa0f63/10463_Prod.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10464",
@@ -2044,11 +2052,11 @@
    "age": 2,
    "pieces": 65,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt30bd786747465e69/blt24dd7c37b60921a8-10464_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10465",
-   "price": 39.95,
+   "price": 31.99,
    "strikethrough": 49.99,
    "asin": "B01N0MJFXL",
    "name": "Mickey Mouse clubhuis met Minnie en Pluto",
@@ -2056,7 +2064,7 @@
    "age": 2,
    "pieces": 87,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltae6d8e889c05d8e2/10465_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10467",
@@ -2068,7 +2076,7 @@
    "age": 2,
    "pieces": 84,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb09d770a22148a18/blt85689746e54b83e6-10467_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10468",
@@ -2079,11 +2087,12 @@
    "theme": "overig",
    "age": 2,
    "pieces": 18,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb29462431e02ee08/bltc828f617af3c7f85-10468_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb29462431e02ee08/bltc828f617af3c7f85-10468_Prod_en-gb.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10470",
-   "price": 58.99,
+   "price": 47.99,
    "strikethrough": 79.99,
    "asin": "B0FPXDPTP6",
    "name": "3-in-1 modern woonhuis met figuren",
@@ -2091,7 +2100,7 @@
    "age": 2,
    "pieces": 166,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt15d1a99be79bc16c/10470_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10471",
@@ -2102,7 +2111,8 @@
    "theme": "overig",
    "age": 2,
    "pieces": 11,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blted818cbf57497ab5/10471_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blted818cbf57497ab5/10471_Prod_en-gb.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10473",
@@ -2114,18 +2124,19 @@
    "age": 2,
    "pieces": 28,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta15b2a389de169db/10473_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10474",
-   "price": 16.95,
+   "price": 13.99,
    "strikethrough": 19.99,
    "asin": "B0FPXFGZ25",
    "name": "Creatieve voertuigen",
    "theme": "overig",
    "age": 1.5,
    "pieces": 42,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt775c136488d98b75/10474_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt775c136488d98b75/10474_Prod_en-gb.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10475",
@@ -2137,7 +2148,8 @@
    "age": 2,
    "pieces": 22,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt1771aa90c58d7edc/10475_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02",
+   "stock": "out"
   },
   {
    "set": "10478",
@@ -2149,7 +2161,7 @@
    "age": 3,
    "pieces": 111,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2875d4d4a01d3bce/blt089ab96e431c2cf3-10478_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10480",
@@ -2161,18 +2173,19 @@
    "age": 3,
    "pieces": 131,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb2f2d83a041b1c62/blt290f773f4fa00d0c-10480_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10696",
-   "price": 18.95,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B00NVDP3ZU",
    "name": "LEGO® Classic Creatieve medium opbergdoos",
    "theme": "overig",
    "age": 4,
    "pieces": 484,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2886b057b7c0913f/10696_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2886b057b7c0913f/10696_Prod.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10698",
@@ -2184,18 +2197,19 @@
    "age": 4,
    "pieces": 790,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf7601db33f12c491/10698_box1_na.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10713",
-   "price": 15.99,
+   "price": 13.99,
    "strikethrough": 19.99,
    "asin": "B075GQ87PV",
    "name": "LEGO® Creatieve koffer",
    "theme": "overig",
    "age": 4,
    "pieces": 213,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbcfcf384c7e75fd6/10713_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbcfcf384c7e75fd6/10713_Prod.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10788",
@@ -2207,7 +2221,7 @@
    "age": 4,
    "pieces": 498,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltd72eccb2d4ece270/10788.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10913",
@@ -2219,7 +2233,7 @@
    "age": 1.5,
    "pieces": 65,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte88e29b40e206dc1/10913.jpg",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10914",
@@ -2231,7 +2245,7 @@
    "age": 1.5,
    "pieces": 85,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt9af342aa5b220e2c/10914_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10941",
@@ -2243,7 +2257,7 @@
    "age": 2,
    "pieces": 22,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta1999c7058f17ae7/10941_alt2.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10954",
@@ -2254,11 +2268,13 @@
    "theme": "overig",
    "age": 1.5,
    "pieces": 23,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt4cd999af64e1f8c8/10954.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt4cd999af64e1f8c8/10954.png",
+   "checkedAt": "2026-11-02",
+   "stock": "out"
   },
   {
    "set": "11036",
-   "price": 37.99,
+   "price": 38.3,
    "strikethrough": 54.99,
    "asin": "B0CFW22SBY",
    "name": "Creatieve voertuigen",
@@ -2266,7 +2282,7 @@
    "age": 5,
    "pieces": 900,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2e65c0cc0597c8dc/11036.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "11039",
@@ -2277,7 +2293,8 @@
    "theme": "overig",
    "age": 4,
    "pieces": 150,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbcf6800ec3ecdfb6/11039_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbcf6800ec3ecdfb6/11039_Prod_en-gb.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "11040",
@@ -2288,7 +2305,9 @@
    "theme": "overig",
    "age": 5,
    "pieces": 340,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5cd3877eb53009bf/11040_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5cd3877eb53009bf/11040_Prod.png",
+   "checkedAt": "2026-11-02",
+   "stock": "out"
   },
   {
    "set": "11041",
@@ -2300,7 +2319,7 @@
    "age": 5,
    "pieces": 450,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt98193aee9d65cc20/11041_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "11045",
@@ -2312,18 +2331,19 @@
    "age": 5,
    "pieces": 820,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt97ecb8248913cc79/bltf57afbfafe31c236-11045_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "11198",
-   "price": 15.99,
+   "price": 16.95,
    "strikethrough": 19.99,
    "asin": "B0DHSB8HP8",
    "name": "Spin en Electro achtervolging met dinosaurusvoertuigen",
    "theme": "overig",
    "age": 4,
    "pieces": 124,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5e596d7c2a69c00a/11198_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5e596d7c2a69c00a/11198_Prod_en-gb.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "11200",
@@ -2335,7 +2355,7 @@
    "age": 4,
    "pieces": 143,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt7ad4fdb403be30e6/11200_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "11201",

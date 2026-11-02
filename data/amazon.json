@@ -3212,7 +3212,7 @@
    "age": 9,
    "pieces": 542,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltbf6cbcbb8ff1610b/31385_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31390",
@@ -3224,11 +3224,11 @@
    "age": 8,
    "pieces": 348,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt63b4cb7d243cad55/blt53b23092155d2118-31390_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31391",
-   "price": 23.99,
+   "price": 20.99,
    "strikethrough": 29.99,
    "asin": "B0FPXHJT5K",
    "name": "Stijlvolle tas met opbergruimte",
@@ -3236,8 +3236,7 @@
    "age": 8,
    "pieces": 272,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltbb8273a69199cc15/blt2a21d3800a5cad38-31391_Prod_en-gb.png",
-   "checkedAt": "2026-10-28",
-   "stock": "out"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31392",
@@ -3249,7 +3248,7 @@
    "age": 9,
    "pieces": 485,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta6a2a7863e935b86/bltb56717c20a5cd496-31392_Prod_en-gb.png",
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-11-03",
    "stock": "out"
   },
   {
@@ -3262,29 +3261,31 @@
    "age": 8,
    "pieces": 657,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0a409927c14e2687/31393_Resize.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40460",
-   "price": 11.99,
+   "price": 9.95,
    "strikethrough": 14.99,
    "asin": "B0FPXH3K4K",
    "name": "Rozen",
    "theme": "overig",
    "age": 8,
    "pieces": 120,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt72c6ccfea328f822/40460_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt72c6ccfea328f822/40460_Prod.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40524",
-   "price": 12.98,
+   "price": 12.0,
    "strikethrough": 14.99,
    "asin": "B0CTH5826C",
    "name": "Zonnebloemen",
    "theme": "overig",
    "age": 8,
    "pieces": 191,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blteb14e8c6c9e027df/40524.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blteb14e8c6c9e027df/40524.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40638",
@@ -3295,18 +3296,20 @@
    "theme": "overig",
    "age": 9,
    "pieces": 254,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2b016d5b4a954e0e/40638.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2b016d5b4a954e0e/40638.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40725",
-   "price": 10.99,
+   "price": 9.95,
    "strikethrough": 14.99,
    "asin": "B0D4YFDPPP",
    "name": "Kersenbloesems",
    "theme": "overig",
    "age": 8,
    "pieces": 430,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf876ca701fbacd4a/40725.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf876ca701fbacd4a/40725.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40743",
@@ -3318,29 +3321,31 @@
    "age": 12,
    "pieces": 433,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt6cc18cd0dcc98749/40743_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40807",
-   "price": 15.99,
+   "price": 13.99,
    "strikethrough": 19.99,
    "asin": "B01G4Z6E6S",
    "name": "Verjaardagscijfers",
    "theme": "overig",
    "age": 6,
    "pieces": 281,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd17654b005c0da83/40807_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd17654b005c0da83/40807_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40808",
-   "price": 9.49,
+   "price": 8.99,
    "strikethrough": 12.99,
    "asin": "B0F7Y5JZST",
    "name": "Eieren zoeken met konijn en kuiken",
    "theme": "overig",
    "age": 8,
    "pieces": 140,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt803144abe1cfa375/40808_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt803144abe1cfa375/40808_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40811",
@@ -3351,18 +3356,20 @@
    "theme": "overig",
    "age": 9,
    "pieces": 231,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt9033eed44bb9de71/40811_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9033eed44bb9de71/40811_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40812",
-   "price": 10.93,
+   "price": 8.78,
    "strikethrough": 12.99,
    "asin": "B0FTWZCZM9",
    "name": "Sneeuwpopornamenten",
    "theme": "overig",
    "age": 6,
    "pieces": 168,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbf73c0b586db9e8c/40812_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbf73c0b586db9e8c/40812_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40813",
@@ -3374,11 +3381,11 @@
    "age": 9,
    "pieces": 280,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2a16cd2101cabe10/40813_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40814",
-   "price": 23.99,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B0FFNTTDLK",
    "name": "Babyolifantje",
@@ -3386,33 +3393,35 @@
    "age": 18,
    "pieces": 402,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltde4f8a80c59a7e86/40814_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40815",
-   "price": 13.99,
+   "price": 9.99,
    "strikethrough": 14.99,
    "asin": "B0FHKYPTQB",
    "name": "Verjaardagstaart",
    "theme": "overig",
    "age": 7,
    "pieces": 219,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt45d19bc03e1446b5/40815_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt45d19bc03e1446b5/40815_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40816",
-   "price": 13.85,
+   "price": 11.99,
    "strikethrough": 19.99,
    "asin": "B0F7Y2YQYW",
    "name": "Paasei versieren",
    "theme": "overig",
    "age": 9,
    "pieces": 386,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5b5a06f12bb7094a/40816_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5b5a06f12bb7094a/40816_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40820",
-   "price": 45.85,
+   "price": 43.65,
    "strikethrough": 59.99,
    "asin": "B0FTX2GX3N",
    "name": "Grote minifiguur van de Kerstman",
@@ -3420,18 +3429,19 @@
    "age": 10,
    "pieces": 761,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc307fd1f5230e03d/40820_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40822",
-   "price": 13.35,
+   "price": 14.49,
    "strikethrough": 14.99,
    "asin": "B0F6KF3V7Y",
    "name": "Griezelpompoentruck",
    "theme": "overig",
    "age": 8,
    "pieces": 177,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc3afbcd8626474fb/40822_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc3afbcd8626474fb/40822_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "40825",
@@ -3443,7 +3453,7 @@
    "age": 12,
    "pieces": 617,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt43e116a81cdae61f/40825_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42198",
@@ -3454,11 +3464,13 @@
    "theme": "overig",
    "age": 8,
    "pieces": 333,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt6daa4e871b262b93/42198_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt6daa4e871b262b93/42198_Prod_en-gb.png",
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "42199",
-   "price": 19.35,
+   "price": 19.95,
    "strikethrough": 27.99,
    "asin": "B0DHS9F966",
    "name": "Monster Jam™ DIGatron™ pull-back",
@@ -3466,7 +3478,7 @@
    "age": 7,
    "pieces": 218,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt499be3baeb0512f3/42199_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42220",
@@ -3478,7 +3490,7 @@
    "age": 7,
    "pieces": 243,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2d2c8515bbd2612b/42220_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42232",
@@ -3490,23 +3502,24 @@
    "age": 18,
    "pieces": 4104,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltdd490f7023a9625c/blt115568a63fa37862-42232_Prod.png",
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-11-03",
    "stock": "out"
   },
   {
    "set": "42644",
-   "price": 14.99,
+   "price": 15.29,
    "strikethrough": 19.99,
    "asin": "B0DHSC6V47",
    "name": "Heartlake City ijscotruck",
    "theme": "overig",
    "age": 4,
    "pieces": 92,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltdeafb1cfa21a8a34/42644_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltdeafb1cfa21a8a34/42644_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42649",
-   "price": 21.15,
+   "price": 20.99,
    "strikethrough": 29.99,
    "asin": "B0DHSC3KNH",
    "name": "Heartlake City snoepwinkel",
@@ -3514,11 +3527,11 @@
    "age": 6,
    "pieces": 376,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte6e15d7bc21b3418/42649_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42650",
-   "price": 29.69,
+   "price": 27.99,
    "strikethrough": 39.99,
    "asin": "B0DHSC7GCQ",
    "name": "Winkel met dierenaccessoires",
@@ -3526,7 +3539,7 @@
    "age": 6,
    "pieces": 375,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc3b94af9fe07e002/42650_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42652",
@@ -3538,22 +3551,23 @@
    "age": 8,
    "pieces": 701,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltd444170cf7873fd8/42652_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42659",
-   "price": 14.99,
+   "price": 14.13,
    "strikethrough": 19.99,
    "asin": "B0DWF19W2S",
    "name": "Samen op roadtrip",
    "theme": "overig",
    "age": 6,
    "pieces": 220,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltb290b887bee1f7b5/42659_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltb290b887bee1f7b5/42659_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42661",
-   "price": 29.8,
+   "price": 26.99,
    "strikethrough": 39.99,
    "asin": "B0DWDY7DTQ",
    "name": "Verkleedfeestje met eenhoorn en fee",
@@ -3561,7 +3575,7 @@
    "age": 6,
    "pieces": 261,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc4ae14396c13ffa2/42661_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42663",
@@ -3573,7 +3587,7 @@
    "age": 7,
    "pieces": 778,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt39ef16d4b25a0630/42663_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42664",
@@ -3585,7 +3599,7 @@
    "age": 8,
    "pieces": 685,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0ed38f292438868d/42664_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42666",
@@ -3597,7 +3611,7 @@
    "age": 6,
    "pieces": 321,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte8849793b8c95f2f/42666_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42671",
@@ -3609,7 +3623,7 @@
    "age": 9,
    "pieces": 1138,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt654cf742adb57908/42671_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42673",
@@ -3621,22 +3635,23 @@
    "age": 8,
    "pieces": 1140,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc87eae92abe73051/42673_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42676",
-   "price": 20.99,
+   "price": 20.39,
    "strikethrough": 29.99,
    "asin": "B0FPXGQ1DK",
    "name": "Leuke dag in het waterpark",
    "theme": "overig",
    "age": 6,
    "pieces": 278,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltda2ce669481b384e/blt1d57699e4638d2a7-42676_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltda2ce669481b384e/blt1d57699e4638d2a7-42676_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42677",
-   "price": 21.8,
+   "price": 19.99,
    "strikethrough": 29.99,
    "asin": "B0FPXF1CJ5",
    "name": "Bakkerij voor hondensnacks",
@@ -3644,29 +3659,31 @@
    "age": 6,
    "pieces": 278,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf0ef036de4da3c89/42677_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42678",
-   "price": 14.84,
+   "price": 14.1,
    "strikethrough": 19.99,
    "asin": "B0FPXF1CG6",
    "name": "Bestelwagen met dierenaccessoires",
    "theme": "overig",
    "age": 6,
    "pieces": 237,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0e4af1cda184b1ed/42678_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0e4af1cda184b1ed/42678_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42679",
-   "price": 18.74,
+   "price": 17.64,
    "strikethrough": 24.99,
    "asin": "B0FPVRWS6R",
    "name": "Heartlake City konijnenhotel",
    "theme": "overig",
    "age": 5,
    "pieces": 161,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5e7ce981741c817c/42679_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5e7ce981741c817c/42679_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "42680",

@@ -1219,7 +1219,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt25bc5b8dc7d77c0b/75639_Prod_en-gb.png",
    "age": 10,
    "pieces": 1376,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76348",
@@ -1231,7 +1231,7 @@
    "age": 9,
    "pieces": 846,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2de82c4e5e80b0d9/blte08480224b17a8b6-76348_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76419",
@@ -1243,7 +1243,7 @@
    "age": 18,
    "pieces": 2660,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte09f96efc93d5c1d/76419.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76444",
@@ -1255,7 +1255,7 @@
    "age": 18,
    "pieces": 2750,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta8d5b7c13b5a3a81/76444_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76446",
@@ -1267,7 +1267,7 @@
    "age": 8,
    "pieces": 499,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta9bc0a58cabf6ae2/76446_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76447",
@@ -1279,7 +1279,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/bltca42229884f56fed/76447_Prod_en-gb.png",
    "age": 9,
    "pieces": 651,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-11-02",
    "stock": "out"
   },
   {
@@ -1292,7 +1292,7 @@
    "age": 9,
    "pieces": 518,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt190aaf13d851f58d/76449_Prod_en-gb.png",
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-11-02",
    "stock": "out"
   },
   {
@@ -1305,11 +1305,11 @@
    "age": 10,
    "pieces": 832,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt86a28c5596668d3b/76450_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76451",
-   "price": 61.99,
+   "price": 55.99,
    "strikethrough": 89.99,
    "asin": "B0DWDSPKLS",
    "name": "Ligusterlaan: bezoek van tante Margot",
@@ -1317,7 +1317,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt8536053b62de88b1/76451_Prod_en-gb.png",
    "age": 8,
    "pieces": 639,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76452",
@@ -1329,12 +1329,11 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt588dbe2bbaeab7b8/76452_Prod_en-gb.png",
    "age": 8,
    "pieces": 795,
-   "checkedAt": "2026-10-28",
-   "stock": "out"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76454",
-   "price": 170.0,
+   "price": 154.99,
    "strikethrough": 249.99,
    "asin": "B0DHZ5B366",
    "name": "Kasteel Zweinstein: de Hoofdtoren",
@@ -1342,7 +1341,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt69cd6053c5e32973/76454_Prod_en-gb.png",
    "age": 10,
    "pieces": 2135,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76463",
@@ -1354,7 +1353,7 @@
    "age": 9,
    "pieces": 907,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltb722633ab53c083e/76463_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76466",
@@ -1366,7 +1365,7 @@
    "age": 18,
    "pieces": 1571,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltff6d2570f98dec12/76466_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76467",
@@ -1378,7 +1377,7 @@
    "age": 10,
    "pieces": 764,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt15b25b3defb05464/76467_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76470",
@@ -1390,11 +1389,11 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt1225e4f894a3fce3/76470_Prod_en-gb.png",
    "age": 14,
    "pieces": 868,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76471",
-   "price": 65.63,
+   "price": 62.99,
    "strikethrough": 99.99,
    "asin": "B0FPXGSWZ5",
    "name": "Verdonkeremaansteeg tovenaarswinkels",
@@ -1402,7 +1401,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0397c99741bf72ec/blt576f67fbbf7fdd09-76471_Prod_en-gb.png",
    "age": 8,
    "pieces": 788,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76474",
@@ -1414,7 +1413,7 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt38d292ab6f3051ab/blt0860330851b273fa-76474_Prod_en-gb.png",
    "age": 12,
    "pieces": 817,
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "76911",
@@ -1426,12 +1425,12 @@
    "image": "https://www.lego.com/cdn/cs/set/assets/blt5fb26fee0777bc45/76911.png",
    "age": 8,
    "pieces": 298,
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-11-02",
    "stock": "out"
   },
   {
    "set": "76924",
-   "price": 37.49,
+   "price": 36.99,
    "strikethrough": 49.99,
    "asin": "B0CWH3J5D6",
    "name": "Mercedes-AMG G 63 en Mercedes-AMG SL 63",
@@ -1439,7 +1438,7 @@
    "age": 10,
    "pieces": 808,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltbc71c879c160329c/76924.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "77238",
@@ -1451,7 +1450,7 @@
    "age": 10,
    "pieces": 607,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltd322b474d5fd14f0/77238_Prod.png",
-   "stock": "out"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "77244",
@@ -1463,7 +1462,7 @@
    "age": 10,
    "pieces": 267,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt495e05f3e8b60dbf/77244_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "77251",
@@ -1474,22 +1473,24 @@
    "theme": "speed-champions",
    "age": 10,
    "pieces": 269,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltad441c9411550c97/77251_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltad441c9411550c97/77251_Prod_en-gb.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "77253",
-   "price": 19.59,
+   "price": 22.99,
    "strikethrough": 27.99,
    "asin": "B0FPVT4VG6",
    "name": "Bugatti Vision GT hypercar",
    "theme": "speed-champions",
    "age": 9,
    "pieces": 284,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt095f6391142bd86e/77253_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt095f6391142bd86e/77253_Prod_en-gb.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "77254",
-   "price": 20.49,
+   "price": 19.39,
    "strikethrough": 27.99,
    "asin": "B0FPXK52K8",
    "name": "Ferrari SF90 XX Stradale",
@@ -1497,7 +1498,7 @@
    "age": 9,
    "pieces": 339,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0cb8360713f3186b/77254_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "77255",
@@ -1509,18 +1510,19 @@
    "age": 9,
    "pieces": 270,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt81a65b6671890864/77255_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "77256",
-   "price": 20.99,
+   "price": 20.95,
    "strikethrough": 27.99,
    "asin": "B0FPXDXXYR",
    "name": "Tijdmachine uit Back to the Future",
    "theme": "speed-champions",
    "age": 9,
    "pieces": 357,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltcf1faba2d5f4a688/77256_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltcf1faba2d5f4a688/77256_Prod_en-gb.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "77259",
@@ -1532,7 +1534,7 @@
    "age": 10,
    "pieces": 216,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt95522a33acfc96b9/blt480f8e3525715603-77259_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "77260",
@@ -1544,7 +1546,7 @@
    "age": 10,
    "pieces": 292,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt770931e91e58912e/bltab8874e11ad4b2db-77260_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "77261",
@@ -1556,11 +1558,11 @@
    "age": 9,
    "pieces": 329,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2ef642f515a20969/blt647dc85b2bb429f4-77261_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "77262",
-   "price": 17.99,
+   "price": 19.99,
    "strikethrough": 27.99,
    "asin": "B0FPXGKBCS",
    "name": "Ken Blocks 1965 Ford Mustang Hoonicorn",
@@ -1568,7 +1570,7 @@
    "age": 9,
    "pieces": 345,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte17e3046698381dd/blt2e5240070ad5f2ec-77262_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "77264",
@@ -1580,11 +1582,11 @@
    "age": 10,
    "pieces": 740,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte0ad32fa5493eb4e/bltfd5a25913938ff1d-77264_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10281",
-   "price": 34.99,
+   "price": 38.99,
    "strikethrough": 49.99,
    "asin": "B08G4PCG8F",
    "name": "Bonsaiboompje",
@@ -1592,7 +1594,7 @@
    "age": 18,
    "pieces": 878,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt4fa1e0206e541309/10281_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10309",
@@ -1604,11 +1606,11 @@
    "age": 18,
    "pieces": 771,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt65dad1067eb63ecc/10309.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10311",
-   "price": 36.99,
+   "price": 34.99,
    "strikethrough": 49.99,
    "asin": "B09BNV2Q49",
    "name": "Orchidee",
@@ -1616,11 +1618,11 @@
    "age": 18,
    "pieces": 608,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt08ea230311e717b8/10311.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10313",
-   "price": 40.99,
+   "price": 41.78,
    "strikethrough": 59.99,
    "asin": "B00BLHX6J8",
    "name": "Boeket met wilde bloemen",
@@ -1628,7 +1630,7 @@
    "age": 18,
    "pieces": 939,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc4a6c2103a34f22e/10313_alt2.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10316",
@@ -1640,11 +1642,11 @@
    "age": 18,
    "pieces": 6167,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltec012c948c003fba/10316_alt16.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10328",
-   "price": 41.99,
+   "price": 38.98,
    "strikethrough": 59.99,
    "asin": "B01MRT58RZ",
    "name": "Rozenboeket",
@@ -1652,7 +1654,7 @@
    "age": 18,
    "pieces": 822,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt08f4d88d801a4cf8/10328.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10333",
@@ -1664,7 +1666,7 @@
    "age": 18,
    "pieces": 5471,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt370b7e8cc1fcceb2/10333.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10343",
@@ -1676,11 +1678,11 @@
    "age": 18,
    "pieces": 274,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltade30768c791af76/10343_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10347",
-   "price": 19.98,
+   "price": 19.97,
    "strikethrough": 29.99,
    "asin": "B01N5B2ILL",
    "name": "Klein zomers boeket",
@@ -1688,11 +1690,11 @@
    "age": 9,
    "pieces": 373,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt3e93aaf180737b50/10347_WEB_SEC01_NOBG.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10348",
-   "price": 39.98,
+   "price": 38.98,
    "strikethrough": 59.99,
    "asin": "B0DWF6VKYB",
    "name": "Japanse esdoorn bonsaiboompje",
@@ -1700,7 +1702,7 @@
    "age": 18,
    "pieces": 474,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltd4a3e6e4bf1b680c/10348_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10349",
@@ -1711,11 +1713,12 @@
    "theme": "overig",
    "age": 9,
    "pieces": 217,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt6921020c0cfcc903/10349_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt6921020c0cfcc903/10349_Prod_en-gb.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10356",
-   "price": 339.0,
+   "price": 349.83,
    "strikethrough": 379.99,
    "asin": "B01N7DWPKK",
    "name": "Star Trek: U.S.S. Enterprise NCC-1701-D™",
@@ -1723,7 +1726,7 @@
    "age": 18,
    "pieces": 3600,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt062f49aeb5924ace/10356_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10358",
@@ -1735,11 +1738,11 @@
    "age": 18,
    "pieces": 1505,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf513a3746b8267e9/10358_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10363",
-   "price": 48.99,
+   "price": 46.99,
    "strikethrough": 59.99,
    "asin": "B01NAELBNS",
    "name": "De vliegmachine van Leonardo da Vinci",
@@ -1747,7 +1750,7 @@
    "age": 18,
    "pieces": 493,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltfb6b9d757d63ea76/10363_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10369",
@@ -1759,7 +1762,7 @@
    "age": 18,
    "pieces": 327,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltbd23c81083af1abb/10369_Prod_1.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10373",
@@ -1771,11 +1774,11 @@
    "age": 18,
    "pieces": 709,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2c4d86926d510d45/10373_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10374",
-   "price": 41.99,
+   "price": 39.99,
    "strikethrough": 59.99,
    "asin": "B01NAET89S",
    "name": "Roze rozenboeket",
@@ -1783,7 +1786,7 @@
    "age": 18,
    "pieces": 789,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0afd56c00e0b0970/10374_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10412",
@@ -1794,11 +1797,12 @@
    "theme": "overig",
    "age": 1.5,
    "pieces": 19,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltc56c7c67f99d2809/10412_alt1.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltc56c7c67f99d2809/10412_alt1.png",
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10421",
-   "price": 25.99,
+   "price": 25.98,
    "strikethrough": 39.99,
    "asin": "B01MQRRE1X",
    "name": "Alfabetvrachtwagen",
@@ -1806,7 +1810,7 @@
    "age": 2,
    "pieces": 36,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt5b3bf48f37ebfc73/10421_alt1.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-02"
   },
   {
    "set": "10425",

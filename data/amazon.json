@@ -2842,7 +2842,7 @@
   },
   {
    "set": "21592",
-   "price": 17.99,
+   "price": 14.99,
    "strikethrough": 24.99,
    "asin": "B0FPXD8SVZ",
    "name": "Kipberijder woestijnaanval",
@@ -2850,7 +2850,7 @@
    "age": 9,
    "pieces": 428,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt67f10c7d0f8428d9/bltc437cf308ebfec32-21592_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "21593",
@@ -2862,11 +2862,11 @@
    "age": 8,
    "pieces": 301,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltfa732ea0963a7209/bltb130513e7871ac5d-21593_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "21594",
-   "price": 26.24,
+   "price": 34.95,
    "strikethrough": 44.99,
    "asin": "B0FPXG724G",
    "name": "Het skelet",
@@ -2874,7 +2874,7 @@
    "age": 10,
    "pieces": 502,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltc606c3ae67a67ec6/blt7056ccc1d0e380db-21594_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "21595",
@@ -2886,7 +2886,7 @@
    "age": 10,
    "pieces": 710,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt09bd422862d0b250/blt323cbf2c39a14975-21595_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "21596",
@@ -2898,7 +2898,7 @@
    "age": 9,
    "pieces": 607,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt31c0228b83af9658/blt285f2e1cc4ec083f-21596_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "21597",
@@ -2910,18 +2910,19 @@
    "age": 9,
    "pieces": 754,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltba690b30f7be3cdb/blt486edd329f0f51a4-21597_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31134",
-   "price": 7.29,
+   "price": 7.49,
    "strikethrough": 9.99,
    "asin": "B0BBRYHTPS",
    "name": "Space Shuttle",
    "theme": "overig",
    "age": 6,
    "pieces": 144,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt35eb893e7b4c6280/31134.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt35eb893e7b4c6280/31134.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31136",
@@ -2933,29 +2934,32 @@
    "age": 7,
    "pieces": 253,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt1e80dee5dde5c723/31136.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "31146",
-   "price": 16.99,
+   "price": 14.99,
    "strikethrough": 19.99,
    "asin": "B0CFVYPKGB",
    "name": "Truck met helikopter",
    "theme": "overig",
    "age": 7,
    "pieces": 270,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd5b2ea7765b95fab/31146.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd5b2ea7765b95fab/31146.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31147",
-   "price": 14.49,
+   "price": 14.18,
    "strikethrough": 19.99,
    "asin": "B0CFW1CWHW",
    "name": "Retro fotocamera",
    "theme": "overig",
    "age": 8,
    "pieces": 261,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt5b4148cad80e42ea/31147.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt5b4148cad80e42ea/31147.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31148",
@@ -2967,18 +2971,19 @@
    "age": 8,
    "pieces": 342,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2afcd0d2c787e72f/31148.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31159",
-   "price": 9.99,
+   "price": 9.74,
    "strikethrough": 12.99,
    "asin": "B0DHSFJQK5",
    "name": "Wilde dieren: spannende spin",
    "theme": "overig",
    "age": 7,
    "pieces": 153,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt10c0479d6e9fd174/31159_WEB_SEC07_NOBG_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt10c0479d6e9fd174/31159_WEB_SEC07_NOBG_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31166",
@@ -2990,11 +2995,11 @@
    "age": 9,
    "pieces": 685,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt4110ba43129b9c05/31166_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31169",
-   "price": 19.99,
+   "price": 17.99,
    "strikethrough": 29.99,
    "asin": "B0DHSDQVDR",
    "name": "Typemachine met bloemen",
@@ -3002,18 +3007,19 @@
    "age": 8,
    "pieces": 363,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta6acd9882132e80e/31169_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31170",
-   "price": 18.83,
+   "price": 16.99,
    "strikethrough": 24.99,
    "asin": "B0DHSGF8FD",
    "name": "Wilde dieren: roze flamingo",
    "theme": "overig",
    "age": 8,
    "pieces": 288,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltaceac3fbbaf53448/31170_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltaceac3fbbaf53448/31170_Prod.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31171",
@@ -3025,7 +3031,7 @@
    "age": 9,
    "pieces": 780,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2f66eba79a60b3d2/31171_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31172",
@@ -3037,18 +3043,19 @@
    "age": 8,
    "pieces": 366,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt504267e3d0f05a1a/31172_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31173",
-   "price": 12.99,
+   "price": 11.24,
    "strikethrough": 14.99,
    "asin": "B0DWDZ44TK",
    "name": "Wilde dieren: tropische toekan",
    "theme": "overig",
    "age": 7,
    "pieces": 225,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt3ab840676c1a00b4/31173_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt3ab840676c1a00b4/31173_Prod.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31174",
@@ -3059,11 +3066,12 @@
    "theme": "overig",
    "age": 8,
    "pieces": 383,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt405411348a5c6538/31174_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt405411348a5c6538/31174_Prod.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31214",
-   "price": 54.46,
+   "price": 61.13,
    "strikethrough": 79.99,
    "asin": "B0DHSDWG2R",
    "name": "LOVE",
@@ -3071,7 +3079,7 @@
    "age": 18,
    "pieces": 791,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0949422483130cc5/31214_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31216",
@@ -3083,7 +3091,7 @@
    "age": 18,
    "pieces": 1773,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt709d460037ccde76/31216_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31220",
@@ -3095,51 +3103,55 @@
    "age": 18,
    "pieces": 3179,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt363f1ae96e0f5199/blt4065b9e490396e28-31220_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31376",
-   "price": 8.99,
+   "price": 7.49,
    "strikethrough": 9.99,
    "asin": "B0FPXD4D4B",
    "name": "Schattige hamster met bloem",
    "theme": "overig",
    "age": 7,
    "pieces": 166,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf4fc9903a4b8e55b/31376_Prod_Crop.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf4fc9903a4b8e55b/31376_Prod_Crop.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31377",
-   "price": 8.99,
+   "price": 7.49,
    "strikethrough": 9.99,
    "asin": "B0FPXDTL1Y",
    "name": "Schildpad met waterlelie",
    "theme": "overig",
    "age": 7,
    "pieces": 124,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0f237f626179ba07/31337_Prod_Crop.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0f237f626179ba07/31337_Prod_Crop.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31379",
-   "price": 19.95,
+   "price": 16.98,
    "strikethrough": 24.99,
    "asin": "B0FPXD9B3S",
    "name": "Woeste dinosaurus",
    "theme": "overig",
    "age": 8,
    "pieces": 283,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt94ad0e9878a39d0a/31379_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt94ad0e9878a39d0a/31379_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31380",
-   "price": 14.99,
+   "price": 14.87,
    "strikethrough": 19.99,
    "asin": "B0FPXFB5XP",
    "name": "Retro spelcomputer",
    "theme": "overig",
    "age": 8,
    "pieces": 268,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt2760b700d258df44/31380_Prod_Crop.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt2760b700d258df44/31380_Prod_Crop.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31381",
@@ -3151,7 +3163,7 @@
    "age": 8,
    "pieces": 379,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt360959af12fb5bfc/31381_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31382",
@@ -3163,11 +3175,12 @@
    "age": 8,
    "pieces": 336,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt788e6ce58e8bbcd1/31382_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "31383",
-   "price": 20.57,
+   "price": 19.88,
    "strikethrough": 29.99,
    "asin": "B0FPXG3QB9",
    "name": "Parfumfles met bloemen",
@@ -3175,11 +3188,11 @@
    "age": 8,
    "pieces": 286,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte4d6b7fc2d423a35/bltae9e52e993836261-31383_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31384",
-   "price": 22.49,
+   "price": 20.99,
    "strikethrough": 29.99,
    "asin": "B0FPXJT7BW",
    "name": "Wilde dieren: kleurrijke kolibrie",
@@ -3187,7 +3200,7 @@
    "age": 8,
    "pieces": 312,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta735df411e869f69/31384_Prod_Crop.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "31385",

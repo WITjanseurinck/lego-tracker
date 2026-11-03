@@ -773,7 +773,7 @@
   {
    "set": "42172",
    "name": "McLaren P1",
-   "price": 309.95,
+   "price": 309.0,
    "strikethrough": 449.99,
    "seller": "bol",
    "url": "https://www.bol.com/be/nl/p/lego-42172/9300000178620333/",
@@ -825,7 +825,7 @@
   {
    "set": "42177",
    "name": "Mercedes-Benz G 500 Professional Line",
-   "price": 173.85,
+   "price": 183.74,
    "strikethrough": 249.99,
    "seller": "bol",
    "url": "https://www.bol.com/be/nl/p/lego-42177/9300000175725335/",
@@ -1554,7 +1554,7 @@
   {
    "set": "75419",
    "name": "Death Star",
-   "price": 949.0,
+   "price": 928.25,
    "strikethrough": 1395.81,
    "seller": "bol",
    "url": "https://www.bol.com/be/nl/p/lego-75419/9300000242806118/",
@@ -3561,7 +3561,7 @@
   {
    "set": "21063",
    "name": "Slot Neuschwanstein",
-   "price": 186.39,
+   "price": 188.78,
    "strikethrough": 269.99,
    "seller": "bol",
    "url": "https://www.bol.com/be/nl/p/lego-21063/9300000227400234/",
@@ -7436,7 +7436,7 @@
   {
    "set": "75640",
    "name": "Het drijvende restaurant Baratie",
-   "price": 207.23,
+   "price": 208.07,
    "strikethrough": 299.99,
    "seller": "bol",
    "url": "https://www.bol.com/be/nl/p/lego-75640/9300000228658774/",
@@ -7917,7 +7917,7 @@
   {
    "set": "76354",
    "name": "S.H.I.E.L.D. Helicarrier",
-   "price": 270.59,
+   "price": 270.0,
    "strikethrough": 369.99,
    "seller": "bol",
    "url": "https://www.bol.com/be/nl/p/lego-76354/9300000266727733/",
@@ -7982,7 +7982,7 @@
   {
    "set": "76454",
    "name": "Kasteel Zweinstein™: de Hoofdtoren",
-   "price": 174.0,
+   "price": 174.99,
    "strikethrough": 249.99,
    "seller": "bol",
    "url": "https://www.bol.com/be/nl/p/lego-76454/9300000227400200/",
@@ -8398,7 +8398,7 @@
   {
    "set": "77082",
    "name": "Rave Cave",
-   "price": 137.99,
+   "price": 141.49,
    "strikethrough": 199.99,
    "seller": "bol",
    "url": "https://www.bol.com/be/nl/p/lego-77082/9300000266727741/",

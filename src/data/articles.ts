@@ -1028,4 +1028,158 @@ export const ARTICLES: Article[] = [
       }
     }
   },
+  {
+    "id": "bol-below-rrp-2026-11-03",
+    "published": "2026-11-03T06:47:00.000Z",
+    "updated": "2026-11-03T06:47:00.000Z",
+    "text": {
+      "nl": {
+        "slug": "lego-sets-bij-bol-onder-de-adviesprijs-3-november",
+        "title": "Negen LEGO-sets die bij bol minstens een kwart onder de adviesprijs staan",
+        "summary": "Op 3 november 2026 staan negen LEGO-sets bij bol.com/be minstens een kwart onder de adviesprijs, van R2-D2 tot de McLaren P1 en Neuschwanstein.",
+        "body": [
+          {
+            "p": "Op 3 november 2026 lazen we de prijs van negen LEGO-sets na op de productpagina van bol.com/be. Bol verkoopt ze zelf, ze zijn op voorraad en ze staan minstens een kwart onder de adviesprijs van LEGO. De verzending is bij alle negen inbegrepen, want elke set kost meer dan € 25."
+          },
+          {
+            "h2": "De negen sets, van groot naar klein verschil"
+          },
+          {
+            "ul": [
+              "Technic McLaren P1 (42172): € 309,00 bij bol, adviesprijs € 449,99. Dat is € 140,99 lager, ongeveer 31 procent.",
+              "One Piece Baratie, het drijvende restaurant (75640): € 208,07 bij bol, adviesprijs € 299,99. Dat is € 91,92 lager, ongeveer 31 procent.",
+              "Technic Volvo EC500 Hybrid graafmachine (42215): € 279,00 bij bol, adviesprijs € 399,99. Dat is € 120,99 lager, ongeveer 30 procent.",
+              "Architecture Slot Neuschwanstein (21063): € 188,78 bij bol, adviesprijs € 269,99. Dat is € 81,21 lager, ongeveer 30 procent.",
+              "Star Wars R2-D2 (75379): € 69,99 bij bol, adviesprijs € 99,99. Dat is € 30,00 lager, ongeveer 30 procent.",
+              "Rave Cave (interactieve achtbaan) (77082): € 141,49 bij bol, adviesprijs € 199,99. Dat is € 58,50 lager, ongeveer 29 procent.",
+              "Marvel SHIELD-helikopter (76354): € 270,00 bij bol, adviesprijs € 369,99. Dat is € 99,99 lager, ongeveer 27 procent.",
+              "Technic Mercedes-Benz G 500 Professional Line (42177): € 183,74 bij bol, adviesprijs € 249,99. Dat is € 66,25 lager, ongeveer 27 procent.",
+              "Technic Megacar met V8-motor (42232): € 337,46 bij bol, adviesprijs € 449,99. Dat is € 112,53 lager, ongeveer 25 procent."
+            ]
+          },
+          {
+            "h2": "Wat opvalt"
+          },
+          {
+            "ul": [
+              "De McLaren P1 heeft het grootste verschil in euro: bijna 141 euro onder de adviesprijs. De Volvo-graafmachine volgt met bijna 121 euro.",
+              "Vier van de negen sets zijn Technic-sets: de McLaren P1, de Volvo EC500, de Mercedes-Benz G 500 en de Megacar.",
+              "R2-D2 staat op precies 30 procent onder de adviesprijs en is met € 69,99 de set met de laagste prijs in dit overzicht.",
+              "De Megacar zit met 25,0 procent net op de grens van een kwart."
+            ]
+          },
+          {
+            "h2": "Twee sets van partnerverkopers"
+          },
+          {
+            "p": "Op bol verkopen ook partners LEGO-sets. Zij bepalen hun eigen adviesprijs, dus een bedrag onder die prijs zegt minder dan bij een set die bol zelf verkoopt. Op 3 november zagen we twee grote sets bij een partner: de Death Star (75419) voor € 928,25 bij een getoonde adviesprijs van € 1.395,81 en Kasteel Zweinstein, de Hoofdtoren (76454) voor € 174,99 bij een adviesprijs van € 249,99. Bol meldt bij beide dat de verzending inbegrepen is. Controleer dat bij de Death Star in de winkelwagen, want de pagina maakt daar een voorbehoud."
+          },
+          {
+            "h2": "Zo lees je deze prijzen"
+          },
+          {
+            "p": "We vergelijken met de adviesprijs die bol bij de set toont, en dat is niet altijd de laagste prijs van de voorbije maanden. Prijzen veranderen vaak, soms binnen een dag. Van de sets in onze lijst lazen we de grootste verschillen live na, en enkel wat standhield staat hier. Alle bedragen zijn gecontroleerd op 3 november 2026 op de productpagina van bol.com/be. Kijk de actuele prijs altijd na voor je bestelt."
+          }
+        ]
+      },
+      "fr": {
+        "slug": "sets-lego-chez-bol-sous-le-prix-conseille-3-novembre",
+        "title": "Neuf sets LEGO au moins un quart sous le prix conseillé chez bol",
+        "summary": "Le 3 novembre 2026, neuf sets LEGO sont chez bol.com/be au moins un quart sous le prix conseillé, de R2-D2 à la McLaren P1 et à Neuschwanstein.",
+        "body": [
+          {
+            "p": "Le 3 novembre 2026, nous avons relu le prix de neuf sets LEGO sur la page produit de bol.com/be. Bol les vend lui-même, ils sont en stock et ils se situent au moins un quart sous le prix conseillé par LEGO. La livraison est comprise pour les neuf, car chaque set coûte plus de 25 €."
+          },
+          {
+            "h2": "Les neuf sets, de la plus grande à la plus petite différence"
+          },
+          {
+            "ul": [
+              "Technic McLaren P1 (42172) : 309,00 € chez bol, prix conseillé 449,99 €. Soit 140,99 € de moins, environ 31 pour cent.",
+              "One Piece Baratie, le restaurant flottant (75640) : 208,07 € chez bol, prix conseillé 299,99 €. Soit 91,92 € de moins, environ 31 pour cent.",
+              "Technic Pelleteuse hybride Volvo EC500 (42215) : 279,00 € chez bol, prix conseillé 399,99 €. Soit 120,99 € de moins, environ 30 pour cent.",
+              "Architecture Château de Neuschwanstein (21063) : 188,78 € chez bol, prix conseillé 269,99 €. Soit 81,21 € de moins, environ 30 pour cent.",
+              "Star Wars R2-D2 (75379) : 69,99 € chez bol, prix conseillé 99,99 €. Soit 30,00 € de moins, environ 30 pour cent.",
+              "Rave Cave (montagnes russes interactives) (77082) : 141,49 € chez bol, prix conseillé 199,99 €. Soit 58,50 € de moins, environ 29 pour cent.",
+              "Marvel L’hélicoptère du SHIELD (76354) : 270,00 € chez bol, prix conseillé 369,99 €. Soit 99,99 € de moins, environ 27 pour cent.",
+              "Technic Mercedes-Benz G 500 Professional Line (42177) : 183,74 € chez bol, prix conseillé 249,99 €. Soit 66,25 € de moins, environ 27 pour cent.",
+              "Technic Mégacar à moteur V8 (42232) : 337,46 € chez bol, prix conseillé 449,99 €. Soit 112,53 € de moins, environ 25 pour cent."
+            ]
+          },
+          {
+            "h2": "Ce qui ressort"
+          },
+          {
+            "ul": [
+              "La McLaren P1 offre la plus grande différence en euros : près de 141 € sous le prix conseillé. La pelleteuse Volvo suit avec près de 121 €.",
+              "Quatre des neuf sets sont des Technic : la McLaren P1, la Volvo EC500, la Mercedes-Benz G 500 et la Mégacar.",
+              "R2-D2 se situe à exactement 30 pour cent sous le prix conseillé et, à 69,99 €, c’est le set au prix le plus bas de cette sélection.",
+              "Avec 25,0 pour cent, la Mégacar est tout juste à la limite du quart."
+            ]
+          },
+          {
+            "h2": "Deux sets de vendeurs partenaires"
+          },
+          {
+            "p": "Sur bol, des partenaires vendent aussi des sets LEGO. Ils fixent eux-mêmes leur prix conseillé : un montant sous ce prix en dit donc moins que pour un set vendu par bol. Le 3 novembre, nous avons vu deux grands sets chez un partenaire : la Death Star (75419) à 928,25 € pour un prix conseillé affiché de 1.395,81 € et le Château de Poudlard, la tour principale (76454) à 174,99 € pour un prix conseillé de 249,99 €. Bol indique la livraison comprise pour les deux. Vérifiez-le dans le panier pour la Death Star, car la page y ajoute une réserve."
+          },
+          {
+            "h2": "Comment lire ces prix"
+          },
+          {
+            "p": "Nous comparons avec le prix conseillé que bol affiche pour le set, qui n’est pas toujours le prix le plus bas des derniers mois. Les prix changent souvent, parfois en une journée. Parmi les sets de notre liste, nous avons relu en direct les plus grands écarts et seul ce qui a tenu figure ici. Tous les montants ont été vérifiés le 3 novembre 2026 sur la page produit de bol.com/be. Vérifiez toujours le prix actuel avant de commander."
+          }
+        ]
+      },
+      "en": {
+        "slug": "lego-sets-at-bol-below-recommended-price-3-november",
+        "title": "Nine LEGO sets at least a quarter below the recommended price at bol",
+        "summary": "On 3 November 2026 nine LEGO sets at bol.com/be sit at least a quarter below the recommended price, from R2-D2 to the McLaren P1 and Neuschwanstein.",
+        "body": [
+          {
+            "p": "On 3 November 2026 we read the price of nine LEGO sets on the product page at bol.com/be. Bol sells them itself, they are in stock and they sit at least a quarter below LEGO’s recommended price. Shipping is included on all nine, because every set costs more than €25."
+          },
+          {
+            "h2": "The nine sets, from biggest to smallest difference"
+          },
+          {
+            "ul": [
+              "Technic McLaren P1 (42172): €309.00 at bol, recommended price €449.99. That is €140.99 lower, about 31 percent.",
+              "One Piece Baratie floating restaurant (75640): €208.07 at bol, recommended price €299.99. That is €91.92 lower, about 31 percent.",
+              "Technic Volvo EC500 Hybrid excavator (42215): €279.00 at bol, recommended price €399.99. That is €120.99 lower, about 30 percent.",
+              "Architecture Neuschwanstein Castle (21063): €188.78 at bol, recommended price €269.99. That is €81.21 lower, about 30 percent.",
+              "Star Wars R2-D2 (75379): €69.99 at bol, recommended price €99.99. That is €30.00 lower, about 30 percent.",
+              "Rave Cave (interactive roller coaster) (77082): €141.49 at bol, recommended price €199.99. That is €58.50 lower, about 29 percent.",
+              "Marvel SHIELD helicopter (76354): €270.00 at bol, recommended price €369.99. That is €99.99 lower, about 27 percent.",
+              "Technic Mercedes-Benz G 500 Professional Line (42177): €183.74 at bol, recommended price €249.99. That is €66.25 lower, about 27 percent.",
+              "Technic Megacar with V8 engine (42232): €337.46 at bol, recommended price €449.99. That is €112.53 lower, about 25 percent."
+            ]
+          },
+          {
+            "h2": "What stands out"
+          },
+          {
+            "ul": [
+              "The McLaren P1 has the biggest difference in euros: almost €141 below the recommended price. The Volvo excavator follows with almost €121.",
+              "Four of the nine are Technic sets: the McLaren P1, the Volvo EC500, the Mercedes-Benz G 500 and the Megacar.",
+              "R2-D2 sits at exactly 30 percent below the recommended price and, at €69.99, has the lowest price on this list.",
+              "At 25.0 percent the Megacar is right on the edge of a quarter."
+            ]
+          },
+          {
+            "h2": "Two sets from partner sellers"
+          },
+          {
+            "p": "Partners also sell LEGO sets on bol. They set their own recommended price, so an amount below it says less than for a set that bol sells itself. On 3 November we saw two large sets from a partner: the Death Star (75419) at €928.25 against a displayed recommended price of €1,395.81, and Hogwarts Castle, the Main Tower (76454) at €174.99 against €249.99. Bol states that shipping is included for both. Check this for the Death Star in the basket, because the page adds a caveat there."
+          },
+          {
+            "h2": "How to read these prices"
+          },
+          {
+            "p": "We compare with the recommended price that bol shows for the set, which is not always the lowest price of recent months. Prices change often, sometimes within a day. From the sets in our list we read the biggest differences live, and only what held up is included here. All amounts were checked on 3 November 2026 on the product page at bol.com/be. Always check the current price before you order."
+          }
+        ]
+      }
+    }
+  },
 ];

@@ -5877,11 +5877,11 @@
    "age": 6,
    "pieces": 315,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt998df642757b7cdf/76338_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76339",
-   "price": 48.12,
+   "price": 44.85,
    "strikethrough": 69.99,
    "asin": "B0GGSL87HR",
    "name": "The Fantastic Four H.E.R.B.I.E.",
@@ -5889,11 +5889,11 @@
    "age": 10,
    "pieces": 747,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt085f29171651abc0/76339_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76340",
-   "price": 25.47,
+   "price": 23.58,
    "strikethrough": 34.99,
    "asin": "B0GGSM14GC",
    "name": "LEGO® ǀ Marvel Adventskalender 2026",
@@ -5901,11 +5901,11 @@
    "age": 6,
    "pieces": 317,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt2a7ca384045cfc3e/blt91ca18fede88b80f-76340_Box1_v39_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76341",
-   "price": 42.99,
+   "price": 44.54,
    "strikethrough": 59.99,
    "asin": "B0FPXF62K2",
    "name": "Groot in Ravager jumpsuit",
@@ -5913,7 +5913,7 @@
    "age": 10,
    "pieces": 604,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltfdc3dfd99aac9d44/76341_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76342",
@@ -5925,7 +5925,7 @@
    "age": 10,
    "pieces": 781,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt74be7e0374bd82ac/76342_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76343",
@@ -5937,7 +5937,7 @@
    "age": 9,
    "pieces": 413,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt0cd25e92e7f9ad5c/76343_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76344",
@@ -5949,7 +5949,8 @@
    "age": 18,
    "pieces": 1297,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltce8022e1d28c430d/76344_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "76345",
@@ -5961,11 +5962,11 @@
    "age": 18,
    "pieces": 379,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta7a2a9ec28607b76/bltaa1f5d2205b08b15-76345_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76346",
-   "price": 69.99,
+   "price": 72.76,
    "strikethrough": 99.99,
    "asin": "B0FR9QQ1B1",
    "name": "Spider-Man heldenfiguur",
@@ -5973,7 +5974,7 @@
    "age": 12,
    "pieces": 813,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt585a9a54e5181812/76346_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76347",
@@ -5985,7 +5986,7 @@
    "age": 9,
    "pieces": 433,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltbfa25eafbbe050a9/blt0b01e7e47f3494e9-76347_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76350",
@@ -5997,7 +5998,7 @@
    "age": 8,
    "pieces": 534,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltdebaf770fcfbc39e/76350_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76352",
@@ -6009,12 +6010,12 @@
    "age": 12,
    "pieces": 954,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf041c34546857793/76352_Prod.png",
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-11-03",
    "stock": "out"
   },
   {
    "set": "76442",
-   "price": 17.99,
+   "price": 14.99,
    "strikethrough": 19.99,
    "asin": "B0DHSFF382",
    "name": "Kasteel Zweinstein™: toverspreukenles",
@@ -6022,29 +6023,31 @@
    "age": 8,
    "pieces": 204,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt271da676b8133ad2/76442_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76459",
-   "price": 15.99,
+   "price": 14.99,
    "strikethrough": 19.99,
    "asin": "B0FPXG2R7J",
    "name": "Hagrid™ en Harry's Ligusterlaan ontsnapping",
    "theme": "overig",
    "age": 8,
    "pieces": 124,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd5fb54bc5265b6e9/76459_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd5fb54bc5265b6e9/76459_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76460",
-   "price": 11.46,
+   "price": 11.24,
    "strikethrough": 14.99,
    "asin": "B0FPXDX74V",
    "name": "Kasteel Zweinstein™: Sorteerhoedceremonie",
    "theme": "overig",
    "age": 7,
    "pieces": 124,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt9a5bc9861ba9f600/76460_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt9a5bc9861ba9f600/76460_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76461",
@@ -6056,7 +6059,7 @@
    "age": 8,
    "pieces": 320,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt928a2eac4f906fc2/76461_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76462",
@@ -6068,11 +6071,11 @@
    "age": 12,
    "pieces": 545,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltd44742be587c1885/blt8109326057a1ec3f-76462_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76464",
-   "price": 44.99,
+   "price": 39.99,
    "strikethrough": 59.99,
    "asin": "B0FPVT4VG7",
    "name": "Ketel met geheim toverdrankenklaslokaal",
@@ -6080,7 +6083,7 @@
    "age": 10,
    "pieces": 652,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt4569ff27af2c7298/76464_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76469",
@@ -6091,7 +6094,9 @@
    "theme": "overig",
    "age": 8,
    "pieces": 379,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltad700a75d2fe47e4/blt46c340d866ff0c2f-76469_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltad700a75d2fe47e4/blt46c340d866ff0c2f-76469_Prod_en-gb.png",
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "76784",
@@ -6103,7 +6108,7 @@
    "age": 9,
    "pieces": 358,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt7b4451ac435d0976/76784_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76787",
@@ -6115,11 +6120,11 @@
    "age": 9,
    "pieces": 401,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt454ff9d60950120b/76787_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76788",
-   "price": 52.95,
+   "price": 51.36,
    "strikethrough": 69.99,
    "asin": "B0GGSV7TY4",
    "name": "Nimmermeer Academie",
@@ -6127,7 +6132,7 @@
    "age": 10,
    "pieces": 890,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf1f4a0b23741fb92/76788_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76969",
@@ -6139,7 +6144,8 @@
    "age": 9,
    "pieces": 468,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta858c81e5621fe72/76969_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "76972",
@@ -6151,11 +6157,11 @@
    "age": 6,
    "pieces": 285,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltebfe2970ef5976fe/76972_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76975",
-   "price": 37.99,
+   "price": 33.99,
    "strikethrough": 49.99,
    "asin": "B0DNZTPXD1",
    "name": "T. rex rivierontsnapping",
@@ -6163,7 +6169,7 @@
    "age": 5,
    "pieces": 199,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte2074cf013008510/76975_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "76976",
@@ -6175,7 +6181,7 @@
    "age": 8,
    "pieces": 984,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt380694221ffbc765/76976_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77001",
@@ -6186,18 +6192,21 @@
    "theme": "overig",
    "age": 7,
    "pieces": 177,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blte6c0f9cde3ca1ed2/77001_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blte6c0f9cde3ca1ed2/77001_Prod.png",
+   "checkedAt": "2026-11-03",
+   "stock": "out"
   },
   {
    "set": "77002",
-   "price": 21.57,
+   "price": 20.99,
    "strikethrough": 29.99,
    "asin": "B0DHSCYP7C",
    "name": "Cyclone vs. Metal Sonic",
    "theme": "overig",
    "age": 8,
    "pieces": 290,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt91f8156a386adaa5/77002_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt91f8156a386adaa5/77002_Prod.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77005",
@@ -6209,7 +6218,7 @@
    "age": 8,
    "pieces": 350,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt05ac12a38be5c5aa/77005_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77006",
@@ -6221,7 +6230,7 @@
    "age": 8,
    "pieces": 747,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf8a63c03159797be/77006_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77037",
@@ -6233,7 +6242,7 @@
    "age": 9,
    "pieces": 768,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt7e9278dae5b178fd/77037_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77056",
@@ -6245,7 +6254,7 @@
    "age": 7,
    "pieces": 543,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf0a7ea271067c206/77056_Prod.png",
-   "checkedAt": "2026-10-28",
+   "checkedAt": "2026-11-03",
    "stock": "out"
   },
   {
@@ -6257,11 +6266,12 @@
    "theme": "overig",
    "age": 6,
    "pieces": 149,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltbcb02c192a04903e/77058_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltbcb02c192a04903e/77058_Prod.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77059",
-   "price": 47.51,
+   "price": 38.99,
    "strikethrough": 59.99,
    "asin": "B0GGSBRWL4",
    "name": "Dagje vrij met Timmy en Tommy",
@@ -6269,7 +6279,7 @@
    "age": 10,
    "pieces": 513,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltf73c9b4850c6de31/77059_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77071",
@@ -6281,22 +6291,23 @@
    "age": 12,
    "pieces": 691,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt7023c0abc89347a3/77071_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77075",
-   "price": 15.28,
+   "price": 12.99,
    "strikethrough": 19.99,
    "asin": "B0DWDZ2VKL",
    "name": "Peely en Sparkplugs kamp",
    "theme": "overig",
    "age": 7,
    "pieces": 250,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0f7b6238fd16e9e9/77075_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0f7b6238fd16e9e9/77075_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77076",
-   "price": 45.27,
+   "price": 44.99,
    "strikethrough": 59.99,
    "asin": "B0DWDY53FC",
    "name": "Durrr Burger restaurant",
@@ -6304,7 +6315,7 @@
    "age": 10,
    "pieces": 546,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt168b6e6636a725d4/77076_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77078",
@@ -6316,7 +6327,7 @@
    "age": 18,
    "pieces": 2503,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt08e304cdd764c23b/77078_Prod.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77079",
@@ -6327,7 +6338,8 @@
    "theme": "overig",
    "age": 10,
    "pieces": 210,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0f8fc8680efd43b1/bltd99cbf541cfb8a9f-77079_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0f8fc8680efd43b1/bltd99cbf541cfb8a9f-77079_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77080",
@@ -6339,7 +6351,7 @@
    "age": 10,
    "pieces": 314,
    "image": "https://www.lego.com/cdn/cs/set/assets/blte23438e4954c3feb/blt3e979d6d7675975e-77080_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77081",
@@ -6351,7 +6363,7 @@
    "age": 12,
    "pieces": 1230,
    "image": "https://www.lego.com/cdn/cs/set/assets/blta812336e05c32ed5/blt2016cb7e0a6ff994-77081_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77082",
@@ -6363,7 +6375,7 @@
    "age": 12,
    "pieces": 1963,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt3bc25de67658f70d/bltf4f2b1ee3281fb61-77082_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77118",
@@ -6375,29 +6387,31 @@
    "age": 8,
    "pieces": 378,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt5f55844ca8104951/77118_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77237",
-   "price": 17.99,
+   "price": 17.98,
    "strikethrough": 26.99,
    "asin": "B0DWF1X7C5",
    "name": "Dodge Challenger SRT Hellcat sportauto",
    "theme": "overig",
    "age": 9,
    "pieces": 390,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0874acf12357a48e/77237_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0874acf12357a48e/77237_Prod.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77240",
-   "price": 18.99,
+   "price": 18.98,
    "strikethrough": 26.99,
    "asin": "B0DWF3CTHV",
    "name": "Bugatti Centodieci hyper sportauto",
    "theme": "overig",
    "age": 9,
    "pieces": 291,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltd69e4dc680c2d5ed/77240_Prod.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltd69e4dc680c2d5ed/77240_Prod.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77242",
@@ -6409,33 +6423,35 @@
    "age": 10,
    "pieces": 275,
    "image": "https://www.lego.com/cdn/cs/set/assets/blt62a0047ef561f2db/77242_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77243",
-   "price": 18.99,
+   "price": 18.0,
    "strikethrough": 26.99,
    "asin": "B0DHSFBRPB",
    "name": "Oracle Red Bull Racing RB20 F1® racewagen",
    "theme": "overig",
    "age": 18,
    "pieces": 251,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt8dac22afe99a2c70/77243_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt8dac22afe99a2c70/77243_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77246",
-   "price": 20.24,
+   "price": 19.05,
    "strikethrough": 26.99,
    "asin": "B0DHS9JVGJ",
    "name": "Visa Cash App RB VCARB 01 F1® racewagen",
    "theme": "overig",
    "age": 18,
    "pieces": 248,
-   "image": "https://www.lego.com/cdn/cs/set/assets/blt0a45cbfbac56a36b/77246_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/blt0a45cbfbac56a36b/77246_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77249",
-   "price": 19.05,
+   "price": 18.99,
    "strikethrough": 26.99,
    "asin": "B0DHSD9VPK",
    "name": "Williams Racing FW46 F1® racewagen",
@@ -6443,18 +6459,19 @@
    "age": 10,
    "pieces": 263,
    "image": "https://www.lego.com/cdn/cs/set/assets/bltcd131f583dfa706b/77249_Prod_en-gb.png",
-   "checkedAt": "2026-10-28"
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77257",
-   "price": 19.99,
+   "price": 21.99,
    "strikethrough": 27.99,
    "asin": "B0FPXDQM2S",
    "name": "McLaren W1",
    "theme": "overig",
    "age": 9,
    "pieces": 287,
-   "image": "https://www.lego.com/cdn/cs/set/assets/bltf1ac5654d7819a2b/77257_Prod_en-gb.png"
+   "image": "https://www.lego.com/cdn/cs/set/assets/bltf1ac5654d7819a2b/77257_Prod_en-gb.png",
+   "checkedAt": "2026-11-03"
   },
   {
    "set": "77263",

@@ -16,6 +16,7 @@ export const SOURCES = {
   BRICKFANATICS_OCT26: { label: 'Brick Fanatics: every LEGO set releasing in October 2026', url: 'https://www.brickfanatics.com/every-lego-set-releasing-in-october-2026-doomsday' },
   NEWELEMENTARY_OCT26: { label: 'New Elementary: new October 2026 LEGO sets and gifts', url: 'https://www.newelementary.com/2026/10/new-october-2026-lego-sets-and-gifts.html' },
   JAYS_OCT26: { label: 'Jay\'s Brick Blog: every new LEGO set releasing October 2026', url: 'https://jaysbrickblog.com/news/buying-guide-every-new-lego-set-releasing-october-2026/' },
+  JAYS_NOV26: { label: 'Jay\'s Brick Blog: every new LEGO set releasing in November 2026', url: 'https://jaysbrickblog.com/lego-november-2026-sets/' },
 };
 
 export const ARTICLES: Article[] = [
@@ -1177,6 +1178,160 @@ export const ARTICLES: Article[] = [
           },
           {
             "p": "We compare with the recommended price that bol shows for the set, which is not always the lowest price of recent months. Prices change often, sometimes within a day. From the sets in our list we read the biggest differences live, and only what held up is included here. All amounts were checked on 3 November 2026 on the product page at bol.com/be. Always check the current price before you order."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "new-sets-november-2026-cozy-plants",
+    "published": "2026-11-04T07:50:00.000Z",
+    "updated": "2026-11-04T07:50:00.000Z",
+    "text": {
+      "nl": {
+        "slug": "nieuwe-lego-sets-november-2026-cozy-plants-bij-bol",
+        "title": "Nieuwe LEGO-sets van november: Cozy Plants te reserveren bij bol, drie grote sets nog niet gevonden",
+        "summary": "Vier nieuwe LEGO-sets in november 2026. Cozy Plants staat bij bol.com/be voor € 19,99 te reserveren, voor de andere drie vonden we nog geen bolpagina.",
+        "body": [
+          {
+            "p": "Volgens Jay's Brick Blog verschijnen er in november 2026 vier nieuwe LEGO-sets: Dragon Ball Shenron & Goku (11390, € 139,99), Sagrada Família (21065, € 749,99), Venetian Neighbourhood (11388, € 499,99) en Botanicals Cozy Plants (10371, € 19,99). De bron noemt 1 november als releasedatum, met Insiders-voorrang voor twee van de vier. Op 4 november keken we op bol.com/be wat er te vinden is."
+          },
+          {
+            "h2": "Te reserveren bij bol"
+          },
+          {
+            "ul": [
+              "Botanicals Gezellige Plantjes, in het Engels Cozy Plants (10371), 248 onderdelen, vanaf 9 jaar: € 19,99 bij bol.com/be. De verkoper is bol zelf. De pagina toont \"nog niet verschenen\" met de mogelijkheid om een exemplaar te reserveren en noemt 3 november 2026 als beschikbaarheidsdatum. Die datum is intussen verstreken. Onder € 25 komt er verzending bij, want bol verstuurt gratis vanaf € 25."
+            ]
+          },
+          {
+            "p": "Dat komt neer op ongeveer 8 cent per onderdeel, verzending niet meegerekend. Een andere bollijst toonde dezelfde set die dag wel als \"op voorraad\". De status wisselt dus, en je ziet op de productpagina zelf of je kunt bestellen."
+          },
+          {
+            "h2": "Drie sets zonder bolpagina"
+          },
+          {
+            "ul": [
+              "Dragon Ball Shenron & Goku (11390), Sagrada Família (21065) en Venetian Neighbourhood (11388): voor deze drie vonden we op 4 november geen productpagina bij bol.com/be. We noemen daarom geen bolprijs en geen leverstatus. De bedragen in de eerste alinea zijn de prijzen uit de bron, niet die van een winkel."
+            ]
+          },
+          {
+            "h2": "Wat dit betekent"
+          },
+          {
+            "p": "Wie de Botanicals-set wil, kan hem nu bij bol reserveren of bestellen, afhankelijk van wat de pagina toont. Voor de grote sets blijft het afwachten. We bekijken ze opnieuw zodra bol ze toont."
+          },
+          {
+            "h2": "Bronnen"
+          },
+          {
+            "src": [
+              {
+                "label": "Jay's Brick Blog: every new LEGO set releasing in November 2026",
+                "url": "https://jaysbrickblog.com/lego-november-2026-sets/"
+              }
+            ]
+          },
+          {
+            "p": "Prijzen veranderen vaak, soms binnen een dag. Alle bolgegevens zijn gecontroleerd op 4 november 2026 op bol.com/be. Kijk de actuele prijs en status altijd na voor je bestelt."
+          }
+        ]
+      },
+      "fr": {
+        "slug": "nouveaux-sets-lego-novembre-2026-cozy-plants-chez-bol",
+        "title": "Nouveaux sets LEGO de novembre : Cozy Plants à réserver chez bol, trois grands sets introuvables pour l’instant",
+        "summary": "Quatre nouveaux sets LEGO en novembre 2026. Cozy Plants est à réserver chez bol.com/be pour 19,99 €. Pour les trois autres, pas encore de page bol.",
+        "body": [
+          {
+            "p": "D’après Jay’s Brick Blog, quatre nouveaux sets LEGO sortent en novembre 2026 : Dragon Ball Shenron & Goku (11390, 139,99 €), Sagrada Família (21065, 749,99 €), Venetian Neighbourhood (11388, 499,99 €) et Botanicals Cozy Plants (10371, 19,99 €). La source indique le 1er novembre comme date de sortie, avec un accès anticipé pour les Insiders sur deux d’entre eux. Le 4 novembre, nous avons regardé ce que bol.com/be propose."
+          },
+          {
+            "h2": "À réserver chez bol"
+          },
+          {
+            "ul": [
+              "Botanicals Cozy Plants (10371), 248 pièces, dès 9 ans : 19,99 € chez bol.com/be. Bol est le vendeur. La page affiche « nog niet verschenen » (pas encore paru) avec la possibilité de réserver un exemplaire, et indique le 3 novembre 2026 comme date de disponibilité. Cette date est déjà passée. Sous 25 €, la livraison s’ajoute, car bol livre gratuitement à partir de 25 €."
+            ]
+          },
+          {
+            "p": "Cela représente environ 8 centimes par pièce, livraison non comprise. Une autre liste de bol affichait le même set comme « en stock » ce jour-là. Le statut change donc, et la page produit montre si vous pouvez commander."
+          },
+          {
+            "h2": "Trois sets sans page bol"
+          },
+          {
+            "ul": [
+              "Dragon Ball Shenron & Goku (11390), Sagrada Família (21065) et Venetian Neighbourhood (11388) : le 4 novembre, nous n’avons trouvé aucune page produit pour ces trois sets chez bol.com/be. Nous ne citons donc ni prix bol ni statut de livraison. Les montants du premier paragraphe viennent de la source, pas d’un magasin."
+            ]
+          },
+          {
+            "h2": "Ce que cela signifie"
+          },
+          {
+            "p": "Si le set Botanicals vous tente, vous pouvez le réserver ou le commander chez bol, selon ce que la page affiche. Pour les grands sets, il faut patienter. Nous les regarderons à nouveau dès que bol les affichera."
+          },
+          {
+            "h2": "Sources"
+          },
+          {
+            "src": [
+              {
+                "label": "Jay's Brick Blog: every new LEGO set releasing in November 2026",
+                "url": "https://jaysbrickblog.com/lego-november-2026-sets/"
+              }
+            ]
+          },
+          {
+            "p": "Les prix changent souvent, parfois en une journée. Toutes les données de bol ont été vérifiées le 4 novembre 2026 sur bol.com/be. Vérifiez toujours le prix et le statut actuels avant de commander."
+          }
+        ]
+      },
+      "en": {
+        "slug": "new-lego-sets-november-2026-cozy-plants-at-bol",
+        "title": "New LEGO sets of November: Cozy Plants can be reserved at bol, three big sets not found yet",
+        "summary": "Four new LEGO sets in November 2026. Cozy Plants can be reserved at bol.com/be for €19.99. For the other three we found no bol page yet.",
+        "body": [
+          {
+            "p": "According to Jay's Brick Blog, four new LEGO sets arrive in November 2026: Dragon Ball Shenron & Goku (11390, €139.99), Sagrada Família (21065, €749.99), Venetian Neighbourhood (11388, €499.99) and Botanicals Cozy Plants (10371, €19.99). The source gives 1 November as the release date, with Insiders early access for two of the four. On 4 November we checked what bol.com/be has."
+          },
+          {
+            "h2": "Available to reserve at bol"
+          },
+          {
+            "ul": [
+              "Botanicals Cozy Plants (10371), 248 pieces, ages 9 and up: €19.99 at bol.com/be. The seller is bol itself. The page shows \"nog niet verschenen\" (not yet released) with the option to reserve a copy, and gives 3 November 2026 as the availability date. That date has already passed. Under €25, shipping is added, because bol ships free from €25."
+            ]
+          },
+          {
+            "p": "That works out at about 8 cents per piece, shipping not included. Another bol list showed the same set as \"in stock\" that day. The status changes, so the product page itself shows whether you can order."
+          },
+          {
+            "h2": "Three sets without a bol page"
+          },
+          {
+            "ul": [
+              "Dragon Ball Shenron & Goku (11390), Sagrada Família (21065) and Venetian Neighbourhood (11388): on 4 November we found no product page for these three at bol.com/be. We therefore quote no bol price and no delivery status. The amounts in the first paragraph are the source's prices, not a shop's."
+            ]
+          },
+          {
+            "h2": "What this means"
+          },
+          {
+            "p": "If you want the Botanicals set, you can reserve or order it at bol now, depending on what the page shows. For the big sets, it is a matter of waiting. We will look again as soon as bol lists them."
+          },
+          {
+            "h2": "Sources"
+          },
+          {
+            "src": [
+              {
+                "label": "Jay's Brick Blog: every new LEGO set releasing in November 2026",
+                "url": "https://jaysbrickblog.com/lego-november-2026-sets/"
+              }
+            ]
+          },
+          {
+            "p": "Prices change often, sometimes within a day. All bol details were checked on 4 November 2026 on bol.com/be. Always check the current price and status before you order."
           }
         ]
       }

@@ -14,6 +14,7 @@ import { getI18n } from '@/lib/i18n-server';
 import { pageMeta } from '@/lib/seo';
 import { shopDates } from '@/lib/dict';
 import { localizePath, type Locale } from '@/lib/i18n';
+import { setName } from '@/lib/setnames';
 
 interface Props { locale: Locale; set: string }
 const { locale, set } = Astro.props;
@@ -22,7 +23,7 @@ const deal = getCompareDeal(set)!;
 const eur = (n: number) => formatEur(n, locale);
 const best = deal.offers[0];
 const second = deal.offers[1];
-const name = `LEGO ${deal.set} ${deal.name}`;
+const name = `LEGO ${deal.set} ${setName(deal.set, locale, deal.name)}`;
 const url = `${SITE_URL}${localizePath(locale, `/set/${deal.set}`)}`;
 const related = relatedByPrice(deal);
 const history = priceHistory(deal.set);

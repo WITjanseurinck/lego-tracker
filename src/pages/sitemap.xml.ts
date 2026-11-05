@@ -1,5 +1,5 @@
 import { allArticles, articlePaths } from '@/lib/articles';
-import { bolFetchedAt } from '@/lib/bol';
+import { dataLastmod, setLastmod } from '@/lib/lastmod';
 import { allRoutes } from '@/lib/routes';
 import { LOCALES, LOCALE_TAG, localizePath, type Locale } from '@/lib/i18n';
 import { SITE_URL } from '@/lib/site';
@@ -33,7 +33,7 @@ export function GET() {
     if (seen.has(key)) continue;
     seen.add(key);
     const links = LOCALES.map((l) => `    <xhtml:link rel="alternate" hreflang="${hreflang(l)}" href="${abs(l, pathFor(l))}"/>`).concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${abs('nl', pathFor('nl'))}"/>`);
-    const last = art ? art.updated : bolFetchedAt;
+    const last = art ? art.updated : r.kind === 'set' ? setLastmod(r.key!) : dataLastmod;
     rows.push(`  <url>\n    <loc>${abs(r.locale, pathFor(r.locale))}</loc>\n    <lastmod>${last}</lastmod>\n    <changefreq>${f.changefreq}</changefreq>\n    <priority>${f.priority}</priority>\n${links.join('\n')}\n  </url>`);
   }
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${rows.join('\n')}\n</urlset>\n`;

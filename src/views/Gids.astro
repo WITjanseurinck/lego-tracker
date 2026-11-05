@@ -7,6 +7,7 @@ import { getI18n } from '@/lib/i18n-server';
 import { pageMeta } from '@/lib/seo';
 import { photoTint } from '@/lib/themes';
 import type { Locale } from '@/lib/i18n';
+import { setName } from '@/lib/setnames';
 
 interface Props { locale: Locale }
 const { locale } = Astro.props;
@@ -26,7 +27,7 @@ const articles = allArticles();
           <article class="art">
             <a href={href(`/gids/${a.text[locale].slug}`)}>
               <div class="pic" style={`background:${photoTint(i)}`}>
-                {d?.image ? <img src={d.image} alt={`LEGO ${d.set} ${d.name}`} loading="lazy" referrerpolicy="no-referrer" /> : null}
+                {d?.image ? <img src={d.image} alt={`LEGO ${d.set} ${setName(d.set, locale, d.name)}`} loading="lazy" referrerpolicy="no-referrer" /> : null}
               </div>
               <p class="date">{formatDate(a.published, locale)}</p>
               <h3>{a.text[locale].title}</h3>

@@ -1,3 +1,5 @@
+import SET_SLUGS from './set-slugs.json';
+
 export const LOCALES = ['nl', 'fr', 'en'] as const;
 export type Locale = (typeof LOCALES)[number];
 export const DEFAULT_LOCALE: Locale = 'nl';
@@ -26,12 +28,20 @@ export function isLocale(v: string | null | undefined): v is Locale {
   return v === 'nl' || v === 'fr' || v === 'en';
 }
 
+/** Setnummer met de naam in de taal ervoor (bv. 43280 wordt strandplezier-met-lilo-en-stitch-43280). Zonder naam blijft het nummer. */
+export function setSegment(locale: Locale, id: string): string {
+  const slugs = (SET_SLUGS as Record<string, string[]>)[id];
+  const slug = slugs?.[LOCALES.indexOf(locale)];
+  return slug ? `${slug}-${id}` : id;
+}
+
 /** Interne pad (bv. /gids/abc) naar de publieke URL in een taal (bv. /fr/guide/abc). */
 export function localizePath(locale: Locale, internal: string): string {
   const [pathPart, ...rest] = internal.split('?');
   const query = rest.length ? `?${rest.join('?')}` : '';
   const segs = pathPart.split('/').filter(Boolean);
   if (segs[0] && SEGMENTS[segs[0]]) segs[0] = SEGMENTS[segs[0]][locale];
+  if (segs[0] === 'set' && segs[1]) segs[1] = setSegment(locale, segs[1]);
   const body = segs.join('/');
   const prefix = locale === DEFAULT_LOCALE ? '' : `/${locale}`;
   const full = `${prefix}${body ? `/${body}` : ''}` || '/';
@@ -53,6 +63,10 @@ export function internalize(pathname: string): { locale: Locale; path: string } 
         break;
       }
     }
+  }
+  if (segs[0] === 'set' && segs[1]) {
+    const m = segs[1].match(/-(\d{4,6})$/);
+    if (m) segs[1] = m[1];
   }
   return { locale, path: `/${segs.join('/')}` };
 }

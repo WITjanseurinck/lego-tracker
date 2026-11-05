@@ -9,6 +9,7 @@ import { pageMeta } from '@/lib/seo';
 import { SITE_NAME, SITE_URL } from '@/lib/site';
 import { photoTint } from '@/lib/themes';
 import { TOPICS, TOPIC_KEYS, dealsByTopic, type TopicKey } from '@/lib/topics';
+import { setName } from '@/lib/setnames';
 
 interface Props { locale: Locale; slug: TopicKey }
 const { locale, slug } = Astro.props;
@@ -43,7 +44,7 @@ const jsonLd = {
     {
       '@type': 'ItemList',
       name: title(n, locale),
-      itemListElement: sorted.slice(0, 30).map((d, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE_URL}${localizePath(locale, `/set/${d.set}`)}`, name: `LEGO ${d.set} ${d.name}` })),
+      itemListElement: sorted.slice(0, 30).map((d, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE_URL}${localizePath(locale, `/set/${d.set}`)}`, name: `LEGO ${d.set} ${setName(d.set, locale, d.name)}` })),
     },
     {
       '@type': 'BreadcrumbList',

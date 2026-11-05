@@ -7,6 +7,7 @@ import { formatEur } from '@/lib/format';
 import { GIFT_SLUGS, GIFTS } from '@/lib/gifts';
 import { LOCALES } from '@/lib/i18n';
 import { OG_RATIOS, renderOg, type OgProps, type OgRatio } from '@/lib/og';
+import { setName } from '@/lib/setnames';
 
 const giftLines = {
   nl: ['Drie voorstellen per leeftijd', 'Laagste prijs in België'],
@@ -24,7 +25,7 @@ export const getStaticPaths = (() => {
     for (const d of getCompareDeals()) {
       add(`${l}-${d.set}`, () => ({
         kicker: `LEGO ${d.set}`,
-        title: d.name,
+        title: setName(d.set, l, d.name),
         badge: d.bestDiscount > 0 ? `-${d.bestDiscount}%` : undefined,
         lines: d.offers.map((o) => `${o.shop} ${formatEur(o.price, l)}`),
       }));

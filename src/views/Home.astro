@@ -14,6 +14,7 @@ import { photoTint } from '@/lib/themes';
 import { THEMES, getDict2, themeName } from '@/lib/dict2';
 import { SITE_URL } from '@/lib/site';
 import { TOPICS, TOPIC_KEYS } from '@/lib/topics';
+import { setName } from '@/lib/setnames';
 
 interface Props { locale: Locale }
 const { locale } = Astro.props;
@@ -41,7 +42,7 @@ const itemList = compare.length > 0
         '@type': 'ListItem',
         position: i + 1,
         url: `${SITE_URL}${localizePath(locale, `/set/${d.set}`)}`,
-        name: `LEGO ${d.set} ${d.name}`,
+        name: `LEGO ${d.set} ${setName(d.set, locale, d.name)}`,
       })),
     }
   : null;
@@ -54,7 +55,7 @@ const heroBest = (i: number) => i === 0 && (hero.offers.length < 2 || hero.offer
       <div class="grid2">
         <div class="text">
           <div class="kicker">{t.home.kicker} · {hero.set}</div>
-          <h2 class="title"><a href={href(`/set/${hero.set}`)}>{hero.name}</a></h2>
+          <h2 class="title"><a href={href(`/set/${hero.set}`)}>{setName(hero.set, locale, hero.name)}</a></h2>
           <ul class="offers heroOffers">
             {hero.offers.map((o, i) => (
               <li class={heroBest(i) ? 'best' : undefined}>
@@ -69,7 +70,7 @@ const heroBest = (i: number) => i === 0 && (hero.offers.length < 2 || hero.offer
           </ul>
           <div class="cta"><a href={href('/zoeken')} class="btn">{t.home.searchCta}</a></div>
         </div>
-        <div class="photo">{hero.image ? <img src={hero.image} alt={`LEGO ${hero.set} ${hero.name}`} referrerpolicy="no-referrer" /> : null}</div>
+        <div class="photo">{hero.image ? <img src={hero.image} alt={`LEGO ${hero.set} ${setName(hero.set, locale, hero.name)}`} referrerpolicy="no-referrer" /> : null}</div>
       </div>
     </section>
   ) : null}
@@ -121,7 +122,7 @@ const heroBest = (i: number) => i === 0 && (hero.offers.length < 2 || hero.offer
             <article class="art">
               <a href={href(`/gids/${a.text[locale].slug}`)}>
                 <div class="pic" style={`background:${photoTint(i + 2)}`}>
-                  {d?.image ? <img src={d.image} alt={`LEGO ${d.set} ${d.name}`} loading="lazy" referrerpolicy="no-referrer" /> : null}
+                  {d?.image ? <img src={d.image} alt={`LEGO ${d.set} ${setName(d.set, locale, d.name)}`} loading="lazy" referrerpolicy="no-referrer" /> : null}
                 </div>
                 <p class="date">{formatDate(a.published, locale)}</p>
                 <h3>{a.text[locale].title}</h3>

@@ -9,6 +9,8 @@ export interface ClientOffer { shop: string; price: number; strikethrough: numbe
 export interface ClientDeal {
   set: string;
   name: string;
+  fr?: string;
+  en?: string;
   image: string | null;
   offers: ClientOffer[];
   bestDiscount: number;
@@ -16,6 +18,9 @@ export interface ClientDeal {
   pieces: number | null;
   age: number | null;
 }
+
+/** Naam van de set in de taal van de pagina. */
+export const dealName = (d: ClientDeal, locale: Locale): string => (locale === 'fr' ? d.fr : locale === 'en' ? d.en : undefined) ?? d.name;
 
 export const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c] as string));
 
@@ -35,7 +40,8 @@ export function renderCard(deal: ClientDeal, tintIndex: number, locale: Locale):
   const second = deal.offers[1];
   const saving = second ? second.price - best.price : 0;
   const href = localizePath(locale, `/set/${deal.set}`);
-  const name = `LEGO ${deal.set} ${deal.name}`;
+  const shown = dealName(deal, locale);
+  const name = `LEGO ${deal.set} ${shown}`;
   const isBest = (i: number) => i === 0 && (deal.offers.length < 2 || deal.offers[1].price - deal.offers[0].price >= 0.005);
   const offers = deal.offers
     .map(
@@ -44,7 +50,7 @@ export function renderCard(deal: ClientDeal, tintIndex: number, locale: Locale):
     .join('');
   const cmp = second ? (saving < 0.005 ? t.same(best.shop, second.shop) : t.cheaper(best.shop, eur(saving), second.shop)) : t.only(best.shop);
   const themeLink = deal.theme !== 'overig' ? `<a href="${localizePath(locale, `/thema/${deal.theme}`)}" class="themelink">${esc(t2.moreIn(themeName(deal.theme, locale)))} →</a>` : '';
-  return `<article class="tile"><a href="${href}" class="pic" style="background:${photoTint(tintIndex)}" aria-label="${esc(t.aria(name))}">${deal.image ? `<img src="${esc(deal.image)}" alt="${esc(name)}" loading="lazy" referrerpolicy="no-referrer">` : `<span class="none">LEGO ${deal.set}</span>`}${deal.bestDiscount > 0 ? `<span class="flag">-${deal.bestDiscount}%</span>` : ''}</a><div class="info"><div class="num">LEGO ${deal.set}</div><a href="${href}" class="name">${esc(deal.name)}</a><ul class="offers">${offers}</ul><p class="cmp">${esc(cmp)}</p>${themeLink}</div></article>`;
+  return `<article class="tile"><a href="${href}" class="pic" style="background:${photoTint(tintIndex)}" aria-label="${esc(t.aria(name))}">${deal.image ? `<img src="${esc(deal.image)}" alt="${esc(name)}" loading="lazy" referrerpolicy="no-referrer">` : `<span class="none">LEGO ${deal.set}</span>`}${deal.bestDiscount > 0 ? `<span class="flag">-${deal.bestDiscount}%</span>` : ''}</a><div class="info"><div class="num">LEGO ${deal.set}</div><a href="${href}" class="name">${esc(shown)}</a><ul class="offers">${offers}</ul><p class="cmp">${esc(cmp)}</p>${themeLink}</div></article>`;
 }
 
 export const numParam = (v: string | null | undefined) => {

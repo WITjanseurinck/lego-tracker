@@ -36,7 +36,7 @@ const head = pageMeta({ locale, path: '/zoeken', title: t.search.title, descript
     (root.querySelector('#q') as HTMLInputElement).value = q;
     if (term) {
       loadDeals().then((all) => {
-        const found = all.filter((d) => d.set.includes(term) || norm(`${d.name} lego`).includes(norm(term)));
+        const found = all.filter((d) => d.set.includes(term) || norm(`${d.name} ${d.fr ?? ''} ${d.en ?? ''} lego`).includes(norm(term)));
         const note = document.getElementById('search-note')!;
         note.textContent = found.length === 0 ? t.search.none(term) : t.search.count(found.length);
         document.getElementById('search-results')!.innerHTML = found.map((d, i) => renderCard(d, i, locale)).join('');

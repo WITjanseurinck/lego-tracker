@@ -7,6 +7,7 @@ import { getI18n } from '@/lib/i18n-server';
 import { LOCALE_TAG, localizePath, type Locale } from '@/lib/i18n';
 import { pageMeta } from '@/lib/seo';
 import { SITE_NAME, SITE_URL } from '@/lib/site';
+import { setName } from '@/lib/setnames';
 
 interface Props { locale: Locale; id: string }
 const { locale, id } = Astro.props;
@@ -61,8 +62,8 @@ const jsonLd = {
     <p class="muted">{t.guides.published(formatDate(a.published, locale))}{formatDate(a.updated, locale) !== formatDate(a.published, locale) ? t.guides.updated(formatDate(a.updated, locale)) : ''}</p>
     {hero?.image ? (
       <figure class="herofig">
-        <a href={href(`/set/${hero.set}`)}><img src={hero.image} alt={`LEGO ${hero.set} ${hero.name}`} referrerpolicy="no-referrer" /></a>
-        <figcaption><a href={href(`/set/${hero.set}`)}>LEGO {hero.set} {hero.name}</a></figcaption>
+        <a href={href(`/set/${hero.set}`)}><img src={hero.image} alt={`LEGO ${hero.set} ${setName(hero.set, locale, hero.name)}`} referrerpolicy="no-referrer" /></a>
+        <figcaption><a href={href(`/set/${hero.set}`)}>LEGO {hero.set} {setName(hero.set, locale, hero.name)}</a></figcaption>
       </figure>
     ) : null}
     {x.body.map((b) =>

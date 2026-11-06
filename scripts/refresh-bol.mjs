@@ -1,7 +1,7 @@
 // Ververst prijzen in data/products.json via de bol Marketing Catalog API.
 // Gebruik:  BOL_CLIENT_ID=... BOL_CLIENT_SECRET=... node scripts/refresh-bol.mjs [--probe] [--limit N]
 // --probe: haalt 1 product op en toont de ruwe respons (zonder te schrijven), om de veldnamen te controleren.
-// Afbeeldingen, namen en urls blijven ongemoeid: enkel price, strikethrough, seller en stock veranderen.
+// Werkt met `ean` per set (zie scripts/resolve-eans.mjs). Afbeeldingen, namen en urls blijven ongemoeid: enkel price, strikethrough, seller en stock veranderen.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -40,10 +40,13 @@ const data = JSON.parse(fs.readFileSync(FILE, 'utf8'));
 let tok = await token();
 let changed = 0, out = 0, failed = 0, n = 0;
 
+let tried = 0, zonderEan = 0;
 for (const it of data.items) {
   if (n++ >= limit) break;
+  if (!it.ean) { zonderEan++; continue; }
+  tried++;
   if (Date.now() > tok.until) tok = await token();
-  const r = await fetch(`https://api.bol.com/marketing/catalog/v1/products/${it.bolId}?country-code=BE&include-offer=true`, {
+  const r = await fetch(`https://api.bol.com/marketing/catalog/v1/products/${it.ean}?country-code=BE&include-offer=true`, {
     headers: { Authorization: `Bearer ${tok.value}`, 'Accept-Language': 'nl', Accept: 'application/json' },
   });
   if (r.status === 429 || r.status === 403) { console.error('gestopt: HTTP', r.status, 'bij', it.set); break; }
@@ -63,6 +66,13 @@ for (const it of data.items) {
   await sleep(400);
 }
 
+// Schrijf niets als het merendeel van de aanroepen mislukte: anders zou fetchedAt vers lijken bij oude prijzen.
+if (!probe && (tried === 0 || failed > tried / 2)) {
+  console.error({ geprobeerd: tried, mislukt: failed, zonderEan });
+  console.error('Te veel mislukte aanroepen of geen EAN\'s, er is niets geschreven. Draai eerst scripts/resolve-eans.mjs.');
+  process.exit(1);
+}
+
 if (!probe) {
   // Prijshistoriek (zelfde formaat als kaoru): per set een lijst { d: datum, p: prijs }, enkel bij een wijziging.
   const HIST = path.join(path.dirname(FILE), 'history.json');
@@ -77,5 +87,5 @@ if (!probe) {
   data.fetchedAt = new Date().toISOString().slice(0, 10);
   data.source = 'bol Marketing Catalog API';
   fs.writeFileSync(FILE, JSON.stringify(data));
-  console.log({ changed, uitVoorraad: out, mislukt: failed });
+  console.log({ changed, uitVoorraad: out, mislukt: failed, zonderEan });
 }

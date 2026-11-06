@@ -1,6 +1,6 @@
 #!/bin/sh
 # Dagelijkse prijsronde, gestart door de gedeelde Coolify-service ops-prijsronde.
-# De service kloont deze repo en roept dit script aan: sh scripts/prijsronde.sh [probe]
+# De service kloont deze repo en roept dit script aan: sh scripts/prijsronde.sh [probe | probe-search | resolve [limiet]]
 # Env (in ops-prijsronde): BUILDTHATSET_BOL_CLIENT_ID, BUILDTHATSET_BOL_CLIENT_SECRET.
 # Lukt de API niet, dan stopt het script met een foutcode en schrijft niets.
 set -e
@@ -11,6 +11,19 @@ export BOL_SITE_ID="${BOL_SITE_ID:-1550851}"
 
 if [ "$1" = "probe" ]; then
   exec node scripts/refresh-bol.mjs --probe
+fi
+if [ "$1" = "probe-search" ]; then
+  exec node scripts/resolve-eans.mjs --probe
+fi
+
+if [ "$1" = "resolve" ]; then
+  # Eenmalig: zoekt de EAN per set op. Gebruik: sh scripts/prijsronde.sh resolve [limiet]
+  if [ -n "$2" ]; then node scripts/resolve-eans.mjs --limit "$2"; else node scripts/resolve-eans.mjs; fi
+  git config user.name "buildthatset-bot"
+  git config user.email "buildthatset-bot@users.noreply.github.com"
+  git add data/products.json
+  if git diff --cached --quiet; then echo "Geen wijzigingen."; else git commit -q -m "EAN's per set"; git push -q; echo "EAN's gepusht."; fi
+  exit 0
 fi
 
 node scripts/refresh-bol.mjs

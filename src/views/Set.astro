@@ -107,7 +107,7 @@ const isBest = (i: number) => i === 0 && (deal.offers.length < 2 || deal.offers[
         {deal.pieces || deal.age ? (
           <ul class="facts">
             {deal.pieces ? <li>{new Intl.NumberFormat(tag).format(deal.pieces)} {t2.piecesWord}</li> : null}
-            {deal.pieces ? <li>{t2.buildFact.replace('{t}', buildTimeRange(deal.pieces, deal.theme, t2.hoursUnit, t2.minutesUnit))}</li> : null}
+            {deal.pieces ? <li>{t2.buildFact.replace('{t}', buildTimeRange(deal.pieces, deal.theme, t2.hoursUnit, t2.minutesUnit, deal.age))}</li> : null}
             {deal.age ? <li>{t2.ageFact.replace('{a}', String(deal.age))}</li> : null}
             {deal.theme !== 'overig' ? <li><a href={href(`/thema/${deal.theme}`)}>{themeName(deal.theme, locale)}</a></li> : null}
           </ul>

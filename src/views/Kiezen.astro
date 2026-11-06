@@ -100,7 +100,7 @@ const ageOptions = [3, 6, 8, 10, 12, 14, 18];
         const lo = budget ? budget * 0.8 : 0;
         const hi = budget ? budget * 1.25 : Infinity;
         const price = (d: ClientDeal) => d.offers[0].price;
-        const hrs = (d: ClientDeal) => (d.pieces ? buildHours(d.pieces, d.theme) : 0);
+        const hrs = (d: ClientDeal) => (d.pieces ? buildHours(d.pieces, d.theme, d.age) : 0);
         const fitsTime = (d: ClientDeal) => !range || (d.pieces !== null && hrs(d) >= range.lo && hrs(d) <= range.hi);
         const fitsKw = (d: ClientDeal) => !kw || matchesKeyword(kw, `${d.name} ${d.set}`, d.theme);
         let list = all.filter(

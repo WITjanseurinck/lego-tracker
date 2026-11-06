@@ -377,8 +377,8 @@ export const inBudget = (b: Budget, price: number) =>
   b === 'u50' ? price < 50 : b === '50-100' ? price >= 50 && price < 100 : b === '100-200' ? price >= 100 && price < 200 : price >= 200;
 
 /** Schatting van de bouwtijd als bereik: Technic gaat trager dan gewone sets. */
-export function buildTimeRange(pieces: number, theme: string, hours: string, minutes: string): string {
-  const mid = buildHours(pieces, theme);
+export function buildTimeRange(pieces: number, theme: string, hours: string, minutes: string, age?: number | null): string {
+  const mid = buildHours(pieces, theme, age);
   const lo = mid * 0.83;
   const hi = mid * 1.17;
   if (hi < 1.5) {
@@ -391,8 +391,10 @@ export function buildTimeRange(pieces: number, theme: string, hours: string, min
 }
 
 /** Midden van de geschatte bouwtijd in uren. */
-export function buildHours(pieces: number, theme: string): number {
-  return pieces / (theme === 'technic' ? 300 : 400);
+export function buildHours(pieces: number, theme: string, age?: number | null): number {
+  // Tempo in stenen per uur: volwassen bouwers 400 (Technic 300). Kinderen bouwen trager.
+  const pace = age != null && age < 5 ? 120 : age != null && age < 8 ? 200 : age != null && age < 11 ? 300 : theme === 'technic' ? 300 : 400;
+  return pieces / pace;
 }
 
 export const TIME_RANGES = [

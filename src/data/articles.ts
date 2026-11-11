@@ -6,6 +6,9 @@ import type { Article } from '@/lib/articles';
  */
 
 export const SOURCES = {
+  STONEWARS_NOV26: { label: 'Stonewars: LEGO November 2026 new releases', url: 'https://stonewars.com/news/lego-november-2026-new-releases/' },
+  THEGAMER_NOV26: { label: 'TheGamer: every LEGO set release in November 2026', url: 'https://www.thegamer.com/every-lego-set-release-november-2026/' },
+  MONSTERDEALZ_BF26: { label: 'MonsterDealz: LEGO Black Friday 2026', url: 'https://www.monsterdealz.de/magazin/lego-black-friday' },
   BRICKSET: { label: 'Brickset: Has LEGO become more expensive?', url: 'https://brickset.com/article/80205/has-lego-become-more-expensive' },
   BRICKFACT: { label: 'Brickfact: LEGO age guide for Duplo and classic bricks', url: 'https://brickfact.com/blog/guidebooks/lego-from-which-age-guide-for-duplo-and-co' },
   DUPLO: { label: 'Wikipedia: Lego Duplo', url: 'https://en.wikipedia.org/wiki/Lego_Duplo' },
@@ -1332,6 +1335,223 @@ export const ARTICLES: Article[] = [
           },
           {
             "p": "Prices change often, sometimes within a day. All bol details were checked on 4 November 2026 on bol.com/be. Always check the current price and status before you order."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "new-sets-november-2026-part-two",
+    "published": "2026-11-11T08:27:00.000Z",
+    "updated": "2026-11-11T08:27:00.000Z",
+    "text": {
+      "nl": {
+        "slug": "nieuwe-lego-sets-november-2026-deel-twee-black-friday",
+        "title": "Nieuwe LEGO-sets van november, deel twee: wat andere sites melden en wat er rond Black Friday vastligt",
+        "summary": "Vier novembersets en Godzilla volgens drie sites, plus de data van Insiders Weekend en Black Friday. Nog geen deals live. Gelezen op 11 november 2026.",
+        "body": [
+          {
+            "p": "Op 4 november schreven we over de vier LEGO-sets van november volgens Jay's Brick Blog. Nu zetten we de gegevens naast die van twee andere sites, Stonewars en TheGamer, en kijken we wat er al vaststaat over Black Friday. Alles hieronder komt uit die bronnen en is gelezen op 11 november 2026. Bol.com/be konden we vandaag niet raadplegen, dus bij geen enkele set noemen we een bolprijs of een leverstatus."
+          },
+          {
+            "h2": "De vier novembersets bij drie bronnen"
+          },
+          {
+            "ul": [
+              "Venetian Neighbourhood (11388): € 499,99 volgens Jay's Brick Blog. Stonewars en TheGamer melden 5.682 onderdelen. Insiders konden vanaf 1 november bestellen. Volgens TheGamer start de gewone verkoop op 4 november.",
+              "Dragon Ball Shenron & Goku (11390): € 139,99 volgens Jay's Brick Blog, met 1.764 onderdelen en één minifiguur volgens Stonewars en TheGamer. Het is de eerste set van het Dragon Ball-thema. Insiders konden vanaf 1 november bestellen.",
+              "Sagrada Família (21065): € 749,99 volgens Jay's Brick Blog, met 12.060 onderdelen volgens Stonewars en TheGamer. De drie bronnen noemen 1 november als releasedatum.",
+              "Botanicals Cozy Plants (10371): € 19,99 volgens Jay's Brick Blog, met 248 onderdelen volgens Stonewars en TheGamer. Release op 1 november. Stonewars schrijft dat deze set bij LEGO.com en geselecteerde winkels te koop is."
+            ]
+          },
+          {
+            "p": "De bronnen spreken elkaar over deze vier sets niet tegen, op één punt na: bij de gewone verkoopdatum van Venetian Neighbourhood noemt alleen TheGamer 4 november. Stonewars schrijft dat de nieuwe sets in Europa eerst enkel bij LEGO te koop zijn. Dat verklaart waarom we ze op 4 november niet bij bol vonden. Of dat nu anders is, weten we niet."
+          },
+          {
+            "h2": "Godzilla (21375) volgt op 27 november"
+          },
+          {
+            "p": "Stonewars en TheGamer melden voor LEGO Ideas Godzilla een releasedatum van 27 november, de dag van Black Friday. De prijs is volgens beide $ 449,99. Een prijs in euro vonden we niet. De bronnen verschillen over het aantal onderdelen: Stonewars noemt 5.463 en baseert zich op geruchten, TheGamer noemt 5.363 en haalt dat van de winkelpagina. TheGamer schrijft ook dat wie vóór 30 november bestelt een cadeautje krijgt. Of dat ook voor België geldt, staat er niet bij."
+          },
+          {
+            "h2": "Wat er rond Black Friday vastligt"
+          },
+          {
+            "ul": [
+              "LEGO Insiders Weekend: zaterdag 21 en zondag 22 november 2026, enkel voor leden van het gratis Insiders-programma.",
+              "LEGO Black Friday: vrijdag 27 tot en met maandag 30 november 2026, zolang de voorraad strekt.",
+              "Deals die nu al lopen: in de bronnen die we lazen staat er geen. We vonden ook geen aankondiging van een Belgische of Nederlandse winkel met vroege Black Friday-deals voor LEGO. De bron met de datums dateert van eind oktober en bespreekt de Duitse LEGO-winkel.",
+              "Welke aanbiedingen en cadeaus er komen, is nog niet bevestigd. Als voorbeeld uit het verleden: in 2025 kreeg je bij LEGO Duitsland een gratis set bij een bestelling vanaf € 170. Dat zegt niets zeker over 2026 of over België."
+            ]
+          },
+          {
+            "h2": "Wat dit voor jou betekent"
+          },
+          {
+            "p": "Wil je een van deze sets, dan loont het om de productpagina bij bol in de gaten te houden en de prijs te vergelijken met de adviesprijs van LEGO. Wacht je op Black Friday, houd er dan rekening mee dat sets die net uitkwamen zelden meteen veel onder de adviesprijs komen. Dat is een algemene ervaring en geen belofte. Zodra er echte deals zijn, nemen we ze op nadat we de prijzen hebben nagekeken."
+          },
+          {
+            "h2": "Bronnen"
+          },
+          {
+            "src": [
+              {
+                "label": "Jay's Brick Blog: every new LEGO set releasing in November 2026",
+                "url": "https://jaysbrickblog.com/lego-november-2026-sets/"
+              },
+              {
+                "label": "Stonewars: LEGO November 2026 new releases",
+                "url": "https://stonewars.com/news/lego-november-2026-new-releases/"
+              },
+              {
+                "label": "TheGamer: every LEGO set release in November 2026",
+                "url": "https://www.thegamer.com/every-lego-set-release-november-2026/"
+              },
+              {
+                "label": "MonsterDealz: LEGO Black Friday 2026",
+                "url": "https://www.monsterdealz.de/magazin/lego-black-friday"
+              }
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "slug": "nouveaux-sets-lego-novembre-2026-partie-deux-black-friday",
+        "title": "Nouveaux sets LEGO de novembre, deuxième partie : ce que disent d'autres sites et ce qui est acquis pour le Black Friday",
+        "summary": "Quatre sets de novembre et Godzilla selon trois sites, plus les dates de l'Insiders Weekend et du Black Friday. Pas d'offres en ligne. Lu le 11/11/2026.",
+        "body": [
+          {
+            "p": "Le 4 novembre, nous avons présenté les quatre sets LEGO de novembre d'après Jay's Brick Blog. Nous comparons maintenant avec deux autres sites, Stonewars et TheGamer, et nous regardons ce qui est déjà acquis pour le Black Friday. Tout ce qui suit vient de ces sources, lues le 11 novembre 2026. Nous n'avons pas pu consulter bol.com/be aujourd'hui : nous n'indiquons donc aucun prix bol ni aucun statut de livraison."
+          },
+          {
+            "h2": "Les quatre sets de novembre chez trois sources"
+          },
+          {
+            "ul": [
+              "Venetian Neighbourhood (11388) : 499,99 € selon Jay's Brick Blog. Stonewars et TheGamer annoncent 5 682 pièces. Les Insiders pouvaient commander dès le 1er novembre. Selon TheGamer, la vente générale commence le 4 novembre.",
+              "Dragon Ball Shenron & Goku (11390) : 139,99 € selon Jay's Brick Blog, avec 1 764 pièces et une figurine selon Stonewars et TheGamer. C'est le premier set de la gamme Dragon Ball. Les Insiders pouvaient commander dès le 1er novembre.",
+              "Sagrada Família (21065) : 749,99 € selon Jay's Brick Blog, avec 12 060 pièces selon Stonewars et TheGamer. Les trois sources indiquent le 1er novembre comme date de sortie.",
+              "Botanicals Cozy Plants (10371) : 19,99 € selon Jay's Brick Blog, avec 248 pièces selon Stonewars et TheGamer. Sortie le 1er novembre. Stonewars écrit que ce set est vendu sur LEGO.com et chez des revendeurs sélectionnés."
+            ]
+          },
+          {
+            "p": "Les sources ne se contredisent pas sur ces quatre sets, sauf sur un point : pour la date de vente générale du Venetian Neighbourhood, seul TheGamer cite le 4 novembre. Stonewars écrit qu'en Europe les nouveaux sets sont d'abord vendus uniquement chez LEGO. Cela explique pourquoi nous ne les avons pas trouvés chez bol le 4 novembre. Nous ignorons si c'est encore le cas."
+          },
+          {
+            "h2": "Godzilla (21375) arrive le 27 novembre"
+          },
+          {
+            "p": "Stonewars et TheGamer annoncent LEGO Ideas Godzilla pour le 27 novembre, jour du Black Friday. Le prix est de 449,99 $ selon les deux. Nous n'avons pas trouvé de prix en euros. Les sources divergent sur le nombre de pièces : Stonewars indique 5 463 en s'appuyant sur des rumeurs, TheGamer 5 363 d'après la page de la boutique. TheGamer écrit aussi qu'un cadeau est offert pour toute commande avant le 30 novembre. La source ne précise pas si cela vaut pour la Belgique."
+          },
+          {
+            "h2": "Ce qui est acquis pour le Black Friday"
+          },
+          {
+            "ul": [
+              "LEGO Insiders Weekend : samedi 21 et dimanche 22 novembre 2026, réservé aux membres du programme Insiders gratuit.",
+              "LEGO Black Friday : du vendredi 27 au lundi 30 novembre 2026, dans la limite des stocks.",
+              "Offres déjà en ligne : les sources que nous avons lues n'en mentionnent aucune. Nous n'avons pas non plus trouvé d'annonce d'un revendeur belge ou néerlandais proposant des offres LEGO anticipées. La source des dates date de fin octobre et traite de la boutique LEGO allemande.",
+              "Les offres et cadeaux à venir ne sont pas confirmés. À titre d'exemple passé : en 2025, LEGO Allemagne offrait un set gratuit pour toute commande à partir de 170 €. Cela ne dit rien de sûr pour 2026 ni pour la Belgique."
+            ]
+          },
+          {
+            "h2": "Ce que cela change pour vous"
+          },
+          {
+            "p": "Si l'un de ces sets vous tente, surveillez la page produit chez bol et comparez le prix avec le prix conseillé de LEGO. Si vous attendez le Black Friday, gardez en tête que les sets tout juste sortis passent rarement très en dessous du prix conseillé. C'est un constat général et non une promesse. Dès que de vraies offres apparaîtront, nous les présenterons après vérification des prix."
+          },
+          {
+            "h2": "Sources"
+          },
+          {
+            "src": [
+              {
+                "label": "Jay's Brick Blog: every new LEGO set releasing in November 2026",
+                "url": "https://jaysbrickblog.com/lego-november-2026-sets/"
+              },
+              {
+                "label": "Stonewars: LEGO November 2026 new releases",
+                "url": "https://stonewars.com/news/lego-november-2026-new-releases/"
+              },
+              {
+                "label": "TheGamer: every LEGO set release in November 2026",
+                "url": "https://www.thegamer.com/every-lego-set-release-november-2026/"
+              },
+              {
+                "label": "MonsterDealz: LEGO Black Friday 2026",
+                "url": "https://www.monsterdealz.de/magazin/lego-black-friday"
+              }
+            ]
+          }
+        ]
+      },
+      "en": {
+        "slug": "new-lego-sets-november-2026-part-two-black-friday",
+        "title": "New LEGO sets in November, part two: what other sites report and what is settled for Black Friday",
+        "summary": "Four November sets and Godzilla according to three sites, plus the dates for Insiders Weekend and Black Friday. No deals live yet. Read on 11 Nov 2026.",
+        "body": [
+          {
+            "p": "On 4 November we wrote about the four November LEGO sets according to Jay's Brick Blog. Now we set that next to two other sites, Stonewars and TheGamer, and look at what is already settled for Black Friday. Everything below comes from those sources, read on 11 November 2026. We could not consult bol.com/be today, so we give no bol price and no delivery status for any set."
+          },
+          {
+            "h2": "The four November sets in three sources"
+          },
+          {
+            "ul": [
+              "Venetian Neighbourhood (11388): €499.99 according to Jay's Brick Blog. Stonewars and TheGamer list 5,682 pieces. Insiders could order from 1 November. According to TheGamer, general sale starts on 4 November.",
+              "Dragon Ball Shenron & Goku (11390): €139.99 according to Jay's Brick Blog, with 1,764 pieces and one minifigure according to Stonewars and TheGamer. It is the first set in the Dragon Ball theme. Insiders could order from 1 November.",
+              "Sagrada Família (21065): €749.99 according to Jay's Brick Blog, with 12,060 pieces according to Stonewars and TheGamer. All three sources give 1 November as the release date.",
+              "Botanicals Cozy Plants (10371): €19.99 according to Jay's Brick Blog, with 248 pieces according to Stonewars and TheGamer. Release on 1 November. Stonewars writes that this set is sold at LEGO.com and selected retailers."
+            ]
+          },
+          {
+            "p": "The sources do not contradict each other on these four sets, apart from one point: for the general sale date of Venetian Neighbourhood, only TheGamer names 4 November. Stonewars writes that in Europe the new sets are first sold only at LEGO. That would explain why we did not find them at bol on 4 November. We do not know whether that has changed."
+          },
+          {
+            "h2": "Godzilla (21375) follows on 27 November"
+          },
+          {
+            "p": "Stonewars and TheGamer both give LEGO Ideas Godzilla a release date of 27 November, the day of Black Friday. The price is $449.99 according to both. We found no euro price. The sources differ on the piece count: Stonewars says 5,463 and relies on rumours, TheGamer says 5,363 and takes it from the store page. TheGamer also writes that orders placed before 30 November get a gift. The source does not say whether that applies in Belgium."
+          },
+          {
+            "h2": "What is settled for Black Friday"
+          },
+          {
+            "ul": [
+              "LEGO Insiders Weekend: Saturday 21 and Sunday 22 November 2026, for members of the free Insiders programme only.",
+              "LEGO Black Friday: Friday 27 to Monday 30 November 2026, while stocks last.",
+              "Deals already live: the sources we read mention none. We also found no announcement from a Belgian or Dutch retailer with early LEGO Black Friday deals. The source with the dates is from late October and covers the German LEGO store.",
+              "The offers and gifts to come are not confirmed. As an example from the past: in 2025 LEGO Germany gave a free set with orders from €170. That says nothing certain about 2026 or about Belgium."
+            ]
+          },
+          {
+            "h2": "What this means for you"
+          },
+          {
+            "p": "If you want one of these sets, keep an eye on the product page at bol and compare the price with LEGO's recommended price. If you are waiting for Black Friday, keep in mind that sets that have just come out rarely drop far below the recommended price right away. That is a general observation and not a promise. Once real deals appear, we will cover them after checking the prices."
+          },
+          {
+            "h2": "Sources"
+          },
+          {
+            "src": [
+              {
+                "label": "Jay's Brick Blog: every new LEGO set releasing in November 2026",
+                "url": "https://jaysbrickblog.com/lego-november-2026-sets/"
+              },
+              {
+                "label": "Stonewars: LEGO November 2026 new releases",
+                "url": "https://stonewars.com/news/lego-november-2026-new-releases/"
+              },
+              {
+                "label": "TheGamer: every LEGO set release in November 2026",
+                "url": "https://www.thegamer.com/every-lego-set-release-november-2026/"
+              },
+              {
+                "label": "MonsterDealz: LEGO Black Friday 2026",
+                "url": "https://www.monsterdealz.de/magazin/lego-black-friday"
+              }
+            ]
           }
         ]
       }

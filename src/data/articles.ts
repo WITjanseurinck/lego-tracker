@@ -1557,4 +1557,188 @@ export const ARTICLES: Article[] = [
       }
     }
   },
+  {
+    "id": "flowers-and-plants-2026-11-13",
+    "published": "2026-11-13T07:57:47.000Z",
+    "updated": "2026-11-13T07:57:47.000Z",
+    "text": {
+      "nl": {
+        "slug": "lego-bloemen-en-planten-prijs-per-steen-bij-bol",
+        "title": "Zes LEGO-bloemen en -planten voor volwassenen: prijs en prijs per steen bij bol",
+        "summary": "Zes LEGO Icons- en Botanicals-sets bij bol.com/be met prijs, aantal stenen en prijs per steen. Prijzen van de controle van 13 november 2026.",
+        "body": [
+          {
+            "p": "Bloemen en planten van LEGO zijn een vaste waarde voor wie iets voor de huiskamer wil bouwen. Bij bol.com/be staan zes sets uit de Icons- en Botanicals-reeksen, alle zes voor volwassenen (18+). We zetten ze van laag naar hoog op prijs per steen. Bol verkoopt ze zelf en ze staan in onze prijsdata op voorraad. De prijs per steen is de setprijs gedeeld door het aantal stenen. Alle zes staan boven € 25, dus de verzending is gratis. Alle prijzen komen uit onze prijsronde van 13 november 2026."
+          },
+          {
+            "h2": "Wilde Bloemen Boeket (10313): ongeveer € 0,04 per steen"
+          },
+          {
+            "p": "939 stenen voor € 38,65, verzending inbegrepen. De adviesprijs is € 59,99, dus 36 procent lager."
+          },
+          {
+            "h2": "Miniplantjes (10329): ongeveer € 0,05 per steen"
+          },
+          {
+            "p": "758 stenen voor € 37,19, verzending inbegrepen. De adviesprijs is € 49,99, dus 26 procent lager."
+          },
+          {
+            "h2": "Botanicals Roze boeket (10342): ongeveer € 0,06 per steen"
+          },
+          {
+            "p": "749 stenen voor € 43,31, verzending inbegrepen. De adviesprijs is € 59,99, dus 28 procent lager."
+          },
+          {
+            "h2": "Orchidee (10311): ongeveer € 0,06 per steen"
+          },
+          {
+            "p": "608 stenen voor € 36,96, verzending inbegrepen. De adviesprijs is € 49,99, dus 26 procent lager."
+          },
+          {
+            "h2": "Botanicals Boeket met zonnebloemen (11502): ongeveer € 0,06 per steen"
+          },
+          {
+            "p": "686 stenen voor € 42,61, verzending inbegrepen. De adviesprijs is € 59,99, dus 29 procent lager."
+          },
+          {
+            "h2": "Botanicals Bloemenwand (11503): ongeveer € 0,06 per steen"
+          },
+          {
+            "p": "879 stenen voor € 54,99, verzending inbegrepen. De adviesprijs is € 89,99, dus 39 procent lager."
+          },
+          {
+            "h2": "Zo kies je"
+          },
+          {
+            "ul": [
+              "Voor de laagste prijs per steen kijk je naar het Wilde Bloemen Boeket (10313) en de Miniplantjes (10329).",
+              "Voor een cadeau met één bloemsoort is de Orchidee (10311) de kleinste set van de zes.",
+              "Voor aan de muur past de Bloemenwand (11503), die ook het verst onder de adviesprijs staat."
+            ]
+          },
+          {
+            "p": "Prijzen veranderen vaak, soms binnen een dag. Alle bedragen komen uit de prijsronde van 13 november 2026 van bol.com/be. Kijk de actuele prijs altijd na bij de winkel voor je bestelt."
+          }
+        ]
+      },
+      "fr": {
+        "slug": "fleurs-et-plantes-lego-prix-par-brique-chez-bol",
+        "title": "Six fleurs et plantes LEGO pour adultes : prix et prix par brique chez bol",
+        "summary": "Six sets LEGO Icons et Botanicals chez bol.com/be avec prix, nombre de briques et prix par brique. Prix du relevé du 13 novembre 2026.",
+        "body": [
+          {
+            "p": "Les fleurs et les plantes LEGO ont leur place dans un salon. Chez bol.com/be, six sets des gammes Icons et Botanicals, tous pour adultes (18+), sont disponibles. Nous les classons du plus bas au plus haut prix par brique. Bol les vend lui-même et ils sont en stock dans nos données de prix. Le prix par brique est le prix du set divisé par le nombre de briques. Les six dépassent 25 €, la livraison est donc gratuite. Tous les prix proviennent de notre relevé du 13 novembre 2026."
+          },
+          {
+            "h2": "Bouquet de fleurs sauvages (10313) : environ 0,04 € par brique"
+          },
+          {
+            "p": "939 briques pour 38,65 €, livraison comprise. Le prix conseillé est de 59,99 €, soit 36 % de moins."
+          },
+          {
+            "h2": "Mini plantes (10329) : environ 0,05 € par brique"
+          },
+          {
+            "p": "758 briques pour 37,19 €, livraison comprise. Le prix conseillé est de 49,99 €, soit 26 % de moins."
+          },
+          {
+            "h2": "Botanicals Bouquet rose (10342) : environ 0,06 € par brique"
+          },
+          {
+            "p": "749 briques pour 43,31 €, livraison comprise. Le prix conseillé est de 59,99 €, soit 28 % de moins."
+          },
+          {
+            "h2": "Orchidée (10311) : environ 0,06 € par brique"
+          },
+          {
+            "p": "608 briques pour 36,96 €, livraison comprise. Le prix conseillé est de 49,99 €, soit 26 % de moins."
+          },
+          {
+            "h2": "Botanicals Bouquet de tournesols (11502) : environ 0,06 € par brique"
+          },
+          {
+            "p": "686 briques pour 42,61 €, livraison comprise. Le prix conseillé est de 59,99 €, soit 29 % de moins."
+          },
+          {
+            "h2": "Botanicals Mur de fleurs (11503) : environ 0,06 € par brique"
+          },
+          {
+            "p": "879 briques pour 54,99 €, livraison comprise. Le prix conseillé est de 89,99 €, soit 39 % de moins."
+          },
+          {
+            "h2": "Comment choisir"
+          },
+          {
+            "ul": [
+              "Pour le prix par brique le plus bas, regardez le Bouquet de fleurs sauvages (10313) et les Mini plantes (10329).",
+              "Pour un cadeau autour d’une seule fleur, l’Orchidée (10311) est le plus petit des six sets.",
+              "Pour décorer un mur, le Mur de fleurs (11503) convient bien, et c’est aussi celui qui est le plus en dessous du prix conseillé."
+            ]
+          },
+          {
+            "p": "Les prix changent souvent, parfois en une journée. Tous les montants viennent du relevé du 13 novembre 2026 sur bol.com/be. Vérifiez toujours le prix actuel chez le marchand avant de commander."
+          }
+        ]
+      },
+      "en": {
+        "slug": "lego-flowers-and-plants-price-per-piece-at-bol",
+        "title": "Six LEGO flower and plant sets for adults: price and price per piece at bol",
+        "summary": "Six LEGO Icons and Botanicals sets at bol.com/be with price, piece count and price per piece. Prices from the price check of 13 November 2026.",
+        "body": [
+          {
+            "p": "LEGO flowers and plants are a safe pick when you want to build something for the living room. At bol.com/be there are six sets from the Icons and Botanicals ranges, all for adults (18+). We list them from lowest to highest price per piece. Bol sells all six itself and they show as in stock in our price data. The price per piece is the set price divided by the piece count. All six are above €25, so shipping is free. All prices come from our price check of 13 November 2026."
+          },
+          {
+            "h2": "Wildflower Bouquet (10313): about €0.04 per piece"
+          },
+          {
+            "p": "939 pieces for €38.65, shipping included. The recommended price is €59.99, so 36 percent lower."
+          },
+          {
+            "h2": "Tiny Plants (10329): about €0.05 per piece"
+          },
+          {
+            "p": "758 pieces for €37.19, shipping included. The recommended price is €49.99, so 26 percent lower."
+          },
+          {
+            "h2": "Botanicals Pink Bouquet (10342): about €0.06 per piece"
+          },
+          {
+            "p": "749 pieces for €43.31, shipping included. The recommended price is €59.99, so 28 percent lower."
+          },
+          {
+            "h2": "Orchid (10311): about €0.06 per piece"
+          },
+          {
+            "p": "608 pieces for €36.96, shipping included. The recommended price is €49.99, so 26 percent lower."
+          },
+          {
+            "h2": "Botanicals Sunflower Bouquet (11502): about €0.06 per piece"
+          },
+          {
+            "p": "686 pieces for €42.61, shipping included. The recommended price is €59.99, so 29 percent lower."
+          },
+          {
+            "h2": "Botanicals Flower Wall (11503): about €0.06 per piece"
+          },
+          {
+            "p": "879 pieces for €54.99, shipping included. The recommended price is €89.99, so 39 percent lower."
+          },
+          {
+            "h2": "How to choose"
+          },
+          {
+            "ul": [
+              "For the lowest price per piece, look at the Wildflower Bouquet (10313) and the Tiny Plants (10329).",
+              "For a gift built around a single flower, the Orchid (10311) is the smallest of the six.",
+              "For a wall, the Flower Wall (11503) fits, and it also sits furthest below its recommended price."
+            ]
+          },
+          {
+            "p": "Prices change often, sometimes within a day. All amounts come from the 13 November 2026 price check of bol.com/be. Always check the current price at the shop before you order."
+          }
+        ]
+      }
+    }
+  },
 ];

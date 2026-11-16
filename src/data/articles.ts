@@ -1741,4 +1741,134 @@ export const ARTICLES: Article[] = [
       }
     }
   },
+  {
+    "id": "bol-below-rrp-2026-11-16",
+    "published": "2026-11-16T07:55:00.000Z",
+    "updated": "2026-11-16T07:55:00.000Z",
+    "text": {
+      "nl": {
+        "slug": "lego-sets-bij-bol-onder-de-adviesprijs-16-november",
+        "title": "Acht LEGO-sets die bij bol minstens een derde onder de adviesprijs staan",
+        "summary": "Op 16 november 2026 staan acht LEGO-sets bij bol.com/be minstens 33 procent onder de adviesprijs, van de Racefiets tot het Melkwegstelsel.",
+        "body": [
+          {
+            "p": "Bij de prijscontrole van 16 november 2026 stonden er in onze lijst heel wat LEGO-sets ruim onder de adviesprijs, nu Black Friday dichterbij komt. Hieronder staan acht sets die bol.com/be zelf verkoopt en die minstens een derde onder de adviesprijs staan. Sets die we in eerdere overzichten al noemden, laten we weg. De verzending is bij alle acht inbegrepen, want elke set kost meer dan € 25."
+          },
+          {
+            "h2": "De acht sets, van groot naar klein verschil"
+          },
+          {
+            "ul": [
+              "Onderzoekstrein op de Noordpool (60470): € 118,99 bij bol, adviesprijs € 199,99. Dat is € 81,00 lager, ongeveer 41 procent.",
+              "Passagiersvliegtuig (60367): € 59,99 bij bol, adviesprijs € 99,99. Dat is € 40,00 lager, ongeveer 40 procent.",
+              "Racefiets (11380): € 74,34 bij bol, adviesprijs € 119,99. Dat is € 45,65 lager, ongeveer 38 procent.",
+              "Star Wars ARC-170 Starfighter (75402): € 43,47 bij bol, adviesprijs € 69,99. Dat is € 26,52 lager, ongeveer 38 procent.",
+              "BMW M4 GT3 Evo racewagen (42226): € 41,57 bij bol, adviesprijs € 64,99. Dat is € 23,42 lager, ongeveer 36 procent.",
+              "E.T. the Extra-Terrestrial (21370): € 83,24 bij bol, adviesprijs € 129,99. Dat is € 46,75 lager, ongeveer 36 procent.",
+              "The Lord of the Rings: de helm van Sauron (11373): € 48,99 bij bol, adviesprijs € 74,99. Dat is € 26,00 lager, ongeveer 35 procent.",
+              "Het Melkwegstelsel (31212): € 134,00 bij bol, adviesprijs € 199,99. Dat is € 65,99 lager, ongeveer 33 procent."
+            ]
+          },
+          {
+            "h2": "Wat opvalt"
+          },
+          {
+            "ul": [
+              "De Onderzoekstrein op de Noordpool (60470) heeft het grootste verschil in euro: € 81,00 onder de adviesprijs.",
+              "De BMW M4 GT3 Evo racewagen (42226) heeft met € 41,57 de laagste prijs in dit overzicht.",
+              "De sets komen uit verschillende themas, van City en Technic tot Star Wars, Icons en Ideas."
+            ]
+          },
+          {
+            "h2": "Zo lees je deze prijzen"
+          },
+          {
+            "p": "We vergelijken met de adviesprijs die bol bij de set toont, en dat is niet altijd de laagste prijs van de voorbije maanden. Prijzen veranderen vaak, soms binnen een dag. Alle bedragen komen uit onze prijscontrole van 16 november 2026 bij bol.com/be. Kijk de actuele prijs altijd na bij de winkel voor je bestelt."
+          }
+        ]
+      },
+      "fr": {
+        "slug": "sets-lego-chez-bol-sous-le-prix-conseille-16-novembre",
+        "title": "Huit sets LEGO au moins un tiers sous le prix conseillé chez bol",
+        "summary": "Le 16 novembre 2026, huit sets LEGO sont chez bol.com/be au moins 33 % sous le prix conseillé, du Vélo de course à la Voie lactée.",
+        "body": [
+          {
+            "p": "Lors du contrôle des prix du 16 novembre 2026, de nombreux sets LEGO de notre liste étaient nettement sous le prix conseillé, à l’approche du Black Friday. Voici huit sets que bol.com/be vend lui-même et qui se situent au moins un tiers sous le prix conseillé. Les sets déjà cités dans nos aperçus précédents sont écartés. La livraison est comprise pour les huit, car chaque set coûte plus de 25 €."
+          },
+          {
+            "h2": "Les huit sets, de la plus grande à la plus petite différence"
+          },
+          {
+            "ul": [
+              "Train d’exploration de l’Arctique (60470) : 118,99 € chez bol, prix conseillé 199,99 €. Soit 81,00 € de moins, environ 41 pour cent.",
+              "Avion de ligne (60367) : 59,99 € chez bol, prix conseillé 99,99 €. Soit 40,00 € de moins, environ 40 pour cent.",
+              "Vélo de course (11380) : 74,34 € chez bol, prix conseillé 119,99 €. Soit 45,65 € de moins, environ 38 pour cent.",
+              "Star Wars ARC-170 Starfighter (75402) : 43,47 € chez bol, prix conseillé 69,99 €. Soit 26,52 € de moins, environ 38 pour cent.",
+              "BMW M4 GT3 Evo voiture de course (42226) : 41,57 € chez bol, prix conseillé 64,99 €. Soit 23,42 € de moins, environ 36 pour cent.",
+              "E.T. l’Extra-Terrestre (21370) : 83,24 € chez bol, prix conseillé 129,99 €. Soit 46,75 € de moins, environ 36 pour cent.",
+              "Le Seigneur des anneaux : le casque de Sauron (11373) : 48,99 € chez bol, prix conseillé 74,99 €. Soit 26,00 € de moins, environ 35 pour cent.",
+              "La Voie lactée (31212) : 134,00 € chez bol, prix conseillé 199,99 €. Soit 65,99 € de moins, environ 33 pour cent."
+            ]
+          },
+          {
+            "h2": "Ce qui ressort"
+          },
+          {
+            "ul": [
+              "Le set Train d’exploration de l’Arctique (60470) offre la plus grande différence en euros : 81,00 € sous le prix conseillé.",
+              "Le set BMW M4 GT3 Evo voiture de course (42226) a, à 41,57 €, le prix le plus bas de cette sélection.",
+              "Les huit sets viennent de thèmes variés, de City et Technic à Star Wars, Icons et Ideas."
+            ]
+          },
+          {
+            "h2": "Comment lire ces prix"
+          },
+          {
+            "p": "Nous comparons avec le prix conseillé que bol affiche pour le set, qui n’est pas toujours le prix le plus bas des derniers mois. Les prix changent souvent, parfois en une journée. Tous les montants viennent de notre contrôle des prix du 16 novembre 2026 chez bol.com/be. Vérifiez toujours le prix actuel dans la boutique avant de commander."
+          }
+        ]
+      },
+      "en": {
+        "slug": "lego-sets-at-bol-at-least-a-third-below-recommended-price-16-november",
+        "title": "Eight LEGO sets at least a third below the recommended price at bol",
+        "summary": "On 16 November 2026 eight LEGO sets at bol.com/be sit at least 33 percent below the recommended price, from the Racing bike to the Milky Way.",
+        "body": [
+          {
+            "p": "In the price check of 16 November 2026, plenty of LEGO sets in our list sat well below the recommended price as Black Friday gets closer. Below are eight sets that bol.com/be sells itself and that stand at least a third below the recommended price. Sets we named in earlier overviews are left out. Shipping is included on all eight, because every set costs more than €25."
+          },
+          {
+            "h2": "The eight sets, from biggest to smallest difference"
+          },
+          {
+            "ul": [
+              "Arctic exploration train (60470): €118.99 at bol, recommended price €199.99. That is €81.00 lower, about 41 percent.",
+              "Passenger airplane (60367): €59.99 at bol, recommended price €99.99. That is €40.00 lower, about 40 percent.",
+              "Racing bike (11380): €74.34 at bol, recommended price €119.99. That is €45.65 lower, about 38 percent.",
+              "Star Wars ARC-170 Starfighter (75402): €43.47 at bol, recommended price €69.99. That is €26.52 lower, about 38 percent.",
+              "BMW M4 GT3 Evo race car (42226): €41.57 at bol, recommended price €64.99. That is €23.42 lower, about 36 percent.",
+              "E.T. the Extra-Terrestrial (21370): €83.24 at bol, recommended price €129.99. That is €46.75 lower, about 36 percent.",
+              "The Lord of the Rings: the Helm of Sauron (11373): €48.99 at bol, recommended price €74.99. That is €26.00 lower, about 35 percent.",
+              "The Milky Way Galaxy (31212): €134.00 at bol, recommended price €199.99. That is €65.99 lower, about 33 percent."
+            ]
+          },
+          {
+            "h2": "What stands out"
+          },
+          {
+            "ul": [
+              "The Arctic exploration train (60470) has the biggest difference in euros: €81.00 below the recommended price.",
+              "The BMW M4 GT3 Evo race car (42226) has the lowest price in this overview at €41.57.",
+              "The sets come from a mix of themes, from City and Technic to Star Wars, Icons and Ideas."
+            ]
+          },
+          {
+            "h2": "How to read these prices"
+          },
+          {
+            "p": "We compare with the recommended price that bol shows for the set, which is not always the lowest price of recent months. Prices change often, sometimes within a day. All amounts come from our price check of 16 November 2026 at bol.com/be. Always check the current price at the shop before you order."
+          }
+        ]
+      }
+    }
+  },
 ];

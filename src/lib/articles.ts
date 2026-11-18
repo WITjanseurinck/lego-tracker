@@ -48,6 +48,7 @@ const HERO_SET: Record<string, string> = {
   'bol-below-rrp-2026-11-16': '11380',
   'new-sets-november-2026-part-two': '10311',
   'flowers-and-plants-2026-11-13': '10313',
+  'adults-black-friday-2026-11-18': '76419',
 };
 
 export const articleHeroSet = (a: Article): string | undefined => HERO_SET[a.id];

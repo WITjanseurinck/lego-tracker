@@ -1871,4 +1871,173 @@ export const ARTICLES: Article[] = [
       }
     }
   },
+  {
+    "id": "adults-black-friday-2026-11-18",
+    "published": "2026-11-18T07:58:00.000Z",
+    "updated": "2026-11-18T07:58:00.000Z",
+    "text": {
+      "nl": {
+        "slug": "lego-voor-volwassenen-black-friday-2026-bij-bol",
+        "title": "Black Friday 2026: acht LEGO-sets voor volwassenen die bij bol al onder de adviesprijs staan",
+        "summary": "Acht LEGO-sets voor volwassenen bij bol.com/be die nu al ruim een derde onder de adviesprijs staan, voor Black Friday. Prijzen van 18 november 2026.",
+        "body": [
+          {
+            "p": "Black Friday valt dit jaar op vrijdag 27 november 2026. Wie een LEGO-set voor volwassenen op het oog heeft, kan nu al kijken wat bol.com/be vraagt. Hieronder staan acht sets voor 18+ die bol zelf verkoopt en die in onze prijsdata op voorraad zijn. Ze staan minstens 33 procent onder de adviesprijs die bol toont. Sets die we in eerdere overzichten noemden, laten we weg. Alle acht kosten meer dan € 25, dus de verzending is gratis. Alle prijzen komen uit onze prijsronde van 18 november 2026."
+          },
+          {
+            "h2": "De acht sets, van groot naar klein verschil in procent"
+          },
+          {
+            "ul": [
+              "Mario Kart™: Luigi en Mach 8 (72050): € 109,99 bij bol, adviesprijs € 179,99. Dat is € 70,00 lager, ongeveer 39 procent. 2234 stenen.",
+              "Winnie de Poeh (43300): € 94,99 bij bol, adviesprijs € 149,99. Dat is € 55,00 lager, ongeveer 37 procent. 1399 stenen.",
+              "Kasteel Zweinstein en terrein (76419): € 110,00 bij bol, adviesprijs € 169,99. Dat is € 59,99 lager, ongeveer 35 procent. 2660 stenen.",
+              "McLaren MCL39 F1 Car (42228): € 150,00 bij bol, adviesprijs € 229,99. Dat is € 79,99 lager, ongeveer 35 procent. 1675 stenen.",
+              "Japanse esdoorn bonsaiboompje (10348): € 38,99 bij bol, adviesprijs € 59,99. Dat is € 21,00 lager, ongeveer 35 procent. 474 stenen.",
+              "Williams Racing FW14B en Nigel Mansell (10353): € 52,99 bij bol, adviesprijs € 79,99. Dat is € 27,00 lager, ongeveer 34 procent. 799 stenen.",
+              "Rustgevende tuin (10315): € 68,99 bij bol, adviesprijs € 104,99. Dat is € 36,00 lager, ongeveer 34 procent. 1363 stenen.",
+              "Disney Pixar Luxo Jr. (21357): € 46,99 bij bol, adviesprijs € 69,99. Dat is € 23,00 lager, ongeveer 33 procent. 613 stenen."
+            ]
+          },
+          {
+            "h2": "Wat we over Black Friday weten"
+          },
+          {
+            "ul": [
+              "Black Friday is op vrijdag 27 november 2026. Een bron die we eerder lazen noemt de LEGO-actie van vrijdag 27 tot en met maandag 30 november, zolang de voorraad strekt. Die bron bespreekt de Duitse LEGO-winkel.",
+              "Over concrete Belgische deals voor LEGO op Black Friday vonden we op het moment van schrijven niets vast. Of deze sets nog lager gaan, weten we dus niet."
+            ]
+          },
+          {
+            "h2": "Zo pak je het aan"
+          },
+          {
+            "p": "Zet de sets die je wilt naast elkaar met hun prijs van vandaag. Kijk op Black Friday zelf opnieuw naar de prijs bij bol en vergelijk met de bedragen hierboven en met de adviesprijs. Staat een set al een derde onder de adviesprijs, dan hoef je niet te wachten als het jouw prijs is. Zo hou je het eigen bedrag in de hand."
+          },
+          {
+            "h2": "Zo lees je deze prijzen"
+          },
+          {
+            "p": "We vergelijken met de adviesprijs die bol bij de set toont. Die is niet altijd de laagste prijs van de voorbije maanden. Prijzen bij bol veranderen vaak, soms binnen een dag. Alle bedragen komen uit onze prijsronde van 18 november 2026. Kijk de actuele prijs altijd na in de winkel voor je bestelt."
+          },
+          {
+            "src": [
+              {
+                "label": "MonsterDealz: LEGO Black Friday 2026",
+                "url": "https://www.monsterdealz.de/magazin/lego-black-friday"
+              }
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "slug": "lego-pour-adultes-black-friday-2026-chez-bol",
+        "title": "Black Friday 2026 : huit sets LEGO pour adultes déjà sous le prix conseillé chez bol",
+        "summary": "Huit sets LEGO pour adultes chez bol.com/be déjà plus d’un tiers sous le prix conseillé, avant le Black Friday. Prix du contrôle du 18 novembre 2026.",
+        "body": [
+          {
+            "p": "Cette année, le Black Friday tombe le vendredi 27 novembre 2026. Si vous avez un set LEGO pour adultes en tête, vous pouvez déjà regarder ce que demande bol.com/be. Voici huit sets 18+ que bol vend lui-même et qui sont en stock dans nos données de prix. Ils sont au moins 33 pour cent sous le prix conseillé affiché par bol. Nous écartons les sets cités dans nos aperçus précédents. Les huit coûtent plus de 25 €, la livraison est donc gratuite. Tous les prix viennent de notre contrôle du 18 novembre 2026."
+          },
+          {
+            "h2": "Les huit sets, du plus grand au plus petit écart en pourcentage"
+          },
+          {
+            "ul": [
+              "Mario Kart™ : Luigi et Mach 8 (72050) : 109,99 € chez bol, prix conseillé 179,99 €. Soit 70,00 € de moins, environ 39 pour cent. 2234 pièces.",
+              "Winnie l’ourson (43300) : 94,99 € chez bol, prix conseillé 149,99 €. Soit 55,00 € de moins, environ 37 pour cent. 1399 pièces.",
+              "Château de Poudlard et son domaine (76419) : 110,00 € chez bol, prix conseillé 169,99 €. Soit 59,99 € de moins, environ 35 pour cent. 2660 pièces.",
+              "McLaren MCL39 F1 Car (42228) : 150,00 € chez bol, prix conseillé 229,99 €. Soit 79,99 € de moins, environ 35 pour cent. 1675 pièces.",
+              "Bonsaï d’érable japonais (10348) : 38,99 € chez bol, prix conseillé 59,99 €. Soit 21,00 € de moins, environ 35 pour cent. 474 pièces.",
+              "Williams Racing FW14B et Nigel Mansell (10353) : 52,99 € chez bol, prix conseillé 79,99 €. Soit 27,00 € de moins, environ 34 pour cent. 799 pièces.",
+              "Le jardin paisible (10315) : 68,99 € chez bol, prix conseillé 104,99 €. Soit 36,00 € de moins, environ 34 pour cent. 1363 pièces.",
+              "Disney Pixar Luxo Jr. (21357) : 46,99 € chez bol, prix conseillé 69,99 €. Soit 23,00 € de moins, environ 33 pour cent. 613 pièces."
+            ]
+          },
+          {
+            "h2": "Ce que nous savons du Black Friday"
+          },
+          {
+            "ul": [
+              "Le Black Friday a lieu le vendredi 27 novembre 2026. Une source lue plus tôt situe l’action LEGO du vendredi 27 au lundi 30 novembre, dans la limite des stocks. Cette source parle de la boutique LEGO allemande.",
+              "Nous n’avons trouvé, au moment d’écrire, aucune offre belge confirmée pour LEGO au Black Friday. Nous ne savons donc pas si ces sets baisseront encore."
+            ]
+          },
+          {
+            "h2": "Comment vous y prendre"
+          },
+          {
+            "p": "Mettez côte à côte les sets qui vous intéressent, avec leur prix d’aujourd’hui. Le jour du Black Friday, regardez à nouveau le prix chez bol et comparez-le avec les montants ci-dessus et avec le prix conseillé. Si un set est déjà un tiers sous le prix conseillé et que ce prix vous convient, rien ne vous oblige à attendre. Vous gardez ainsi la main sur votre budget."
+          },
+          {
+            "h2": "Comment lire ces prix"
+          },
+          {
+            "p": "Nous comparons avec le prix conseillé que bol affiche pour le set, qui n’est pas toujours le prix le plus bas des derniers mois. Les prix changent souvent chez bol, parfois en une journée. Tous les montants viennent de notre contrôle du 18 novembre 2026. Vérifiez toujours le prix actuel dans la boutique avant de commander."
+          },
+          {
+            "src": [
+              {
+                "label": "MonsterDealz: LEGO Black Friday 2026",
+                "url": "https://www.monsterdealz.de/magazin/lego-black-friday"
+              }
+            ]
+          }
+        ]
+      },
+      "en": {
+        "slug": "lego-for-adults-black-friday-2026-at-bol",
+        "title": "Black Friday 2026: eight LEGO sets for adults already below the recommended price at bol",
+        "summary": "Eight LEGO sets for adults at bol.com/be already more than a third below the recommended price, ahead of Black Friday. Prices of 18 Nov 2026.",
+        "body": [
+          {
+            "p": "Black Friday falls on Friday 27 November 2026 this year. If you have a LEGO set for adults in mind, you can already see what bol.com/be asks. Below are eight 18+ sets that bol sells itself and that are in stock in our price data. Each stands at least 33 percent below the recommended price bol shows. Sets we named in earlier overviews are left out. All eight cost more than €25, so shipping is free. All prices come from our price check of 18 November 2026."
+          },
+          {
+            "h2": "The eight sets, from biggest to smallest difference in percent"
+          },
+          {
+            "ul": [
+              "Mario Kart™: Luigi and Mach 8 (72050): €109.99 at bol, recommended price €179.99. That is €70.00 lower, about 39 percent. 2234 pieces.",
+              "Winnie the Pooh (43300): €94.99 at bol, recommended price €149.99. That is €55.00 lower, about 37 percent. 1399 pieces.",
+              "Hogwarts Castle and Grounds (76419): €110.00 at bol, recommended price €169.99. That is €59.99 lower, about 35 percent. 2660 pieces.",
+              "McLaren MCL39 F1 Car (42228): €150.00 at bol, recommended price €229.99. That is €79.99 lower, about 35 percent. 1675 pieces.",
+              "Japanese maple bonsai (10348): €38.99 at bol, recommended price €59.99. That is €21.00 lower, about 35 percent. 474 pieces.",
+              "Williams Racing FW14B and Nigel Mansell (10353): €52.99 at bol, recommended price €79.99. That is €27.00 lower, about 34 percent. 799 pieces.",
+              "Tranquil Garden (10315): €68.99 at bol, recommended price €104.99. That is €36.00 lower, about 34 percent. 1363 pieces.",
+              "Disney Pixar Luxo Jr. (21357): €46.99 at bol, recommended price €69.99. That is €23.00 lower, about 33 percent. 613 pieces."
+            ]
+          },
+          {
+            "h2": "What we know about Black Friday"
+          },
+          {
+            "ul": [
+              "Black Friday is on Friday 27 November 2026. A source we read earlier puts the LEGO promotion from Friday 27 to Monday 30 November, while stocks last. That source covers the German LEGO store.",
+              "At the time of writing we found nothing confirmed about Belgian LEGO deals on Black Friday. So we do not know whether these sets will go lower still."
+            ]
+          },
+          {
+            "h2": "How to approach it"
+          },
+          {
+            "p": "Line up the sets you want with today’s price. On Black Friday itself, look at the price at bol again and compare it with the amounts above and with the recommended price. If a set already stands a third below the recommended price and that price suits you, there is no need to wait. That keeps your budget in your own hands."
+          },
+          {
+            "h2": "How to read these prices"
+          },
+          {
+            "p": "We compare with the recommended price bol shows for the set, which is not always the lowest price of recent months. Prices at bol change often, sometimes within a day. All amounts come from our price check of 18 November 2026. Always check the current price at the shop before you order."
+          },
+          {
+            "src": [
+              {
+                "label": "MonsterDealz: LEGO Black Friday 2026",
+                "url": "https://www.monsterdealz.de/magazin/lego-black-friday"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
 ];

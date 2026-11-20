@@ -2040,4 +2040,233 @@ export const ARTICLES: Article[] = [
       }
     }
   },
+  {
+    "id": "f1-dagdeal-2026-11-20",
+    "published": "2026-11-22T07:55:00.000Z",
+    "updated": "2026-11-22T07:55:00.000Z",
+    "text": {
+      "nl": {
+        "slug": "lego-f1-sets-bij-bol-dagdeal-20-november",
+        "title": "LEGO F1-sets bij bol: de dagdeal van 20 november in prijzen",
+        "summary": "Op 20 november 2026 stonden negentien LEGO F1-sets bij bol.com/be 30 tot 49 procent onder de adviesprijs. Alle prijzen op een rij, per reeks.",
+        "body": [
+          {
+            "p": "Op vrijdag 20 november 2026 stond bij bol een dagdeal op LEGO F1-sets, met de vermelding laatste dag. In onze prijsdata van die dag staan negentien F1-sets die bol.com/be zelf verkoopt, en ze lagen allemaal ruim onder de adviesprijs. Hieronder staan ze per reeks, met de prijs bij bol, de adviesprijs en het verschil. Alle bedragen komen uit onze prijscontrole van 20 november 2026."
+          },
+          {
+            "h2": "Speed Champions: zes keer € 17,49"
+          },
+          {
+            "ul": [
+              "Oracle Red Bull Racing RB20 (77243): € 17,49 bij bol, adviesprijs € 26,99. Dat is € 9,50 lager, ongeveer 35 procent. 251 stenen.",
+              "Aston Martin Aramco AMR24 (77245): € 17,49 bij bol, adviesprijs € 26,99. Dat is € 9,50 lager, ongeveer 35 procent. 269 stenen.",
+              "Visa Cash App RB VCARB 01 (77246): € 17,49 bij bol, adviesprijs € 26,99. Dat is € 9,50 lager, ongeveer 35 procent. 248 stenen.",
+              "BWT Alpine A524 (77248): € 17,49 bij bol, adviesprijs € 26,99. Dat is € 9,50 lager, ongeveer 35 procent. 258 stenen.",
+              "Williams Racing FW46 (77249): € 17,49 bij bol, adviesprijs € 26,99. Dat is € 9,50 lager, ongeveer 35 procent. 263 stenen.",
+              "MoneyGram Haas VF-24 (77250): € 17,49 bij bol, adviesprijs € 26,99. Dat is € 9,50 lager, ongeveer 35 procent. 242 stenen.",
+              "Audi Revolut F1 Team R26 (77259): € 18,99 bij bol, adviesprijs € 27,99. Dat is € 9,00 lager, ongeveer 32 procent. 216 stenen."
+            ]
+          },
+          {
+            "h2": "Icons"
+          },
+          {
+            "ul": [
+              "McLaren MP4/4 en Ayrton Senna (10330): € 45,99 bij bol, adviesprijs € 79,99. Dat is € 34,00 lager, ongeveer 43 procent. 693 stenen.",
+              "Williams Racing FW14B en Nigel Mansell (10353): € 48,99 bij bol, adviesprijs € 79,99. Dat is € 31,00 lager, ongeveer 39 procent. 799 stenen.",
+              "Ferrari F2004 en Michael Schumacher (11375): € 51,99 bij bol, adviesprijs € 89,99. Dat is € 38,00 lager, ongeveer 42 procent. 735 stenen."
+            ]
+          },
+          {
+            "h2": "Technic"
+          },
+          {
+            "ul": [
+              "McLaren MCL39 (42228): € 128,99 bij bol, adviesprijs € 229,99. Dat is € 101,00 lager, ongeveer 44 procent. 1675 stenen.",
+              "Mercedes-AMG F1 W14 E Performance (42171): € 129,99 bij bol, adviesprijs € 219,99. Dat is € 90,00 lager, ongeveer 41 procent. 1642 stenen.",
+              "Ferrari SF-24 (42207): € 129,99 bij bol, adviesprijs € 229,99. Dat is € 100,00 lager, ongeveer 43 procent. 1361 stenen.",
+              "Oracle Red Bull Racing RB20 (42206): € 131,99 bij bol, adviesprijs € 229,99. Dat is € 98,00 lager, ongeveer 43 procent. 1639 stenen."
+            ]
+          },
+          {
+            "h2": "Helmen, City en Duplo"
+          },
+          {
+            "ul": [
+              "McLaren F1 Team: helm van Lando Norris (43023): € 45,99 bij bol, adviesprijs € 89,99. Dat is € 44,00 lager, ongeveer 49 procent. 793 stenen.",
+              "McLaren F1 Team: helm van Oscar Piastri (43017): € 45,99 bij bol, adviesprijs € 89,99. Dat is € 44,00 lager, ongeveer 49 procent. 793 stenen.",
+              "City F1 truck met RB20 en AMR24 (60445): € 58,49 bij bol, adviesprijs € 99,99. Dat is € 41,50 lager, ongeveer 42 procent. 1086 stenen.",
+              "Duplo F1 team, racewagens en coureurs (10445): € 27,99 bij bol, adviesprijs € 44,99. Dat is € 17,00 lager, ongeveer 38 procent. 70 stenen.",
+              "City F1 Williams Racing en Haas F1 racewagens (60464): € 13,99 bij bol, adviesprijs € 19,99. Dat is € 6,00 lager, ongeveer 30 procent. 92 stenen."
+            ]
+          },
+          {
+            "h2": "Wat opvalt"
+          },
+          {
+            "ul": [
+              "De twee McLaren-helmen (43023 en 43017) hadden met ongeveer 49 procent het grootste verschil in procent.",
+              "De Technic McLaren MCL39 (42228) had met € 101,00 het grootste verschil in euro.",
+              "Bij de vier Technic-wagens kostte een steen tussen 7,7 en 9,6 cent.",
+              "Zes van de zeven Speed Champions-wagens kostten precies hetzelfde: € 17,49."
+            ]
+          },
+          {
+            "h2": "Zo lees je deze prijzen"
+          },
+          {
+            "p": "We vergelijken met de adviesprijs die bol bij de set toont, en dat is niet altijd de laagste prijs van de voorbije maanden. Prijzen bij bol veranderen vaak, soms binnen een dag, en een dagdeal duurt kort. Alle bedragen komen uit onze prijscontrole van 20 november 2026 bij bol.com/be. Kijk de actuele prijs altijd na bij de winkel voor je bestelt. Black Friday valt op vrijdag 27 november 2026."
+          }
+        ]
+      },
+      "fr": {
+        "slug": "sets-lego-f1-chez-bol-offre-du-jour-20-novembre",
+        "title": "Sets LEGO F1 chez bol : l’offre du jour du 20 novembre en prix",
+        "summary": "Le 20 novembre 2026, dix-neuf sets LEGO F1 étaient chez bol.com/be de 30 à 49 % sous le prix conseillé. Tous les prix, gamme par gamme.",
+        "body": [
+          {
+            "p": "Le vendredi 20 novembre 2026, bol proposait une offre du jour sur des sets LEGO F1, avec la mention « dernier jour ». Dans nos données de prix de ce jour-là, dix-neuf sets F1 vendus par bol.com/be lui-même se situaient nettement sous le prix conseillé. Vous les trouverez ci-dessous par gamme, avec le prix chez bol, le prix conseillé et la différence. Tous les montants viennent de notre contrôle des prix du 20 novembre 2026."
+          },
+          {
+            "h2": "Speed Champions : six fois 17,49 €"
+          },
+          {
+            "ul": [
+              "Oracle Red Bull Racing RB20 (77243) : 17,49 € chez bol, prix conseillé 26,99 €. Soit 9,50 € de moins, environ 35 pour cent. 251 pièces.",
+              "Aston Martin Aramco AMR24 (77245) : 17,49 € chez bol, prix conseillé 26,99 €. Soit 9,50 € de moins, environ 35 pour cent. 269 pièces.",
+              "Visa Cash App RB VCARB 01 (77246) : 17,49 € chez bol, prix conseillé 26,99 €. Soit 9,50 € de moins, environ 35 pour cent. 248 pièces.",
+              "BWT Alpine A524 (77248) : 17,49 € chez bol, prix conseillé 26,99 €. Soit 9,50 € de moins, environ 35 pour cent. 258 pièces.",
+              "Williams Racing FW46 (77249) : 17,49 € chez bol, prix conseillé 26,99 €. Soit 9,50 € de moins, environ 35 pour cent. 263 pièces.",
+              "MoneyGram Haas VF-24 (77250) : 17,49 € chez bol, prix conseillé 26,99 €. Soit 9,50 € de moins, environ 35 pour cent. 242 pièces.",
+              "Audi Revolut F1 Team R26 (77259) : 18,99 € chez bol, prix conseillé 27,99 €. Soit 9,00 € de moins, environ 32 pour cent. 216 pièces."
+            ]
+          },
+          {
+            "h2": "Icons"
+          },
+          {
+            "ul": [
+              "McLaren MP4/4 et Ayrton Senna (10330) : 45,99 € chez bol, prix conseillé 79,99 €. Soit 34,00 € de moins, environ 43 pour cent. 693 pièces.",
+              "Williams Racing FW14B et Nigel Mansell (10353) : 48,99 € chez bol, prix conseillé 79,99 €. Soit 31,00 € de moins, environ 39 pour cent. 799 pièces.",
+              "Ferrari F2004 et Michael Schumacher (11375) : 51,99 € chez bol, prix conseillé 89,99 €. Soit 38,00 € de moins, environ 42 pour cent. 735 pièces."
+            ]
+          },
+          {
+            "h2": "Technic"
+          },
+          {
+            "ul": [
+              "McLaren MCL39 (42228) : 128,99 € chez bol, prix conseillé 229,99 €. Soit 101,00 € de moins, environ 44 pour cent. 1675 pièces.",
+              "Mercedes-AMG F1 W14 E Performance (42171) : 129,99 € chez bol, prix conseillé 219,99 €. Soit 90,00 € de moins, environ 41 pour cent. 1642 pièces.",
+              "Ferrari SF-24 (42207) : 129,99 € chez bol, prix conseillé 229,99 €. Soit 100,00 € de moins, environ 43 pour cent. 1361 pièces.",
+              "Oracle Red Bull Racing RB20 (42206) : 131,99 € chez bol, prix conseillé 229,99 €. Soit 98,00 € de moins, environ 43 pour cent. 1639 pièces."
+            ]
+          },
+          {
+            "h2": "Casques, City et Duplo"
+          },
+          {
+            "ul": [
+              "McLaren F1 Team : casque de Lando Norris (43023) : 45,99 € chez bol, prix conseillé 89,99 €. Soit 44,00 € de moins, environ 49 pour cent. 793 pièces.",
+              "McLaren F1 Team : casque d’Oscar Piastri (43017) : 45,99 € chez bol, prix conseillé 89,99 €. Soit 44,00 € de moins, environ 49 pour cent. 793 pièces.",
+              "City camion F1 avec RB20 et AMR24 (60445) : 58,49 € chez bol, prix conseillé 99,99 €. Soit 41,50 € de moins, environ 42 pour cent. 1086 pièces.",
+              "Duplo équipe F1, voitures de course et pilotes (10445) : 27,99 € chez bol, prix conseillé 44,99 €. Soit 17,00 € de moins, environ 38 pour cent. 70 pièces.",
+              "City F1 voitures Williams Racing et Haas F1 (60464) : 13,99 € chez bol, prix conseillé 19,99 €. Soit 6,00 € de moins, environ 30 pour cent. 92 pièces."
+            ]
+          },
+          {
+            "h2": "Ce qui frappe"
+          },
+          {
+            "ul": [
+              "Les deux casques McLaren (43023 et 43017) avaient, avec environ 49 pour cent, la plus grande différence en pourcentage.",
+              "La Technic McLaren MCL39 (42228) avait, avec 101,00 €, la plus grande différence en euros.",
+              "Pour les quatre voitures Technic, une pièce coûtait entre 7,7 et 9,6 centimes.",
+              "Six des sept voitures Speed Champions coûtaient exactement le même prix : 17,49 €."
+            ]
+          },
+          {
+            "h2": "Comment lire ces prix"
+          },
+          {
+            "p": "Nous comparons avec le prix conseillé que bol affiche pour le set, qui n’est pas toujours le prix le plus bas des derniers mois. Les prix chez bol changent souvent, parfois en une journée, et une offre du jour est brève. Tous les montants viennent de notre contrôle des prix du 20 novembre 2026 chez bol.com/be. Vérifiez toujours le prix actuel dans la boutique avant de commander. Le Black Friday tombe le vendredi 27 novembre 2026."
+          }
+        ]
+      },
+      "en": {
+        "slug": "lego-f1-sets-at-bol-deal-of-the-day-20-november",
+        "title": "LEGO F1 sets at bol: the 20 November deal of the day in prices",
+        "summary": "On 20 November 2026, nineteen LEGO F1 sets at bol.com/be sat 30 to 49 percent below the recommended price. All prices in one place, range by range.",
+        "body": [
+          {
+            "p": "On Friday 20 November 2026, bol ran a deal of the day on LEGO F1 sets, marked as the last day. In our price data from that day, nineteen F1 sets sold by bol.com/be itself sat well below the recommended price. They are listed below by range, with the bol price, the recommended price and the difference. All amounts come from our price check of 20 November 2026."
+          },
+          {
+            "h2": "Speed Champions: six times €17.49"
+          },
+          {
+            "ul": [
+              "Oracle Red Bull Racing RB20 (77243): €17.49 at bol, recommended price €26.99. That is €9.50 lower, about 35 percent. 251 pieces.",
+              "Aston Martin Aramco AMR24 (77245): €17.49 at bol, recommended price €26.99. That is €9.50 lower, about 35 percent. 269 pieces.",
+              "Visa Cash App RB VCARB 01 (77246): €17.49 at bol, recommended price €26.99. That is €9.50 lower, about 35 percent. 248 pieces.",
+              "BWT Alpine A524 (77248): €17.49 at bol, recommended price €26.99. That is €9.50 lower, about 35 percent. 258 pieces.",
+              "Williams Racing FW46 (77249): €17.49 at bol, recommended price €26.99. That is €9.50 lower, about 35 percent. 263 pieces.",
+              "MoneyGram Haas VF-24 (77250): €17.49 at bol, recommended price €26.99. That is €9.50 lower, about 35 percent. 242 pieces.",
+              "Audi Revolut F1 Team R26 (77259): €18.99 at bol, recommended price €27.99. That is €9.00 lower, about 32 percent. 216 pieces."
+            ]
+          },
+          {
+            "h2": "Icons"
+          },
+          {
+            "ul": [
+              "McLaren MP4/4 and Ayrton Senna (10330): €45.99 at bol, recommended price €79.99. That is €34.00 lower, about 43 percent. 693 pieces.",
+              "Williams Racing FW14B and Nigel Mansell (10353): €48.99 at bol, recommended price €79.99. That is €31.00 lower, about 39 percent. 799 pieces.",
+              "Ferrari F2004 and Michael Schumacher (11375): €51.99 at bol, recommended price €89.99. That is €38.00 lower, about 42 percent. 735 pieces."
+            ]
+          },
+          {
+            "h2": "Technic"
+          },
+          {
+            "ul": [
+              "McLaren MCL39 (42228): €128.99 at bol, recommended price €229.99. That is €101.00 lower, about 44 percent. 1675 pieces.",
+              "Mercedes-AMG F1 W14 E Performance (42171): €129.99 at bol, recommended price €219.99. That is €90.00 lower, about 41 percent. 1642 pieces.",
+              "Ferrari SF-24 (42207): €129.99 at bol, recommended price €229.99. That is €100.00 lower, about 43 percent. 1361 pieces.",
+              "Oracle Red Bull Racing RB20 (42206): €131.99 at bol, recommended price €229.99. That is €98.00 lower, about 43 percent. 1639 pieces."
+            ]
+          },
+          {
+            "h2": "Helmets, City and Duplo"
+          },
+          {
+            "ul": [
+              "McLaren F1 Team: helmet of Lando Norris (43023): €45.99 at bol, recommended price €89.99. That is €44.00 lower, about 49 percent. 793 pieces.",
+              "McLaren F1 Team: helmet of Oscar Piastri (43017): €45.99 at bol, recommended price €89.99. That is €44.00 lower, about 49 percent. 793 pieces.",
+              "City F1 truck with RB20 and AMR24 (60445): €58.49 at bol, recommended price €99.99. That is €41.50 lower, about 42 percent. 1086 pieces.",
+              "Duplo F1 team race cars and drivers (10445): €27.99 at bol, recommended price €44.99. That is €17.00 lower, about 38 percent. 70 pieces.",
+              "City F1 Williams Racing and Haas F1 race cars (60464): €13.99 at bol, recommended price €19.99. That is €6.00 lower, about 30 percent. 92 pieces."
+            ]
+          },
+          {
+            "h2": "What stands out"
+          },
+          {
+            "ul": [
+              "The two McLaren helmets (43023 and 43017) had the biggest difference in percent, about 49 percent.",
+              "The Technic McLaren MCL39 (42228) had the biggest difference in euros: €101.00.",
+              "For the four Technic cars, a piece cost between 7.7 and 9.6 cents.",
+              "Six of the seven Speed Champions cars cost exactly the same: €17.49."
+            ]
+          },
+          {
+            "h2": "How to read these prices"
+          },
+          {
+            "p": "We compare with the recommended price bol shows for the set, which is not always the lowest price of recent months. Prices at bol change often, sometimes within a day, and a deal of the day is short. All amounts come from our price check of 20 November 2026 at bol.com/be. Always check the current price at the shop before you order. Black Friday falls on Friday 27 November 2026."
+          }
+        ]
+      }
+    }
+  },
 ];

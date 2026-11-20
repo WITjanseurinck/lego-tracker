@@ -2042,8 +2042,8 @@ export const ARTICLES: Article[] = [
   },
   {
     "id": "f1-dagdeal-2026-11-20",
-    "published": "2026-11-22T07:55:00.000Z",
-    "updated": "2026-11-22T07:55:00.000Z",
+    "published": "2026-11-20T07:50:00.000Z",
+    "updated": "2026-11-20T07:50:00.000Z",
     "text": {
       "nl": {
         "slug": "lego-f1-sets-bij-bol-dagdeal-20-november",

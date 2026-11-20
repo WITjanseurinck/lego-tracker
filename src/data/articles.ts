@@ -2539,4 +2539,149 @@ export const ARTICLES: Article[] = [
       }
     }
   },
+  {
+    "id": "technic-gifts-2026-11-20",
+    "published": "2026-11-20T07:58:00.000Z",
+    "updated": "2026-11-20T07:58:00.000Z",
+    "text": {
+      "nl": {
+        "slug": "lego-technic-sets-bij-bol-prijs-per-steen-20-november",
+        "title": "LEGO Technic bij bol: vijf sets van 7 tot 18 jaar met prijs per steen",
+        "summary": "Vijf LEGO Technic-sets bij bol.com/be van € 27,99 tot € 139,00, met stenen, leeftijd en prijs per steen. Prijzen van de controle van 20 november 2026.",
+        "body": [
+          {
+            "p": "Met Sinterklaas en kerst in zicht zetten we vijf LEGO Technic-sets op een rij, van klein naar groot, met de leeftijd die LEGO erbij vermeldt. Bol.com/be verkoopt ze alle vijf zelf. De prijs per steen is de setprijs gedeeld door het aantal stenen, zonder verzending. Sets uit onze eerdere artikels laten we weg."
+          },
+          {
+            "h2": "Technic Monster Jam Thunderroarus pull-back truck (42200): ongeveer € 0,12 per steen"
+          },
+          {
+            "p": "Een truck met 232 stenen, vanaf 7 jaar. Hij kost € 27,99 bij bol en dat is ook de adviesprijs. Boven € 25 is de verzending gratis."
+          },
+          {
+            "h2": "Technic Ducati Desmo450 MX Factory Motor (42238): ongeveer € 0,09 per steen"
+          },
+          {
+            "p": "Een crossmotor van 457 stenen, vanaf 10 jaar. Hij kost € 38,99 bij bol, adviesprijs € 49,99. Dat is € 11,00 lager, ongeveer 22 procent."
+          },
+          {
+            "h2": "Technic Ford Bronco SUV (42213): ongeveer € 0,04 per steen"
+          },
+          {
+            "p": "Een SUV van 943 stenen, vanaf 9 jaar. Hij kost € 41,99 bij bol, adviesprijs € 59,99. Dat is € 18,00 lager, ongeveer 30 procent. Daarmee heeft hij de laagste prijs per steen van de vijf."
+          },
+          {
+            "h2": "Technic Volvo FMX-truck en EC230 elektrische graafmachine (42175): ongeveer € 0,06 per steen"
+          },
+          {
+            "p": "Een truck met graafmachine van 2.274 stenen, vanaf 10 jaar. Hij kost € 139,00 bij bol, adviesprijs € 199,99. Dat is € 60,99 lager, ongeveer 30 procent."
+          },
+          {
+            "h2": "Technic 2022 Ford GT (42154): ongeveer € 0,06 per steen"
+          },
+          {
+            "p": "Een sportwagen van 1.468 stenen, vanaf 18 jaar. Hij kost € 86,31 bij bol, adviesprijs € 119,99. Dat is € 33,68 lager, ongeveer 28 procent."
+          },
+          {
+            "h2": "Zo lees je deze prijzen"
+          },
+          {
+            "p": "We vergelijken met de adviesprijs die bol bij de set toont. Prijzen veranderen vaak, soms binnen een dag. Alle bedragen komen uit onze prijscontrole van 20 november 2026 bij bol.com/be. Kijk de actuele prijs altijd na bij de winkel voor je bestelt."
+          }
+        ]
+      },
+      "fr": {
+        "slug": "sets-lego-technic-chez-bol-prix-par-brique-20-novembre",
+        "title": "LEGO Technic chez bol : cinq sets de 7 à 18 ans avec prix par brique",
+        "summary": "Cinq sets LEGO Technic chez bol.com/be de 27,99 € à 139,00 €, avec briques, âge et prix par brique. Prix du contrôle du 20 novembre 2026.",
+        "body": [
+          {
+            "p": "La Saint-Nicolas et Noël approchent : voici cinq sets LEGO Technic, du plus petit au plus grand, avec l’âge indiqué par LEGO. Bol.com/be les vend tous les cinq lui-même. Le prix par brique est le prix du set divisé par le nombre de briques, sans livraison. Nous avons écarté les sets de nos articles précédents."
+          },
+          {
+            "h2": "Technic Monster Jam Thunderroarus pull-back truck (42200) : environ 0,12 € par brique"
+          },
+          {
+            "p": "Un camion de 232 briques, dès 7 ans. Il coûte 27,99 € chez bol, ce qui est aussi le prix conseillé. Au-dessus de 25 €, la livraison est gratuite."
+          },
+          {
+            "h2": "Technic Ducati Desmo450 MX Factory (42238) : environ 0,09 € par brique"
+          },
+          {
+            "p": "Une moto de cross de 457 briques, dès 10 ans. Elle coûte 38,99 € chez bol, prix conseillé 49,99 €. Soit 11,00 € de moins, environ 22 pour cent."
+          },
+          {
+            "h2": "Technic Ford Bronco SUV (42213) : environ 0,04 € par brique"
+          },
+          {
+            "p": "Un SUV de 943 briques, dès 9 ans. Il coûte 41,99 € chez bol, prix conseillé 59,99 €. Soit 18,00 € de moins, environ 30 pour cent. C’est le prix par brique le plus bas des cinq."
+          },
+          {
+            "h2": "Technic Volvo FMX et pelleteuse électrique EC230 (42175) : environ 0,06 € par brique"
+          },
+          {
+            "p": "Un camion avec pelleteuse de 2 274 briques, dès 10 ans. Il coûte 139,00 € chez bol, prix conseillé 199,99 €. Soit 60,99 € de moins, environ 30 pour cent."
+          },
+          {
+            "h2": "Technic Ford GT 2022 (42154) : environ 0,06 € par brique"
+          },
+          {
+            "p": "Une voiture de sport de 1 468 briques, dès 18 ans. Elle coûte 86,31 € chez bol, prix conseillé 119,99 €. Soit 33,68 € de moins, environ 28 pour cent."
+          },
+          {
+            "h2": "Comment lire ces prix"
+          },
+          {
+            "p": "Nous comparons avec le prix conseillé que bol affiche pour le set. Les prix changent souvent, parfois en une journée. Tous les montants proviennent de notre contrôle du 20 novembre 2026 chez bol.com/be. Vérifiez toujours le prix actuel dans la boutique avant de commander."
+          }
+        ]
+      },
+      "en": {
+        "slug": "lego-technic-sets-at-bol-price-per-brick-20-november",
+        "title": "LEGO Technic at bol: five sets from age 7 to 18 with price per brick",
+        "summary": "Five LEGO Technic sets at bol.com/be from €27.99 to €139.00, with bricks, age and price per brick. Prices from the check of 20 November 2026.",
+        "body": [
+          {
+            "p": "With Saint Nicholas Day and Christmas on the way, here are five LEGO Technic sets from small to large, with the age LEGO gives for each. Bol.com/be sells all five itself. The price per brick is the set price divided by the number of bricks, without shipping. We left out sets from our earlier articles."
+          },
+          {
+            "h2": "Technic Monster Jam Thunderroarus pull-back truck (42200): about €0.12 per brick"
+          },
+          {
+            "p": "A truck with 232 bricks, from age 7. It costs €27.99 at bol, which is also the recommended price. Above €25 shipping is free."
+          },
+          {
+            "h2": "Technic Ducati Desmo450 MX Factory Motorcycle (42238): about €0.09 per brick"
+          },
+          {
+            "p": "A motocross bike with 457 bricks, from age 10. It costs €38.99 at bol, recommended price €49.99. That is €11.00 lower, about 22 percent."
+          },
+          {
+            "h2": "Technic Ford Bronco SUV (42213): about €0.04 per brick"
+          },
+          {
+            "p": "An SUV with 943 bricks, from age 9. It costs €41.99 at bol, recommended price €59.99. That is €18.00 lower, about 30 percent. It has the lowest price per brick of the five."
+          },
+          {
+            "h2": "Technic Volvo FMX truck and EC230 electric excavator (42175): about €0.06 per brick"
+          },
+          {
+            "p": "A truck with excavator and 2,274 bricks, from age 10. It costs €139.00 at bol, recommended price €199.99. That is €60.99 lower, about 30 percent."
+          },
+          {
+            "h2": "Technic 2022 Ford GT (42154): about €0.06 per brick"
+          },
+          {
+            "p": "A sports car with 1,468 bricks, from age 18. It costs €86.31 at bol, recommended price €119.99. That is €33.68 lower, about 28 percent."
+          },
+          {
+            "h2": "How to read these prices"
+          },
+          {
+            "p": "We compare with the recommended price that bol shows for the set. Prices change often, sometimes within a day. All amounts come from our price check of 20 November 2026 at bol.com/be. Always check the current price at the shop before you order."
+          }
+        ]
+      }
+    }
+  },
 ];

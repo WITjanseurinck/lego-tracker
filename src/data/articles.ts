@@ -2054,6 +2054,13 @@ export const ARTICLES: Article[] = [
             "p": "Op vrijdag 20 november 2026 stond bij bol een dagdeal op LEGO F1-sets, met de vermelding laatste dag. In onze prijsdata van die dag staan negentien F1-sets die bol.com/be zelf verkoopt, en ze lagen allemaal ruim onder de adviesprijs. Hieronder staan ze per reeks, met de prijs bij bol, de adviesprijs en het verschil. Alle bedragen komen uit onze prijscontrole van 20 november 2026."
           },
           {
+            "go": {
+              "text": "Wil je al deze auto’s met de prijzen van alle Belgische shops naast elkaar zien?",
+              "label": "Bekijk het overzicht van LEGO-auto’s",
+              "path": "/onderwerp/autos"
+            }
+          },
+          {
             "h2": "Speed Champions: zes keer € 17,49"
           },
           {
@@ -2192,6 +2199,13 @@ export const ARTICLES: Article[] = [
           },
           {
             "p": "We vergelijken met de adviesprijs die bol bij de set toont, en dat is niet altijd de laagste prijs van de voorbije maanden. Prijzen bij bol veranderen vaak, soms binnen een dag, en een dagdeal duurt kort. Alle bedragen komen uit onze prijscontrole van 20 november 2026 bij bol.com/be. Kijk de actuele prijs altijd na bij de winkel voor je bestelt. Black Friday valt op vrijdag 27 november 2026."
+          },
+          {
+            "go": {
+              "text": "Wil je al deze auto’s met de prijzen van alle Belgische shops naast elkaar zien?",
+              "label": "Bekijk het overzicht van LEGO-auto’s",
+              "path": "/onderwerp/autos"
+            }
           }
         ]
       },
@@ -2202,6 +2216,13 @@ export const ARTICLES: Article[] = [
         "body": [
           {
             "p": "Le vendredi 20 novembre 2026, bol proposait une offre du jour sur des sets LEGO F1, avec la mention « dernier jour ». Dans nos données de prix de ce jour-là, dix-neuf sets F1 vendus par bol.com/be lui-même se situaient nettement sous le prix conseillé. Vous les trouverez ci-dessous par gamme, avec le prix chez bol, le prix conseillé et la différence. Tous les montants viennent de notre contrôle des prix du 20 novembre 2026."
+          },
+          {
+            "go": {
+              "text": "Vous voulez voir toutes ces voitures avec les prix de toutes les boutiques belges côte à côte ?",
+              "label": "Voir toutes les voitures LEGO",
+              "path": "/onderwerp/autos"
+            }
           },
           {
             "h2": "Speed Champions : six fois 17,49 €"
@@ -2342,6 +2363,13 @@ export const ARTICLES: Article[] = [
           },
           {
             "p": "Nous comparons avec le prix conseillé que bol affiche pour le set, qui n’est pas toujours le prix le plus bas des derniers mois. Les prix chez bol changent souvent, parfois en une journée, et une offre du jour est brève. Tous les montants viennent de notre contrôle des prix du 20 novembre 2026 chez bol.com/be. Vérifiez toujours le prix actuel dans la boutique avant de commander. Le Black Friday tombe le vendredi 27 novembre 2026."
+          },
+          {
+            "go": {
+              "text": "Vous voulez voir toutes ces voitures avec les prix de toutes les boutiques belges côte à côte ?",
+              "label": "Voir toutes les voitures LEGO",
+              "path": "/onderwerp/autos"
+            }
           }
         ]
       },
@@ -2352,6 +2380,13 @@ export const ARTICLES: Article[] = [
         "body": [
           {
             "p": "On Friday 20 November 2026, bol ran a deal of the day on LEGO F1 sets, marked as the last day. In our price data from that day, nineteen F1 sets sold by bol.com/be itself sat well below the recommended price. They are listed below by range, with the bol price, the recommended price and the difference. All amounts come from our price check of 20 November 2026."
+          },
+          {
+            "go": {
+              "text": "Want to see all these cars side by side with the prices of every Belgian shop?",
+              "label": "See all LEGO cars",
+              "path": "/onderwerp/autos"
+            }
           },
           {
             "h2": "Speed Champions: six times €17.49"
@@ -2492,6 +2527,13 @@ export const ARTICLES: Article[] = [
           },
           {
             "p": "We compare with the recommended price bol shows for the set, which is not always the lowest price of recent months. Prices at bol change often, sometimes within a day, and a deal of the day is short. All amounts come from our price check of 20 November 2026 at bol.com/be. Always check the current price at the shop before you order. Black Friday falls on Friday 27 November 2026."
+          },
+          {
+            "go": {
+              "text": "Want to see all these cars side by side with the prices of every Belgian shop?",
+              "label": "See all LEGO cars",
+              "path": "/onderwerp/autos"
+            }
           }
         ]
       }

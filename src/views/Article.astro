@@ -73,14 +73,16 @@ const jsonLd = {
         <ul class="setlist">{b.sets.map((it) => {
           const d = getCompareDeal(it.set);
           const link = href(`/set/${it.set}`);
+          const bol = d?.offers.find((o) => o.shop.toLowerCase() === 'bol');
           return (
             <li>
               {d?.image ? <a href={link} class="setthumb" tabindex="-1" aria-hidden="true"><img src={d.image} alt="" loading="lazy" width="72" height="72" referrerpolicy="no-referrer" /></a> : null}
-              <span><a href={link}>{it.name} ({it.set})</a>{it.text}</span>
+              <span><a href={link}>{it.name} ({it.set})</a>{it.text}{bol ? <> <a href={bol.url} class="shoplink" target="_blank" rel="sponsored nofollow noopener" data-affiliate="bol">{t.see} bol</a></> : null}</span>
             </li>
           );
         })}</ul>
       )
+      : 'go' in b ? <p>{b.go.text} <a href={href(b.go.path)}>{b.go.label}</a></p>
       : 'src' in b ? <div><h2>{t.guides.sources}</h2><ul>{b.src.map((s) => <li><a href={s.url} target="_blank" rel="noopener nofollow">{s.label}</a></li>)}</ul></div>
       : <p>{b.p}</p>,
     )}

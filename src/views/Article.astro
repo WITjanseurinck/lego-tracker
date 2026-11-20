@@ -69,6 +69,18 @@ const jsonLd = {
     {x.body.map((b) =>
       'h2' in b ? <h2>{b.h2}</h2>
       : 'ul' in b ? <ul>{b.ul.map((li) => <li>{li}</li>)}</ul>
+      : 'sets' in b ? (
+        <ul class="setlist">{b.sets.map((it) => {
+          const d = getCompareDeal(it.set);
+          const link = href(`/set/${it.set}`);
+          return (
+            <li>
+              {d?.image ? <a href={link} class="setthumb" tabindex="-1" aria-hidden="true"><img src={d.image} alt="" loading="lazy" width="72" height="72" referrerpolicy="no-referrer" /></a> : null}
+              <span><a href={link}>{it.name} ({it.set})</a>{it.text}</span>
+            </li>
+          );
+        })}</ul>
+      )
       : 'src' in b ? <div><h2>{t.guides.sources}</h2><ul>{b.src.map((s) => <li><a href={s.url} target="_blank" rel="noopener nofollow">{s.label}</a></li>)}</ul></div>
       : <p>{b.p}</p>,
     )}

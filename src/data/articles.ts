@@ -3000,4 +3000,134 @@ export const ARTICLES: Article[] = [
       }
     }
   },
+  {
+    "id": "bol-below-rrp-2026-11-23",
+    "published": "2026-11-23T07:55:00.000Z",
+    "updated": "2026-11-23T07:55:00.000Z",
+    "text": {
+      "nl": {
+        "slug": "lego-sets-bij-bol-onder-de-adviesprijs-23-november",
+        "title": "Acht LEGO-sets die bij bol minstens 41 procent onder de adviesprijs staan",
+        "summary": "Op 23 november 2026 staan acht LEGO-sets bij bol.com/be minstens 41 procent onder de adviesprijs, van Chopper en C-3PO tot de Iron Man-verzameleditie.",
+        "body": [
+          {
+            "p": "Bij de prijscontrole van 23 november 2026 stonden in onze lijst weer heel wat LEGO-sets ruim onder de adviesprijs, vier dagen voor Black Friday. Hieronder staan acht sets die bol.com/be zelf verkoopt en die minstens 41 procent onder de adviesprijs staan. Sets uit eerdere overzichten laten we weg, en een set die bij de controle niet op voorraad was ook. De verzending is bij alle acht inbegrepen, want elke set kost meer dan € 25."
+          },
+          {
+            "h2": "De acht sets, van groot naar klein verschil"
+          },
+          {
+            "ul": [
+              "De tuin en kas van Opa Big (10461): € 42,49 bij bol, adviesprijs € 79,99. Dat is € 37,50 lager, ongeveer 47 procent.",
+              "Star Wars Chopper (C1-10P) Astromech Droid (75416): € 58,99 bij bol, adviesprijs € 109,99. Dat is € 51,00 lager, ongeveer 46 procent.",
+              "The Mandalorian: Grogu met zweefkinderwagen (75403): € 55,99 bij bol, adviesprijs € 99,99. Dat is € 44,00 lager, ongeveer 44 procent.",
+              "Star Wars C-3PO (75398): € 79,99 bij bol, adviesprijs € 139,99. Dat is € 60,00 lager, ongeveer 43 procent.",
+              "Star Wars Anzellan Starship (75445): € 42,99 bij bol, adviesprijs € 74,99. Dat is € 32,00 lager, ongeveer 43 procent.",
+              "Star Wars Millennium Falcon (75375): € 48,99 bij bol, adviesprijs € 84,99. Dat is € 36,00 lager, ongeveer 42 procent.",
+              "Bouwbare figuren van Bluey en haar familie (11217): € 40,72 bij bol, adviesprijs € 69,99. Dat is € 29,27 lager, ongeveer 42 procent.",
+              "Iron Man Mark 3, verzameleditie (76344): € 75,99 bij bol, adviesprijs € 129,99. Dat is € 54,00 lager, ongeveer 42 procent."
+            ]
+          },
+          {
+            "h2": "Wat opvalt"
+          },
+          {
+            "ul": [
+              "Vijf van de acht sets komen uit Star Wars: Chopper, Grogu met zweefkinderwagen, C-3PO, Anzellan Starship en de Millennium Falcon.",
+              "C-3PO (75398) heeft het grootste verschil in euro: € 60,00 onder de adviesprijs.",
+              "Bouwbare figuren van Bluey en haar familie (11217) heeft met € 40,72 de laagste prijs in dit overzicht."
+            ]
+          },
+          {
+            "h2": "Zo lees je deze prijzen"
+          },
+          {
+            "p": "We vergelijken met de adviesprijs die bol bij de set toont, en dat is niet altijd de laagste prijs van de voorbije maanden. Prijzen veranderen vaak, soms binnen een dag. Alle bedragen komen uit onze prijscontrole van 23 november 2026 bij bol.com/be. Kijk de actuele prijs altijd na bij de winkel voor je bestelt. Op buildthatset zie je per set de prijzen van de shops naast elkaar."
+          }
+        ]
+      },
+      "fr": {
+        "slug": "sets-lego-chez-bol-sous-le-prix-conseille-23-novembre",
+        "title": "Huit sets LEGO au moins 41 % sous le prix conseillé chez bol",
+        "summary": "Le 23 novembre 2026, huit sets LEGO sont chez bol.com/be au moins 41 % sous le prix conseillé, de Chopper et C-3PO à l’Iron Man collector.",
+        "body": [
+          {
+            "p": "Lors du contrôle des prix du 23 novembre 2026, de nombreux sets LEGO de notre liste étaient de nouveau nettement sous le prix conseillé, quatre jours avant le Black Friday. Voici huit sets que bol.com/be vend lui-même et qui se situent au moins 41 % sous le prix conseillé. Nous écartons les sets cités dans nos aperçus précédents, ainsi qu’un set qui n’était pas en stock lors du contrôle. La livraison est comprise pour les huit, car chaque set coûte plus de 25 €."
+          },
+          {
+            "h2": "Les huit sets, de la plus grande à la plus petite différence"
+          },
+          {
+            "ul": [
+              "Le jardin et la serre d’Opa Big (10461) : 42,49 € chez bol, prix conseillé 79,99 €. Soit 37,50 € de moins, environ 47 pour cent.",
+              "Star Wars Chopper (C1-10P) Astromech Droid (75416) : 58,99 € chez bol, prix conseillé 109,99 €. Soit 51,00 € de moins, environ 46 pour cent.",
+              "The Mandalorian : Grogu avec poussette flottante (75403) : 55,99 € chez bol, prix conseillé 99,99 €. Soit 44,00 € de moins, environ 44 pour cent.",
+              "Star Wars C-3PO (75398) : 79,99 € chez bol, prix conseillé 139,99 €. Soit 60,00 € de moins, environ 43 pour cent.",
+              "Star Wars Anzellan Starship (75445) : 42,99 € chez bol, prix conseillé 74,99 €. Soit 32,00 € de moins, environ 43 pour cent.",
+              "Star Wars Millennium Falcon (75375) : 48,99 € chez bol, prix conseillé 84,99 €. Soit 36,00 € de moins, environ 42 pour cent.",
+              "Figurines à construire de Bluey et sa famille (11217) : 40,72 € chez bol, prix conseillé 69,99 €. Soit 29,27 € de moins, environ 42 pour cent.",
+              "Iron Man Mark 3, édition collector (76344) : 75,99 € chez bol, prix conseillé 129,99 €. Soit 54,00 € de moins, environ 42 pour cent."
+            ]
+          },
+          {
+            "h2": "Ce qui frappe"
+          },
+          {
+            "ul": [
+              "Cinq des huit sets viennent de Star Wars : Chopper, Grogu avec poussette flottante, C-3PO, Anzellan Starship et le Millennium Falcon.",
+              "C-3PO (75398) affiche la plus grande différence en euros : 60,00 € sous le prix conseillé.",
+              "Les figurines à construire de Bluey et sa famille (11217) ont, avec 40,72 €, le prix le plus bas de cet aperçu."
+            ]
+          },
+          {
+            "h2": "Comment lire ces prix"
+          },
+          {
+            "p": "Nous comparons avec le prix conseillé que bol affiche pour le set, qui n’est pas toujours le prix le plus bas des derniers mois. Les prix changent souvent, parfois en une journée. Tous les montants viennent de notre contrôle des prix du 23 novembre 2026 chez bol.com/be. Vérifiez toujours le prix actuel dans la boutique avant de commander. Sur buildthatset, vous voyez pour chaque set les prix des boutiques côte à côte."
+          }
+        ]
+      },
+      "en": {
+        "slug": "lego-sets-at-bol-below-the-recommended-price-23-november",
+        "title": "Eight LEGO sets at least 41 percent below the recommended price at bol",
+        "summary": "On 23 November 2026, eight LEGO sets at bol.com/be sit at least 41 percent below the recommended price, from Chopper to the Iron Man set.",
+        "body": [
+          {
+            "p": "At the price check of 23 November 2026, quite a few LEGO sets in our list again stood well below the recommended price, four days before Black Friday. Below are eight sets that bol.com/be sells itself and that sit at least 41 percent below the recommended price. We leave out sets from earlier overviews, and one set that was out of stock at the check. Shipping is included for all eight, because every set costs more than €25."
+          },
+          {
+            "h2": "The eight sets, from biggest to smallest difference"
+          },
+          {
+            "ul": [
+              "Opa Big’s Garden and Greenhouse (10461): €42.49 at bol, recommended price €79.99. That is €37.50 lower, about 47 percent.",
+              "Star Wars Chopper (C1-10P) Astromech Droid (75416): €58.99 at bol, recommended price €109.99. That is €51.00 lower, about 46 percent.",
+              "The Mandalorian: Grogu with Hover Pram (75403): €55.99 at bol, recommended price €99.99. That is €44.00 lower, about 44 percent.",
+              "Star Wars C-3PO (75398): €79.99 at bol, recommended price €139.99. That is €60.00 lower, about 43 percent.",
+              "Star Wars Anzellan Starship (75445): €42.99 at bol, recommended price €74.99. That is €32.00 lower, about 43 percent.",
+              "Star Wars Millennium Falcon (75375): €48.99 at bol, recommended price €84.99. That is €36.00 lower, about 42 percent.",
+              "Bluey and Family Buildable Figures (11217): €40.72 at bol, recommended price €69.99. That is €29.27 lower, about 42 percent.",
+              "Iron Man Mark 3 Collector Edition (76344): €75.99 at bol, recommended price €129.99. That is €54.00 lower, about 42 percent."
+            ]
+          },
+          {
+            "h2": "What stands out"
+          },
+          {
+            "ul": [
+              "Five of the eight sets are Star Wars: Chopper, Grogu with Hover Pram, C-3PO, Anzellan Starship and the Millennium Falcon.",
+              "C-3PO (75398) has the biggest difference in euros: €60.00 below the recommended price.",
+              "Bluey and Family Buildable Figures (11217) has the lowest price in this overview at €40.72."
+            ]
+          },
+          {
+            "h2": "How to read these prices"
+          },
+          {
+            "p": "We compare with the recommended price that bol shows for the set, which is not always the lowest price of the past months. Prices change often, sometimes within a day. All amounts come from our price check of 23 November 2026 at bol.com/be. Always check the current price at the shop before you order. On buildthatset you see the shop prices for each set side by side."
+          }
+        ]
+      }
+    }
+  },
 ];

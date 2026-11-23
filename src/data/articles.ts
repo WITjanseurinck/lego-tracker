@@ -2684,4 +2684,320 @@ export const ARTICLES: Article[] = [
       }
     }
   },
+  {
+    "id": "black-friday-2026-11-23",
+    "published": "2026-11-23T07:00:00.000Z",
+    "updated": "2026-11-23T07:00:00.000Z",
+    "text": {
+      "nl": {
+        "slug": "lego-black-friday-2026-wat-is-echt-scherp",
+        "title": "LEGO Black Friday 2026: wat is echt scherp?",
+        "summary": "Black Friday valt op 27 november. Tien LEGO-sets die bij bol nu al op hun laagste prijs sinds onze metingen staan, en zo beoordeel je een Black Friday-prijs.",
+        "body": [
+          {
+            "p": "Black Friday valt op vrijdag 27 november 2026 en de LEGO-actie loopt tot en met Cyber Monday op 30 november. Welke sets in prijs dalen en welke cadeaus je bij je bestelling krijgt, maakte LEGO nog niet bekend. Wie slim wil kopen, kijkt dus best nu al welke prijzen bij bol echt laag zijn."
+          },
+          {
+            "h2": "Wat LEGO bevestigde"
+          },
+          {
+            "p": "Volgens de Black Friday-pagina van LEGO loopt de actie van vrijdag 27 november tot en met maandag 30 november, met kortingen, cadeaus bij je aankoop en meer. Het Insiders-weekend met exclusieve aanbiedingen voor Insiders-leden valt op 21 en 22 november. Vorig jaar liep de actie van 28 november tot en met 1 december."
+          },
+          {
+            "h2": "Wat onze prijzen nu al laten zien"
+          },
+          {
+            "p": "Sinds 19 oktober volgen we de prijzen van 657 LEGO-sets bij bol. Op 22 november staan er 55 sets op hun laagste prijs sinds we meten en minstens 10 procent onder hun gewone prijs. Met gewone prijs bedoelen we de middelste prijs uit onze eigen metingen sinds 19 oktober. Dat is niet de adviesprijs van LEGO en ook niet de doorgestreepte prijs op bol."
+          },
+          {
+            "h2": "Tien sets om mee te beginnen"
+          },
+          {
+            "sets": [
+              {
+                "set": "21590",
+                "name": "De Wither-strijd",
+                "text": ": € 37,39 bij bol op 22 november, gewone prijs € 53,99. Dat is 31 procent lager."
+              },
+              {
+                "set": "75409",
+                "name": "Jango Fetts Firespray-ruimteschip",
+                "text": ": € 210,00 bij bol op 22 november, gewone prijs € 275,40. Dat is 24 procent lager."
+              },
+              {
+                "set": "75440",
+                "name": "AT-AT Walker",
+                "text": ": € 37,09 bij bol op 22 november, gewone prijs € 47,60. Dat is 22 procent lager."
+              },
+              {
+                "set": "75452",
+                "name": "BB-8 (The Force Awakens)",
+                "text": ": € 49,69 bij bol op 22 november, gewone prijs € 63,14. Dat is 21 procent lager."
+              },
+              {
+                "set": "21061",
+                "name": "Notre-Dame van Parijs",
+                "text": ": € 134,99 bij bol op 22 november, gewone prijs € 169,98. Dat is 21 procent lager."
+              },
+              {
+                "set": "76339",
+                "name": "The Fantastic Four H.E.R.B.I.E.",
+                "text": ": € 47,99 bij bol op 22 november, gewone prijs € 59,95. Dat is 20 procent lager."
+              },
+              {
+                "set": "75456",
+                "name": "LEGO Star Wars Adventskalender 2026",
+                "text": ": € 21,99 bij bol op 22 november, gewone prijs € 26,99. Dat is 19 procent lager."
+              },
+              {
+                "set": "21060",
+                "name": "Kasteel Himeji",
+                "text": ": € 95,99 bij bol op 22 november, gewone prijs € 119,00. Dat is 19 procent lager."
+              },
+              {
+                "set": "42698",
+                "name": "LEGO Friends Adventskalender 2026",
+                "text": ": € 17,99 bij bol op 22 november, gewone prijs € 21,99. Dat is 18 procent lager."
+              },
+              {
+                "set": "75367",
+                "name": "Venator-klasse Republic aanvalskruiser",
+                "text": ": € 449,99 bij bol op 22 november, gewone prijs € 540,60. Dat is 17 procent lager."
+              }
+            ]
+          },
+          {
+            "p": "Prijzen van 22 november 2026 bij bol.com/be, inclusief btw. Ze veranderen vaak, soms binnen een dag. Kijk dus altijd naar de actuele prijs bij bol."
+          },
+          {
+            "h2": "Zo koop je slim tijdens Black Friday"
+          },
+          {
+            "p": "Leg het lijstje met prijzen van vandaag naast de prijzen van 27 november. Een korting is pas een korting als de prijs lager is dan wat hij daarvoor was."
+          },
+          {
+            "p": "Staat een set bij bol al op zijn laagste prijs, dan moet LEGO op Black Friday echt iets extra's bieden om dat te verslaan, bijvoorbeeld een cadeau bij je bestelling. Zonder zo'n extraatje is wachten niet altijd de slimste keuze."
+          },
+          {
+            "src": [
+              {
+                "label": "LEGO: Black Friday 2026",
+                "url": "https://www.lego.com/en-ca/black-friday"
+              },
+              {
+                "label": "LEGO: Insiders Weekend 2026",
+                "url": "https://www.lego.com/en-ca/vip-weekend-deals"
+              }
+            ]
+          }
+        ]
+      },
+      "fr": {
+        "slug": "lego-black-friday-2026-quels-prix-sont-vraiment-bas",
+        "title": "LEGO Black Friday 2026 : quels prix sont vraiment bas ?",
+        "summary": "Le Black Friday tombe le 27 novembre. Dix sets LEGO déjà à leur prix le plus bas chez bol depuis nos relevés, et comment juger un prix de Black Friday.",
+        "body": [
+          {
+            "p": "Le Black Friday tombe le vendredi 27 novembre 2026 et l’action LEGO dure jusqu’au Cyber Monday du 30 novembre. LEGO n’a pas encore annoncé quels sets baisseront ni quels cadeaux accompagneront votre commande. Si vous voulez acheter malin, regardez dès maintenant quels prix sont vraiment bas chez bol."
+          },
+          {
+            "h2": "Ce que LEGO a confirmé"
+          },
+          {
+            "p": "Selon la page Black Friday de LEGO, l’action court du vendredi 27 au lundi 30 novembre, avec des réductions, des cadeaux à l’achat et plus encore. Le week-end Insiders, avec des offres exclusives pour les membres Insiders, a lieu les 21 et 22 novembre. L’an dernier, l’action allait du 28 novembre au 1er décembre."
+          },
+          {
+            "h2": "Ce que nos prix montrent déjà"
+          },
+          {
+            "p": "Depuis le 19 octobre, nous suivons les prix de 657 sets LEGO chez bol. Au 22 novembre, 55 sets sont à leur prix le plus bas depuis nos relevés et au moins 10 pour cent sous leur prix habituel. Par prix habituel, nous entendons le prix médian de nos propres relevés depuis le 19 octobre. Ce n’est ni le prix conseillé par LEGO ni le prix barré chez bol."
+          },
+          {
+            "h2": "Dix sets pour commencer"
+          },
+          {
+            "sets": [
+              {
+                "set": "21590",
+                "name": "La bataille du Wither",
+                "text": " : 37,39 € chez bol le 22 novembre, prix habituel 53,99 €. Soit 31 pour cent de moins."
+              },
+              {
+                "set": "75409",
+                "name": "Le vaisseau Firespray de Jango Fett",
+                "text": " : 210,00 € chez bol le 22 novembre, prix habituel 275,40 €. Soit 24 pour cent de moins."
+              },
+              {
+                "set": "75440",
+                "name": "AT-AT Walker",
+                "text": " : 37,09 € chez bol le 22 novembre, prix habituel 47,60 €. Soit 22 pour cent de moins."
+              },
+              {
+                "set": "75452",
+                "name": "BB-8 (The Force Awakens)",
+                "text": " : 49,69 € chez bol le 22 novembre, prix habituel 63,14 €. Soit 21 pour cent de moins."
+              },
+              {
+                "set": "21061",
+                "name": "Notre-Dame de Paris",
+                "text": " : 134,99 € chez bol le 22 novembre, prix habituel 169,98 €. Soit 21 pour cent de moins."
+              },
+              {
+                "set": "76339",
+                "name": "Les Quatre Fantastiques H.E.R.B.I.E.",
+                "text": " : 47,99 € chez bol le 22 novembre, prix habituel 59,95 €. Soit 20 pour cent de moins."
+              },
+              {
+                "set": "75456",
+                "name": "Calendrier de l’Avent LEGO Star Wars 2026",
+                "text": " : 21,99 € chez bol le 22 novembre, prix habituel 26,99 €. Soit 19 pour cent de moins."
+              },
+              {
+                "set": "21060",
+                "name": "Château de Himeji",
+                "text": " : 95,99 € chez bol le 22 novembre, prix habituel 119,00 €. Soit 19 pour cent de moins."
+              },
+              {
+                "set": "42698",
+                "name": "Calendrier de l’Avent LEGO Friends 2026",
+                "text": " : 17,99 € chez bol le 22 novembre, prix habituel 21,99 €. Soit 18 pour cent de moins."
+              },
+              {
+                "set": "75367",
+                "name": "Croiseur d’attaque de la République classe Venator",
+                "text": " : 449,99 € chez bol le 22 novembre, prix habituel 540,60 €. Soit 17 pour cent de moins."
+              }
+            ]
+          },
+          {
+            "p": "Prix du 22 novembre 2026 chez bol.com/be, TVA comprise. Ils changent souvent, parfois en une journée. Regardez donc toujours le prix actuel chez bol."
+          },
+          {
+            "h2": "Comment acheter malin pendant le Black Friday"
+          },
+          {
+            "p": "Posez votre liste de prix d’aujourd’hui à côté des prix du 27 novembre. Une réduction n’en est une que si le prix est plus bas que ce qu’il était avant."
+          },
+          {
+            "p": "Si un set est déjà à son prix le plus bas chez bol, LEGO devra offrir un vrai plus le jour du Black Friday pour faire mieux, par exemple un cadeau avec votre commande. Sans ce petit plus, attendre n’est pas toujours le meilleur choix."
+          },
+          {
+            "src": [
+              {
+                "label": "LEGO: Black Friday 2026",
+                "url": "https://www.lego.com/en-ca/black-friday"
+              },
+              {
+                "label": "LEGO: Insiders Weekend 2026",
+                "url": "https://www.lego.com/en-ca/vip-weekend-deals"
+              }
+            ]
+          }
+        ]
+      },
+      "en": {
+        "slug": "lego-black-friday-2026-which-prices-are-really-good",
+        "title": "LEGO Black Friday 2026: which prices are really good?",
+        "summary": "Black Friday is on 27 November. Ten LEGO sets already at their lowest price at bol since we started tracking, and how to judge a Black Friday price.",
+        "body": [
+          {
+            "p": "Black Friday falls on Friday 27 November 2026 and the LEGO event runs through Cyber Monday on 30 November. LEGO has not yet said which sets will drop in price or which gifts come with your order. If you want to buy smart, it helps to see now which prices at bol are really low."
+          },
+          {
+            "h2": "What LEGO confirmed"
+          },
+          {
+            "p": "According to LEGO’s Black Friday page, the event runs from Friday 27 to Monday 30 November, with discounts, gifts with purchase and more. The Insiders Weekend, with exclusive offers for Insiders members, takes place on 21 and 22 November. Last year the event ran from 28 November to 1 December."
+          },
+          {
+            "h2": "What our prices already show"
+          },
+          {
+            "p": "Since 19 October we have tracked the prices of 657 LEGO sets at bol. On 22 November, 55 sets are at their lowest price since we started measuring and at least 10 percent below their usual price. By usual price we mean the middle price from our own measurements since 19 October. That is not LEGO’s recommended price and not the struck-through price at bol."
+          },
+          {
+            "h2": "Ten sets to start with"
+          },
+          {
+            "sets": [
+              {
+                "set": "21590",
+                "name": "The Wither Battle",
+                "text": ": €37.39 at bol on 22 November, usual price €53.99. That is 31 percent lower."
+              },
+              {
+                "set": "75409",
+                "name": "Jango Fett's Firespray Starship",
+                "text": ": €210.00 at bol on 22 November, usual price €275.40. That is 24 percent lower."
+              },
+              {
+                "set": "75440",
+                "name": "AT-AT Walker",
+                "text": ": €37.09 at bol on 22 November, usual price €47.60. That is 22 percent lower."
+              },
+              {
+                "set": "75452",
+                "name": "BB-8 (The Force Awakens)",
+                "text": ": €49.69 at bol on 22 November, usual price €63.14. That is 21 percent lower."
+              },
+              {
+                "set": "21061",
+                "name": "Notre-Dame de Paris",
+                "text": ": €134.99 at bol on 22 November, usual price €169.98. That is 21 percent lower."
+              },
+              {
+                "set": "76339",
+                "name": "The Fantastic Four H.E.R.B.I.E.",
+                "text": ": €47.99 at bol on 22 November, usual price €59.95. That is 20 percent lower."
+              },
+              {
+                "set": "75456",
+                "name": "LEGO Star Wars Advent Calendar 2026",
+                "text": ": €21.99 at bol on 22 November, usual price €26.99. That is 19 percent lower."
+              },
+              {
+                "set": "21060",
+                "name": "Himeji Castle",
+                "text": ": €95.99 at bol on 22 November, usual price €119.00. That is 19 percent lower."
+              },
+              {
+                "set": "42698",
+                "name": "LEGO Friends Advent Calendar 2026",
+                "text": ": €17.99 at bol on 22 November, usual price €21.99. That is 18 percent lower."
+              },
+              {
+                "set": "75367",
+                "name": "Venator-class Republic Attack Cruiser",
+                "text": ": €449.99 at bol on 22 November, usual price €540.60. That is 17 percent lower."
+              }
+            ]
+          },
+          {
+            "p": "Prices of 22 November 2026 at bol.com/be, including VAT. They change often, sometimes within a day. Always look at the current price at bol."
+          },
+          {
+            "h2": "How to buy smart on Black Friday"
+          },
+          {
+            "p": "Put today’s list of prices next to the prices of 27 November. A discount is only a discount if the price is lower than it was before."
+          },
+          {
+            "p": "If a set is already at its lowest price at bol, LEGO will have to offer something extra on Black Friday to beat it, such as a gift with your order. Without that extra, waiting is not always the smartest choice."
+          },
+          {
+            "src": [
+              {
+                "label": "LEGO: Black Friday 2026",
+                "url": "https://www.lego.com/en-ca/black-friday"
+              },
+              {
+                "label": "LEGO: Insiders Weekend 2026",
+                "url": "https://www.lego.com/en-ca/vip-weekend-deals"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
 ];

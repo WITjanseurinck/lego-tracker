@@ -4,7 +4,7 @@ Astro-site (statisch), volgens de standaard voor de affiliate-sites (zie het pro
 
 ## Data
 - `data/products.json`: bol-prijzen per set (verversd door `scripts/refresh-bol.mjs`)
-- `data/amazon.json`: Amazon-prijzen per set
+- `data/amazon.json`: Amazon-prijzen per set. `scripts/refresh-amazon.mjs` ververst ze via de Amazon Creators API (draait in `prijsronde.sh`, vraagt `BUILDTHATSET_AMAZON_CLIENT_ID` en `BUILDTHATSET_AMAZON_CLIENT_SECRET` in ops-prijsronde; zonder sleutels slaat de stap zichzelf over)
 - `data/history.json`: prijsverloop per set, `{ "<set>": [ { "d": "JJJJ-MM-DD", "p": 32.7 } ] }`, een punt per wijziging
 - `src/data/`: catalogus (`lego-catalog.json`), teksten (`descriptions.json`) en onderwerpregels (`topic-*.json`)
 

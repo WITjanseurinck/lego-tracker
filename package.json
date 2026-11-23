@@ -8,7 +8,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "refresh:bol": "node scripts/refresh-bol.mjs"
+    "refresh:bol": "node scripts/refresh-bol.mjs",
+    "refresh:amazon": "node scripts/refresh-amazon.mjs"
   },
   "dependencies": {
     "@fontsource-variable/hanken-grotesk": "5.2.8",

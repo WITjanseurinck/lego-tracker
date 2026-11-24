@@ -3011,7 +3011,7 @@ export const ARTICLES: Article[] = [
         "summary": "Op 23 november 2026 staan acht LEGO-sets bij bol.com/be minstens 41 procent onder de adviesprijs, van Chopper en C-3PO tot de Iron Man-verzameleditie.",
         "body": [
           {
-            "p": "Bij de prijscontrole van 23 november 2026 stonden in onze lijst weer heel wat LEGO-sets ruim onder de adviesprijs, vier dagen voor Black Friday. Hieronder staan acht sets die bol.com/be zelf verkoopt en die minstens 41 procent onder de adviesprijs staan. Sets uit eerdere overzichten laten we weg, en een set die bij de controle niet op voorraad was ook. De verzending is bij alle acht inbegrepen, want elke set kost meer dan € 25."
+            "p": "Op 23 november 2026 staan bij bol.com/be weer heel wat LEGO-sets ruim onder de adviesprijs, vier dagen voor Black Friday. Hieronder staan acht sets die bol.com/be zelf verkoopt en die minstens 41 procent onder de adviesprijs staan. Sets uit eerdere overzichten laten we weg, en een set die bij de controle niet op voorraad was ook. De verzending is bij alle acht inbegrepen, want elke set kost meer dan € 25."
           },
           {
             "h2": "De acht sets, van groot naar klein verschil"
@@ -3042,7 +3042,7 @@ export const ARTICLES: Article[] = [
             "h2": "Zo lees je deze prijzen"
           },
           {
-            "p": "We vergelijken met de adviesprijs die bol bij de set toont, en dat is niet altijd de laagste prijs van de voorbije maanden. Prijzen veranderen vaak, soms binnen een dag. Alle bedragen komen uit onze prijscontrole van 23 november 2026 bij bol.com/be. Kijk de actuele prijs altijd na bij de winkel voor je bestelt. Op buildthatset zie je per set de prijzen van de shops naast elkaar."
+            "p": "We vergelijken met de adviesprijs die bol bij de set toont, en dat is niet altijd de laagste prijs van de voorbije maanden. Prijzen veranderen vaak, soms binnen een dag. De bedragen gelden op 23 november 2026. Kijk de actuele prijs altijd na bij de winkel voor je bestelt."
           }
         ]
       },
@@ -3052,7 +3052,7 @@ export const ARTICLES: Article[] = [
         "summary": "Le 23 novembre 2026, huit sets LEGO sont chez bol.com/be au moins 41 % sous le prix conseillé, de Chopper et C-3PO à l’Iron Man collector.",
         "body": [
           {
-            "p": "Lors du contrôle des prix du 23 novembre 2026, de nombreux sets LEGO de notre liste étaient de nouveau nettement sous le prix conseillé, quatre jours avant le Black Friday. Voici huit sets que bol.com/be vend lui-même et qui se situent au moins 41 % sous le prix conseillé. Nous écartons les sets cités dans nos aperçus précédents, ainsi qu’un set qui n’était pas en stock lors du contrôle. La livraison est comprise pour les huit, car chaque set coûte plus de 25 €."
+            "p": "Le 23 novembre 2026, de nombreux sets LEGO sont de nouveau nettement sous le prix conseillé chez bol.com/be, quatre jours avant le Black Friday. Voici huit sets que bol.com/be vend lui-même et qui se situent au moins 41 % sous le prix conseillé. Nous écartons les sets cités dans nos aperçus précédents, ainsi qu’un set qui n’était pas en stock lors du contrôle. La livraison est comprise pour les huit, car chaque set coûte plus de 25 €."
           },
           {
             "h2": "Les huit sets, de la plus grande à la plus petite différence"
@@ -3083,7 +3083,7 @@ export const ARTICLES: Article[] = [
             "h2": "Comment lire ces prix"
           },
           {
-            "p": "Nous comparons avec le prix conseillé que bol affiche pour le set, qui n’est pas toujours le prix le plus bas des derniers mois. Les prix changent souvent, parfois en une journée. Tous les montants viennent de notre contrôle des prix du 23 novembre 2026 chez bol.com/be. Vérifiez toujours le prix actuel dans la boutique avant de commander. Sur buildthatset, vous voyez pour chaque set les prix des boutiques côte à côte."
+            "p": "Nous comparons avec le prix conseillé que bol affiche pour le set, qui n’est pas toujours le prix le plus bas des derniers mois. Les prix changent souvent, parfois en une journée. Les montants valent pour le 23 novembre 2026. Vérifiez toujours le prix actuel dans la boutique avant de commander."
           }
         ]
       },
@@ -3093,7 +3093,7 @@ export const ARTICLES: Article[] = [
         "summary": "On 23 November 2026, eight LEGO sets at bol.com/be sit at least 41 percent below the recommended price, from Chopper to the Iron Man set.",
         "body": [
           {
-            "p": "At the price check of 23 November 2026, quite a few LEGO sets in our list again stood well below the recommended price, four days before Black Friday. Below are eight sets that bol.com/be sells itself and that sit at least 41 percent below the recommended price. We leave out sets from earlier overviews, and one set that was out of stock at the check. Shipping is included for all eight, because every set costs more than €25."
+            "p": "On 23 November 2026, quite a few LEGO sets at bol.com/be again stand well below the recommended price, four days before Black Friday. Below are eight sets that bol.com/be sells itself and that sit at least 41 percent below the recommended price. We leave out sets from earlier overviews, and one set that was out of stock at the check. Shipping is included for all eight, because every set costs more than €25."
           },
           {
             "h2": "The eight sets, from biggest to smallest difference"
@@ -3124,7 +3124,7 @@ export const ARTICLES: Article[] = [
             "h2": "How to read these prices"
           },
           {
-            "p": "We compare with the recommended price that bol shows for the set, which is not always the lowest price of the past months. Prices change often, sometimes within a day. All amounts come from our price check of 23 November 2026 at bol.com/be. Always check the current price at the shop before you order. On buildthatset you see the shop prices for each set side by side."
+            "p": "We compare with the recommended price that bol shows for the set, which is not always the lowest price of the past months. Prices change often, sometimes within a day. The amounts apply on 23 November 2026. Always check the current price at the shop before you order."
           }
         ]
       }

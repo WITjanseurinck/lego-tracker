@@ -3130,4 +3130,149 @@ export const ARTICLES: Article[] = [
       }
     }
   },
+  {
+    "id": "saint-nicholas-gifts-by-age-2026-11-27",
+    "published": "2026-11-27T07:58:00.000Z",
+    "updated": "2026-11-27T07:58:00.000Z",
+    "text": {
+      "nl": {
+        "slug": "lego-sinterklaascadeaus-per-leeftijd-27-november",
+        "title": "Sinterklaascadeaus per leeftijd: vijf LEGO-sets van 5 tot 12 jaar met prijs per steen",
+        "summary": "Vijf LEGO-sets bij bol.com/be van € 15,00 tot € 64,99, een per leeftijdsgroep, met prijs per steen. Prijzen van de controle van 27 november 2026.",
+        "body": [
+          {
+            "p": "Sinterklaas is op 5 en 6 december, kerst volgt snel. Daarom zetten we vijf LEGO-sets op een rij, een per leeftijdsgroep, met de leeftijd die LEGO erbij vermeldt. Bol.com/be verkoopt ze alle vijf zelf. De prijs per steen is de setprijs gedeeld door het aantal stenen, zonder verzending. Sets uit onze eerdere artikels laten we weg."
+          },
+          {
+            "h2": "Creatieve dinosaurussen (11041): ongeveer € 0,05 per steen"
+          },
+          {
+            "p": "Een set van 450 stenen, vanaf 5 jaar. Hij kost € 24,68 bij bol, adviesprijs € 34,99. Dat is € 10,31 lager, ongeveer 29 procent."
+          },
+          {
+            "h2": "City Sneeuwploeg (60490): ongeveer € 0,06 per steen"
+          },
+          {
+            "p": "Een set van 263 stenen, vanaf 6 jaar. Hij kost € 15,00 bij bol, adviesprijs € 24,99. Dat is € 9,99 lager, ongeveer 40 procent."
+          },
+          {
+            "h2": "Technic Bugatti Chiron Pur Sport Hypercar (42222): ongeveer € 0,05 per steen"
+          },
+          {
+            "p": "Een set van 771 stenen, vanaf 9 jaar. Hij kost € 36,99 bij bol, adviesprijs € 64,99. Dat is € 28,00 lager, ongeveer 43 procent."
+          },
+          {
+            "h2": "Technic De Aarde en de Maan in Beweging (42179): ongeveer € 0,09 per steen"
+          },
+          {
+            "p": "Een set van 526 stenen, vanaf 10 jaar. Hij kost € 46,99 bij bol, adviesprijs € 79,99. Dat is € 33,00 lager, ongeveer 41 procent."
+          },
+          {
+            "h2": "Batman Forever Batmobile (76304): ongeveer € 0,07 per steen"
+          },
+          {
+            "p": "Een set van 909 stenen, vanaf 12 jaar. Hij kost € 64,99 bij bol, adviesprijs € 99,99. Dat is € 35,00 lager, ongeveer 35 procent."
+          },
+          {
+            "h2": "Zo lees je deze prijzen"
+          },
+          {
+            "p": "We vergelijken met de adviesprijs die bol bij de set toont. Prijzen veranderen vaak, soms binnen een dag. Alle bedragen komen uit onze prijscontrole van 27 november 2026 bij bol.com/be. Kijk de actuele prijs altijd na bij de winkel voor je bestelt."
+          }
+        ]
+      },
+      "fr": {
+        "slug": "cadeaux-lego-saint-nicolas-par-age-27-novembre",
+        "title": "Cadeaux de Saint-Nicolas par âge : cinq sets LEGO de 5 à 12 ans avec prix par brique",
+        "summary": "Cinq sets LEGO chez bol.com/be de 15,00 € à 64,99 €, un par tranche d’âge, avec prix par brique. Prix du contrôle du 27 novembre 2026.",
+        "body": [
+          {
+            "p": "La Saint-Nicolas tombe les 5 et 6 décembre, et Noël suit de près. Voici donc cinq sets LEGO, un par tranche d’âge, avec l’âge indiqué par LEGO. Bol.com/be les vend tous les cinq lui-même. Le prix par brique est le prix du set divisé par le nombre de briques, sans livraison. Nous avons écarté les sets de nos articles précédents."
+          },
+          {
+            "h2": "Classic Dinosaures créatifs (11041) : environ 0,05 € par brique"
+          },
+          {
+            "p": "Un set de 450 briques, dès 5 ans. Il coûte 24,68 € chez bol, prix conseillé 34,99 €. Soit 10,31 € de moins, environ 29 pour cent."
+          },
+          {
+            "h2": "City Chasse-neige (60490) : environ 0,06 € par brique"
+          },
+          {
+            "p": "Un set de 263 briques, dès 6 ans. Il coûte 15,00 € chez bol, prix conseillé 24,99 €. Soit 9,99 € de moins, environ 40 pour cent."
+          },
+          {
+            "h2": "Technic Bugatti Chiron Pur Sport Hypercar (42222) : environ 0,05 € par brique"
+          },
+          {
+            "p": "Un set de 771 briques, dès 9 ans. Il coûte 36,99 € chez bol, prix conseillé 64,99 €. Soit 28,00 € de moins, environ 43 pour cent."
+          },
+          {
+            "h2": "Technic La Terre et la Lune en mouvement (42179) : environ 0,09 € par brique"
+          },
+          {
+            "p": "Un set de 526 briques, dès 10 ans. Il coûte 46,99 € chez bol, prix conseillé 79,99 €. Soit 33,00 € de moins, environ 41 pour cent."
+          },
+          {
+            "h2": "Batman Forever Batmobile (76304) : environ 0,07 € par brique"
+          },
+          {
+            "p": "Un set de 909 briques, dès 12 ans. Il coûte 64,99 € chez bol, prix conseillé 99,99 €. Soit 35,00 € de moins, environ 35 pour cent."
+          },
+          {
+            "h2": "Comment lire ces prix"
+          },
+          {
+            "p": "Nous comparons avec le prix conseillé que bol affiche pour le set. Les prix changent souvent, parfois en une journée. Tous les montants proviennent de notre contrôle du 27 novembre 2026 chez bol.com/be. Vérifiez toujours le prix actuel dans la boutique avant de commander."
+          }
+        ]
+      },
+      "en": {
+        "slug": "lego-saint-nicholas-gifts-by-age-27-november",
+        "title": "Saint Nicholas gifts by age: five LEGO sets from age 5 to 12 with price per brick",
+        "summary": "Five LEGO sets at bol.com/be from €15.00 to €64.99, one per age group, with price per brick. Prices from the check of 27 November 2026.",
+        "body": [
+          {
+            "p": "Saint Nicholas Day is on 5 and 6 December, and Christmas follows soon after. So here are five LEGO sets, one per age group, with the age LEGO gives for each. Bol.com/be sells all five itself. The price per brick is the set price divided by the number of bricks, without shipping. We left out sets from our earlier articles."
+          },
+          {
+            "h2": "Classic Creative Dinosaurs (11041): about €0.05 per brick"
+          },
+          {
+            "p": "A set with 450 bricks, from age 5. It costs €24.68 at bol, recommended price €34.99. That is €10.31 lower, about 29 percent."
+          },
+          {
+            "h2": "City Snowplow (60490): about €0.06 per brick"
+          },
+          {
+            "p": "A set with 263 bricks, from age 6. It costs €15.00 at bol, recommended price €24.99. That is €9.99 lower, about 40 percent."
+          },
+          {
+            "h2": "Technic Bugatti Chiron Pur Sport Hypercar (42222): about €0.05 per brick"
+          },
+          {
+            "p": "A set with 771 bricks, from age 9. It costs €36.99 at bol, recommended price €64.99. That is €28.00 lower, about 43 percent."
+          },
+          {
+            "h2": "Technic Earth and Moon in Orbit (42179): about €0.09 per brick"
+          },
+          {
+            "p": "A set with 526 bricks, from age 10. It costs €46.99 at bol, recommended price €79.99. That is €33.00 lower, about 41 percent."
+          },
+          {
+            "h2": "Batman Forever Batmobile (76304): about €0.07 per brick"
+          },
+          {
+            "p": "A set with 909 bricks, from age 12. It costs €64.99 at bol, recommended price €99.99. That is €35.00 lower, about 35 percent."
+          },
+          {
+            "h2": "How to read these prices"
+          },
+          {
+            "p": "We compare with the recommended price that bol shows for the set. Prices change often, sometimes within a day. All amounts come from our price check of 27 November 2026 at bol.com/be. Always check the current price at the shop before you order."
+          }
+        ]
+      }
+    }
+  },
 ];
